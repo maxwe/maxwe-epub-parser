@@ -35,6 +35,7 @@ public enum XmlLabelName {
     PLAYORDER("playOrder"),
     NAVLABEL("navLabel"),
     TEXT("text"),
+    NAVMAP("navMap"),
     CONTENT("content"),
     temp("temp");
 

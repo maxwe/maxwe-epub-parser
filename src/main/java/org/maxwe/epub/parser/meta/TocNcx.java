@@ -2,23 +2,27 @@ package org.maxwe.epub.parser.meta;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.ADocumentParser;
-import org.maxwe.epub.parser.impl.Metadata;
-import org.maxwe.epub.parser.meta.xml.Package;
+import org.maxwe.epub.parser.core.INavigation;
+import org.maxwe.epub.parser.impl.Navigation;
+import org.maxwe.epub.parser.meta.xml.NavPoint;
+import org.maxwe.epub.parser.meta.xml.Ncx;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.File;
 import java.io.FileReader;
+import java.util.LinkedList;
 
 /**
- * Created by Pengwei Ding on 2015-08-28 23:22.
+ * Created by Pengwei Ding on 2015-09-01 19:40.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
- * Description: 定义EPub文件中的资源配置
+ * Description: 解析导航的配置
  */
-public class ContentOpf extends ADocumentParser {
-    private Package aPackage;
+public class TocNcx extends ADocumentParser {
 
-    public ContentOpf(String documentPath) throws Exception {
+    private Ncx ncx;
+
+    public TocNcx(String documentPath) throws Exception {
         super(documentPath);
     }
 
@@ -42,8 +46,8 @@ public class ContentOpf extends ADocumentParser {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.PACKAGE.toString().equals(nodeName)) {
-                        this.aPackage = new Package(xmlPullParser);
+                    if (XmlLabelName.NAVMAP.toString().equals(nodeName)) {
+                        this.ncx = new Ncx(xmlPullParser);
                     }
                     break;
                 //结束节点
@@ -57,17 +61,13 @@ public class ContentOpf extends ADocumentParser {
         }
     }
 
-    public Metadata getMetadata() {
-        org.maxwe.epub.parser.meta.xml.Metadata orginMetadata = this.aPackage.getMetadata();
-        return new Metadata(
-                orginMetadata.getDcIdentifier().getFirst().getValue(),
-                orginMetadata.getDcIdentifier().getFirst().getValue(),
-                orginMetadata.getDcTitle().getFirst().getValue(),
-                orginMetadata.getDcCreator().getFirst().getValue(),
-                orginMetadata.getDcPublisher().getFirst().getValue(),
-                orginMetadata.getDcLanguage().getFirst().getValue(),
-                orginMetadata.getDcDate().getFirst().getValue(),
-                orginMetadata.getDcDate().getFirst().getValue(),
-                orginMetadata.getMetas().getFirst().getValue());
+    public LinkedList<INavigation> getNavigations(){
+        LinkedList<INavigation> navigations = new LinkedList<INavigation>();
+        LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
+        for (NavPoint navPoint:navPoints){
+            navigations.add(new Navigation(navPoint.getId(), navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue()));
+        }
+        return navigations;
     }
+
 }

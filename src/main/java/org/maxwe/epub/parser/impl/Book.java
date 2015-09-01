@@ -1,6 +1,9 @@
 package org.maxwe.epub.parser.impl;
 
 import org.maxwe.epub.parser.core.*;
+import org.maxwe.epub.parser.meta.ContainerXml;
+import org.maxwe.epub.parser.meta.ContentOpf;
+import org.maxwe.epub.parser.meta.TocNcx;
 
 import java.util.LinkedList;
 
@@ -10,22 +13,25 @@ import java.util.LinkedList;
  * Description:
  */
 public class Book extends ADocumentParser implements IBook {
-
+    private ContentOpf contentOpf;
+    private TocNcx tocNcx;
     public Book(String documentPath) throws Exception {
         super(documentPath);
     }
 
     @Override
     protected void parser() throws Exception {
-
+        ContainerXml containerXml = new ContainerXml(this.documentPath);
+        this.contentOpf = new ContentOpf(containerXml.getContentOpfPath());
+        this.tocNcx = new TocNcx(containerXml.getTocNcxPath());
     }
 
     public IMetadata getMetadata() {
-        return null;
+        return this.contentOpf.getMetadata();
     }
 
     public LinkedList<INavigation> getNavigations() {
-        return null;
+        return this.tocNcx.getNavigations();
     }
 
     public LinkedList<IChapter> getChapters() {

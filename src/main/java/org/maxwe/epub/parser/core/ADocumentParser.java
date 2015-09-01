@@ -1,5 +1,7 @@
 package org.maxwe.epub.parser.core;
 
+import java.io.File;
+
 /**
  * Created by Pengwei Ding on 2015-08-29 07:24.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
@@ -13,4 +15,8 @@ public abstract class ADocumentParser {
         this.parser();
     }
     protected abstract void parser() throws Exception;
+
+    protected String pathLinker(String path1,String path2){
+        return path1 + File.separator + path2;
+    }
 }

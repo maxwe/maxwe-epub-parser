@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.core.ALabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
@@ -7,7 +8,7 @@ import org.xmlpull.v1.XmlPullParser;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: @TODO
  */
-public class Date extends AXmlLabel {
+public class Date extends ALabelParser {
 
     private String value;
 

@@ -1,12 +1,13 @@
 package org.maxwe.epub.parser.meta.xml;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
+import org.maxwe.epub.parser.core.ALabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
  * Created by dingpengwei on 12/26/14.
  */
-public class Title extends AXmlLabel {
+public class Title extends ALabelParser {
 
     private String id;
     private String xmlLang;

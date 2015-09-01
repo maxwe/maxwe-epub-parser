@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+
+
+
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:b6c45774-b30c-4cb0-b518-f4e64836fa98</dc:identifier>
     <dc:title>别随情绪做傻事</dc:title>
@@ -11,6 +14,8 @@
     <meta name="cover" content="ds002161.jpg" />
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
+
+
   <manifest>
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
     <item href="Text/Cover.xhtml" id="Cover.xhtml" media-type="application/xhtml+xml" />
@@ -35,6 +40,7 @@
     <item href="Audio/%E7%94%9F%E6%9D%A5%E5%BD%B7%E5%BE%A8.mp3" id="生来彷徨.mp3" media-type="text/plain" />
     <item href="Audio/Melody.mp3" id="Melody.mp3" media-type="text/plain" />
   </manifest>
+
   <spine toc="ncx">
     <itemref idref="Cover.xhtml" />
     <itemref idref="Copyright.xhtml" />
@@ -45,6 +51,7 @@
     <itemref idref="ds00216105" />
     <itemref idref="ds00216106" />
     <itemref idref="ds00216107" />
+
     <itemref idref="ds00216108" />
     <itemref idref="ds00216109" />
     <itemref idref="ds00216110" />

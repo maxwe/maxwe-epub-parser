@@ -19,7 +19,21 @@ public class Metadata implements IMetadata {
     private String updateTime;
     private String cover;
 
-    @Override
+    public Metadata() {
+    }
+
+    public Metadata(String ISBN, String identifier, String bookName, String author, String publisher, String language, String createTime, String updateTime, String cover) {
+        this.ISBN = ISBN;
+        this.identifier = identifier;
+        this.bookName = bookName;
+        this.author = author;
+        this.publisher = publisher;
+        this.language = language;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+        this.cover = cover;
+    }
+
     public String getISBN() {
         return ISBN;
     }
@@ -28,7 +42,6 @@ public class Metadata implements IMetadata {
         this.ISBN = ISBN;
     }
 
-    @Override
     public String getIdentifier() {
         return identifier;
     }
@@ -37,7 +50,6 @@ public class Metadata implements IMetadata {
         this.identifier = identifier;
     }
 
-    @Override
     public String getBookName() {
         return bookName;
     }
@@ -46,7 +58,6 @@ public class Metadata implements IMetadata {
         this.bookName = bookName;
     }
 
-    @Override
     public String getAuthor() {
         return author;
     }
@@ -55,7 +66,6 @@ public class Metadata implements IMetadata {
         this.author = author;
     }
 
-    @Override
     public String getPublisher() {
         return publisher;
     }
@@ -64,7 +74,6 @@ public class Metadata implements IMetadata {
         this.publisher = publisher;
     }
 
-    @Override
     public String getLanguage() {
         return language;
     }
@@ -73,7 +82,6 @@ public class Metadata implements IMetadata {
         this.language = language;
     }
 
-    @Override
     public String getCreateTime() {
         return createTime;
     }
@@ -82,7 +90,6 @@ public class Metadata implements IMetadata {
         this.createTime = createTime;
     }
 
-    @Override
     public String getUpdateTime() {
         return updateTime;
     }
@@ -91,7 +98,6 @@ public class Metadata implements IMetadata {
         this.updateTime = updateTime;
     }
 
-    @Override
     public String getCover() {
         return cover;
     }

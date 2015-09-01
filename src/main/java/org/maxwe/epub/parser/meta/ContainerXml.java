@@ -14,11 +14,17 @@ import java.io.FileReader;
  * Description: 定义EPub文件中的引导文件
  */
 public class ContainerXml extends ADocumentParser {
-    private final String path = "META-INF/container.xml";
-    private final String defaultFileName = "content.opf";
-    private String tocNcxPath;
-    private String contentOpfPath;
+    /**
+     * 标准的容器文件路径
+     */
+    private final String FILE_PATH = "META-INF/container.xml";
+    /**
+     * 默认的opf文件名称
+     */
+    private String defaultFileName = "content.opf";
 
+    private String fullPath;
+    private String OEBPSPath;
 
     public ContainerXml(String documentPath) throws Exception {
         super(documentPath);
@@ -32,7 +38,7 @@ public class ContainerXml extends ADocumentParser {
         XmlPullParser xmlPullParser = pullParserFactory.newPullParser();
         xmlPullParser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
         //设置输入流xml文件
-        xmlPullParser.setInput(new FileReader(new File(this.documentPath)));
+        xmlPullParser.setInput(new FileReader(new File(this.pathLinker(this.documentPath,FILE_PATH))));
 
         int eventType = xmlPullParser.getEventType();
 
@@ -45,7 +51,7 @@ public class ContainerXml extends ADocumentParser {
                 //开始节点
                 case XmlPullParser.START_TAG:
                     if (XmlLabelName.ROOTFILE.toString().equals(nodeName)) {
-                        contentOpfPath = xmlPullParser.getAttributeValue(0);
+                        this.fullPath = xmlPullParser.getAttributeValue(0);
                     }
                     break;
                 //结束节点
@@ -56,17 +62,35 @@ public class ContainerXml extends ADocumentParser {
             }
             eventType = xmlPullParser.next();
         }
+
+        int index = this.fullPath.lastIndexOf(File.separator);
+        this.OEBPSPath = this.fullPath.substring(0, index);
+        this.defaultFileName = this.fullPath.substring(index,this.fullPath.length());
     }
 
+    /**
+     * 获取OEBPS目录的路径
+     * @return OEBPS目录的绝对路径
+     */
     public String getOEBPSPath() {
-        return this.contentOpfPath.replace(File.separator + this.defaultFileName,"");
+        return this.pathLinker(this.documentPath,this.OEBPSPath);
     }
 
+    /**
+     * 获取content.opf文件的路径
+     * @return content.opf文件的绝对路径
+     */
     public String getContentOpfPath() {
-        return contentOpfPath;
+        return this.pathLinker(this.documentPath,this.fullPath);
     }
 
+    /**
+     * 获取toc.ncx文件的路径
+     * 假设toc.ncx是和content.opf是在同一个目录
+     * TODO 动态获取toc.ncx文件的路径
+     * @return toc.ncx文件的绝对路径
+     */
     public String getTocNcxPath() {
-        return this.contentOpfPath.replace(this.defaultFileName,"toc.ncx");
+        return this.pathLinker(this.documentPath,this.fullPath.replace(this.defaultFileName,"toc.ncx"));
     }
 }

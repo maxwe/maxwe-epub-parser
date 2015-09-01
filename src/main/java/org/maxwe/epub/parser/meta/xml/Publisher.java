@@ -1,11 +1,12 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.core.ALabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
  * Created by dingpengwei on 1/28/15.
  */
-public class Publisher extends AXmlLabel {
+public class Publisher extends ALabelParser {
 
     private String id;
     private String value;

@@ -1,24 +1,19 @@
 package org.maxwe.epub.parser.meta.xml;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
+import org.maxwe.epub.parser.core.ALabelParser;
 import org.xmlpull.v1.XmlPullParser;
-
-import java.util.LinkedList;
 
 /**
  * Created by Pengwei Ding on 2015-09-01 13:26.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: 导航节点
  */
-public class NavPoint extends AXmlLabel {
+public class NavPoint extends ALabelParser {
+    private NavLabel navLabel;
+    private Content content;
     private String id;
     private String playOrder;
-    private String title;
-    private String href;
-    private int level = 0;
-
-
-    private LinkedList<NavPoint> subNavPoints = new LinkedList<NavPoint>();
 
     public NavPoint(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
@@ -44,11 +39,10 @@ public class NavPoint extends AXmlLabel {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.TEXT.toString().equals(nodeName)) {
-                    } else if (XmlLabelName.MANIFEST.toString().equals(nodeName)) {
-                        this.title = this.xmlPullParser.nextText();
+                    if (XmlLabelName.NAVLABEL.toString().equals(nodeName)) {
+                        this.navLabel = new NavLabel(this.xmlPullParser);
                     } else if (XmlLabelName.CONTENT.toString().equals(nodeName)) {
-                        this.href = this.xmlPullParser.nextText();
+                        this.content = new Content(xmlPullParser);
                     }
                     break;
                 //结束节点
@@ -66,51 +60,19 @@ public class NavPoint extends AXmlLabel {
         }
     }
 
+    public NavLabel getNavLabel() {
+        return navLabel;
+    }
+
+    public Content getContent() {
+        return content;
+    }
+
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public String getPlayOrder() {
         return playOrder;
-    }
-
-    public void setPlayOrder(String playOrder) {
-        this.playOrder = playOrder;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getHref() {
-        return href;
-    }
-
-    public void setHref(String href) {
-        this.href = href;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public LinkedList<NavPoint> getSubNavPoints() {
-        return subNavPoints;
-    }
-
-    public void setSubNavPoints(LinkedList<NavPoint> subNavPoints) {
-        this.subNavPoints = subNavPoints;
     }
 }

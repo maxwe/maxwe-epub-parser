@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.core.ALabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
@@ -7,7 +8,7 @@ import org.xmlpull.v1.XmlPullParser;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: 解析meta
  */
-public class Meta extends AXmlLabel {
+public class Meta extends ALabelParser {
 
     /**
      * meta的name属性的值
