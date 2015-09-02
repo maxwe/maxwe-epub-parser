@@ -47,7 +47,7 @@ public class NavPoint extends ALabelParser {
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.PACKAGE.toString().equals(nodeName)) {
+                    if (XmlLabelName.NAVPOINT.toString().equals(nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

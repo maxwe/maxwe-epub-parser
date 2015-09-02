@@ -26,11 +26,16 @@ public class NavMap extends ALabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-
+                    if (XmlLabelName.NAVPOINT.toString().equals(nodeName)){
+                        if (this.navPoints == null){
+                            this.navPoints = new LinkedList<NavPoint>();
+                        }
+                        this.navPoints.add(new NavPoint(this.xmlPullParser));
+                    }
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.PACKAGE.toString().equals(nodeName)) {
+                    if (XmlLabelName.NAVMAP.toString().equals(nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

@@ -46,7 +46,7 @@ public class TocNcx extends ADocumentParser {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.NAVMAP.toString().equals(nodeName)) {
+                    if (XmlLabelName.NCX.toString().equals(nodeName)) {
                         this.ncx = new Ncx(xmlPullParser);
                     }
                     break;
@@ -55,7 +55,6 @@ public class TocNcx extends ADocumentParser {
                     break;
                 default:
                     break;
-
             }
             eventType = xmlPullParser.next();
         }

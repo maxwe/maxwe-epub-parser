@@ -21,5 +21,7 @@ public class TocNcxTest extends TestCase {
         TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/toc.ncx");
         LinkedList<INavigation> navigations = tocNcx.getNavigations();
         assertEquals(13,navigations.size());
+        INavigation iNavigation = navigations.get(3);
+        assertEquals("第一章 为什么老是有人说你少根筋",iNavigation.getTitle());
     }
 }
