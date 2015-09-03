@@ -13,30 +13,32 @@ import java.util.LinkedList;
  * Description:
  */
 public class Book extends ADocumentParser implements IBook {
-    private ContainerXml containerXml;
-    private ContentOpf contentOpf;
-    private TocNcx tocNcx;
+    private Metadata metadata;
+    private LinkedList<INavigation> navigations;
+
     public Book(String documentPath) throws Exception {
         super(documentPath);
     }
 
     @Override
     protected void parser() throws Exception {
-        this.containerXml = new ContainerXml(this.documentPath);
-        this.contentOpf = new ContentOpf(containerXml.getContentOpfPath());
-        this.tocNcx = new TocNcx(containerXml.getTocNcxPath());
+        ContainerXml containerXml = new ContainerXml(this.documentPath);
+        ContentOpf contentOpf = new ContentOpf(containerXml.getContentOpfPath());
+        TocNcx tocNcx = new TocNcx(containerXml.getTocNcxPath());
+        this.metadata = contentOpf.getMetadata();
+        this.navigations = tocNcx.getNavigations(containerXml.getOEBPSPath());
     }
 
     public IMetadata getMetadata() {
-        return this.contentOpf.getMetadata();
+        return this.metadata;
     }
 
     public LinkedList<INavigation> getNavigations() {
-        return this.tocNcx.getNavigations(this.containerXml.getOEBPSPath());
+        return this.navigations;
     }
 
     public INavigation getNavigation(int index) {
-        return this.tocNcx.getNavigations().get(index);
+        return this.navigations.get(index);
     }
 
     public IChapter getChapter(int index) {
