@@ -38,6 +38,7 @@ public enum XmlLabelName {
     NAVMAP("navMap"),
     CONTENT("content"),
     NCX("ncx"),
+    SRC("src"),
     temp("temp");
 
 

@@ -13,6 +13,7 @@ import java.util.LinkedList;
  * Description:
  */
 public class Book extends ADocumentParser implements IBook {
+    private ContainerXml containerXml;
     private ContentOpf contentOpf;
     private TocNcx tocNcx;
     public Book(String documentPath) throws Exception {
@@ -21,7 +22,7 @@ public class Book extends ADocumentParser implements IBook {
 
     @Override
     protected void parser() throws Exception {
-        ContainerXml containerXml = new ContainerXml(this.documentPath);
+        this.containerXml = new ContainerXml(this.documentPath);
         this.contentOpf = new ContentOpf(containerXml.getContentOpfPath());
         this.tocNcx = new TocNcx(containerXml.getTocNcxPath());
     }
@@ -31,15 +32,11 @@ public class Book extends ADocumentParser implements IBook {
     }
 
     public LinkedList<INavigation> getNavigations() {
-        return this.tocNcx.getNavigations();
-    }
-
-    public LinkedList<IChapter> getChapters() {
-        return null;
+        return this.tocNcx.getNavigations(this.containerXml.getOEBPSPath());
     }
 
     public INavigation getNavigation(int index) {
-        return null;
+        return this.tocNcx.getNavigations().get(index);
     }
 
     public IChapter getChapter(int index) {

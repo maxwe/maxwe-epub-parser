@@ -17,8 +17,7 @@ public class Text extends ALabelParser {
 
     @Override
     protected void parser() throws Exception {
-        int eventType = xmlPullParser.next();
-        this.value = xmlPullParser.getText();
+        this.value = xmlPullParser.nextText();
     }
 
     public String getValue() {

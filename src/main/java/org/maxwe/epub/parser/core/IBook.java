@@ -11,7 +11,6 @@ public interface IBook {
 
     IMetadata getMetadata();
     LinkedList<INavigation> getNavigations();
-    LinkedList<IChapter> getChapters();
 
     INavigation getNavigation(int index);
     IChapter getChapter(int index);
