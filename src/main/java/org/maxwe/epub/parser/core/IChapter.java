@@ -8,15 +8,11 @@ import java.util.LinkedList;
  * Description: 定义图书章节对象操作方式
  */
 public interface IChapter {
-    String getId();
-
     String getIndex();
 
     String getTitle();
 
     String getHref();
-
-    INavigation getNavigation();
 
     LinkedList<IParagraph> getParagraphs();
 

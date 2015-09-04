@@ -1,10 +1,11 @@
 package org.maxwe.epub.parser;
 
 import junit.framework.TestCase;
+import org.junit.Before;
 import org.junit.Test;
-import org.maxwe.epub.parser.core.IMetadata;
-import org.maxwe.epub.parser.core.INavigation;
+import org.maxwe.epub.parser.core.*;
 import org.maxwe.epub.parser.impl.Book;
+import org.maxwe.epub.parser.impl.Text;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -16,6 +17,15 @@ import java.util.LinkedList;
  */
 public class BookTest extends TestCase {
     private String path = BookTest.class.getResource("/").getPath() + "sample";
+
+    @Before
+    public void testExists(){
+        if (new File(this.path).exists()) {
+
+        }else{
+
+        }
+    }
 
     /**
      * 识别EPub元数据
@@ -74,17 +84,34 @@ public class BookTest extends TestCase {
     }
 
     @Test
-    public void testGetChapter() throws Exception {
-
-    }
-
-    @Test
     public void testNavigateToByNavigation() throws Exception {
-
+        if (new File(this.path).exists()) {
+            Book book = new Book(this.path);
+            INavigation iNavigation = book.getNavigations().get(3);
+            IChapter iChapter = book.navigateTo(iNavigation);
+            String title = iChapter.getTitle();
+            LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
+            assertEquals("第一章 为什么老是有人说你少根筋",title);
+            assertEquals(91,paragraphs.size());
+        } else {
+            assertFalse("测试文件不存在", true);
+        }
     }
 
     @Test
     public void testNavigateToByIndex() throws Exception {
-
+        if (new File(this.path).exists()) {
+            Book book = new Book(this.path);
+            IChapter iChapter = book.navigateTo(5);
+            String title = iChapter.getTitle();
+            LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
+            IParagraph iParagraph = paragraphs.get(1);
+            LinkedList<ISection> sections = iParagraph.getSections();
+            ISection first = sections.getFirst();
+            assertEquals("第三章 没有几个忧郁女生会等到她的白马王子", title);
+            assertEquals("我是个胖子，没人爱我",((Text)first).getText());
+        } else {
+            assertFalse("测试文件不存在", true);
+        }
     }
 }
