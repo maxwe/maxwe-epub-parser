@@ -1,7 +1,7 @@
 package org.maxwe.epub.parser.meta.xml;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
-import org.maxwe.epub.parser.core.ALabelParser;
+import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.LinkedList;
@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: @TODO
  */
-public class NavMap extends ALabelParser {
+public class NavMap extends AXmlLabelParser {
     private LinkedList<NavPoint> navPoints;
 
     public NavMap(XmlPullParser xmlPullParser) throws Exception {

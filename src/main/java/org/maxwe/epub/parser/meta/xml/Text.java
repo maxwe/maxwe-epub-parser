@@ -1,6 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
-import org.maxwe.epub.parser.core.ALabelParser;
+import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
@@ -8,7 +8,7 @@ import org.xmlpull.v1.XmlPullParser;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: @TODO
  */
-public class Text extends ALabelParser {
+public class Text extends AXmlLabelParser {
     private String value;
 
     public Text(XmlPullParser xmlPullParser) throws Exception {

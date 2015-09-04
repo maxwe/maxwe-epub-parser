@@ -1,7 +1,7 @@
 package org.maxwe.epub.parser.meta.xml;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
-import org.maxwe.epub.parser.core.ALabelParser;
+import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.LinkedList;
@@ -9,7 +9,7 @@ import java.util.LinkedList;
 /**
  * Created by dingpengwei on 12/16/14.
  */
-public class Metadata extends ALabelParser {
+public class Metadata extends AXmlLabelParser {
     /**
      * 图书的唯一标记
      */

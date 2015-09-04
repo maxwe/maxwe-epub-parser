@@ -1,7 +1,7 @@
 package org.maxwe.epub.parser.meta.xml;
 
 import org.maxwe.epub.parser.constant.XmlLabelName;
-import org.maxwe.epub.parser.core.ALabelParser;
+import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.LinkedList;
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by dingpengwei on 1/29/15.
  */
-public class Guide extends ALabelParser {
+public class Guide extends AXmlLabelParser {
     private List<Reference> references;
     public Guide(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);

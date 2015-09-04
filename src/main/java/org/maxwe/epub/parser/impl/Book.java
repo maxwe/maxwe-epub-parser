@@ -41,12 +41,8 @@ public class Book extends ADocumentParser implements IBook {
         return this.navigations.get(index);
     }
 
-    public IChapter getChapter(int index) {
-        return null;
-    }
-
-    public IChapter navigateTo(INavigation navigation) {
-        return null;
+    public IChapter navigateTo(INavigation navigation) throws Exception {
+        return new Chapter(navigation.getHref());
     }
 
     public IChapter navigateTo(int index) {

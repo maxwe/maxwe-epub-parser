@@ -9,14 +9,35 @@ import java.util.LinkedList;
  */
 public interface IBook {
 
+    /**
+     * 提供图书元数据
+     * @return
+     */
     IMetadata getMetadata();
+
+    /**
+     * 提供导航列表
+     * @return
+     */
     LinkedList<INavigation> getNavigations();
 
+    /**
+     * 提供某一个导航
+     * @return
+     */
     INavigation getNavigation(int index);
-    IChapter getChapter(int index);
 
-    IChapter navigateTo(INavigation navigation);
-    IChapter navigateTo(int index);
+    /**
+     * 提供根据导航对象定位到章节
+     * @return
+     */
+    IChapter navigateTo(INavigation navigation) throws Exception;
+
+    /**
+     * 提供根据章节位置定位到章节
+     * @return
+     */
+    IChapter navigateTo(int index) throws Exception;
 
 
 }
