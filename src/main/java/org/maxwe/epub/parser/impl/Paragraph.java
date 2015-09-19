@@ -17,8 +17,8 @@ import java.util.LinkedList;
  */
 public class Paragraph extends AHtmlLabelParser implements IParagraph {
     private LinkedList<ISection> sections;
-    public Paragraph(Node node) throws Exception {
-        super(node);
+    public Paragraph(String documentPath,Node node) throws Exception {
+        super(documentPath,node);
     }
 
     @Override
@@ -32,11 +32,11 @@ public class Paragraph extends AHtmlLabelParser implements IParagraph {
                 } else if (HtmlLabelName.A.toString().equalsIgnoreCase(tag.getTagName())) {
 
                 } else if ((HtmlLabelName.IMG.toString().equalsIgnoreCase(tag.getTagName()))) {
-                    sections.add(new Image(tag));
+                    sections.add(new Image(documentPath,tag));
                 } else if ((HtmlLabelName.AUDIO.toString().equalsIgnoreCase(tag.getTagName()))) {
-                    sections.add(new Audio(tag));
+                    sections.add(new Audio(documentPath,tag));
                 } else if ((HtmlLabelName.VIDEO.toString().equalsIgnoreCase(tag.getTagName()))) {
-                    sections.add(new Video(tag));
+                    sections.add(new Video(documentPath,tag));
                 }
             }
 
@@ -55,5 +55,13 @@ public class Paragraph extends AHtmlLabelParser implements IParagraph {
 
     public LinkedList<ISection> getSections() {
         return this.sections;
+    }
+
+    public ISection getSection(int index) {
+        return this.sections.get(index);
+    }
+
+    public int getSectionLength() {
+        return this.sections.size();
     }
 }

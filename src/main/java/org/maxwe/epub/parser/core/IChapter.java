@@ -17,4 +17,6 @@ public interface IChapter {
     LinkedList<IParagraph> getParagraphs();
 
     IParagraph getParagraph(int index);
+
+    int getParagraphLength();
 }

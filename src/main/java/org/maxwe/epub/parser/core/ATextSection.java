@@ -14,4 +14,19 @@ public abstract class ATextSection implements ISection {
     public String getText() {
         return text;
     }
+
+    public int getLength(){
+        if (text == null){
+            return 0;
+        }
+        return this.text.length();
+    }
+
+    public String getWord(int index){
+        if (text == null){
+            return null;
+        }
+        char c = this.text.charAt(index);
+        return String.valueOf(c);
+    }
 }

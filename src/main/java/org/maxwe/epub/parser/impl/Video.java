@@ -9,8 +9,8 @@ import org.maxwe.epub.parser.core.AMediaSection;
  * Description: @TODO
  */
 public class Video extends AMediaSection {
-    public Video(Tag tag) {
-        super(tag);
+    public Video(String documentPath,Tag tag) {
+        super(documentPath,tag);
     }
 
     @Override

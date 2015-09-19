@@ -9,8 +9,8 @@ import org.maxwe.epub.parser.core.AMediaSection;
  * Description: @TODO
  */
 public class Audio extends AMediaSection {
-    public Audio(Tag tag) {
-        super(tag);
+    public Audio(String documentPath,Tag tag) {
+        super(documentPath,tag);
     }
 
     @Override

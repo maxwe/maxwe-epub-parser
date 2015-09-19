@@ -8,9 +8,12 @@ import org.htmlparser.Node;
  * Description: HTML标签解析器
  */
 public abstract class AHtmlLabelParser {
+    protected String documentPath;
     protected Node node;
 
-    public AHtmlLabelParser(Node node) throws Exception {
+
+    public AHtmlLabelParser(String documentPath,Node node) throws Exception {
+        this.documentPath = documentPath;
         this.node = node;
         this.parser();
     }

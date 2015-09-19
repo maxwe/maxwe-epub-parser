@@ -79,7 +79,7 @@ public class Chapter extends ADocumentParser implements IChapter {
         NodeList paragraphNodes = bodyNode.getChildren();
         for (int j = 0; j < paragraphNodes.size(); j++) {
             Node paragraphNode = paragraphNodes.elementAt(j);
-            Paragraph paragraph = new Paragraph(paragraphNode);
+            Paragraph paragraph = new Paragraph(this.documentPath,paragraphNode);
             if (paragraph.getSections() != null && !paragraph.getSections().isEmpty()) {
                 if (this.paragraphs == null){
                     this.paragraphs = new LinkedList<IParagraph>();
@@ -107,6 +107,10 @@ public class Chapter extends ADocumentParser implements IChapter {
 
     public IParagraph getParagraph(int index) {
         return this.paragraphs.get(index);
+    }
+
+    public int getParagraphLength() {
+        return this.paragraphs.size();
     }
 }
 

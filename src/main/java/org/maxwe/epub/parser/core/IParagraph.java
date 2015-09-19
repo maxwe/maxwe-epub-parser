@@ -9,4 +9,6 @@ import java.util.LinkedList;
  */
 public interface IParagraph {
     LinkedList<ISection> getSections();
+    ISection getSection(int index);
+    int getSectionLength();
 }

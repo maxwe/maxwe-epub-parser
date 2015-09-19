@@ -10,8 +10,8 @@ import org.maxwe.epub.parser.core.AMediaSection;
  */
 public class Image extends AMediaSection {
 
-    public Image(Tag tag) {
-        super(tag);
+    public Image(String documentPath,Tag tag) {
+        super(documentPath,tag);
     }
 
     @Override
