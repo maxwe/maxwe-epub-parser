@@ -69,4 +69,10 @@ public class Navigation implements INavigation {
     public LinkedList<INavigation> getSubNavigations() {
         return subNavigations;
     }
+
+    public void print() {
+        System.out.println("章节ID：" + this.getId());
+        System.out.println("章节名：" + this.getTitle());
+        System.out.println("章节路径：" + this.getHref());
+    }
 }

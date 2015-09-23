@@ -15,4 +15,5 @@ public interface IMetadata {
     String getCreateTime();
     String getUpdateTime();
     String getCover();
+    void print();
 }

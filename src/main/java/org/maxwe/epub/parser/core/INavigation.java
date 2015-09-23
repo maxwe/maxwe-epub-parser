@@ -15,5 +15,6 @@ public interface INavigation {
     String getHref();
     int getLevel();
     LinkedList<INavigation> getSubNavigations();
+    void print();
 
 }

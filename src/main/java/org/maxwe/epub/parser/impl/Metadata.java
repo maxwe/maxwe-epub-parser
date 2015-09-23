@@ -105,4 +105,17 @@ public class Metadata implements IMetadata {
     public void setCover(String cover) {
         this.cover = cover;
     }
+
+
+    public void print() {
+        System.out.println("图书名：" + this.getBookName());
+        System.out.println("ISBN：" + this.getISBN());
+        System.out.println("标识号：" + this.getIdentifier());
+        System.out.println("作者：" + this.getAuthor());
+        System.out.println("出版社：" + this.getPublisher());
+        System.out.println("语言：" + this.getLanguage());
+        System.out.println("出版时间：" + this.getPublisher());
+        System.out.println("修订时间：" + this.getUpdateTime());
+        System.out.println("封面：" + this.getCover());
+    }
 }
