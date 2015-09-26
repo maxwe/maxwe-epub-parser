@@ -1,11 +1,11 @@
 package org.maxwe.epub.parser.impl;
 
-import org.maxwe.epub.parser.core.*;
+import org.maxwe.epub.parser.core.ADocumentParser;
+import org.maxwe.epub.parser.core.IBook;
+import org.maxwe.epub.parser.core.IContent;
+import org.maxwe.epub.parser.core.IMetadata;
 import org.maxwe.epub.parser.meta.ContainerXml;
 import org.maxwe.epub.parser.meta.ContentOpf;
-import org.maxwe.epub.parser.meta.TocNcx;
-
-import java.util.LinkedList;
 
 /**
  * Created by Pengwei Ding on 2015-08-29 07:49.
@@ -13,8 +13,8 @@ import java.util.LinkedList;
  * Description:
  */
 public class Book extends ADocumentParser implements IBook {
-    private Metadata metadata;
-    private LinkedList<INavigation> navigations;
+    private IMetadata metadata;
+    private IContent content;
 
     public Book(String documentPath) throws Exception {
         super(documentPath);
@@ -24,28 +24,15 @@ public class Book extends ADocumentParser implements IBook {
     protected void parser() throws Exception {
         ContainerXml containerXml = new ContainerXml(this.documentPath);
         ContentOpf contentOpf = new ContentOpf(containerXml.getContentOpfPath());
-        TocNcx tocNcx = new TocNcx(containerXml.getTocNcxPath());
         this.metadata = contentOpf.getMetadata();
-        this.navigations = tocNcx.getNavigations(containerXml.getOEBPSPath());
+        this.content = new Content(containerXml.getTocNcxPath(),containerXml.getOEBPSPath());
     }
 
     public IMetadata getMetadata() {
         return this.metadata;
     }
 
-    public LinkedList<INavigation> getNavigations() {
-        return this.navigations;
-    }
-
-    public INavigation getNavigation(int index) {
-        return this.navigations.get(index);
-    }
-
-    public IChapter navigateTo(INavigation navigation) throws Exception {
-        return new Chapter(navigation.getHref());
-    }
-
-    public IChapter navigateTo(int index) throws Exception{
-        return this.navigateTo(this.getNavigation(index));
+    public IContent getContent() {
+        return this.content;
     }
 }

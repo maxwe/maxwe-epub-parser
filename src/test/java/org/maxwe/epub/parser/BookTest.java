@@ -64,8 +64,8 @@ public class BookTest extends TestCase {
     public void testGetNavigations() throws Exception {
         if (new File(this.path).exists()) {
             Book book = new Book(this.path);
-            LinkedList<INavigation> navigations = book.getNavigations();
-            assertEquals(13, navigations.size());
+            LinkedList<INavigation> navigation = book.getContent().getNavigation();
+            assertEquals(13, navigation.size());
         } else {
             assertFalse("测试文件不存在", true);
         }
@@ -75,7 +75,7 @@ public class BookTest extends TestCase {
     public void testGetNavigation() throws Exception {
         if (new File(this.path).exists()) {
             Book book = new Book(this.path);
-            INavigation iNavigation = book.getNavigations().get(7);
+            INavigation iNavigation = book.getContent().getNavigation(7);
             assertEquals("第五章 闪开,让我歌唱小鬼们", iNavigation.getTitle());
             assertEquals(this.path + "/OEBPS/Text/ds00216106.xhtml", iNavigation.getHref());
         } else {
@@ -87,8 +87,8 @@ public class BookTest extends TestCase {
     public void testNavigateToByNavigation() throws Exception {
         if (new File(this.path).exists()) {
             Book book = new Book(this.path);
-            INavigation iNavigation = book.getNavigations().get(3);
-            IChapter iChapter = book.navigateTo(iNavigation);
+            INavigation navigation = book.getContent().getNavigation(3);
+            IChapter iChapter = book.getContent().navigateTo(navigation);
             String title = iChapter.getTitle();
             LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
             assertEquals("第一章 为什么老是有人说你少根筋",title);
@@ -102,7 +102,7 @@ public class BookTest extends TestCase {
     public void testNavigateToByIndex() throws Exception {
         if (new File(this.path).exists()) {
             Book book = new Book(this.path);
-            IChapter iChapter = book.navigateTo(5);
+            IChapter iChapter = book.getContent().navigateTo(5);
             String title = iChapter.getTitle();
             LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
             IParagraph iParagraph = paragraphs.get(1);
