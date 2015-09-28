@@ -60,21 +60,25 @@ public class TocNcx extends ADocumentParser {
         }
     }
 
-    public LinkedList<INavigation> getNavigations(){
+    public LinkedList<INavigation> getNavigations() {
         LinkedList<INavigation> navigations = new LinkedList<INavigation>();
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
-        for (NavPoint navPoint:navPoints){
-            navigations.add(new Navigation(navPoint.getId(), navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue()));
+        int index = 0;
+        for (NavPoint navPoint : navPoints) {
+            navigations.add(new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue()));
+            index++;
         }
         return navigations;
     }
 
 
-    public LinkedList<INavigation> getNavigations(String containerPath){
+    public LinkedList<INavigation> getNavigations(String containerPath) {
         LinkedList<INavigation> navigations = new LinkedList<INavigation>();
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
-        for (NavPoint navPoint:navPoints){
-            navigations.add(new Navigation(navPoint.getId(), navPoint.getId(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath,navPoint.getContent().getValue())));
+        int index = 0;
+        for (NavPoint navPoint : navPoints) {
+            navigations.add(new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath, navPoint.getContent().getValue())));
+            index++;
         }
         return navigations;
     }

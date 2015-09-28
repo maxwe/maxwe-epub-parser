@@ -10,6 +10,7 @@ import java.util.LinkedList;
 public interface INavigation {
 
     String getId();
+    int getIndex();
     String getParentId();
     String getTitle();
     String getHref();

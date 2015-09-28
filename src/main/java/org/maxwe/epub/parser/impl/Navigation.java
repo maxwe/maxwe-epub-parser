@@ -11,6 +11,7 @@ import java.util.LinkedList;
  */
 public class Navigation implements INavigation {
     private String id;
+    private int index;
     private String parentId;
     private String title;
     private String href;
@@ -19,8 +20,9 @@ public class Navigation implements INavigation {
 
     public Navigation(){}
 
-    public Navigation(String id, String parentId, String title, String href) {
+    public Navigation(String id,int index, String parentId, String title, String href) {
         this.id = id;
+        this.index = index;
         this.parentId = parentId;
         this.title = title;
         this.href = href;
@@ -28,6 +30,10 @@ public class Navigation implements INavigation {
 
     public String getId() {
         return id;
+    }
+
+    public int getIndex() {
+        return this.index;
     }
 
     public void setId(String id) {

@@ -23,10 +23,7 @@ public class Content extends ADocumentParser implements IContent {
     }
 
     @Override
-    protected void parser() throws Exception {
-
-
-    }
+    protected void parser() throws Exception {}
 
     public int getContentSize() {
         return this.navigates.size();
@@ -56,10 +53,17 @@ public class Content extends ADocumentParser implements IContent {
     }
 
     public IChapter navigateTo(String navigationId) throws Exception {
-        return null;
+        INavigation navigation = null;
+        for (INavigation nav:this.navigates){
+            if (nav.getId().equals(navigationId)){
+                navigation = nav;
+                break;
+            }
+        }
+        return navigateTo(navigation);
     }
 
     public IChapter navigateTo(int index) throws Exception {
-        return new Chapter(this.navigates.get(index).getHref());
+        return navigateTo(this.navigates.get(index));
     }
 }
