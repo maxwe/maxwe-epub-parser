@@ -17,11 +17,18 @@ public class TocNcxTest extends TestCase {
     private String path = BookTest.class.getResource("/").getPath() + "sample";
 
     @Test
-    public void testGetOEBPSPath() throws Exception{
+    public void testGetOEBPSPath() throws Exception {
         TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/toc.ncx");
         LinkedList<INavigation> navigations = tocNcx.getNavigations();
-        assertEquals(13,navigations.size());
+        assertEquals(13, navigations.size());
         INavigation iNavigation = navigations.get(3);
-        assertEquals("第一章 为什么老是有人说你少根筋",iNavigation.getTitle());
+        assertEquals("第一章 为什么老是有人说你少根筋", iNavigation.getTitle());
+    }
+
+    @Test
+    public void testGetMultiNavigation() throws Exception {
+        TocNcx tocNcx = new TocNcx(path + File.separator + "multi-toc.ncx");
+        LinkedList<INavigation> navigations = tocNcx.getNavigations();
+        assertEquals(9,navigations.size());
     }
 }

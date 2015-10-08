@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:uuid:df499d6b-9ad3-412d-83af-a1f09f076d51" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>茶叶战争</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>版权信息</text>
+      </navLabel>
+      <content src="Text/Section0001.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>前言</text>
+      </navLabel>
+      <content src="Text/Section0001_0035.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>第一章 1840年的茶叶战争</text>
+      </navLabel>
+      <content src="Text/Section0001_0002.xhtml"/>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>一、中英对抗</text>
+        </navLabel>
+        <content src="Text/Section0001_0003.xhtml"/>
+        <navPoint id="navPoint-5" playOrder="5">
+          <navLabel>
+            <text>1.晚清“以茶制夷”的共识</text>
+          </navLabel>
+          <content src="Text/Section0001_0003.xhtml#sigil_toc_id_2"/>
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+          <navLabel>
+            <text>2.茶叶奇效与茶叶富国论</text>
+          </navLabel>
+          <content src="Text/Section0001_0003.xhtml#sigil_toc_id_3"/>
+        </navPoint>
+        <navPoint id="navPoint-7" playOrder="7">
+          <navLabel>
+            <text>3.英吉利与天朝上国</text>
+          </navLabel>
+          <content src="Text/Section0001_0003.xhtml#sigil_toc_id_13"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>二、“以茶制夷”的观念演变</text>
+        </navLabel>
+        <content src="Text/Section0001_0004.xhtml#sigil_toc_id_4"/>
+        <navPoint id="navPoint-9" playOrder="9">
+          <navLabel>
+            <text>1.乾隆对俄罗斯的贸易制裁</text>
+          </navLabel>
+          <content src="Text/Section0001_0004.xhtml#sigil_toc_id_5"/>
+        </navPoint>
+        <navPoint id="navPoint-10" playOrder="10">
+          <navLabel>
+            <text>2.道光对安集延的贸易制裁</text>
+          </navLabel>
+          <content src="Text/Section0001_0004.xhtml#sigil_toc_id_6"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11">
+        <navLabel>
+          <text>三、茶叶、银子与鸦片</text>
+        </navLabel>
+        <content src="Text/Section0001_0005.xhtml"/>
+        <navPoint id="navPoint-12" playOrder="12">
+          <navLabel>
+            <text>1.茶叶凭什么制英国</text>
+          </navLabel>
+          <content src="Text/Section0001_0005.xhtml#sigil_toc_id_7"/>
+        </navPoint>
+        <navPoint id="navPoint-13" playOrder="13">
+          <navLabel>
+            <text>2.白银流失的恐慌</text>
+          </navLabel>
+          <content src="Text/Section0001_0005.xhtml#sigil_toc_id_8"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="14">
+        <navLabel>
+          <text>四、中国被一家英国茶叶公司就打败了吗</text>
+        </navLabel>
+        <content src="Text/Section0001_0006.xhtml"/>
+        <navPoint id="navPoint-15" playOrder="15">
+          <navLabel>
+            <text>1.立顿王朝，一剑西来</text>
+          </navLabel>
+          <content src="Text/Section0001_0006.xhtml#sigil_toc_id_9"/>
+        </navPoint>
+        <navPoint id="navPoint-16" playOrder="16">
+          <navLabel>
+            <text>2.印度阿萨姆与中国云南，一场话语权的争夺</text>
+          </navLabel>
+          <content src="Text/Section0001_0006.xhtml#sigil_toc_id_10"/>
+        </navPoint>
+        <navPoint id="navPoint-17" playOrder="17">
+          <navLabel>
+            <text>3.印茶崛起，大英帝国梦想实现</text>
+          </navLabel>
+          <content src="Text/Section0001_0006.xhtml#sigil_toc_id_11"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="18">
+      <navLabel>
+        <text>第二章 1888年的茶叶战争</text>
+      </navLabel>
+      <content src="Text/Section0001_0007.xhtml"/>
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel>
+          <text>一、商贸谈判与大臣之死</text>
+        </navLabel>
+        <content src="Text/Section0001_0007.xhtml#sigil_toc_id_12"/>
+      </navPoint>
+      <navPoint id="navPoint-20" playOrder="20">
+        <navLabel>
+          <text>二、藩篱尽失之忧患</text>
+        </navLabel>
+        <content src="Text/Section0001_0008.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel>
+          <text>三、边茶与边政</text>
+        </navLabel>
+        <content src="Text/Section0001_0009.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-22" playOrder="22">
+        <navLabel>
+          <text>四、唯茶不可</text>
+        </navLabel>
+        <content src="Text/Section0001_0010.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel>
+          <text>五、权力与地理</text>
+        </navLabel>
+        <content src="Text/Section0001_0011.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="24">
+        <navLabel>
+          <text>六、滇茶、川茶对印茶的阻击战</text>
+        </navLabel>
+        <content src="Text/Section0001_0012.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-25" playOrder="25">
+      <navLabel>
+        <text>第三章 全球化：茶运与国运</text>
+      </navLabel>
+      <content src="Text/Section0001_0013.xhtml"/>
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel>
+          <text>一、岌岌可危的中国茶</text>
+        </navLabel>
+        <content src="Text/Section0001_0014.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel>
+          <text>二、我们也要全面喝红茶吗</text>
+        </navLabel>
+        <content src="Text/Section0001_0015.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-28" playOrder="28">
+      <navLabel>
+        <text>第四章 美国：茶叶战争与茶叶外交</text>
+      </navLabel>
+      <content src="Text/Section0001_0016.xhtml"/>
+      <navPoint id="navPoint-29" playOrder="29">
+        <navLabel>
+          <text>一、茶叶——国家的敌人</text>
+        </navLabel>
+        <content src="Text/Section0001_0017.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-30" playOrder="30">
+        <navLabel>
+          <text>二、没有中国茶，美国不可能完成原始积累</text>
+        </navLabel>
+        <content src="Text/Section0001_0018.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31">
+        <navLabel>
+          <text>三、第二个茶叶帝国</text>
+        </navLabel>
+        <content src="Text/Section0001_0019.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-32" playOrder="32">
+      <navLabel>
+        <text>第五章 茶叶：何以为华夏物质精神的缩影</text>
+      </navLabel>
+      <content src="Text/Section0001_0020.xhtml"/>
+      <navPoint id="navPoint-33" playOrder="33">
+        <navLabel>
+          <text>一、陆羽的一个惊天发现</text>
+        </navLabel>
+        <content src="Text/Section0001_0021.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34">
+        <navLabel>
+          <text>二、发现者，谜一般的人</text>
+        </navLabel>
+        <content src="Text/Section0001_0022.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="35">
+        <navLabel>
+          <text>三、皎然，布道者</text>
+        </navLabel>
+        <content src="Text/Section0001_0023.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-36" playOrder="36">
+        <navLabel>
+          <text>四、李白——茶叶的书写秘密</text>
+        </navLabel>
+        <content src="Text/Section0001_0024.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-37" playOrder="37">
+        <navLabel>
+          <text>五、欧阳修：茶品与人品</text>
+        </navLabel>
+        <content src="Text/Section0001_0025.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="38">
+        <navLabel>
+          <text>六、苏轼与泡茶三昧手</text>
+        </navLabel>
+        <content src="Text/Section0001_0026.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39">
+        <navLabel>
+          <text>七、文震亨：茶无他，长物而已</text>
+        </navLabel>
+        <content src="Text/Section0001_0027.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40">
+        <navLabel>
+          <text>八、张岱之后，再无茶，再无茶的传说</text>
+        </navLabel>
+        <content src="Text/Section0001_0028.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-41" playOrder="41">
+      <navLabel>
+        <text>外篇 嘉靖年间的茶叶战争</text>
+      </navLabel>
+      <content src="Text/Section0001_0029.xhtml"/>
+      <navPoint id="navPoint-42" playOrder="42">
+        <navLabel>
+          <text>一、武力就范，十年方开茶市</text>
+        </navLabel>
+        <content src="Text/Section0001_0030.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-43" playOrder="43">
+        <navLabel>
+          <text>二、俺答汗为什么要茶</text>
+        </navLabel>
+        <content src="Text/Section0001_0031.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-44" playOrder="44">
+        <navLabel>
+          <text>三、明廷为何屡次拒绝与俺答汗互市</text>
+        </navLabel>
+        <content src="Text/Section0001_0032.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-45" playOrder="45">
+        <navLabel>
+          <text>四、自明始，中国有了茶叶边界和疆域</text>
+        </navLabel>
+        <content src="Text/Section0001_0033.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-46" playOrder="46">
+      <navLabel>
+        <text>参考文献</text>
+      </navLabel>
+      <content src="Text/Section0001_0034.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

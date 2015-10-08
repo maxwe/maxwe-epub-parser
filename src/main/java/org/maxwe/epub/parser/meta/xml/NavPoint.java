@@ -4,6 +4,8 @@ import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
+import java.util.LinkedList;
+
 /**
  * Created by Pengwei Ding on 2015-09-01 13:26.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
@@ -14,6 +16,7 @@ public class NavPoint extends AXmlLabelParser {
     private Content content;
     private String id;
     private String playOrder;
+    private LinkedList<NavPoint> subNavPoints;
 
     public NavPoint(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
@@ -43,6 +46,12 @@ public class NavPoint extends AXmlLabelParser {
                         this.navLabel = new NavLabel(this.xmlPullParser);
                     } else if (XmlLabelName.CONTENT.toString().equals(nodeName)) {
                         this.content = new Content(xmlPullParser);
+                    }else if (XmlLabelName.NAVPOINT.toString().equals(nodeName)){
+                        if (this.subNavPoints == null){
+                            this.subNavPoints = new LinkedList<NavPoint>();
+                        }
+                        NavPoint subNavPoint = new NavPoint(this.xmlPullParser);
+                        this.subNavPoints.add(subNavPoint);
                     }
                     break;
                 //结束节点
@@ -74,5 +83,9 @@ public class NavPoint extends AXmlLabelParser {
 
     public String getPlayOrder() {
         return playOrder;
+    }
+
+    public LinkedList<NavPoint> getSubNavPoints() {
+        return subNavPoints;
     }
 }

@@ -65,7 +65,11 @@ public class TocNcx extends ADocumentParser {
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
         int index = 0;
         for (NavPoint navPoint : navPoints) {
-            navigations.add(new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue()));
+            Navigation navigation = new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue());
+            navigations.add(navigation);
+            if (navPoint.getSubNavPoints() != null){
+                test(navPoint,navigation);
+            }
             index++;
         }
         return navigations;
@@ -81,6 +85,22 @@ public class TocNcx extends ADocumentParser {
             index++;
         }
         return navigations;
+    }
+
+
+    private void test(NavPoint navPoint,Navigation navigation){
+        LinkedList<NavPoint> subNavPoints = navPoint.getSubNavPoints();
+        if (subNavPoints == null){
+            return;
+        }else{
+            int index = 0;
+            for (NavPoint subNavPoint:subNavPoints){
+                Navigation subNavigation = new Navigation(subNavPoint.getId(), index, subNavPoint.getId(), subNavPoint.getNavLabel().getText().getValue(), subNavPoint.getContent().getValue());
+                navigation.getSubNavigations().add(subNavigation);
+                test(subNavPoint,subNavigation);
+                index++;
+            }
+        }
     }
 
 }
