@@ -65,7 +65,7 @@ public class TocNcx extends ADocumentParser {
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
         int index = 0;
         for (NavPoint navPoint : navPoints) {
-            Navigation navigation = new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue());
+            Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue());
             navigations.add(navigation);
             if (navPoint.getSubNavPoints() != null){
                 test(navPoint,navigation);
@@ -81,7 +81,7 @@ public class TocNcx extends ADocumentParser {
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
         int index = 0;
         for (NavPoint navPoint : navPoints) {
-            navigations.add(new Navigation(navPoint.getId(), index, navPoint.getId(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath, navPoint.getContent().getValue())));
+            navigations.add(new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath, navPoint.getContent().getValue())));
             index++;
         }
         return navigations;
@@ -95,7 +95,7 @@ public class TocNcx extends ADocumentParser {
         }else{
             int index = 0;
             for (NavPoint subNavPoint:subNavPoints){
-                Navigation subNavigation = new Navigation(subNavPoint.getId(), index, subNavPoint.getId(), subNavPoint.getNavLabel().getText().getValue(), subNavPoint.getContent().getValue());
+                Navigation subNavigation = new Navigation(subNavPoint.getId(), navPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), subNavPoint.getContent().getValue());
                 navigation.getSubNavigations().add(subNavigation);
                 test(subNavPoint,subNavigation);
                 index++;

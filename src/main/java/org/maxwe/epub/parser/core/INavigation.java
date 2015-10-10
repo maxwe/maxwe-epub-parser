@@ -8,14 +8,10 @@ import java.util.LinkedList;
  * Description: 定义图书目录对象操作方式
  */
 public interface INavigation {
-
     String getId();
-    int getIndex();
-    String getParentId();
+    int getPlayOrder();
     String getTitle();
     String getHref();
-    int getLevel();
     LinkedList<INavigation> getSubNavigations();
     void print();
-
 }

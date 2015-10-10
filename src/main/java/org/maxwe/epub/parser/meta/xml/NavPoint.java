@@ -15,7 +15,7 @@ public class NavPoint extends AXmlLabelParser {
     private NavLabel navLabel;
     private Content content;
     private String id;
-    private String playOrder;
+    private int playOrder;
     private LinkedList<NavPoint> subNavPoints;
 
     public NavPoint(XmlPullParser xmlPullParser) throws Exception {
@@ -32,7 +32,7 @@ public class NavPoint extends AXmlLabelParser {
             if (XmlLabelName.ID.toString().equals(attributeName)) {
                 this.id = attributeValue;
             } else if (XmlLabelName.PLAYORDER.toString().equals(attributeName)) {
-                this.playOrder = attributeValue;
+                this.playOrder = Integer.parseInt(attributeValue);
             }
         }
 
@@ -81,7 +81,7 @@ public class NavPoint extends AXmlLabelParser {
         return id;
     }
 
-    public String getPlayOrder() {
+    public int getPlayOrder() {
         return playOrder;
     }
 

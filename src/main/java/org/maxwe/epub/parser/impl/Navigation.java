@@ -11,19 +11,16 @@ import java.util.LinkedList;
  */
 public class Navigation implements INavigation {
     private String id;
-    private int index;
-    private String parentId;
+    private int playOrder;
     private String title;
     private String href;
-    private int level;
     private LinkedList<INavigation> subNavigations = new LinkedList<INavigation>();
 
     public Navigation(){}
 
-    public Navigation(String id,int index, String parentId, String title, String href) {
+    public Navigation(String id,int playOrder, String title, String href) {
         this.id = id;
-        this.index = index;
-        this.parentId = parentId;
+        this.playOrder = playOrder;
         this.title = title;
         this.href = href;
     }
@@ -32,20 +29,16 @@ public class Navigation implements INavigation {
         return id;
     }
 
-    public int getIndex() {
-        return this.index;
-    }
-
     public void setId(String id) {
         this.id = id;
     }
 
-    public String getParentId() {
-        return parentId;
+    public int getPlayOrder() {
+        return playOrder;
     }
 
-    public void setParentId(String parentId) {
-        this.parentId = parentId;
+    public void setPlayOrder(int playOrder) {
+        this.playOrder = playOrder;
     }
 
     public String getTitle() {
@@ -64,20 +57,13 @@ public class Navigation implements INavigation {
         this.href = href;
     }
 
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
     public LinkedList<INavigation> getSubNavigations() {
         return subNavigations;
     }
 
     public void print() {
         System.out.println("章节ID：" + this.getId());
+        System.out.println("章节书怒：" + this.getPlayOrder());
         System.out.println("章节名：" + this.getTitle());
         System.out.println("章节路径：" + this.getHref());
     }
