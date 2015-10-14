@@ -5,6 +5,7 @@ import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.LinkedList;
+import java.util.UUID;
 
 /**
  * Created by Pengwei Ding on 2015-09-01 13:26.
@@ -30,7 +31,8 @@ public class NavPoint extends AXmlLabelParser {
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
             if (XmlLabelName.ID.toString().equals(attributeName)) {
-                this.id = attributeValue;
+//                this.id = attributeValue;
+                this.id = UUID.randomUUID().toString();
             } else if (XmlLabelName.PLAYORDER.toString().equals(attributeName)) {
                 this.playOrder = Integer.parseInt(attributeValue);
             }

@@ -27,8 +27,16 @@ public class TocNcxTest extends TestCase {
 
     @Test
     public void testGetMultiNavigation() throws Exception {
-        TocNcx tocNcx = new TocNcx(path + File.separator + "multi-toc.ncx");
+        TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/toc.ncx");
         LinkedList<INavigation> navigations = tocNcx.getNavigations();
+        assertEquals(13,navigations.size());
+    }
+
+    @Test
+    public void testGetMultiNavigation2() throws Exception {
+        TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/multi-toc.ncx");
+//        TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/toc.ncx");
+        LinkedList<INavigation> navigations = tocNcx.getNavigations("");
         assertEquals(9,navigations.size());
     }
 }
