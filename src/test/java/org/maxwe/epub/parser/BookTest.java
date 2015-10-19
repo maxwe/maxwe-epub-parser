@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.maxwe.epub.parser.core.*;
 import org.maxwe.epub.parser.impl.Book;
+import org.maxwe.epub.parser.impl.SpineItem;
 import org.maxwe.epub.parser.impl.Text;
 
 import java.io.File;
@@ -110,6 +111,20 @@ public class BookTest extends TestCase {
             ISection first = sections.getFirst();
             assertEquals("第三章 没有几个忧郁女生会等到她的白马王子", title);
             assertEquals("我是个胖子，没人爱我",((Text)first).getText());
+        } else {
+            assertFalse("测试文件不存在", true);
+        }
+    }
+
+    @Test
+    public void testGetSpineItem() throws Exception {
+        if (new File(this.path).exists()) {
+            Book book = new Book(this.path);
+            LinkedList<SpineItem> spineItems = book.getSpineItems();
+            for (SpineItem spineItem:spineItems){
+                System.out.println(spineItem.toString());
+            }
+            assertFalse(false);
         } else {
             assertFalse("测试文件不存在", true);
         }

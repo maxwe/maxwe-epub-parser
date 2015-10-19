@@ -57,7 +57,7 @@ public class ContentOpf extends ADocumentParser {
         }
     }
 
-    public Metadata getMetadata() {
+    public Metadata buildMetadata() {
         org.maxwe.epub.parser.meta.xml.Metadata orginMetadata = this.aPackage.getMetadata();
         return new Metadata(
                 orginMetadata.getDcIdentifier().getFirst().getValue(),
@@ -69,5 +69,9 @@ public class ContentOpf extends ADocumentParser {
                 orginMetadata.getDcDate().getFirst().getValue(),
                 orginMetadata.getDcDate().getFirst().getValue(),
                 orginMetadata.getMetas().getFirst().getValue());
+    }
+
+    public Package getaPackage() {
+        return aPackage;
     }
 }

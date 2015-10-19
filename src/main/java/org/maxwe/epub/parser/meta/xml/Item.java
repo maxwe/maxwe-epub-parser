@@ -24,9 +24,9 @@ public class Item extends AXmlLabelParser {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.ID.toString().equals(attributeName)){
+            if (XmlLabelName.ID.toString().equals(attributeName)) {
                 this.id = attributeValue;
-            }else if (XmlLabelName.HREF.toString().equals(attributeName)) {
+            } else if (XmlLabelName.HREF.toString().equals(attributeName)) {
                 this.href = attributeValue;
             } else if (XmlLabelName.MEDIA_TYPE.toString().equals(attributeName)) {
                 this.mediaType = attributeValue;
@@ -45,5 +45,10 @@ public class Item extends AXmlLabelParser {
 
     public String getMediaType() {
         return mediaType;
+    }
+
+    @Override
+    public String toString() {
+        return "id = " + this.getHref() + ", href = " + this.href + ", type = " + this.mediaType;
     }
 }

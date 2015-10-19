@@ -4,8 +4,11 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import org.maxwe.epub.parser.impl.Metadata;
 import org.maxwe.epub.parser.meta.ContentOpf;
+import org.maxwe.epub.parser.meta.xml.Item;
+import org.maxwe.epub.parser.meta.xml.Manifest;
 
 import java.io.File;
+import java.util.List;
 
 /**
  * Created by Pengwei Ding on 2015-09-01 19:33.
@@ -18,7 +21,7 @@ public class ContentOpfTest extends TestCase {
     @Test
     public void testGetMetadata() throws Exception{
         ContentOpf contentOpf = new ContentOpf(path + File.separator + "OEBPS/content.opf");
-        Metadata metadata = contentOpf.getMetadata();
+        Metadata metadata = contentOpf.buildMetadata();
 
         String isbn = metadata.getIdentifier();
         String id = metadata.getIdentifier();
@@ -38,5 +41,15 @@ public class ContentOpfTest extends TestCase {
         assertEquals("中国戏剧出版社",publisher);
         assertEquals("2011-11-01",createTime);
         assertEquals("ds002161.jpg",cover);
+    }
+
+    @Test
+    public void testGetManifest() throws Exception{
+        ContentOpf contentOpf = new ContentOpf(path + File.separator + "OEBPS/content.opf");
+        Manifest manifest = contentOpf.getaPackage().getManifest();
+        List<Item> items = manifest.getItems();
+        for(Item item:items){
+            System.out.println(item.toString());
+        }
     }
 }
