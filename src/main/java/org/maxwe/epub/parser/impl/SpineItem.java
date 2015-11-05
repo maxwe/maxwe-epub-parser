@@ -12,14 +12,17 @@ public class SpineItem implements ISpineItem {
     private String id;
     private String href;
     private int index;
+    private String url;
     private String mediaType;
 
-    public SpineItem() {}
+    public SpineItem() {
+    }
 
-    public SpineItem(String id, String href, int index, String mediaType) {
+    public SpineItem(String id, String href, int index, String url, String mediaType) {
         this.id = id;
         this.href = href;
         this.index = index;
+        this.url = url;
         this.mediaType = mediaType;
     }
 
@@ -47,6 +50,14 @@ public class SpineItem implements ISpineItem {
         this.index = index;
     }
 
+    public String getUrl() {
+        return "file://" + url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     public String getMediaType() {
         return mediaType;
     }
@@ -61,6 +72,7 @@ public class SpineItem implements ISpineItem {
                 "id='" + id + '\'' +
                 ", href='" + href + '\'' +
                 ", index=" + index +
+                ", url='" + url + '\'' +
                 ", mediaType='" + mediaType + '\'' +
                 '}';
     }

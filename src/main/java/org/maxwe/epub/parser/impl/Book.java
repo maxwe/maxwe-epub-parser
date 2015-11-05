@@ -44,7 +44,7 @@ public class Book extends ADocumentParser implements IBook {
             List<Itemref> itemrefs = this.spine.getItemrefs();
             for (int index = 0; index < itemrefs.size(); index++) {
                 Item itemById = this.manifest.getItemById(itemrefs.get(index).getIdref());
-                this.spineItems.add(new SpineItem(itemById.getId(), containerXml.getOEBPSPath() + File.separator + itemById.getHref(), index, itemById.getMediaType()));
+                this.spineItems.add(new SpineItem(itemById.getId(), itemById.getHref(), index,containerXml.getOEBPSPath() + File.separator + itemById.getHref(), itemById.getMediaType()));
             }
         }
         this.content = new Content(containerXml.getTocNcxPath(), containerXml.getOEBPSPath());
