@@ -63,11 +63,13 @@ public class TocNcx extends ADocumentParser {
     public LinkedList<INavigation> getNavigations() {
         LinkedList<INavigation> navigations = new LinkedList<INavigation>();
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
-        for (NavPoint navPoint : navPoints) {
-            Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue());
-            navigations.add(navigation);
-            if (navPoint.getSubNavPoints() != null){
-                buildNavTree(navPoint, navigation);
+        if (navPoints != null){
+            for (NavPoint navPoint : navPoints) {
+                Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), navPoint.getContent().getValue());
+                navigations.add(navigation);
+                if (navPoint.getSubNavPoints() != null){
+                    buildNavTree(navPoint, navigation);
+                }
             }
         }
         return navigations;
@@ -77,11 +79,13 @@ public class TocNcx extends ADocumentParser {
     public LinkedList<INavigation> getNavigations(String containerPath) {
         LinkedList<INavigation> navigations = new LinkedList<INavigation>();
         LinkedList<NavPoint> navPoints = this.ncx.getNavMap().getNavPoints();
-        for (NavPoint navPoint : navPoints) {
-            Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath, navPoint.getContent().getValue()));
-            navigations.add(navigation);
-            if (navPoint.getSubNavPoints() != null){
-                buildNavTree(navPoint, navigation);
+        if (navPoints != null){
+            for (NavPoint navPoint : navPoints) {
+                Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), this.pathLinker(containerPath, navPoint.getContent().getValue()));
+                navigations.add(navigation);
+                if (navPoint.getSubNavPoints() != null){
+                    buildNavTree(navPoint, navigation);
+                }
             }
         }
         return navigations;

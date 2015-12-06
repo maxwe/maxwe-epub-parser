@@ -44,6 +44,10 @@ public class Content extends ADocumentParser implements IContent {
         return navigation;
     }
 
+    public void setNavigates(LinkedList<INavigation> navigates) {
+        this.navigates = navigates;
+    }
+
     public INavigation getNavigation(int index) {
         return this.navigates.get(index);
     }

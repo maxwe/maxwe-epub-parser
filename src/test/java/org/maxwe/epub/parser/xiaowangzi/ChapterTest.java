@@ -1,7 +1,8 @@
-package org.maxwe.epub.parser;
+package org.maxwe.epub.parser.xiaowangzi;
 
 import junit.framework.TestCase;
 import org.junit.Test;
+import org.maxwe.epub.parser.sample.BookTest;
 import org.maxwe.epub.parser.core.IParagraph;
 import org.maxwe.epub.parser.impl.Chapter;
 
@@ -14,18 +15,17 @@ import java.util.LinkedList;
  */
 public class ChapterTest extends TestCase {
 
-    private String path = BookTest.class.getResource("/").getPath() + "sample";
+    private String path = BookTest.class.getResource("/").getPath() + "xiaowangzi";
 
     @Test
     public void testGetNavigations() throws Exception {
-        String path = this.path + "/OEBPS/Text/Copyright.xhtml";
+        String path = this.path + "/index_split_000.html";
         Chapter chapter = new Chapter(path);
         String title = chapter.getTitle();
         String href = chapter.getHref();
         LinkedList<IParagraph> paragraphs = chapter.getParagraphs();
 
-        assertEquals("版权页",title);
+        assertEquals("��\\s�[P",title);
         assertEquals(path ,href);
-        assertEquals(8,paragraphs.size());
     }
 }

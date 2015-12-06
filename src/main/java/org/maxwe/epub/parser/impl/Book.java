@@ -1,9 +1,6 @@
 package org.maxwe.epub.parser.impl;
 
-import org.maxwe.epub.parser.core.ADocumentParser;
-import org.maxwe.epub.parser.core.IBook;
-import org.maxwe.epub.parser.core.IContent;
-import org.maxwe.epub.parser.core.IMetadata;
+import org.maxwe.epub.parser.core.*;
 import org.maxwe.epub.parser.meta.ContainerXml;
 import org.maxwe.epub.parser.meta.ContentOpf;
 import org.maxwe.epub.parser.meta.xml.Item;
@@ -54,7 +51,19 @@ public class Book extends ADocumentParser implements IBook {
         return this.metadata;
     }
 
+    /**
+     * 在获取目录时候如果发现toc.ncx中无法获取就获取SpineItem对象集
+     * @return
+     */
     public IContent getContent() {
+        if (this.content.getNavigation() == null || this.content.getNavigation().size() == 0){
+            LinkedList<INavigation> navigations = new LinkedList<INavigation>();
+            for (SpineItem spineItem:this.spineItems){
+                Navigation navigation = new Navigation(spineItem.getId(), 0, spineItem.getHref(),this.pathLinker(this.documentPath, spineItem.getHref()));
+                navigations.add(navigation);
+            }
+            ((org.maxwe.epub.parser.impl.Content)(this.content)).setNavigates(navigations);
+        }
         return this.content;
     }
 

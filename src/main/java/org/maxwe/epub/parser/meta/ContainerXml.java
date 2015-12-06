@@ -64,8 +64,13 @@ public class ContainerXml extends ADocumentParser {
         }
 
         int index = this.fullPath.lastIndexOf(File.separator);
-        this.OEBPSPath = this.fullPath.substring(0, index);
-        this.defaultFileName = this.fullPath.substring(index,this.fullPath.length());
+        if (index < 0){
+            this.OEBPSPath = "";
+            this.defaultFileName = this.fullPath;
+        }else{
+            this.OEBPSPath = this.fullPath.substring(0, index);
+            this.defaultFileName = this.fullPath.substring(index,this.fullPath.length());
+        }
     }
 
     /**

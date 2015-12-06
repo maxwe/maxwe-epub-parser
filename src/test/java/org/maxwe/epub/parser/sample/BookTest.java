@@ -1,4 +1,4 @@
-package org.maxwe.epub.parser;
+package org.maxwe.epub.parser.sample;
 
 import junit.framework.TestCase;
 import org.junit.Before;

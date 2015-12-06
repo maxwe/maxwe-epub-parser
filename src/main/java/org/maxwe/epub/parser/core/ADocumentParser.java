@@ -17,6 +17,10 @@ public abstract class ADocumentParser {
     protected abstract void parser() throws Exception;
 
     protected String pathLinker(String path1,String path2){
-        return path1 + File.separator + path2;
+        if ("".equals(path2) || "\\".equals(path2)){
+            return path1;
+        }else{
+            return path1 + File.separator + path2;
+        }
     }
 }

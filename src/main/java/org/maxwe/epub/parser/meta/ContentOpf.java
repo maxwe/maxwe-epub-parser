@@ -60,15 +60,15 @@ public class ContentOpf extends ADocumentParser {
     public Metadata buildMetadata() {
         org.maxwe.epub.parser.meta.xml.Metadata orginMetadata = this.aPackage.getMetadata();
         return new Metadata(
-                orginMetadata.getDcIdentifier().getFirst().getValue(),
-                orginMetadata.getDcIdentifier().getFirst().getValue(),
-                orginMetadata.getDcTitle().getFirst().getValue(),
-                orginMetadata.getDcCreator().getFirst().getValue(),
-                orginMetadata.getDcPublisher().getFirst().getValue(),
-                orginMetadata.getDcLanguage().getFirst().getValue(),
-                orginMetadata.getDcDate().getFirst().getValue(),
-                orginMetadata.getDcDate().getFirst().getValue(),
-                orginMetadata.getMetas().getFirst().getValue());
+                orginMetadata.getDcIdentifier() == null ? null : orginMetadata.getDcIdentifier().getFirst() == null ? null : orginMetadata.getDcIdentifier().getFirst().getValue(),
+                orginMetadata.getDcIdentifier() == null  ? null : orginMetadata.getDcIdentifier().getFirst() == null ? null : orginMetadata.getDcIdentifier().getFirst().getValue(),
+                orginMetadata.getDcTitle() == null  ? null : orginMetadata.getDcTitle().getFirst() == null ? null : orginMetadata.getDcTitle().getFirst().getValue(),
+                orginMetadata.getDcCreator() == null  ? null : orginMetadata.getDcCreator().getFirst() == null ? null : orginMetadata.getDcCreator().getFirst().getValue(),
+                orginMetadata.getDcPublisher() == null  ? null : orginMetadata.getDcPublisher().getFirst() == null ? null : orginMetadata.getDcPublisher().getFirst().getValue(),
+                orginMetadata.getDcLanguage() == null  ? null : orginMetadata.getDcLanguage().getFirst() == null ? null : orginMetadata.getDcLanguage().getFirst().getValue(),
+                orginMetadata.getDcDate() == null  ? null : orginMetadata.getDcDate().getFirst() == null ? null : orginMetadata.getDcDate().getFirst().getValue(),
+                orginMetadata.getDcDate() == null  ? null : orginMetadata.getDcDate().getFirst() == null ? null : orginMetadata.getDcDate().getFirst().getValue(),
+                orginMetadata.getMetas() == null  ? null : orginMetadata.getMetas().getFirst() == null ? null : orginMetadata.getMetas().getFirst().getValue());
     }
 
     public Package getaPackage() {

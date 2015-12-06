@@ -1,7 +1,8 @@
-package org.maxwe.epub.parser;
+package org.maxwe.epub.parser.xiaowangzi;
 
 import junit.framework.TestCase;
 import org.junit.Test;
+import org.maxwe.epub.parser.sample.BookTest;
 import org.maxwe.epub.parser.impl.Metadata;
 import org.maxwe.epub.parser.meta.ContentOpf;
 import org.maxwe.epub.parser.meta.xml.Item;
@@ -16,11 +17,11 @@ import java.util.List;
  * Description: @TODO
  */
 public class ContentOpfTest extends TestCase {
-    private String path = BookTest.class.getResource("/").getPath() + "sample";
+    private String path = BookTest.class.getResource("/").getPath() + "xiaowangzi";
 
     @Test
     public void testGetMetadata() throws Exception{
-        ContentOpf contentOpf = new ContentOpf(path + File.separator + "OEBPS/content.opf");
+        ContentOpf contentOpf = new ContentOpf(path + File.separator + "content.opf");
         Metadata metadata = contentOpf.buildMetadata();
 
         String isbn = metadata.getIdentifier();
@@ -33,19 +34,19 @@ public class ContentOpfTest extends TestCase {
         String cover = metadata.getCover();
 
 
-        assertEquals("urn:uuid:b6c45774-b30c-4cb0-b518-f4e64836fa98", isbn);
-        assertEquals("urn:uuid:b6c45774-b30c-4cb0-b518-f4e64836fa98", id);
-        assertEquals("别随情绪做傻事",name);
-        assertEquals("王云峰",author);
-        assertEquals("zh-CN",language);
-        assertEquals("中国戏剧出版社",publisher);
-        assertEquals("2011-11-01",createTime);
-        assertEquals("ds002161.jpg",cover);
+        assertEquals("b686588b-958a-4ae8-bf36-3579086a0b0c", isbn);
+        assertEquals("b686588b-958a-4ae8-bf36-3579086a0b0c", id);
+        assertEquals("小王子", name);
+        assertEquals("圣埃克苏佩里", author);
+        assertEquals("UND", language);
+        assertEquals("中国友谊出版社", publisher);
+        assertEquals("2010-04-13 21:40:21.665000+08:00", createTime);
+        assertEquals("1", cover);
     }
 
     @Test
     public void testGetManifest() throws Exception{
-        ContentOpf contentOpf = new ContentOpf(path + File.separator + "OEBPS/content.opf");
+        ContentOpf contentOpf = new ContentOpf(path + File.separator + "content.opf");
         Manifest manifest = contentOpf.getaPackage().getManifest();
         List<Item> items = manifest.getItems();
         for(Item item:items){
