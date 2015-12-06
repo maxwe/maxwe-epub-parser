@@ -23,7 +23,7 @@ public class Book extends ADocumentParser implements IBook {
     private Manifest manifest;
     private Spine spine;
     private LinkedList<SpineItem> spineItems;
-
+    private String OEBPSName;
 
     public Book(String documentPath) throws Exception {
         super(documentPath);
@@ -32,6 +32,7 @@ public class Book extends ADocumentParser implements IBook {
     @Override
     protected void parser() throws Exception {
         ContainerXml containerXml = new ContainerXml(this.documentPath);
+        this.OEBPSName = containerXml.getOEBPSName();
         ContentOpf contentOpf = new ContentOpf(containerXml.getContentOpfPath());
         this.metadata = contentOpf.buildMetadata();
         this.manifest = contentOpf.getaPackage().getManifest();
@@ -69,5 +70,9 @@ public class Book extends ADocumentParser implements IBook {
 
     public LinkedList<SpineItem> getSpineItems() {
         return this.spineItems;
+    }
+
+    public String getOEBPSName() {
+        return this.OEBPSName;
     }
 }

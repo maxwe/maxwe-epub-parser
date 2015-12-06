@@ -25,6 +25,7 @@ public class ContainerXml extends ADocumentParser {
 
     private String fullPath;
     private String OEBPSPath;
+    private String OEBPSName;
 
     public ContainerXml(String documentPath) throws Exception {
         super(documentPath);
@@ -66,9 +67,11 @@ public class ContainerXml extends ADocumentParser {
         int index = this.fullPath.lastIndexOf(File.separator);
         if (index < 0){
             this.OEBPSPath = "";
+            this.OEBPSName = "";
             this.defaultFileName = this.fullPath;
         }else{
             this.OEBPSPath = this.fullPath.substring(0, index);
+            this.OEBPSName = this.fullPath.substring(0, index);
             this.defaultFileName = this.fullPath.substring(index,this.fullPath.length());
         }
     }
@@ -97,5 +100,9 @@ public class ContainerXml extends ADocumentParser {
      */
     public String getTocNcxPath() {
         return this.pathLinker(this.documentPath,this.fullPath.replace(this.defaultFileName,"toc.ncx"));
+    }
+
+    public String getOEBPSName() {
+        return OEBPSName;
     }
 }

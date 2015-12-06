@@ -19,4 +19,6 @@ public interface IBook {
      */
     IContent getContent();
 
+    String getOEBPSName();
+
 }
