@@ -13,8 +13,6 @@ import org.maxwe.epub.parser.meta.xml.Spine;
  */
 public interface IOPF {
 
-    String getFilePath();
-
     Metadata getMetadata();
 
     Manifest getManifest();
@@ -22,5 +20,17 @@ public interface IOPF {
     Spine getSpine();
 
     Guide getGuide();
+
+    /**
+     * 获取普通的导航文件
+     * @return 有可能为空
+     */
+    String getNavigationFilePath();
+
+    /**
+     * 获取HTML格式的导航文件
+     * @return 有可能为空
+     */
+    String getNavigationHtmlPath();
 
 }

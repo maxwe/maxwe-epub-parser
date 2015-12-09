@@ -7,9 +7,18 @@ package org.maxwe.epub.parser.meta;
  */
 public interface IContainer {
     /**
-     * 获取相对全路径
+     * 获取content.opf文件的相对全路径
      * @return OEBPS/content.opf
      */
     String getRelativeFullPath();
-
+    /**
+     * 获取content.opf文件的所在目录的相对全路径
+     * @return 如OEBPS/content.opf 则返回OEBPS
+     */
+    String getRelativeFullPathDir();
+    /**
+     * 获取content.opf文件的文件名
+     * @return 如OEBPS/content.opf 则返回content.opf
+     */
+    String getOPFFileName();
 }

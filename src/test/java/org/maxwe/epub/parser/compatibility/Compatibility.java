@@ -1,8 +1,8 @@
 package org.maxwe.epub.parser.compatibility;
 
-import org.maxwe.epub.parser.core.IMetadata;
 import org.maxwe.epub.parser.core.INavigation;
-import org.maxwe.epub.parser.impl.Book;
+import org.maxwe.epub.parser.impl.Content;
+import org.maxwe.epub.parser.EPubParser;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -26,11 +26,13 @@ public class Compatibility {
     private static final String pathOfCompatibility6 = Compatibility.class.getResource("/").getPath() + "compatibility/compatibility6";
     private static final String pathOfCompatibility7 = Compatibility.class.getResource("/").getPath() + "compatibility/compatibility7";
     private static final String pathOfCompatibility8 = Compatibility.class.getResource("/").getPath() + "compatibility/compatibility8";
+    private static final String pathOfSample = Compatibility.class.getResource("/").getPath() + "sample";
     private static LinkedList<String> paths = new LinkedList<String>();
-    static{
-//        paths.add(pathOfYueweicaotang);
+
+    static {
+        paths.add(pathOfYueweicaotang);
 //        paths.add(pathOfShucang);
-        paths.add(pathOfShenqidediqiu);
+//        paths.add(pathOfShenqidediqiu);
 //        paths.add(pathOfDaxuexiaoxun);
 //        paths.add(pathOfCompatibility1);
 //        paths.add(pathOfCompatibility2);
@@ -40,30 +42,51 @@ public class Compatibility {
 //        paths.add(pathOfCompatibility6);
 //        paths.add(pathOfCompatibility7);
 //        paths.add(pathOfCompatibility8);
+//        paths.add(pathOfSample);
     }
-    public static void main(String[] args) throws Exception{
-        for (String path:paths){
+
+    public static void main(String[] args) throws Exception {
+        for (String path : paths) {
             System.out.println("===========" + path + "===========");
             testCompatibility(path);
         }
     }
-    private static void testCompatibility(String path) throws Exception{
+
+    private static void testCompatibility(String path) throws Exception {
         if (new File(path).exists()) {
-            Book book = new Book(path);
-            IMetadata metadata = book.getMetadata();
-            metadata.print();
-            LinkedList<INavigation> navigations = book.getContent().getNavigation();
+            EPubParser ePubParser = new EPubParser(path);
+            ePubParser.getMetadata().print();
+            Content content = ePubParser.getContent();
+            LinkedList<INavigation> navigations = content.getNavigation();
             System.out.println("章节数：" + navigations.size());
             for (INavigation navigation:navigations){
-                navigation.print();
+                String href = navigation.getHref();
+                if (href.contains("#")){
+                    href = href.substring(0, href.lastIndexOf("#"));
+                }
+                if (!new File(href).exists()){
+                    navigation.print();
+                }
                 LinkedList<INavigation> subNavigations = navigation.getSubNavigations();
                 if (subNavigations != null && subNavigations.size() > 0){
                     for (INavigation subNav:subNavigations){
-                        subNav.print();
+                        String hrefSub = subNav.getHref();
+                        if (hrefSub.contains("#")){
+                            hrefSub = hrefSub.substring(0, hrefSub.lastIndexOf("#"));
+                        }
+                        if (!new File(hrefSub).exists()){
+                            subNav.print();
+                        }
                         LinkedList<INavigation> subNavigations1 = subNav.getSubNavigations();
                         if (subNavigations1 != null && subNavigations1.size() > 0){
                             for (INavigation subOfSub:subNavigations){
-                                subOfSub.print();
+                                String hrefSubSub = subOfSub.getHref();
+                                if (hrefSubSub.contains("#")){
+                                    hrefSubSub = hrefSubSub.substring(0, hrefSubSub.lastIndexOf("#"));
+                                }
+                                if (!new File(hrefSubSub).exists()){
+                                    subOfSub.print();
+                                }
                             }
                         }
                     }

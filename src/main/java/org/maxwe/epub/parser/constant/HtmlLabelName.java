@@ -18,6 +18,7 @@ public enum HtmlLabelName {
     VIDEO("video"),
     ALT("alt"),
     SRC("src"),
+    HREF("href"),
     temp1(""),
     temp3("");
 

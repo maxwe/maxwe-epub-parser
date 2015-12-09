@@ -1,10 +1,8 @@
 package org.maxwe.epub.parser.impl;
 
-import org.maxwe.epub.parser.core.ADocumentParser;
 import org.maxwe.epub.parser.core.IChapter;
 import org.maxwe.epub.parser.core.IContent;
 import org.maxwe.epub.parser.core.INavigation;
-import org.maxwe.epub.parser.meta.TocNcx;
 
 import java.util.LinkedList;
 
@@ -13,17 +11,12 @@ import java.util.LinkedList;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: @TODO
  */
-public class Content extends ADocumentParser implements IContent {
+public class Content implements IContent {
     private LinkedList<INavigation> navigates;
 
-    public Content(String documentPath,String OEBPSPath) throws Exception {
-        super(documentPath);
-        this.parser();
-        TocNcx tocNcx = new TocNcx(this.documentPath);
-        this.navigates = tocNcx.getNavigations(OEBPSPath);
+    public Content(LinkedList<INavigation> navigates) throws Exception {
+        this.navigates = navigates;
     }
-
-    protected void parser() throws Exception {}
 
     public int getContentSize() {
         return this.navigates.size();
@@ -42,10 +35,6 @@ public class Content extends ADocumentParser implements IContent {
             }
         }
         return navigation;
-    }
-
-    public void setNavigates(LinkedList<INavigation> navigates) {
-        this.navigates = navigates;
     }
 
     public INavigation getNavigation(int index) {
