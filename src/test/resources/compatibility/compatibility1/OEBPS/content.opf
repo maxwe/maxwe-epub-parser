@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:2efc048c-12a4-45f9-a713-75311b92b20b</dc:identifier>
+    <dc:title>改造我们的教育</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">柳斌</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-03-28</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-11-17</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="E14-24.jpg" />
+  </metadata>
+  <manifest>
+    <item href="Text/gaizaowomen.xhtml" id="gaizaowomen" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-1.xhtml" id="gaizaowomen-1" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-2.xhtml" id="gaizaowomen-2" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-3.xhtml" id="gaizaowomen-3" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-4.xhtml" id="gaizaowomen-4" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-5.xhtml" id="gaizaowomen-5" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-6.xhtml" id="gaizaowomen-6" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-7.xhtml" id="gaizaowomen-7" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-8.xhtml" id="gaizaowomen-8" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-9.xhtml" id="gaizaowomen-9" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-10.xhtml" id="gaizaowomen-10" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-11.xhtml" id="gaizaowomen-11" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-12.xhtml" id="gaizaowomen-12" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-13.xhtml" id="gaizaowomen-13" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-14.xhtml" id="gaizaowomen-14" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-15.xhtml" id="gaizaowomen-15" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-16.xhtml" id="gaizaowomen-16" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-17.xhtml" id="gaizaowomen-17" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-18.xhtml" id="gaizaowomen-18" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-19.xhtml" id="gaizaowomen-19" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-20.xhtml" id="gaizaowomen-20" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-21.xhtml" id="gaizaowomen-21" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-22.xhtml" id="gaizaowomen-22" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-23.xhtml" id="gaizaowomen-23" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-24.xhtml" id="gaizaowomen-24" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-25.xhtml" id="gaizaowomen-25" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-26.xhtml" id="gaizaowomen-26" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-27.xhtml" id="gaizaowomen-27" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-28.xhtml" id="gaizaowomen-28" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-29.xhtml" id="gaizaowomen-29" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-30.xhtml" id="gaizaowomen-30" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-31.xhtml" id="gaizaowomen-31" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-32.xhtml" id="gaizaowomen-32" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-33.xhtml" id="gaizaowomen-33" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-34.xhtml" id="gaizaowomen-34" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-35.xhtml" id="gaizaowomen-35" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-36.xhtml" id="gaizaowomen-36" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-37.xhtml" id="gaizaowomen-37" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-38.xhtml" id="gaizaowomen-38" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-39.xhtml" id="gaizaowomen-39" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-40.xhtml" id="gaizaowomen-40" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-41.xhtml" id="gaizaowomen-41" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-42.xhtml" id="gaizaowomen-42" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-43.xhtml" id="gaizaowomen-43" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-44.xhtml" id="gaizaowomen-44" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-45.xhtml" id="gaizaowomen-45" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-46.xhtml" id="gaizaowomen-46" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-47.xhtml" id="gaizaowomen-47" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-48.xhtml" id="gaizaowomen-48" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-49.xhtml" id="gaizaowomen-49" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-50.xhtml" id="gaizaowomen-50" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-51.xhtml" id="gaizaowomen-51" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-52.xhtml" id="gaizaowomen-52" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-53.xhtml" id="gaizaowomen-53" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-54.xhtml" id="gaizaowomen-54" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-55.xhtml" id="gaizaowomen-55" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-56.xhtml" id="gaizaowomen-56" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-57.xhtml" id="gaizaowomen-57" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-58.xhtml" id="gaizaowomen-58" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-59.xhtml" id="gaizaowomen-59" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-60.xhtml" id="gaizaowomen-60" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-61.xhtml" id="gaizaowomen-61" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-62.xhtml" id="gaizaowomen-62" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-63.xhtml" id="gaizaowomen-63" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-64.xhtml" id="gaizaowomen-64" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-65.xhtml" id="gaizaowomen-65" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-66.xhtml" id="gaizaowomen-66" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-67.xhtml" id="gaizaowomen-67" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-68.xhtml" id="gaizaowomen-68" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-69.xhtml" id="gaizaowomen-69" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-70.xhtml" id="gaizaowomen-70" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-71.xhtml" id="gaizaowomen-71" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-72.xhtml" id="gaizaowomen-72" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-73.xhtml" id="gaizaowomen-73" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-74.xhtml" id="gaizaowomen-74" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-75.xhtml" id="gaizaowomen-75" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-76.xhtml" id="gaizaowomen-76" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-77.xhtml" id="gaizaowomen-77" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-78.xhtml" id="gaizaowomen-78" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-79.xhtml" id="gaizaowomen-79" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-80.xhtml" id="gaizaowomen-80" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-81.xhtml" id="gaizaowomen-81" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-82.xhtml" id="gaizaowomen-82" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-83.xhtml" id="gaizaowomen-83" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-84.xhtml" id="gaizaowomen-84" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-85.xhtml" id="gaizaowomen-85" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-86.xhtml" id="gaizaowomen-86" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-87.xhtml" id="gaizaowomen-87" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-88.xhtml" id="gaizaowomen-88" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-89.xhtml" id="gaizaowomen-89" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-90.xhtml" id="gaizaowomen-90" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-91.xhtml" id="gaizaowomen-91" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-92.xhtml" id="gaizaowomen-92" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-93.xhtml" id="gaizaowomen-93" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-94.xhtml" id="gaizaowomen-94" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-95.xhtml" id="gaizaowomen-95" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-96.xhtml" id="gaizaowomen-96" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-97.xhtml" id="gaizaowomen-97" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-98.xhtml" id="gaizaowomen-98" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-99.xhtml" id="gaizaowomen-99" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-100.xhtml" id="gaizaowomen-100" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-101.xhtml" id="gaizaowomen-101" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-102.xhtml" id="gaizaowomen-102" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-103.xhtml" id="gaizaowomen-103" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-104.xhtml" id="gaizaowomen-104" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-105.xhtml" id="gaizaowomen-105" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-106.xhtml" id="gaizaowomen-106" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-107.xhtml" id="gaizaowomen-107" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-108.xhtml" id="gaizaowomen-108" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-109.xhtml" id="gaizaowomen-109" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-110.xhtml" id="gaizaowomen-110" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-111.xhtml" id="gaizaowomen-111" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-112.xhtml" id="gaizaowomen-112" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-113.xhtml" id="gaizaowomen-113" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-114.xhtml" id="gaizaowomen-114" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-115.xhtml" id="gaizaowomen-115" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-116.xhtml" id="gaizaowomen-116" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-117.xhtml" id="gaizaowomen-117" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-118.xhtml" id="gaizaowomen-118" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-119.xhtml" id="gaizaowomen-119" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-120.xhtml" id="gaizaowomen-120" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-121.xhtml" id="gaizaowomen-121" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-122.xhtml" id="gaizaowomen-122" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-123.xhtml" id="gaizaowomen-123" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-124.xhtml" id="gaizaowomen-124" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-125.xhtml" id="gaizaowomen-125" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-126.xhtml" id="gaizaowomen-126" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-127.xhtml" id="gaizaowomen-127" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-128.xhtml" id="gaizaowomen-128" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-129.xhtml" id="gaizaowomen-129" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-130.xhtml" id="gaizaowomen-130" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-131.xhtml" id="gaizaowomen-131" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-132.xhtml" id="gaizaowomen-132" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-133.xhtml" id="gaizaowomen-133" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-134.xhtml" id="gaizaowomen-134" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-135.xhtml" id="gaizaowomen-135" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-136.xhtml" id="gaizaowomen-136" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-137.xhtml" id="gaizaowomen-137" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-138.xhtml" id="gaizaowomen-138" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-139.xhtml" id="gaizaowomen-139" media-type="application/xhtml+xml" />
+    <item href="Text/gaizaowomen-140.xhtml" id="gaizaowomen-140" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/gaizaowomen.css" id="gaizaowomen.css" media-type="text/css" />
+    <item href="font/AdobeSongStd-Light.otf" id="AdobeSongStd-Light.otf" media-type="application/vnd.ms-opentype" />
+    <item href="font/FZFSJW--GB1-0.TTF" id="FZFSJW--GB1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZFSK--GBK1-0.TTF" id="FZFSK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZHTJW--GB1-0.TTF" id="FZHTJW--GB1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZHTK--GBK1-0.TTF" id="FZHTK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZKTJW--GB1-0.TTF" id="FZKTJW--GB1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZSSK--GBK1-0.TTF" id="FZSSK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZXBSK--GBK1-0.TTF" id="FZXBSK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZXH1JW--GB1-0.ttf" id="FZXH1JW--GB1-0.ttf" media-type="application/x-font-ttf" />
+    <item href="Images/B1_fmt.png" id="B1_fmt.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/E14-24.jpg" id="E14-24.jpg" media-type="image/jpeg" />
+    <item href="Text/banquan.xhtml" id="banquan.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="banquan.xhtml" />
+    <itemref idref="gaizaowomen" />
+    <itemref idref="gaizaowomen-1" />
+    <itemref idref="gaizaowomen-2" />
+    <itemref idref="gaizaowomen-3" />
+    <itemref idref="gaizaowomen-4" />
+    <itemref idref="gaizaowomen-5" />
+    <itemref idref="gaizaowomen-6" />
+    <itemref idref="gaizaowomen-7" />
+    <itemref idref="gaizaowomen-8" />
+    <itemref idref="gaizaowomen-9" />
+    <itemref idref="gaizaowomen-10" />
+    <itemref idref="gaizaowomen-11" />
+    <itemref idref="gaizaowomen-12" />
+    <itemref idref="gaizaowomen-13" />
+    <itemref idref="gaizaowomen-14" />
+    <itemref idref="gaizaowomen-15" />
+    <itemref idref="gaizaowomen-16" />
+    <itemref idref="gaizaowomen-17" />
+    <itemref idref="gaizaowomen-18" />
+    <itemref idref="gaizaowomen-19" />
+    <itemref idref="gaizaowomen-20" />
+    <itemref idref="gaizaowomen-21" />
+    <itemref idref="gaizaowomen-22" />
+    <itemref idref="gaizaowomen-23" />
+    <itemref idref="gaizaowomen-24" />
+    <itemref idref="gaizaowomen-25" />
+    <itemref idref="gaizaowomen-26" />
+    <itemref idref="gaizaowomen-27" />
+    <itemref idref="gaizaowomen-28" />
+    <itemref idref="gaizaowomen-29" />
+    <itemref idref="gaizaowomen-30" />
+    <itemref idref="gaizaowomen-31" />
+    <itemref idref="gaizaowomen-32" />
+    <itemref idref="gaizaowomen-33" />
+    <itemref idref="gaizaowomen-34" />
+    <itemref idref="gaizaowomen-35" />
+    <itemref idref="gaizaowomen-36" />
+    <itemref idref="gaizaowomen-37" />
+    <itemref idref="gaizaowomen-38" />
+    <itemref idref="gaizaowomen-39" />
+    <itemref idref="gaizaowomen-40" />
+    <itemref idref="gaizaowomen-41" />
+    <itemref idref="gaizaowomen-42" />
+    <itemref idref="gaizaowomen-43" />
+    <itemref idref="gaizaowomen-44" />
+    <itemref idref="gaizaowomen-45" />
+    <itemref idref="gaizaowomen-46" />
+    <itemref idref="gaizaowomen-47" />
+    <itemref idref="gaizaowomen-48" />
+    <itemref idref="gaizaowomen-49" />
+    <itemref idref="gaizaowomen-50" />
+    <itemref idref="gaizaowomen-51" />
+    <itemref idref="gaizaowomen-52" />
+    <itemref idref="gaizaowomen-53" />
+    <itemref idref="gaizaowomen-54" />
+    <itemref idref="gaizaowomen-55" />
+    <itemref idref="gaizaowomen-56" />
+    <itemref idref="gaizaowomen-57" />
+    <itemref idref="gaizaowomen-58" />
+    <itemref idref="gaizaowomen-59" />
+    <itemref idref="gaizaowomen-60" />
+    <itemref idref="gaizaowomen-61" />
+    <itemref idref="gaizaowomen-62" />
+    <itemref idref="gaizaowomen-63" />
+    <itemref idref="gaizaowomen-64" />
+    <itemref idref="gaizaowomen-65" />
+    <itemref idref="gaizaowomen-66" />
+    <itemref idref="gaizaowomen-67" />
+    <itemref idref="gaizaowomen-68" />
+    <itemref idref="gaizaowomen-69" />
+    <itemref idref="gaizaowomen-70" />
+    <itemref idref="gaizaowomen-71" />
+    <itemref idref="gaizaowomen-72" />
+    <itemref idref="gaizaowomen-73" />
+    <itemref idref="gaizaowomen-74" />
+    <itemref idref="gaizaowomen-75" />
+    <itemref idref="gaizaowomen-76" />
+    <itemref idref="gaizaowomen-77" />
+    <itemref idref="gaizaowomen-78" />
+    <itemref idref="gaizaowomen-79" />
+    <itemref idref="gaizaowomen-80" />
+    <itemref idref="gaizaowomen-81" />
+    <itemref idref="gaizaowomen-82" />
+    <itemref idref="gaizaowomen-83" />
+    <itemref idref="gaizaowomen-84" />
+    <itemref idref="gaizaowomen-85" />
+    <itemref idref="gaizaowomen-86" />
+    <itemref idref="gaizaowomen-87" />
+    <itemref idref="gaizaowomen-88" />
+    <itemref idref="gaizaowomen-89" />
+    <itemref idref="gaizaowomen-90" />
+    <itemref idref="gaizaowomen-91" />
+    <itemref idref="gaizaowomen-92" />
+    <itemref idref="gaizaowomen-93" />
+    <itemref idref="gaizaowomen-94" />
+    <itemref idref="gaizaowomen-95" />
+    <itemref idref="gaizaowomen-96" />
+    <itemref idref="gaizaowomen-97" />
+    <itemref idref="gaizaowomen-98" />
+    <itemref idref="gaizaowomen-99" />
+    <itemref idref="gaizaowomen-100" />
+    <itemref idref="gaizaowomen-101" />
+    <itemref idref="gaizaowomen-102" />
+    <itemref idref="gaizaowomen-103" />
+    <itemref idref="gaizaowomen-104" />
+    <itemref idref="gaizaowomen-105" />
+    <itemref idref="gaizaowomen-106" />
+    <itemref idref="gaizaowomen-107" />
+    <itemref idref="gaizaowomen-108" />
+    <itemref idref="gaizaowomen-109" />
+    <itemref idref="gaizaowomen-110" />
+    <itemref idref="gaizaowomen-111" />
+    <itemref idref="gaizaowomen-112" />
+    <itemref idref="gaizaowomen-113" />
+    <itemref idref="gaizaowomen-114" />
+    <itemref idref="gaizaowomen-115" />
+    <itemref idref="gaizaowomen-116" />
+    <itemref idref="gaizaowomen-117" />
+    <itemref idref="gaizaowomen-118" />
+    <itemref idref="gaizaowomen-119" />
+    <itemref idref="gaizaowomen-120" />
+    <itemref idref="gaizaowomen-121" />
+    <itemref idref="gaizaowomen-122" />
+    <itemref idref="gaizaowomen-123" />
+    <itemref idref="gaizaowomen-124" />
+    <itemref idref="gaizaowomen-125" />
+    <itemref idref="gaizaowomen-126" />
+    <itemref idref="gaizaowomen-127" />
+    <itemref idref="gaizaowomen-128" />
+    <itemref idref="gaizaowomen-129" />
+    <itemref idref="gaizaowomen-130" />
+    <itemref idref="gaizaowomen-131" />
+    <itemref idref="gaizaowomen-132" />
+    <itemref idref="gaizaowomen-133" />
+    <itemref idref="gaizaowomen-134" />
+    <itemref idref="gaizaowomen-135" />
+    <itemref idref="gaizaowomen-136" />
+    <itemref idref="gaizaowomen-137" />
+    <itemref idref="gaizaowomen-138" />
+    <itemref idref="gaizaowomen-139" />
+    <itemref idref="gaizaowomen-140" />
+  </spine>
+</package>

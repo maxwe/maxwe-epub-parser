@@ -28,9 +28,9 @@ public class Chapter extends ADocumentParser implements IChapter {
     public Chapter(String documentPath) throws Exception {
         super(documentPath);
         this.href = this.documentPath;
+        this.parser();
     }
 
-    @Override
     protected void parser() throws Exception {
         Parser chapterParser = new Parser(this.documentPath);
         chapterParser.setEncoding("UTF-8");

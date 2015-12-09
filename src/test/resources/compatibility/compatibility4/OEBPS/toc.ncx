@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:cc145468-3b67-454b-a30c-c95924876aae" name="dtb:uid"/>
+		<meta content="6" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>前 言</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-4.xhtml#toc_marker-1"/>
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>第一章 困惑与冲突：现实的德育与德育的现实</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-5.xhtml#toc_marker-2"/>
+			<navPoint id="navpoint3" playOrder="3">
+				<navLabel>
+					<text>第一节 社会转型对学校德育的冲击</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-5.xhtml#toc_marker-2-1"/>
+			</navPoint>
+			<navPoint id="navpoint4" playOrder="4">
+				<navLabel>
+					<text>第二节 全球化与多元文化背景下的德育应对</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-5.xhtml#toc_marker-2-2"/>
+			</navPoint>
+			<navPoint id="navpoint5" playOrder="5">
+				<navLabel>
+					<text>第三节 课程改革过程中的教师与学生身份认同</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-5.xhtml#toc_marker-2-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint6" playOrder="6">
+			<navLabel>
+				<text>第二章 概念与语境：德育课程建设的逻辑预设</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-6.xhtml#toc_marker-3"/>
+			<navPoint id="navpoint7" playOrder="7">
+				<navLabel>
+					<text>第一节 德育概念梳理</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-6.xhtml#toc_marker-3-1"/>
+			</navPoint>
+			<navPoint id="navpoint8" playOrder="8">
+				<navLabel>
+					<text>第二节 德育概念的内在冲突与矛盾</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-6.xhtml#toc_marker-3-2"/>
+			</navPoint>
+			<navPoint id="navpoint9" playOrder="9">
+				<navLabel>
+					<text>第三节 德育中的道德基础辩护</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-6.xhtml#toc_marker-3-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel>
+				<text>第三章 解读与反思：学校德育课程改革的文化追问</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-7.xhtml#toc_marker-4"/>
+			<navPoint id="navpoint11" playOrder="11">
+				<navLabel>
+					<text>第一节 学校德育课程改革的新意解读</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-7.xhtml#toc_marker-4-1"/>
+			</navPoint>
+			<navPoint id="navpoint12" playOrder="12">
+				<navLabel>
+					<text>第二节 学校德育课程改革中存在的问题</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-7.xhtml#toc_marker-4-2"/>
+			</navPoint>
+			<navPoint id="navpoint13" playOrder="13">
+				<navLabel>
+					<text>第三节 学校德育课程改革的文化反思</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-7.xhtml#toc_marker-4-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint14" playOrder="14">
+			<navLabel>
+				<text>第四章 文化多样性：不同视野下的德育与德育课程</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-8.xhtml#toc_marker-5"/>
+			<navPoint id="navpoint15" playOrder="15">
+				<navLabel>
+					<text>第一节 跨文化与学校德育课程的民族性</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-8.xhtml#toc_marker-5-1"/>
+			</navPoint>
+			<navPoint id="navpoint16" playOrder="16">
+				<navLabel>
+					<text>第二节 外国学校德育与德育课程（上）</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-8.xhtml#toc_marker-5-2"/>
+			</navPoint>
+			<navPoint id="navpoint17" playOrder="17">
+				<navLabel>
+					<text>第三节 外国学校德育与德育课程（下）</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-8.xhtml#toc_marker-5-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint18" playOrder="18">
+			<navLabel>
+				<text>第五章 追根与溯源：中国传统道德文化课程资源</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-9.xhtml#toc_marker-6"/>
+			<navPoint id="navpoint19" playOrder="19">
+				<navLabel>
+					<text>第一节 格物、致知：中国传统道德教育的知识基础</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-9.xhtml#toc_marker-6-1"/>
+			</navPoint>
+			<navPoint id="navpoint20" playOrder="20">
+				<navLabel>
+					<text>第二节 天之大德曰“生”：传统道德文化中的生命意义解读</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-9.xhtml#toc_marker-6-2"/>
+			</navPoint>
+			<navPoint id="navpoint21" playOrder="21">
+				<navLabel>
+					<text>第三节 德者，得也：道德教育的内在自觉与主体培养</text>
+				</navLabel>
+				<content src="Text/DEyukechenglun-9.xhtml#toc_marker-6-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint22" playOrder="22">
+			<navLabel>
+				<text>结语 跨越世纪的主题：学校德育课程的生活基础</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-10.xhtml#toc_marker-7"/>
+		</navPoint>
+		<navPoint id="navpoint23" playOrder="23">
+			<navLabel>
+				<text>主要参考文献</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-11.xhtml#toc_marker-8"/>
+		</navPoint>
+		<navPoint id="navpoint24" playOrder="24">
+			<navLabel>
+				<text>后记</text>
+			</navLabel>
+			<content src="Text/DEyukechenglun-12.xhtml#toc_marker-9"/>
+		</navPoint>
+	</navMap>
+</ncx>

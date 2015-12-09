@@ -65,4 +65,14 @@ public class Manifest extends AXmlLabelParser {
         }
         return this.idItems.get(id);
     }
+
+    public String getNcxFileName(){
+        if (this.idItems.containsKey("ncx")){
+            return this.idItems.get("ncx").getHref();
+        }else if (idItems.containsKey("toc")){
+            return this.idItems.get("toc").getHref();
+        }else{
+            return null;
+        }
+    }
 }

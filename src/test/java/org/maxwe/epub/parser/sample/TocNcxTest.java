@@ -37,6 +37,9 @@ public class TocNcxTest extends TestCase {
         TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/multi-toc.ncx");
 //        TocNcx tocNcx = new TocNcx(path + File.separator + "OEBPS/toc.ncx");
         LinkedList<INavigation> navigations = tocNcx.getNavigations("");
+        for (INavigation navigation:navigations){
+            navigation.print();
+        }
         assertEquals(9,navigations.size());
     }
 }

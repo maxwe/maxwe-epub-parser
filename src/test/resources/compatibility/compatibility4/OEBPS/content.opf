@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:cc145468-3b67-454b-a30c-c95924876aae</dc:identifier>
+    <dc:title>德育课程论</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">易连云</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-11-26</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-11-28</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="fm.jpg" />
+  </metadata>
+  <manifest>
+    <item href="Text/DEyukechenglun.xhtml" id="DEyukechenglun" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-1.xhtml" id="DEyukechenglun-1" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-2.xhtml" id="DEyukechenglun-2" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-3.xhtml" id="DEyukechenglun-3" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-4.xhtml" id="DEyukechenglun-4" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-5.xhtml" id="DEyukechenglun-5" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-6.xhtml" id="DEyukechenglun-6" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-7.xhtml" id="DEyukechenglun-7" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-8.xhtml" id="DEyukechenglun-8" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-9.xhtml" id="DEyukechenglun-9" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-10.xhtml" id="DEyukechenglun-10" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-11.xhtml" id="DEyukechenglun-11" media-type="application/xhtml+xml" />
+    <item href="Text/DEyukechenglun-12.xhtml" id="DEyukechenglun-12" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/DEyukechenglun1111.css" id="DEyukechenglun1111.css" media-type="text/css" />
+    <item href="Fonts/AdobeSongStd-Light.otf" id="AdobeSongStd-Light.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/KaiTi_GB2312.ttf" id="KaiTi_GB2312.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimSun.ttc" id="SimSun.ttc" media-type="application/x-font-ttf" />
+    <item href="Fonts/STFangsong.TTF" id="STFangsong.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/TimesNewRomanPS-ItalicMT.ttf" id="TimesNewRomanPS-ItalicMT.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Images/1422T11_fmt.png" id="x1422T11_fmt.png" media-type="image/png" />
+    <item href="Images/1422T12_fmt.png" id="x1422T12_fmt.png" media-type="image/png" />
+    <item href="Images/1422T13_fmt.png" id="x1422T13_fmt.png" media-type="image/png" />
+    <item href="Images/1422T14_fmt.png" id="x1422T14_fmt.png" media-type="image/png" />
+    <item href="Images/1422T15_fmt.png" id="x1422T15_fmt.png" media-type="image/png" />
+    <item href="Images/1422T16_fmt.png" id="x1422T16_fmt.png" media-type="image/png" />
+    <item href="Images/1422T17_fmt.png" id="x1422T17_fmt.png" media-type="image/png" />
+    <item href="Images/1422T17_fmt1.png" id="x1422T17_fmt1.png" media-type="image/png" />
+    <item href="Images/1422T17_fmt2.png" id="x1422T17_fmt2.png" media-type="image/png" />
+    <item href="Images/1422T18_fmt.png" id="x1422T18_fmt.png" media-type="image/png" />
+    <item href="Images/1422T18_fmt1.png" id="x1422T18_fmt1.png" media-type="image/png" />
+    <item href="Images/1422T18_fmt2.png" id="x1422T18_fmt2.png" media-type="image/png" />
+    <item href="Images/1422T19_fmt.png" id="x1422T19_fmt.png" media-type="image/png" />
+    <item href="Images/1422T20_fmt.png" id="x1422T20_fmt.png" media-type="image/png" />
+    <item href="Images/1422T20_fmt1.png" id="x1422T20_fmt1.png" media-type="image/png" />
+    <item href="Images/1422T21_fmt.png" id="x1422T21_fmt.png" media-type="image/png" />
+    <item href="Images/1422T23_fmt.png" id="x1422T23_fmt.png" media-type="image/png" />
+    <item href="Images/1422T24_fmt.png" id="x1422T24_fmt.png" media-type="image/png" />
+    <item href="Images/1422T25_fmt.png" id="x1422T25_fmt.png" media-type="image/png" />
+    <item href="Images/1422T26_fmt.png" id="x1422T26_fmt.png" media-type="image/png" />
+    <item href="Images/1422T27_fmt.png" id="x1422T27_fmt.png" media-type="image/png" />
+    <item href="Images/1422T2_fmt.png" id="x1422T2_fmt.png" media-type="image/png" />
+    <item href="Images/1422T3_fmt.png" id="x1422T3_fmt.png" media-type="image/png" />
+    <item href="Images/1422T4_fmt.png" id="x1422T4_fmt.png" media-type="image/png" />
+    <item href="Images/1422T5_fmt.png" id="x1422T5_fmt.png" media-type="image/png" />
+    <item href="Images/1422T6_fmt.png" id="x1422T6_fmt.png" media-type="image/png" />
+    <item href="Images/1422T6_fmt1.png" id="x1422T6_fmt1.png" media-type="image/png" />
+    <item href="Images/1422T7_fmt.png" id="x1422T7_fmt.png" media-type="image/png" />
+    <item href="Images/1422T8_fmt.png" id="x1422T8_fmt.png" media-type="image/png" />
+    <item href="Images/1422T9_fmt.png" id="x1422T9_fmt.png" media-type="image/png" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/fm.jpg" id="fm.jpg" media-type="image/jpeg" />
+    <item href="Images/1422T1.png" id="x1422T1.png" media-type="image/png" />
+    <item href="Images/1422T10.png" id="x1422T10.png" media-type="image/png" />
+    <item href="Images/1422T1_fmt.png" id="x1422T1_fmt.png" media-type="image/png" />
+    <item href="Images/1422T10_fmt.png" id="x1422T10_fmt.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="DEyukechenglun" />
+    <itemref idref="DEyukechenglun-1" />
+    <itemref idref="DEyukechenglun-2" />
+    <itemref idref="DEyukechenglun-3" />
+    <itemref idref="DEyukechenglun-4" />
+    <itemref idref="DEyukechenglun-5" />
+    <itemref idref="DEyukechenglun-6" />
+    <itemref idref="DEyukechenglun-7" />
+    <itemref idref="DEyukechenglun-8" />
+    <itemref idref="DEyukechenglun-9" />
+    <itemref idref="DEyukechenglun-10" />
+    <itemref idref="DEyukechenglun-11" />
+    <itemref idref="DEyukechenglun-12" />
+  </spine>
+</package>

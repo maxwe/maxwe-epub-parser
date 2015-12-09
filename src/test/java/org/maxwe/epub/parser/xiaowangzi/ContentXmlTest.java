@@ -2,6 +2,8 @@ package org.maxwe.epub.parser.xiaowangzi;
 
 import junit.framework.TestCase;
 import org.junit.Test;
+import org.maxwe.epub.parser.meta.ContentOpf;
+import org.maxwe.epub.parser.meta.xml.Manifest;
 import org.maxwe.epub.parser.sample.BookTest;
 import org.maxwe.epub.parser.meta.ContainerXml;
 
@@ -32,7 +34,9 @@ public class ContentXmlTest extends TestCase {
     @Test
     public void testGetTocNcxPath() throws Exception{
         ContainerXml containerXml = new ContainerXml(path);
-        String tocNcxPath = containerXml.getTocNcxPath();
+        ContentOpf contentOpf = new ContentOpf(containerXml.getContentOpfPath());
+        Manifest manifest = contentOpf.getaPackage().getManifest();
+        String tocNcxPath = containerXml.getTocNcxPath(manifest.getNcxFileName());
         assertEquals(this.path + File.separator + "toc.ncx",tocNcxPath);
     }
 }

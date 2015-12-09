@@ -29,9 +29,9 @@ public class ContainerXml extends ADocumentParser {
 
     public ContainerXml(String documentPath) throws Exception {
         super(documentPath);
+        this.parser();
     }
 
-    @Override
     protected void parser() throws Exception {
         XmlPullParserFactory pullParserFactory = XmlPullParserFactory.newInstance();
         pullParserFactory.setNamespaceAware(true);
@@ -66,13 +66,17 @@ public class ContainerXml extends ADocumentParser {
 
         int index = this.fullPath.lastIndexOf(File.separator);
         if (index < 0){
-            this.OEBPSPath = "";
+            /**
+             * 如果不包含File.separator
+             * full-path参数中就只能是文件名称
+             */
+            this.OEBPSPath = this.documentPath;
             this.OEBPSName = "";
             this.defaultFileName = this.fullPath;
         }else{
-            this.OEBPSPath = this.fullPath.substring(0, index);
+            this.OEBPSPath = this.pathLinker(this.documentPath ,this.fullPath.substring(0, index));
             this.OEBPSName = this.fullPath.substring(0, index);
-            this.defaultFileName = this.fullPath.substring(index,this.fullPath.length());
+            this.defaultFileName = this.fullPath.substring(index + 1,this.fullPath.length());
         }
     }
 
@@ -98,8 +102,8 @@ public class ContainerXml extends ADocumentParser {
      * TODO 动态获取toc.ncx文件的路径
      * @return toc.ncx文件的绝对路径
      */
-    public String getTocNcxPath() {
-        return this.pathLinker(this.documentPath,this.fullPath.replace(this.defaultFileName,"toc.ncx"));
+    public String getTocNcxPath(String tocNcxFileName) {
+        return this.pathLinker(this.documentPath,this.fullPath.replace(this.defaultFileName,tocNcxFileName));
     }
 
     public String getOEBPSName() {

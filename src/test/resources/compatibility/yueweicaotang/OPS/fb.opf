@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="PrimaryID">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>阅微草堂笔记</dc:title>
+    <dc:identifier id="PrimaryID" opf:scheme="URN">c8c46bea-b724-49de-9538-da2e2d35aa05</dc:identifier>
+    <dc:language>zh</dc:language>
+    <dc:creator opf:role="aut" opf:file-as="author">纪昀</dc:creator>
+    <dc:publisher>书仓 shucang.com</dc:publisher>
+    <dc:description>本书为情代文言笔记小说集。作者纪昀（１７２４－１８０５）清学者、文学家。字晓岚，一字春帆。生于清乾隆时。直隶献县（今属河北）人。乾隆进士，官至礼部尚书、协办大学士。谥文达。
+
+曾任四库全书馆总篆官，篆定《四库全书总白提要》，受到乾隆皇帝嘉奖。能诗及骈文。有《纪文达公遗集》。并撰有《阅微草堂笔记》等。本书主要记述鬼狐怪故事。有的是小说，有的仅为随笔杂记。
+
+其中作品或表现作者对民生疾苦的关注</dc:description>
+    <dc:coverage>coverage</dc:coverage>
+    <dc:source>网络</dc:source>
+    <dc:date opf:event="original-publication">2010-01-16</dc:date>
+    <dc:date opf:event="ops-publication">date-ops</dc:date>
+    <dc:rights>版权归原作者所有,仅供学习交流使用,上传者自行对所传内容的权属负责</dc:rights>
+    <dc:subject>集库 小说</dc:subject>
+  </metadata>
+  <manifest>
+    <!-- Content Documents -->
+    <item id="title" href="title.xml" media-type="application/xhtml+xml"/>
+    <item id="about" href="about.xml" media-type="application/xhtml+xml"/>
+    <item id="right" href="right.xml" media-type="application/xhtml+xml"/>
+    <item id="shucang" href="shucang.xml" media-type="application/xhtml+xml"/>
+    <!-- CSS Style Sheets -->
+    <item id="main-css" href="css/main.css" media-type="text/css"/>
+    <!-- Images -->
+    <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
+    <!-- NCX -->
+    <item id="ncx" href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+  <item  id="node_6" href="node_6.html" media-type="application/xhtml+xml"/><item  id="node_8" href="node_8.html" media-type="application/xhtml+xml"/><item  id="node_10" href="node_10.html" media-type="application/xhtml+xml"/><item  id="node_12" href="node_12.html" media-type="application/xhtml+xml"/><item  id="node_14" href="node_14.html" media-type="application/xhtml+xml"/><item  id="node_16" href="node_16.html" media-type="application/xhtml+xml"/><item  id="node_18" href="node_18.html" media-type="application/xhtml+xml"/><item  id="node_20" href="node_20.html" media-type="application/xhtml+xml"/><item  id="node_22" href="node_22.html" media-type="application/xhtml+xml"/><item  id="node_24" href="node_24.html" media-type="application/xhtml+xml"/><item  id="node_26" href="node_26.html" media-type="application/xhtml+xml"/><item  id="node_28" href="node_28.html" media-type="application/xhtml+xml"/><item  id="node_30" href="node_30.html" media-type="application/xhtml+xml"/><item  id="node_32" href="node_32.html" media-type="application/xhtml+xml"/><item  id="node_34" href="node_34.html" media-type="application/xhtml+xml"/><item  id="node_36" href="node_36.html" media-type="application/xhtml+xml"/><item  id="node_38" href="node_38.html" media-type="application/xhtml+xml"/><item  id="node_40" href="node_40.html" media-type="application/xhtml+xml"/><item  id="node_42" href="node_42.html" media-type="application/xhtml+xml"/><item  id="node_44" href="node_44.html" media-type="application/xhtml+xml"/><item  id="node_46" href="node_46.html" media-type="application/xhtml+xml"/><item  id="node_48" href="node_48.html" media-type="application/xhtml+xml"/><item  id="node_50" href="node_50.html" media-type="application/xhtml+xml"/><item  id="node_52" href="node_52.html" media-type="application/xhtml+xml"/><item  id="node_54" href="node_54.html" media-type="application/xhtml+xml"/><item  id="node_56" href="node_56.html" media-type="application/xhtml+xml"/><item  id="node_58" href="node_58.html" media-type="application/xhtml+xml"/><item  id="node_60" href="node_60.html" media-type="application/xhtml+xml"/><item  id="node_62" href="node_62.html" media-type="application/xhtml+xml"/></manifest>
+  <spine toc="ncx">
+    <itemref idref="title" linear="yes"/>
+    <itemref idref="about" linear="yes"/>
+    <itemref idref="right" linear="yes"/>
+    <itemref idref="shucang" linear="yes"/>
+  <itemref  idref="node_6" linear="yes"/><itemref  idref="node_8" linear="yes"/><itemref  idref="node_10" linear="yes"/><itemref  idref="node_12" linear="yes"/><itemref  idref="node_14" linear="yes"/><itemref  idref="node_16" linear="yes"/><itemref  idref="node_18" linear="yes"/><itemref  idref="node_20" linear="yes"/><itemref  idref="node_22" linear="yes"/><itemref  idref="node_24" linear="yes"/><itemref  idref="node_26" linear="yes"/><itemref  idref="node_28" linear="yes"/><itemref  idref="node_30" linear="yes"/><itemref  idref="node_32" linear="yes"/><itemref  idref="node_34" linear="yes"/><itemref  idref="node_36" linear="yes"/><itemref  idref="node_38" linear="yes"/><itemref  idref="node_40" linear="yes"/><itemref  idref="node_42" linear="yes"/><itemref  idref="node_44" linear="yes"/><itemref  idref="node_46" linear="yes"/><itemref  idref="node_48" linear="yes"/><itemref  idref="node_50" linear="yes"/><itemref  idref="node_52" linear="yes"/><itemref  idref="node_54" linear="yes"/><itemref  idref="node_56" linear="yes"/><itemref  idref="node_58" linear="yes"/><itemref  idref="node_60" linear="yes"/><itemref  idref="node_62" linear="yes"/></spine>
+  <guide>
+    <reference type="title-page" title="封面" href="title.xml"/>
+    <reference type="bibliography" title="关于本书" href="about.xml"/>
+    <reference type="copyright-page" title="声明" href="right.xml"/>
+    <reference type="text" title="书仓介绍" href="shucang.xml"/>
+  <reference  type="text" title="※纪晓岚编书不写书-(1)" href="node_6.html"/><reference  type="text" title="※《阅微草堂笔记》原序-(1)" href="node_8.html"/><reference  type="text" title="※阅微草堂笔记·郑序-(1)" href="node_10.html"/><reference  type="text" title="※阅微草堂笔记·纪昀诗二首-(1)" href="node_12.html"/><reference  type="text" title="※卷一滦阳消夏录一-(1)" href="node_14.html"/><reference  type="text" title="※卷二　滦阳消夏录二-(1)" href="node_16.html"/><reference  type="text" title="※卷三　滦阳消夏录三-(1)" href="node_18.html"/><reference  type="text" title="※卷四　滦阳消夏录四-(1)" href="node_20.html"/><reference  type="text" title="※卷五　滦阳消夏录五-(1)" href="node_22.html"/><reference  type="text" title="※卷六　滦阳消夏录六-(1)" href="node_24.html"/><reference  type="text" title="※卷七　如是我闻一-(1)" href="node_26.html"/><reference  type="text" title="※卷八　如是我闻二-(1)" href="node_28.html"/><reference  type="text" title="※卷九　如是我闻三-(1)" href="node_30.html"/><reference  type="text" title="※卷十　如是我闻四-(1)" href="node_32.html"/><reference  type="text" title="※卷十一　槐西杂志一-(1)" href="node_34.html"/><reference  type="text" title="※卷十二　槐西杂志二-(1)" href="node_36.html"/><reference  type="text" title="※卷十三　槐西杂志三-(1)" href="node_38.html"/><reference  type="text" title="※卷十四　槐西杂志四-(1)" href="node_40.html"/><reference  type="text" title="※卷十五　姑妄听之一-(1)" href="node_42.html"/><reference  type="text" title="※卷十六　姑妄听之二-(1)" href="node_44.html"/><reference  type="text" title="※十七　姑妄听之三-(1)" href="node_46.html"/><reference  type="text" title="※卷十八　姑妄听之四-(1)" href="node_48.html"/><reference  type="text" title="※卷十九　滦阳续录一-(1)" href="node_50.html"/><reference  type="text" title="※卷二十　滦阳续录二-(1)" href="node_52.html"/><reference  type="text" title="※卷二十一　滦阳续录三-(1)" href="node_54.html"/><reference  type="text" title="※卷二十二　滦阳续录四-(1)" href="node_56.html"/><reference  type="text" title="※卷二十三　滦阳续录五-(1)" href="node_58.html"/><reference  type="text" title="※卷二十四　滦阳续录六-(1)" href="node_60.html"/><reference  type="text" title="※附：纪汝佶六则-(1)" href="node_62.html"/></guide>
+</package>

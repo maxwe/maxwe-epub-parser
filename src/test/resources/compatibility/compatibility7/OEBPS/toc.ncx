@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:87feda03-9931-4c41-b13e-b570a0137502" name="dtb:uid"/>
+		<meta content="2" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>序 一</text>
+			</navLabel>
+			<content src="Text/jxjhl-3.xhtml#toc_marker-1"/>
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>序 二</text>
+			</navLabel>
+			<content src="Text/jxjhl-4.xhtml#toc_marker-2"/>
+		</navPoint>
+		<navPoint id="navpoint3" playOrder="3">
+			<navLabel>
+				<text>前 言</text>
+			</navLabel>
+			<content src="Text/jxjhl-5.xhtml#toc_marker-3"/>
+		</navPoint>
+		<navPoint id="navpoint4" playOrder="4">
+			<navLabel>
+				<text>第一章 导言</text>
+			</navLabel>
+			<content src="Text/Section0001.xhtml#toc_marker-4"/>
+			<navPoint id="navpoint7" playOrder="7">
+				<navLabel>
+					<text>第一节　教育均衡发展的时代召唤</text>
+				</navLabel>
+				<content src="Text/Section0001.xhtml#toc_marker-6-1"/>
+			</navPoint>
+			<navPoint id="navpoint8" playOrder="8">
+				<navLabel>
+					<text>第二节　文献综述</text>
+				</navLabel>
+				<content src="Text/Section0001.xhtml#toc_marker-6-2"/>
+			</navPoint>
+			<navPoint id="navpoint9" playOrder="9">
+				<navLabel>
+					<text>第三节　研究目的、思路和方法</text>
+				</navLabel>
+				<content src="Text/Section0001.xhtml#toc_marker-6-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel>
+				<text>第二章 教育均衡发展的理论分析</text>
+			</navLabel>
+			<content src="Text/jxjhl-10.xhtml#toc_marker-7"/>
+			<navPoint id="navpoint13" playOrder="13">
+				<navLabel>
+					<text>第一节　教育均衡概念的界定</text>
+				</navLabel>
+				<content src="Text/jxjhl-10.xhtml#toc_marker-9-1"/>
+			</navPoint>
+			<navPoint id="navpoint15" playOrder="15">
+				<navLabel>
+					<text>第二节　教育均衡发展的经济学分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-10.xhtml#toc_marker-9-3"/>
+			</navPoint>
+			<navPoint id="navpoint16" playOrder="16">
+				<navLabel>
+					<text>第三节　教育均衡发展对经济社会发展的作用</text>
+				</navLabel>
+				<content src="Text/jxjhl-10.xhtml#toc_marker-9-4"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint17" playOrder="17">
+			<navLabel>
+				<text>第三章 教育均衡发展的理论基础</text>
+			</navLabel>
+			<content src="Text/jxjhl-11.xhtml#toc_marker-10"/>
+			<navPoint id="navpoint20" playOrder="20">
+				<navLabel>
+					<text>第一节　人力资本理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-11.xhtml#toc_marker-12-1"/>
+			</navPoint>
+			<navPoint id="navpoint21" playOrder="21">
+				<navLabel>
+					<text>第二节　新制度经济学理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-11.xhtml#toc_marker-12-2"/>
+			</navPoint>
+			<navPoint id="navpoint22" playOrder="22">
+				<navLabel>
+					<text>第三节　公共产品理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-11.xhtml#toc_marker-12-3"/>
+			</navPoint>
+			<navPoint id="navpoint23" playOrder="23">
+				<navLabel>
+					<text>第四节　公平与效率关系理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-11.xhtml#toc_marker-12-4"/>
+			</navPoint>
+			<navPoint id="navpoint24" playOrder="24">
+				<navLabel>
+					<text>第五节　区域经济理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-11.xhtml#toc_marker-12-5"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint25" playOrder="25">
+			<navLabel>
+				<text>第四章 教育均衡发展的理论阐释</text>
+			</navLabel>
+			<content src="Text/jxjhl-12.xhtml#toc_marker-13"/>
+			<navPoint id="navpoint26" playOrder="26">
+				<navLabel>
+					<text>第一节　教育均衡发展的内涵</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-1"/>
+			</navPoint>
+			<navPoint id="navpoint27" playOrder="27">
+				<navLabel>
+					<text>第二节　教育均衡发展的理论体系</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-2"/>
+			</navPoint>
+			<navPoint id="navpoint28" playOrder="28">
+				<navLabel>
+					<text>第三节　教育均衡的基本理论视点</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-3"/>
+			</navPoint>
+			<navPoint id="navpoint29" playOrder="29">
+				<navLabel>
+					<text>第四节　基础教育均衡发展阶段理论</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-4"/>
+			</navPoint>
+			<navPoint id="navpoint30" playOrder="30">
+				<navLabel>
+					<text>第五节　教育均衡发展的发展观</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-5"/>
+			</navPoint>
+			<navPoint id="navpoint31" playOrder="31">
+				<navLabel>
+					<text>第六节　促进教育均衡发展的基本原则</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-6"/>
+			</navPoint>
+			<navPoint id="navpoint32" playOrder="32">
+				<navLabel>
+					<text>第七节　教育均衡发展需要面对的实际问题</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-7"/>
+			</navPoint>
+			<navPoint id="navpoint33" playOrder="33">
+				<navLabel>
+					<text>第八节　警惕教育均衡发展中的低水平和高水平陷阱</text>
+				</navLabel>
+				<content src="Text/jxjhl-12.xhtml#toc_marker-13-8"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint34" playOrder="34">
+			<navLabel>
+				<text>第五章 教育均衡的指标体系和测度方法</text>
+			</navLabel>
+			<content src="Text/jxjhl-14.xhtml#toc_marker-14"/>
+			<navPoint id="navpoint37" playOrder="37">
+				<navLabel>
+					<text>第一节　教育均衡度的测度</text>
+				</navLabel>
+				<content src="Text/jxjhl-14.xhtml#toc_marker-16-1"/>
+			</navPoint>
+			<navPoint id="navpoint38" playOrder="38">
+				<navLabel>
+					<text>第二节　教育均衡的测度方法——教育均衡发展指数</text>
+				</navLabel>
+				<content src="Text/jxjhl-14.xhtml#toc_marker-16-2"/>
+			</navPoint>
+			<navPoint id="navpoint40" playOrder="40">
+				<navLabel>
+					<text>第三节　中国基础教育均衡发展指标及教育均衡指数</text>
+				</navLabel>
+				<content src="Text/jxjhl-14.xhtml#toc_marker-16-4"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint41" playOrder="41">
+			<navLabel>
+				<text>第六章 中国基础教育均衡发展实证分析</text>
+			</navLabel>
+			<content src="Text/jxjhl-16.xhtml#toc_marker-17"/>
+			<navPoint id="navpoint44" playOrder="44">
+				<navLabel>
+					<text>第一节　区域教育均衡度分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-16.xhtml#toc_marker-19-1"/>
+			</navPoint>
+			<navPoint id="navpoint45" playOrder="45">
+				<navLabel>
+					<text>第二节　城乡教育均衡度分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-16.xhtml#toc_marker-19-2"/>
+			</navPoint>
+			<navPoint id="navpoint46" playOrder="46">
+				<navLabel>
+					<text>第三节　学校间教育均衡度分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-16.xhtml#toc_marker-19-3"/>
+			</navPoint>
+			<navPoint id="navpoint48" playOrder="48">
+				<navLabel>
+					<text>第四节　群体间教育均衡度分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-16.xhtml#toc_marker-19-5"/>
+			</navPoint>
+			<navPoint id="navpoint49" playOrder="49">
+				<navLabel>
+					<text>第五节　综合分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-16.xhtml#toc_marker-19-6"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint50" playOrder="50">
+			<navLabel>
+				<text>第七章 中国基础教育发展不均衡现状及其分析</text>
+			</navLabel>
+			<content src="Text/jxjhl-17.xhtml#toc_marker-20"/>
+			<navPoint id="navpoint53" playOrder="53">
+				<navLabel>
+					<text>第一节　中国教育发展的回顾</text>
+				</navLabel>
+				<content src="Text/jxjhl-17.xhtml#toc_marker-22-1"/>
+			</navPoint>
+			<navPoint id="navpoint55" playOrder="55">
+				<navLabel>
+					<text>第二节　中国基础教育发展不均衡现状</text>
+				</navLabel>
+				<content src="Text/jxjhl-17.xhtml#toc_marker-22-3"/>
+			</navPoint>
+			<navPoint id="navpoint56" playOrder="56">
+				<navLabel>
+					<text>第三节　中国基础教育发展不均衡的成因分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-17.xhtml#toc_marker-22-4"/>
+			</navPoint>
+			<navPoint id="navpoint57" playOrder="57">
+				<navLabel>
+					<text>第四节　中国基础教育发展不均衡的经济学分析</text>
+				</navLabel>
+				<content src="Text/jxjhl-17.xhtml#toc_marker-22-5"/>
+			</navPoint>
+			<navPoint id="navpoint58" playOrder="58">
+				<navLabel>
+					<text>第五节　教育均衡发展是中国教育发展的必然选择</text>
+				</navLabel>
+				<content src="Text/jxjhl-17.xhtml#toc_marker-22-6"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint59" playOrder="59">
+			<navLabel>
+				<text>第八章 教育均衡发展案例研究</text>
+			</navLabel>
+			<content src="Text/jxjhl-19.xhtml#toc_marker-23"/>
+			<navPoint id="navpoint62" playOrder="62">
+				<navLabel>
+					<text>第一节　国际教育均衡发展政策</text>
+				</navLabel>
+				<content src="Text/jxjhl-19.xhtml#toc_marker-25-1"/>
+			</navPoint>
+			<navPoint id="navpoint64" playOrder="64">
+				<navLabel>
+					<text>第二节　国际教育均衡发展的新进展</text>
+				</navLabel>
+				<content src="Text/jxjhl-19.xhtml#toc_marker-25-3"/>
+			</navPoint>
+			<navPoint id="navpoint65" playOrder="65">
+				<navLabel>
+					<text>第三节　中国教育均衡的区域选择</text>
+				</navLabel>
+				<content src="Text/jxjhl-19.xhtml#toc_marker-25-4"/>
+			</navPoint>
+			<navPoint id="navpoint66" playOrder="66">
+				<navLabel>
+					<text>第四节　中国教育均衡发展案例研究</text>
+				</navLabel>
+				<content src="Text/jxjhl-19.xhtml#toc_marker-25-5"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint69" playOrder="69">
+			<navLabel>
+				<text>第九章 教育均衡发展的政策选择和对策研究</text>
+			</navLabel>
+			<content src="Text/jxjhl-21.xhtml#toc_marker-27"/>
+			<navPoint id="navpoint72" playOrder="72">
+				<navLabel>
+					<text>第一节　教育均衡发展的政策选择</text>
+				</navLabel>
+				<content src="Text/jxjhl-21.xhtml#toc_marker-29-1"/>
+			</navPoint>
+			<navPoint id="navpoint73" playOrder="73">
+				<navLabel>
+					<text>第二节　推进基础教育均衡发展的十大对策</text>
+				</navLabel>
+				<content src="Text/jxjhl-21.xhtml#toc_marker-29-2"/>
+			</navPoint>
+			<navPoint id="navpoint74" playOrder="74">
+				<navLabel>
+					<text>第三节　教育均衡发展的未来趋势</text>
+				</navLabel>
+				<content src="Text/jxjhl-21.xhtml#toc_marker-29-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint76" playOrder="76">
+			<navLabel>
+				<text>第十章 教育均衡发展理论与实践研究述评</text>
+			</navLabel>
+			<content src="Text/jxjhl-23.xhtml#toc_marker-30"/>
+			<navPoint id="navpoint79" playOrder="79">
+				<navLabel>
+					<text>第一节　基本结论</text>
+				</navLabel>
+				<content src="Text/jxjhl-23.xhtml#toc_marker-32-1"/>
+			</navPoint>
+			<navPoint id="navpoint81" playOrder="81">
+				<navLabel>
+					<text>第二节　基本思想</text>
+				</navLabel>
+				<content src="Text/jxjhl-23.xhtml#toc_marker-32-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint82" playOrder="82">
+			<navLabel>
+				<text>主要参考文献</text>
+			</navLabel>
+			<content src="Text/jxjhl-24.xhtml#toc_marker-33"/>
+		</navPoint>
+		<navPoint id="navpoint83" playOrder="83">
+			<navLabel>
+				<text>附录一 统计数据</text>
+			</navLabel>
+			<content src="Text/jxjhl-25.xhtml#toc_marker-34"/>
+		</navPoint>
+		<navPoint id="navpoint84" playOrder="84">
+			<navLabel>
+				<text>附录二 调查问卷表</text>
+			</navLabel>
+			<content src="Text/jxjhl-26.xhtml#toc_marker-35"/>
+		</navPoint>
+		<navPoint id="navpoint90" playOrder="90">
+			<navLabel>
+				<text>附录三 有关计算公式</text>
+			</navLabel>
+			<content src="Text/jxjhl-28.xhtml#toc_marker-38"/>
+		</navPoint>
+		<navPoint id="navpoint93" playOrder="93">
+			<navLabel>
+				<text>附录四 图表、专栏目录</text>
+			</navLabel>
+			<content src="Text/jxjhl-29.xhtml#toc_marker-41"/>
+		</navPoint>
+		<navPoint id="navpoint96" playOrder="96">
+			<navLabel>
+				<text>附录五 《中华人民共和国义务教育法》</text>
+			</navLabel>
+			<content src="Text/jxjhl-30.xhtml#toc_marker-44"/>
+		</navPoint>
+		<navPoint id="navpoint99" playOrder="99">
+			<navLabel>
+				<text>附录六 新中国走向教育公平的足迹</text>
+			</navLabel>
+			<content src="Text/jxjhl-31.xhtml#toc_marker-47"/>
+		</navPoint>
+		<navPoint id="navpoint102" playOrder="102">
+			<navLabel>
+				<text>后记</text>
+			</navLabel>
+			<content src="Text/jxjhl-32.xhtml#toc_marker-50"/>
+		</navPoint>
+	</navMap>
+</ncx>

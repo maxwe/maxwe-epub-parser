@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:3779e971-b5fd-4ecc-8bec-f5c1c53ac66b</dc:identifier>
+    <dc:title>五只小兔子的远方</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">吕丽娜</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-12-18</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-12-18</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta name="cover" content="x1.jpg" />
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="Text/xtz.xhtml" id="xtz" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-1.xhtml" id="xtz-1" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-2.xhtml" id="xtz-2" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-3.xhtml" id="xtz-3" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-4.xhtml" id="xtz-4" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-5.xhtml" id="xtz-5" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-6.xhtml" id="xtz-6" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-7.xhtml" id="xtz-7" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-8.xhtml" id="xtz-8" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-9.xhtml" id="xtz-9" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-10.xhtml" id="xtz-10" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-11.xhtml" id="xtz-11" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-12.xhtml" id="xtz-12" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-13.xhtml" id="xtz-13" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-14.xhtml" id="xtz-14" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-15.xhtml" id="xtz-15" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-16.xhtml" id="xtz-16" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-17.xhtml" id="xtz-17" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-18.xhtml" id="xtz-18" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-19.xhtml" id="xtz-19" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-20.xhtml" id="xtz-20" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-21.xhtml" id="xtz-21" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-22.xhtml" id="xtz-22" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-23.xhtml" id="xtz-23" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-24.xhtml" id="xtz-24" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-25.xhtml" id="xtz-25" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-26.xhtml" id="xtz-26" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-27.xhtml" id="xtz-27" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-28.xhtml" id="xtz-28" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-29.xhtml" id="xtz-29" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-30.xhtml" id="xtz-30" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-31.xhtml" id="xtz-31" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-32.xhtml" id="xtz-32" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-33.xhtml" id="xtz-33" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-34.xhtml" id="xtz-34" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-35.xhtml" id="xtz-35" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-36.xhtml" id="xtz-36" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-37.xhtml" id="xtz-37" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-38.xhtml" id="xtz-38" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-39.xhtml" id="xtz-39" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-40.xhtml" id="xtz-40" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-41.xhtml" id="xtz-41" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-42.xhtml" id="xtz-42" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-43.xhtml" id="xtz-43" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-44.xhtml" id="xtz-44" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-45.xhtml" id="xtz-45" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-46.xhtml" id="xtz-46" media-type="application/xhtml+xml" />
+    <item href="Text/xtz-47.xhtml" id="xtz-47" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/xtz1.css" id="xtz1.css" media-type="text/css" />
+    <item href="Fonts/AdobeSongStd-Light.otf" id="AdobeSongStd-Light.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/FZKTK--GBK1-0.TTF" id="FZKTK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="Fonts/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimSun.ttc" id="SimSun.ttc" media-type="application/x-font-ttf" />
+    <item href="Images/1.jpg" id="x1.jpg" media-type="image/jpeg" />
+    <item href="Images/2.jpg" id="x2.jpg" media-type="image/jpeg" />
+    <item href="Images/3.jpg" id="x3.jpg" media-type="image/jpeg" />
+    <item href="Images/4.jpg" id="x4.jpg" media-type="image/jpeg" />
+    <item href="Images/5.jpg" id="x5.jpg" media-type="image/jpeg" />
+    <item href="Images/6.jpg" id="x6.jpg" media-type="image/jpeg" />
+    <item href="Images/7.jpg" id="x7.jpg" media-type="image/jpeg" />
+    <item href="Images/8.jpg" id="x8.jpg" media-type="image/jpeg" />
+    <item href="Images/9.jpg" id="x9.jpg" media-type="image/jpeg" />
+    <item href="Images/10.jpg" id="x10.jpg" media-type="image/jpeg" />
+    <item href="Images/11.jpg" id="x11.jpg" media-type="image/jpeg" />
+    <item href="Images/12.jpg" id="x12.jpg" media-type="image/jpeg" />
+    <item href="Images/13.jpg" id="x13.jpg" media-type="image/jpeg" />
+    <item href="Images/14.jpg" id="x14.jpg" media-type="image/jpeg" />
+    <item href="Images/15.jpg" id="x15.jpg" media-type="image/jpeg" />
+    <item href="Images/16.jpg" id="x16.jpg" media-type="image/jpeg" />
+    <item href="Images/17.jpg" id="x17.jpg" media-type="image/jpeg" />
+    <item href="Images/18.jpg" id="x18.jpg" media-type="image/jpeg" />
+    <item href="Images/19.jpg" id="x19.jpg" media-type="image/jpeg" />
+    <item href="Images/20.jpg" id="x20.jpg" media-type="image/jpeg" />
+    <item href="Images/21.jpg" id="x21.jpg" media-type="image/jpeg" />
+    <item href="Images/22.jpg" id="x22.jpg" media-type="image/jpeg" />
+    <item href="Images/23.jpg" id="x23.jpg" media-type="image/jpeg" />
+    <item href="Images/24.jpg" id="x24.jpg" media-type="image/jpeg" />
+    <item href="Images/25.jpg" id="x25.jpg" media-type="image/jpeg" />
+    <item href="Images/26.jpg" id="x26.jpg" media-type="image/jpeg" />
+    <item href="Images/27.jpg" id="x27.jpg" media-type="image/jpeg" />
+    <item href="Images/28.jpg" id="x28.jpg" media-type="image/jpeg" />
+    <item href="Images/29.jpg" id="x29.jpg" media-type="image/jpeg" />
+    <item href="Images/30.jpg" id="x30.jpg" media-type="image/jpeg" />
+    <item href="Images/31.jpg" id="x31.jpg" media-type="image/jpeg" />
+    <item href="Images/32.jpg" id="x32.jpg" media-type="image/jpeg" />
+    <item href="Images/33.jpg" id="x33.jpg" media-type="image/jpeg" />
+    <item href="Images/34.jpg" id="x34.jpg" media-type="image/jpeg" />
+    <item href="Images/35.jpg" id="x35.jpg" media-type="image/jpeg" />
+    <item href="Images/36.jpg" id="x36.jpg" media-type="image/jpeg" />
+    <item href="Images/37.jpg" id="x37.jpg" media-type="image/jpeg" />
+    <item href="Images/38.jpg" id="x38.jpg" media-type="image/jpeg" />
+    <item href="Images/39.jpg" id="x39.jpg" media-type="image/jpeg" />
+    <item href="Images/40.jpg" id="x40.jpg" media-type="image/jpeg" />
+    <item href="Images/41.jpg" id="x41.jpg" media-type="image/jpeg" />
+    <item href="Images/42.jpg" id="x42.jpg" media-type="image/jpeg" />
+    <item href="Images/43.jpg" id="x43.jpg" media-type="image/jpeg" />
+    <item href="Images/44.jpg" id="x44.jpg" media-type="image/jpeg" />
+    <item href="Images/45.jpg" id="x45.jpg" media-type="image/jpeg" />
+    <item href="Images/46.jpg" id="x46.jpg" media-type="image/jpeg" />
+    <item href="Images/47.jpg" id="x47.jpg" media-type="image/jpeg" />
+    <item href="Images/48.jpg" id="x48.jpg" media-type="image/jpeg" />
+    <item href="Images/49.jpg" id="x49.jpg" media-type="image/jpeg" />
+    <item href="Images/50.jpg" id="x50.jpg" media-type="image/jpeg" />
+    <item href="Images/51.jpg" id="x51.jpg" media-type="image/jpeg" />
+    <item href="Images/52.jpg" id="x52.jpg" media-type="image/jpeg" />
+    <item href="Images/53.jpg" id="x53.jpg" media-type="image/jpeg" />
+    <item href="Images/54.jpg" id="x54.jpg" media-type="image/jpeg" />
+    <item href="Images/55.jpg" id="x55.jpg" media-type="image/jpeg" />
+    <item href="Images/56.jpg" id="x56.jpg" media-type="image/jpeg" />
+    <item href="Images/57.jpg" id="x57.jpg" media-type="image/jpeg" />
+    <item href="Images/58.jpg" id="x58.jpg" media-type="image/jpeg" />
+    <item href="Images/59.jpg" id="x59.jpg" media-type="image/jpeg" />
+    <item href="Images/60.jpg" id="x60.jpg" media-type="image/jpeg" />
+    <item href="Images/61.jpg" id="x61.jpg" media-type="image/jpeg" />
+    <item href="Images/62.jpg" id="x62.jpg" media-type="image/jpeg" />
+    <item href="Images/70.jpg" id="x70.jpg" media-type="image/jpeg" />
+    <item href="Images/71.jpg" id="x71.jpg" media-type="image/jpeg" />
+    <item href="Images/72.jpg" id="x72.jpg" media-type="image/jpeg" />
+    <item href="Images/73.jpg" id="x73.jpg" media-type="image/jpeg" />
+    <item href="Images/74.jpg" id="x74.jpg" media-type="image/jpeg" />
+    <item href="Images/75.jpg" id="x75.jpg" media-type="image/jpeg" />
+    <item href="Images/76.jpg" id="x76.jpg" media-type="image/jpeg" />
+    <item href="Images/77.jpg" id="x77.jpg" media-type="image/jpeg" />
+    <item href="Images/78.jpg" id="x78.jpg" media-type="image/jpeg" />
+    <item href="Images/79.jpg" id="x79.jpg" media-type="image/jpeg" />
+    <item href="Images/80.jpg" id="x80.jpg" media-type="image/jpeg" />
+    <item href="Images/81.jpg" id="x81.jpg" media-type="image/jpeg" />
+    <item href="Images/82.jpg" id="x82.jpg" media-type="image/jpeg" />
+    <item href="Images/83.jpg" id="x83.jpg" media-type="image/jpeg" />
+    <item href="Images/84.jpg" id="x84.jpg" media-type="image/jpeg" />
+    <item href="Images/85.jpg" id="x85.jpg" media-type="image/jpeg" />
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0004.xhtml" id="Section0004.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0005.xhtml" id="Section0005.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0006.xhtml" id="Section0006.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0007.xhtml" id="Section0007.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0008.xhtml" id="Section0008.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0009.xhtml" id="Section0009.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0010.xhtml" id="Section0010.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0011.xhtml" id="Section0011.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0012.xhtml" id="Section0012.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0013.xhtml" id="Section0013.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0014.xhtml" id="Section0014.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0015.xhtml" id="Section0015.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0016.xhtml" id="Section0016.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0017.xhtml" id="Section0017.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0018.xhtml" id="Section0018.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0019.xhtml" id="Section0019.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0020.xhtml" id="Section0020.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0021.xhtml" id="Section0021.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0022.xhtml" id="Section0022.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0023.xhtml" id="Section0023.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0024.xhtml" id="Section0024.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0025.xhtml" id="Section0025.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0026.xhtml" id="Section0026.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0027.xhtml" id="Section0027.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0028.xhtml" id="Section0028.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0029.xhtml" id="Section0029.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0030.xhtml" id="Section0030.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0031.xhtml" id="Section0031.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0032.xhtml" id="Section0032.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0033.xhtml" id="Section0033.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0034.xhtml" id="Section0034.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0035.xhtml" id="Section0035.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0036.xhtml" id="Section0036.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0037.xhtml" id="Section0037.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0038.xhtml" id="Section0038.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0039.xhtml" id="Section0039.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0040.xhtml" id="Section0040.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0041.xhtml" id="Section0041.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0042.xhtml" id="Section0042.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0043.xhtml" id="Section0043.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0044.xhtml" id="Section0044.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0045.xhtml" id="Section0045.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0046.xhtml" id="Section0046.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0047.xhtml" id="Section0047.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0048.xhtml" id="Section0048.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0049.xhtml" id="Section0049.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0050.xhtml" id="Section0050.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0051.xhtml" id="Section0051.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0052.xhtml" id="Section0052.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0053.xhtml" id="Section0053.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0054.xhtml" id="Section0054.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/86.jpg" id="x86.jpg" media-type="image/jpeg" />
+    <item href="Images/87.jpg" id="x87.jpg" media-type="image/jpeg" />
+    <item href="Text/Section0055.xhtml" id="Section0055.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/bq.xhtml" id="bq.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="bq.xhtml" />
+    <itemref idref="Section0001.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0002.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0003.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0004.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0005.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-1" />
+    <itemref idref="Section0006.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0007.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-2" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-3" />
+    <itemref idref="Section0008.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0009.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-4" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-5" />
+    <itemref idref="Section0010.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0011.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-6" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-7" />
+    <itemref idref="Section0012.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0013.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-8" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-9" />
+    <itemref idref="Section0014.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0015.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-10" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-11" />
+    <itemref idref="Section0016.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0017.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-12" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-13" />
+    <itemref idref="Section0018.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0019.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-14" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-15" />
+    <itemref idref="Section0020.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0021.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-16" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-17" />
+    <itemref idref="Section0022.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0023.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-18" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-19" />
+    <itemref idref="Section0024.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0025.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-20" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-21" />
+    <itemref idref="Section0026.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0027.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-22" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-23" />
+    <itemref idref="Section0028.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0029.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-24" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-25" />
+    <itemref idref="Section0030.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0031.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-26" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-27" />
+    <itemref idref="Section0032.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0033.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-28" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-29" />
+    <itemref idref="Section0034.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0035.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-30" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-31" />
+    <itemref idref="Section0036.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0037.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-32" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-33" />
+    <itemref idref="Section0038.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0039.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-34" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-35" />
+    <itemref idref="Section0040.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0041.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-36" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-37" />
+    <itemref idref="Section0042.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0043.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-38" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-39" />
+    <itemref idref="Section0044.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0045.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-40" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-41" />
+    <itemref idref="Section0046.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0047.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0048.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-42" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-43" />
+    <itemref idref="Section0049.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0050.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-44" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-45" />
+    <itemref idref="Section0051.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0052.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-46" properties="duokan-page-fullscreen" />
+    <itemref idref="xtz-47" />
+    <itemref idref="Section0053.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0054.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0055.xhtml" properties="duokan-page-fullscreen" />
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="封面" type="cover" />
+  </guide>
+</package>

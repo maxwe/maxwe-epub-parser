@@ -1,0 +1,219 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	-epub-hyphens:auto;
+	-webkit-hyphens:auto;
+}
+@page {
+	margin : 0px 0px 0px 0px;
+}
+p.x---- {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"楷体";
+	font-size:0.833em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.h4 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.h3 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:2em;
+}
+p.h2 {
+	-epub-ruby-position:over;
+	color:#0000ff;
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:1em;
+	margin-top:0.5em;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:2em;
+}
+p.h1 {
+	-epub-ruby-position:over;
+	color:#d26900;
+	font-family:"黑体";
+	font-size:1.5em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1;
+	margin-bottom:1em;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+    border-left:solid #d26900 5px;
+    padding-left:0.5em;
+    border-bottom:solid #d26900 1px;
+    padding-bottom:0.2em;
+}
+p.zw {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:2em;
+}
+p.zwkt {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"楷体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.lingmian {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"FZKai-Z03S", serif;
+	font-size:1.667em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.fszw {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"仿宋";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.riqi {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"仿宋";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0px;
+}
+span.ht {
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.fs {
+	font-family:"仿宋";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.kt {
+	font-family:"楷体";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-1 {
+	vertical-align:super;
+}
+span.char-style-override-2 {
+	font-family:SimSun, serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-3 {
+	font-family:SimSun;
+	font-style:normal;
+	font-weight:normal;
+}

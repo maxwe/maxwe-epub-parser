@@ -20,9 +20,9 @@ public class ContentOpf extends ADocumentParser {
 
     public ContentOpf(String documentPath) throws Exception {
         super(documentPath);
+        this.parser();
     }
 
-    @Override
     protected void parser() throws Exception {
         XmlPullParserFactory pullParserFactory = XmlPullParserFactory.newInstance();
         pullParserFactory.setNamespaceAware(true);

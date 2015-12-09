@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:c3cc26b4-5897-4763-a15a-870fa8a279aa</dc:identifier>
+    <dc:title>教育过程最优化</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">[苏]尤·克·巴班斯基</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-12-08</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-12-09</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="fm.jpg" />
+  </metadata>
+  <manifest>
+    <item href="Text/JIAOyuguochengzuiyouhua.xhtml" id="JIAOyuguochengzuiyouhua" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-1.xhtml" id="JIAOyuguochengzuiyouhua-1" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-2.xhtml" id="JIAOyuguochengzuiyouhua-2" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-3.xhtml" id="JIAOyuguochengzuiyouhua-3" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-4.xhtml" id="JIAOyuguochengzuiyouhua-4" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-5.xhtml" id="JIAOyuguochengzuiyouhua-5" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-6.xhtml" id="JIAOyuguochengzuiyouhua-6" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-7.xhtml" id="JIAOyuguochengzuiyouhua-7" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-8.xhtml" id="JIAOyuguochengzuiyouhua-8" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-9.xhtml" id="JIAOyuguochengzuiyouhua-9" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-10.xhtml" id="JIAOyuguochengzuiyouhua-10" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-11.xhtml" id="JIAOyuguochengzuiyouhua-11" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-12.xhtml" id="JIAOyuguochengzuiyouhua-12" media-type="application/xhtml+xml" />
+    <item href="Text/JIAOyuguochengzuiyouhua-13.xhtml" id="JIAOyuguochengzuiyouhua-13" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/JIAOyuguochengzuiyouhua.css" id="JIAOyuguochengzuiyouhua.css" media-type="text/css" />
+    <item href="Fonts/AdobeSongStd-Light.otf" id="AdobeSongStd-Light.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/KaiTi_GB2312.ttf" id="KaiTi_GB2312.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimSun.ttc" id="SimSun.ttc" media-type="application/x-font-ttf" />
+    <item href="Fonts/STFangsong.TTF" id="STFangsong.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/TimesNewRomanPSMT.ttf" id="TimesNewRomanPSMT.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/YouYuan.TTF" id="YouYuan.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="Images/p105_table7_fmt.png" id="p105_table7_fmt.png" media-type="image/png" />
+    <item href="Images/p110_table8_fmt.png" id="p110_table8_fmt.png" media-type="image/png" />
+    <item href="Images/p112_table10_fmt.png" id="p112_table10_fmt.png" media-type="image/png" />
+    <item href="Images/p112_table9_fmt.png" id="p112_table9_fmt.png" media-type="image/png" />
+    <item href="Images/p113_table11_fmt.png" id="p113_table11_fmt.png" media-type="image/png" />
+    <item href="Images/p114_table12_fmt.png" id="p114_table12_fmt.png" media-type="image/png" />
+    <item href="Images/p115_table12_xu_fmt.png" id="p115_table12_xu_fmt.png" media-type="image/png" />
+    <item href="Images/p122_table13_fmt.png" id="p122_table13_fmt.png" media-type="image/png" />
+    <item href="Images/p123_table14_fmt.png" id="p123_table14_fmt.png" media-type="image/png" />
+    <item href="Images/p138_table15_fmt.png" id="p138_table15_fmt.png" media-type="image/png" />
+    <item href="Images/p142_fmt.png" id="p142_fmt.png" media-type="image/png" />
+    <item href="Images/p143%2Bp144_fmt.png" id="p143-p144_fmt.png" media-type="image/png" />
+    <item href="Images/p143%2Bp144_fmt1.png" id="p143-p144_fmt1.png" media-type="image/png" />
+    <item href="Images/p144_fmt.png" id="p144_fmt.png" media-type="image/png" />
+    <item href="Images/p150_table16_fmt.png" id="p150_table16_fmt.png" media-type="image/png" />
+    <item href="Images/p152_fmt.png" id="p152_fmt.png" media-type="image/png" />
+    <item href="Images/p152_table17_fmt.png" id="p152_table17_fmt.png" media-type="image/png" />
+    <item href="Images/p16_table1_fmt.png" id="p16_table1_fmt.png" media-type="image/png" />
+    <item href="Images/p16_table1_xu_fmt.png" id="p16_table1_xu_fmt.png" media-type="image/png" />
+    <item href="Images/p173_table18_fmt.png" id="p173_table18_fmt.png" media-type="image/png" />
+    <item href="Images/p174_table19_fmt.png" id="p174_table19_fmt.png" media-type="image/png" />
+    <item href="Images/p175_table20_fmt.png" id="p175_table20_fmt.png" media-type="image/png" />
+    <item href="Images/p179_table21_fmt.png" id="p179_table21_fmt.png" media-type="image/png" />
+    <item href="Images/p193_table22_fmt.png" id="p193_table22_fmt.png" media-type="image/png" />
+    <item href="Images/p194_table23_fmt.png" id="p194_table23_fmt.png" media-type="image/png" />
+    <item href="Images/p197_table24_fmt.png" id="p197_table24_fmt.png" media-type="image/png" />
+    <item href="Images/p197_table25_fmt.png" id="p197_table25_fmt.png" media-type="image/png" />
+    <item href="Images/p19_fmt.png" id="p19_fmt.png" media-type="image/png" />
+    <item href="Images/p202_table26_fmt.png" id="p202_table26_fmt.png" media-type="image/png" />
+    <item href="Images/p210_table27_fmt.png" id="p210_table27_fmt.png" media-type="image/png" />
+    <item href="Images/p230_table28_fmt.png" id="p230_table28_fmt.png" media-type="image/png" />
+    <item href="Images/p231_table29_fmt.png" id="p231_table29_fmt.png" media-type="image/png" />
+    <item href="Images/p65_table2_fmt.png" id="p65_table2_fmt.png" media-type="image/png" />
+    <item href="Images/p69_table3_fmt.png" id="p69_table3_fmt.png" media-type="image/png" />
+    <item href="Images/p89_table4_fmt.png" id="p89_table4_fmt.png" media-type="image/png" />
+    <item href="Images/p92_table5_fmt.png" id="p92_table5_fmt.png" media-type="image/png" />
+    <item href="Images/p93_table5_xu_fmt.png" id="p93_table5_xu_fmt.png" media-type="image/png" />
+    <item href="Images/p99_table6_fmt.png" id="p99_table6_fmt.png" media-type="image/png" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/ct.jpg" id="ct.jpg" media-type="image/jpeg" />
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/fm.jpg" id="fm.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0003.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="JIAOyuguochengzuiyouhua" />
+    <itemref idref="Section0001.xhtml" />
+    <itemref idref="JIAOyuguochengzuiyouhua-1" />
+    <itemref idref="JIAOyuguochengzuiyouhua-2" />
+    <itemref idref="Section0002.xhtml" />
+    <itemref idref="JIAOyuguochengzuiyouhua-3" />
+    <itemref idref="JIAOyuguochengzuiyouhua-4" />
+    <itemref idref="JIAOyuguochengzuiyouhua-5" />
+    <itemref idref="JIAOyuguochengzuiyouhua-6" />
+    <itemref idref="JIAOyuguochengzuiyouhua-7" />
+    <itemref idref="JIAOyuguochengzuiyouhua-8" />
+    <itemref idref="JIAOyuguochengzuiyouhua-9" />
+    <itemref idref="JIAOyuguochengzuiyouhua-10" />
+    <itemref idref="JIAOyuguochengzuiyouhua-11" />
+    <itemref idref="JIAOyuguochengzuiyouhua-12" />
+    <itemref idref="JIAOyuguochengzuiyouhua-13" />
+  </spine>
+</package>

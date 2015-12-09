@@ -27,9 +27,9 @@ public class Book extends ADocumentParser implements IBook {
 
     public Book(String documentPath) throws Exception {
         super(documentPath);
+        this.parser();
     }
 
-    @Override
     protected void parser() throws Exception {
         ContainerXml containerXml = new ContainerXml(this.documentPath);
         this.OEBPSName = containerXml.getOEBPSName();
@@ -45,7 +45,7 @@ public class Book extends ADocumentParser implements IBook {
                 this.spineItems.add(new SpineItem(itemById.getId(), itemById.getHref(), index,containerXml.getOEBPSPath() + File.separator + itemById.getHref(), itemById.getMediaType()));
             }
         }
-        this.content = new Content(containerXml.getTocNcxPath(), containerXml.getOEBPSPath());
+        this.content = new Content(containerXml.getTocNcxPath(this.manifest.getNcxFileName()), containerXml.getOEBPSPath());
     }
 
     public IMetadata getMetadata() {

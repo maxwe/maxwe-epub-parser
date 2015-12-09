@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:2efc048c-12a4-45f9-a713-75311b92b20b" name="dtb:uid"/>
+		<meta content="4" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>自序</text>
+			</navLabel>
+			<content src="Text/gaizaowomen.xhtml#toc_marker-1"/>
+		</navPoint>
+			<navPoint id="navpoint2" playOrder="2">
+				<navLabel>
+					<text>把特级教师这支队伍建设好</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-1.xhtml#toc_marker-1-1"/>
+			</navPoint>
+			<navPoint id="navpoint3" playOrder="3">
+				<navLabel>
+					<text>开创体育、卫生、国防教育的新局面 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-2.xhtml#toc_marker-1-2"/>
+			</navPoint>
+			<navPoint id="navpoint4" playOrder="4">
+				<navLabel>
+					<text>切实推进考试制度和考试方法的改革</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-3.xhtml#toc_marker-1-3"/>
+			</navPoint>
+			<navPoint id="navpoint5" playOrder="5">
+				<navLabel>
+					<text>教育应该是道德的、情感的、智慧的 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-4.xhtml#toc_marker-1-4"/>
+			</navPoint>
+			<navPoint id="navpoint6" playOrder="6">
+				<navLabel>
+					<text>以宇宙作教室　奉自然为宗师 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-5.xhtml#toc_marker-1-5"/>
+			</navPoint>
+			<navPoint id="navpoint7" playOrder="7">
+				<navLabel>
+					<text>“应试”是人生轨迹当中的小小一点 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-6.xhtml#toc_marker-1-6"/>
+			</navPoint>
+			<navPoint id="navpoint8" playOrder="8">
+				<navLabel>
+					<text>时代呼唤教育改革家</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-7.xhtml#toc_marker-1-7"/>
+			</navPoint>
+			<navPoint id="navpoint9" playOrder="9">
+				<navLabel>
+					<text>乐学　善思 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-8.xhtml#toc_marker-1-8"/>
+			</navPoint>
+			<navPoint id="navpoint10" playOrder="10">
+				<navLabel>
+					<text>读书与思考 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-9.xhtml#toc_marker-1-9"/>
+			</navPoint>
+			<navPoint id="navpoint11" playOrder="11">
+				<navLabel>
+					<text>让教育回归“以育人为本”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-10.xhtml#toc_marker-1-10"/>
+			</navPoint>
+			<navPoint id="navpoint111" playOrder="111">
+				<navLabel>
+					<text>慎言“教育国际化”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-11.xhtml#toc_marker-1-109"/>
+			</navPoint>
+			<navPoint id="navpoint12" playOrder="12">
+				<navLabel>
+					<text>成功的人生是多种多样的 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-12.xhtml#toc_marker-1-11"/>
+			</navPoint>
+			<navPoint id="navpoint13" playOrder="13">
+				<navLabel>
+					<text>教育是怎样改变世界的 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-13.xhtml#toc_marker-1-12"/>
+			</navPoint>
+			<navPoint id="navpoint14" playOrder="14">
+				<navLabel>
+					<text>改造我们的教育 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-14.xhtml#toc_marker-1-13"/>
+			</navPoint>
+			<navPoint id="navpoint15" playOrder="15">
+				<navLabel>
+					<text>从小培养学生的创新精神 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-15.xhtml#toc_marker-1-14"/>
+			</navPoint>
+			<navPoint id="navpoint16" playOrder="16">
+				<navLabel>
+					<text>培养中学生的领导力与创新力 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-16.xhtml#toc_marker-1-15"/>
+			</navPoint>
+			<navPoint id="navpoint17" playOrder="17">
+				<navLabel>
+					<text>求解“钱学森之问” </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-17.xhtml#toc_marker-1-16"/>
+			</navPoint>
+			<navPoint id="navpoint18" playOrder="18">
+				<navLabel>
+					<text>为了学生主动地、生动活泼地发展</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-18.xhtml#toc_marker-1-17"/>
+			</navPoint>
+			<navPoint id="navpoint19" playOrder="19">
+				<navLabel>
+					<text>在体制改革中寻求出路</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-19.xhtml#toc_marker-1-18"/>
+			</navPoint>
+			<navPoint id="navpoint20" playOrder="20">
+				<navLabel>
+					<text>科教兴国战略要首先落实在义务教育上 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-20.xhtml#toc_marker-1-19"/>
+			</navPoint>
+			<navPoint id="navpoint21" playOrder="21">
+				<navLabel>
+					<text>要用法律措施保证义务教育的投入</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-21.xhtml#toc_marker-1-20"/>
+			</navPoint>
+			<navPoint id="navpoint22" playOrder="22">
+				<navLabel>
+					<text>要依法保障教育投入的增长</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-22.xhtml#toc_marker-1-21"/>
+			</navPoint>
+			<navPoint id="navpoint23" playOrder="23">
+				<navLabel>
+					<text>把经费投入落到实处</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-23.xhtml#toc_marker-1-22"/>
+			</navPoint>
+			<navPoint id="navpoint24" playOrder="24">
+				<navLabel>
+					<text>关于贯彻新《义务教育法》的几个问题</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-24.xhtml#toc_marker-1-23"/>
+			</navPoint>
+			<navPoint id="navpoint25" playOrder="25">
+				<navLabel>
+					<text>中国的全民教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-25.xhtml#toc_marker-1-24"/>
+			</navPoint>
+			<navPoint id="navpoint26" playOrder="26">
+				<navLabel>
+					<text>努力促进民办教育发展</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-26.xhtml#toc_marker-1-25"/>
+			</navPoint>
+			<navPoint id="navpoint27" playOrder="27">
+				<navLabel>
+					<text>民办教育是教育事业的重要组成部分</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-27.xhtml#toc_marker-1-26"/>
+			</navPoint>
+			<navPoint id="navpoint28" playOrder="28">
+				<navLabel>
+					<text>调动积极因素发展民办教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-28.xhtml#toc_marker-1-27"/>
+			</navPoint>
+			<navPoint id="navpoint29" playOrder="29">
+				<navLabel>
+					<text>创造民办教育和公办教育共同发展的新局面</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-29.xhtml#toc_marker-1-28"/>
+			</navPoint>
+			<navPoint id="navpoint30" playOrder="30">
+				<navLabel>
+					<text>谱写新的篇章</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-30.xhtml#toc_marker-1-29"/>
+			</navPoint>
+			<navPoint id="navpoint31" playOrder="31">
+				<navLabel>
+					<text>学习，奋斗，创新，办出特色</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-31.xhtml#toc_marker-1-30"/>
+			</navPoint>
+			<navPoint id="navpoint32" playOrder="32">
+				<navLabel>
+					<text>《基础教育课程》创刊寄语</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-32.xhtml#toc_marker-1-31"/>
+			</navPoint>
+			<navPoint id="navpoint33" playOrder="33">
+				<navLabel>
+					<text>提高教师队伍素质是兴教之本</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-33.xhtml#toc_marker-1-32"/>
+			</navPoint>
+			<navPoint id="navpoint34" playOrder="34">
+				<navLabel>
+					<text>当个有智慧的校长</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-34.xhtml#toc_marker-1-33"/>
+			</navPoint>
+			<navPoint id="navpoint35" playOrder="35">
+				<navLabel>
+					<text>重视开展珠心算活动</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-35.xhtml#toc_marker-1-34"/>
+			</navPoint>
+			<navPoint id="navpoint36" playOrder="36">
+				<navLabel>
+					<text>基础教育课程，说多重要就有多重要</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-36.xhtml#toc_marker-1-35"/>
+			</navPoint>
+			<navPoint id="navpoint37" playOrder="37">
+				<navLabel>
+					<text>让幼教事业更加美好</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-37.xhtml#toc_marker-1-36"/>
+			</navPoint>
+			<navPoint id="navpoint38" playOrder="38">
+				<navLabel>
+					<text>扎扎实实地推进素质教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-38.xhtml#toc_marker-1-37"/>
+			</navPoint>
+			<navPoint id="navpoint39" playOrder="39">
+				<navLabel>
+					<text>《柳斌谈素质教育》自序</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-39.xhtml#toc_marker-1-38"/>
+			</navPoint>
+			<navPoint id="navpoint40" playOrder="40">
+				<navLabel>
+					<text>全面提高中小学教育质量</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-40.xhtml#toc_marker-1-39"/>
+			</navPoint>
+			<navPoint id="navpoint41" playOrder="41">
+				<navLabel>
+					<text>开创素质教育的新局面</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-41.xhtml#toc_marker-1-40"/>
+			</navPoint>
+			<navPoint id="navpoint42" playOrder="42">
+				<navLabel>
+					<text>从当前实际出发，全面实施素质教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-42.xhtml#toc_marker-1-41"/>
+			</navPoint>
+			<navPoint id="navpoint43" playOrder="43">
+				<navLabel>
+					<text>在汨罗素质教育论坛上的讲话</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-43.xhtml#toc_marker-1-42"/>
+			</navPoint>
+			<navPoint id="navpoint44" playOrder="44">
+				<navLabel>
+					<text>保护好、培育好孩子的创新活力</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-44.xhtml#toc_marker-1-43"/>
+			</navPoint>
+			<navPoint id="navpoint45" playOrder="45">
+				<navLabel>
+					<text>文凭不是衡量人才的唯一标准</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-45.xhtml#toc_marker-1-44"/>
+			</navPoint>
+			<navPoint id="navpoint46" playOrder="46">
+				<navLabel>
+					<text>努力提高幼教质量</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-46.xhtml#toc_marker-1-45"/>
+			</navPoint>
+			<navPoint id="navpoint47" playOrder="47">
+				<navLabel>
+					<text>越是改革开放，越要加强思想品德教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-47.xhtml#toc_marker-1-46"/>
+			</navPoint>
+			<navPoint id="navpoint48" playOrder="48">
+				<navLabel>
+					<text>带着身心健康的孩子进入21世纪</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-48.xhtml#toc_marker-1-47"/>
+			</navPoint>
+			<navPoint id="navpoint49" playOrder="49">
+				<navLabel>
+					<text>重视德育实效　推进德育创新</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-49.xhtml#toc_marker-1-48"/>
+			</navPoint>
+			<navPoint id="navpoint50" playOrder="50">
+				<navLabel>
+					<text>以德治国的基础在中小学</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-50.xhtml#toc_marker-1-49"/>
+			</navPoint>
+			<navPoint id="navpoint51" playOrder="51">
+				<navLabel>
+					<text>在求实、求新、求活上下工夫</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-51.xhtml#toc_marker-1-50"/>
+			</navPoint>
+			<navPoint id="navpoint52" playOrder="52">
+				<navLabel>
+					<text>因善良而美好</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-52.xhtml#toc_marker-1-51"/>
+			</navPoint>
+			<navPoint id="navpoint53" playOrder="53">
+				<navLabel>
+					<text>重视修建心灵上的长城</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-53.xhtml#toc_marker-1-52"/>
+			</navPoint>
+			<navPoint id="navpoint54" playOrder="54">
+				<navLabel>
+					<text>“音乐”门外谈</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-54.xhtml#toc_marker-1-53"/>
+			</navPoint>
+			<navPoint id="navpoint55" playOrder="55">
+				<navLabel>
+					<text>为艺术教育做些促进工作</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-55.xhtml#toc_marker-1-54"/>
+			</navPoint>
+			<navPoint id="navpoint56" playOrder="56">
+				<navLabel>
+					<text>每个人的心灵都是一首诗</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-56.xhtml#toc_marker-1-55"/>
+			</navPoint>
+			<navPoint id="navpoint57" playOrder="57">
+				<navLabel>
+					<text>提倡一下吟诵</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-57.xhtml#toc_marker-1-56"/>
+			</navPoint>
+			<navPoint id="navpoint58" playOrder="58">
+				<navLabel>
+					<text>为提高国民的语文素质而努力</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-58.xhtml#toc_marker-1-57"/>
+			</navPoint>
+			<navPoint id="navpoint59" playOrder="59">
+				<navLabel>
+					<text>再谈“人生识字聪明始”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-59.xhtml#toc_marker-1-58"/>
+			</navPoint>
+			<navPoint id="navpoint60" playOrder="60">
+				<navLabel>
+					<text>写真就好，有情更佳，扬善则美</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-60.xhtml#toc_marker-1-59"/>
+			</navPoint>
+			<navPoint id="navpoint61" playOrder="61">
+				<navLabel>
+					<text>《心露集》自序</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-61.xhtml#toc_marker-1-60"/>
+			</navPoint>
+			<navPoint id="navpoint62" playOrder="62">
+				<navLabel>
+					<text>学好汉语拼音 热爱民族语言</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-62.xhtml#toc_marker-1-61"/>
+			</navPoint>
+			<navPoint id="navpoint63" playOrder="63">
+				<navLabel>
+					<text>热爱母语　重视作文</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-63.xhtml#toc_marker-1-62"/>
+			</navPoint>
+			<navPoint id="navpoint64" playOrder="64">
+				<navLabel>
+					<text>热爱和保护祖国的语言文字</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-64.xhtml#toc_marker-1-63"/>
+			</navPoint>
+			<navPoint id="navpoint65" playOrder="65">
+				<navLabel>
+					<text>提倡一下口头作文</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-65.xhtml#toc_marker-1-64"/>
+			</navPoint>
+			<navPoint id="navpoint66" playOrder="66">
+				<navLabel>
+					<text>语言文字必须实现规范化</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-66.xhtml#toc_marker-1-65"/>
+			</navPoint>
+			<navPoint id="navpoint67" playOrder="67">
+				<navLabel>
+					<text>珍视我们自己的语言</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-67.xhtml#toc_marker-1-66"/>
+			</navPoint>
+			<navPoint id="navpoint68" playOrder="68">
+				<navLabel>
+					<text>为营造良好的语言环境而努力</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-68.xhtml#toc_marker-1-67"/>
+			</navPoint>
+			<navPoint id="navpoint69" playOrder="69">
+				<navLabel>
+					<text>爱我中华，兼爱我语言</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-69.xhtml#toc_marker-1-68"/>
+			</navPoint>
+			<navPoint id="navpoint70" playOrder="70">
+				<navLabel>
+					<text>汉语，要让学生喜欢学，学得愉快</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-70.xhtml#toc_marker-1-69"/>
+			</navPoint>
+			<navPoint id="navpoint71" playOrder="71">
+				<navLabel>
+					<text>潜心打造精品的范例</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-71.xhtml#toc_marker-1-70"/>
+			</navPoint>
+			<navPoint id="navpoint72" playOrder="72">
+				<navLabel>
+					<text>为教好语文而努力</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-72.xhtml#toc_marker-1-71"/>
+			</navPoint>
+			<navPoint id="navpoint73" playOrder="73">
+				<navLabel>
+					<text>保护母语　传承文化</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-73.xhtml#toc_marker-1-72"/>
+			</navPoint>
+			<navPoint id="navpoint74" playOrder="74">
+				<navLabel>
+					<text>重视写字的育人功能</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-74.xhtml#toc_marker-1-73"/>
+			</navPoint>
+			<navPoint id="navpoint75" playOrder="75">
+				<navLabel>
+					<text>还有4亿人不能用普通话交流</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-75.xhtml#toc_marker-1-74"/>
+			</navPoint>
+			<navPoint id="navpoint76" playOrder="76">
+				<navLabel>
+					<text>努力打造辞书建设的新局面</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-76.xhtml#toc_marker-1-75"/>
+			</navPoint>
+			<navPoint id="navpoint77" playOrder="77">
+				<navLabel>
+					<text>大家都应当读点儿诗词</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-77.xhtml#toc_marker-1-76"/>
+			</navPoint>
+			<navPoint id="navpoint78" playOrder="78">
+				<navLabel>
+					<text>语文教学应重视“诵读”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-78.xhtml#toc_marker-1-77"/>
+			</navPoint>
+			<navPoint id="navpoint79" playOrder="79">
+				<navLabel>
+					<text>语文教改的一面旗帜</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-79.xhtml#toc_marker-1-78"/>
+			</navPoint>
+			<navPoint id="navpoint80" playOrder="80">
+				<navLabel>
+					<text>为霍懋征老师著作题记</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-80.xhtml#toc_marker-1-79"/>
+			</navPoint>
+			<navPoint id="navpoint81" playOrder="81">
+				<navLabel>
+					<text>向终身从事教育事业的人致敬！</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-81.xhtml#toc_marker-1-80"/>
+			</navPoint>
+			<navPoint id="navpoint82" playOrder="82">
+				<navLabel>
+					<text>再谈李吉林老师的“情境教育”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-82.xhtml#toc_marker-1-81"/>
+			</navPoint>
+			<navPoint id="navpoint83" playOrder="83">
+				<navLabel>
+					<text>致于漪老师</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-83.xhtml#toc_marker-1-82"/>
+			</navPoint>
+			<navPoint id="navpoint84" playOrder="84">
+				<navLabel>
+					<text>在《张庆文集》首发式上的讲话</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-84.xhtml#toc_marker-1-83"/>
+			</navPoint>
+			<navPoint id="navpoint85" playOrder="85">
+				<navLabel>
+					<text>在陶淑范、霍懋征铜像揭幕式上的致辞</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-85.xhtml#toc_marker-1-84"/>
+			</navPoint>
+			<navPoint id="navpoint86" playOrder="86">
+				<navLabel>
+					<text>读史明志　振兴中华</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-86.xhtml#toc_marker-1-85"/>
+			</navPoint>
+			<navPoint id="navpoint87" playOrder="87">
+				<navLabel>
+					<text>有许多东西比知识重要</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-87.xhtml#toc_marker-1-86"/>
+			</navPoint>
+			<navPoint id="navpoint88" playOrder="88">
+				<navLabel>
+					<text>读书活动意义重大</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-88.xhtml#toc_marker-1-87"/>
+			</navPoint>
+			<navPoint id="navpoint89" playOrder="89">
+				<navLabel>
+					<text>重在教人向善</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-89.xhtml#toc_marker-1-88"/>
+			</navPoint>
+			<navPoint id="navpoint90" playOrder="90">
+				<navLabel>
+					<text>呼唤“爱心”与“友善”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-90.xhtml#toc_marker-1-89"/>
+			</navPoint>
+			<navPoint id="navpoint91" playOrder="91">
+				<navLabel>
+					<text>阅读改变人生</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-91.xhtml#toc_marker-1-90"/>
+			</navPoint>
+			<navPoint id="navpoint92" playOrder="92">
+				<navLabel>
+					<text>爱国主义读书活动与素质教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-92.xhtml#toc_marker-1-91"/>
+			</navPoint>
+			<navPoint id="navpoint93" playOrder="93">
+				<navLabel>
+					<text>读报给孩子以成长空间</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-93.xhtml#toc_marker-1-92"/>
+			</navPoint>
+			<navPoint id="navpoint94" playOrder="94">
+				<navLabel>
+					<text>知荣辱　树新风</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-94.xhtml#toc_marker-1-93"/>
+			</navPoint>
+			<navPoint id="navpoint95" playOrder="95">
+				<navLabel>
+					<text>因学习而拥有</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-95.xhtml#toc_marker-1-94"/>
+			</navPoint>
+			<navPoint id="navpoint96" playOrder="96">
+				<navLabel>
+					<text>重视节约和环保意识的养成</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-96.xhtml#toc_marker-1-95"/>
+			</navPoint>
+			<navPoint id="navpoint97" playOrder="97">
+				<navLabel>
+					<text>加强唯物史观的启蒙教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-97.xhtml#toc_marker-1-96"/>
+			</navPoint>
+			<navPoint id="navpoint98" playOrder="98">
+				<navLabel>
+					<text>我与北师大</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-98.xhtml#toc_marker-1-97"/>
+			</navPoint>
+			<navPoint id="navpoint99" playOrder="99">
+				<navLabel>
+					<text>充满童真童趣</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-99.xhtml#toc_marker-1-98"/>
+			</navPoint>
+			<navPoint id="navpoint100" playOrder="100">
+				<navLabel>
+					<text>我与萍乡中学</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-100.xhtml#toc_marker-1-99"/>
+			</navPoint>
+			<navPoint id="navpoint101" playOrder="101">
+				<navLabel>
+					<text>我与上栗中学</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-101.xhtml#toc_marker-1-100"/>
+			</navPoint>
+			<navPoint id="navpoint102" playOrder="102">
+				<navLabel>
+					<text>责任重于泰山</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-102.xhtml#toc_marker-1-101"/>
+			</navPoint>
+			<navPoint id="navpoint103" playOrder="103">
+				<navLabel>
+					<text>我们应当怎样做父母？</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-103.xhtml#toc_marker-1-102"/>
+			</navPoint>
+			<navPoint id="navpoint104" playOrder="104">
+				<navLabel>
+					<text>关于《中国教师新百科》的编写</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-104.xhtml#toc_marker-1-103"/>
+			</navPoint>
+			<navPoint id="navpoint105" playOrder="105">
+				<navLabel>
+					<text>《中国教师新百科》总序</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-105.xhtml#toc_marker-1-104"/>
+			</navPoint>
+			<navPoint id="navpoint106" playOrder="106">
+				<navLabel>
+					<text>《二十年的呼吁：论改革“应试教育”》序</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-106.xhtml#toc_marker-1-105"/>
+			</navPoint>
+			<navPoint id="navpoint107" playOrder="107">
+				<navLabel>
+					<text>迎接“新教育风暴”</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-107.xhtml#toc_marker-1-106"/>
+			</navPoint>
+			<navPoint id="navpoint108" playOrder="108">
+				<navLabel>
+					<text>卷中耕耘岁月　笔下育人情怀</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-108.xhtml#toc_marker-1-107"/>
+			</navPoint>
+			<navPoint id="navpoint109" playOrder="109">
+				<navLabel>
+					<text>《教育学》（新编本）序</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-109.xhtml#toc_marker-1-108"/>
+			</navPoint>
+		<navPoint id="navpoint110" playOrder="110">
+			<navLabel>
+				<text>附：访 谈 录</text>
+			</navLabel>
+			<content src="Text/gaizaowomen-110.xhtml#toc_marker-2"/>
+			<navPoint id="navpoint111" playOrder="111">
+				<navLabel>
+					<text>尊师重教第一法</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-110.xhtml#toc_marker-2-1"/>
+			</navPoint>
+			<navPoint id="navpoint112" playOrder="112">
+				<navLabel>
+					<text>面向21世纪的中国基础教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-111.xhtml#toc_marker-2-2"/>
+			</navPoint>
+			<navPoint id="navpoint113" playOrder="113">
+				<navLabel>
+					<text>努力推动素质教育向纵深发展</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-112.xhtml#toc_marker-2-3"/>
+			</navPoint>
+			<navPoint id="navpoint114" playOrder="114">
+				<navLabel>
+					<text>学会轻松快乐地学习</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-113.xhtml#toc_marker-2-4"/>
+			</navPoint>
+			<navPoint id="navpoint115" playOrder="115">
+				<navLabel>
+					<text>风物长宜放眼量</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-114.xhtml#toc_marker-2-5"/>
+			</navPoint>
+			<navPoint id="navpoint116" playOrder="116">
+				<navLabel>
+					<text>集社会之力，兴千秋之业</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-115.xhtml#toc_marker-2-6"/>
+			</navPoint>
+			<navPoint id="navpoint117" playOrder="117">
+				<navLabel>
+					<text>借鉴各国发展经验　促进中国教育发展*</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-116.xhtml#toc_marker-2-7"/>
+			</navPoint>
+			<navPoint id="navpoint118" playOrder="118">
+				<navLabel>
+					<text>教育，应试之外天地宽</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-117.xhtml#toc_marker-2-8"/>
+			</navPoint>
+			<navPoint id="navpoint119" playOrder="119">
+				<navLabel>
+					<text>听柳斌谈家教</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-118.xhtml#toc_marker-2-9"/>
+			</navPoint>
+			<navPoint id="navpoint120" playOrder="120">
+				<navLabel>
+					<text>中小学心理健康教育需要进一步加强*</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-119.xhtml#toc_marker-2-10"/>
+			</navPoint>
+			<navPoint id="navpoint121" playOrder="121">
+				<navLabel>
+					<text>读书即是享受人生</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-120.xhtml#toc_marker-2-11"/>
+			</navPoint>
+			<navPoint id="navpoint122" playOrder="122">
+				<navLabel>
+					<text>一位老部长的语文情怀</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-121.xhtml#toc_marker-2-12"/>
+			</navPoint>
+			<navPoint id="navpoint123" playOrder="123">
+				<navLabel>
+					<text>《义务教育法》如何改</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-122.xhtml#toc_marker-2-13"/>
+			</navPoint>
+			<navPoint id="navpoint124" playOrder="124">
+				<navLabel>
+					<text>求德智体全面发展　把教学做结合起来</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-123.xhtml#toc_marker-2-14"/>
+			</navPoint>
+			<navPoint id="navpoint125" playOrder="125">
+				<navLabel>
+					<text>情系教育人生</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-124.xhtml#toc_marker-2-15"/>
+			</navPoint>
+			<navPoint id="navpoint126" playOrder="126">
+				<navLabel>
+					<text>柳斌：素质教育终将走向成功</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-125.xhtml#toc_marker-2-16"/>
+			</navPoint>
+			<navPoint id="navpoint127" playOrder="127">
+				<navLabel>
+					<text>以科学发展观引领我国基础教育健康发展</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-126.xhtml#toc_marker-2-17"/>
+			</navPoint>
+			<navPoint id="navpoint128" playOrder="128">
+				<navLabel>
+					<text>人之患在不好读书</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-127.xhtml#toc_marker-2-18"/>
+			</navPoint>
+			<navPoint id="navpoint129" playOrder="129">
+				<navLabel>
+					<text>迎来中国职业教育的春天</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-128.xhtml#toc_marker-2-19"/>
+			</navPoint>
+			<navPoint id="navpoint130" playOrder="130">
+				<navLabel>
+					<text>义务教育将迈进政府预算保障的新阶段</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-129.xhtml#toc_marker-2-20"/>
+			</navPoint>
+			<navPoint id="navpoint131" playOrder="131">
+				<navLabel>
+					<text>柳斌的教育情结</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-130.xhtml#toc_marker-2-21"/>
+			</navPoint>
+			<navPoint id="navpoint132" playOrder="132">
+				<navLabel>
+					<text>素质教育和防止辍学问题</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-131.xhtml#toc_marker-2-22"/>
+			</navPoint>
+			<navPoint id="navpoint133" playOrder="133">
+				<navLabel>
+					<text>素质教育写进法律</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-132.xhtml#toc_marker-2-23"/>
+			</navPoint>
+			<navPoint id="navpoint134" playOrder="134">
+				<navLabel>
+					<text>兴国安邦重教化　务使国民高素质</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-133.xhtml#toc_marker-2-24"/>
+			</navPoint>
+			<navPoint id="navpoint135" playOrder="135">
+				<navLabel>
+					<text>义务教育，这20年为何这么难？</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-134.xhtml#toc_marker-2-25"/>
+			</navPoint>
+			<navPoint id="navpoint136" playOrder="136">
+				<navLabel>
+					<text>理想的语文教育是什么样的</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-135.xhtml#toc_marker-2-26"/>
+			</navPoint>
+			<navPoint id="navpoint137" playOrder="137">
+				<navLabel>
+					<text>素质教育是时代发展的产物</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-136.xhtml#toc_marker-2-27"/>
+			</navPoint>
+			<navPoint id="navpoint138" playOrder="138">
+				<navLabel>
+					<text>民族的教育才是世界的教育</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-137.xhtml#toc_marker-2-28"/>
+			</navPoint>
+			<navPoint id="navpoint139" playOrder="139">
+				<navLabel>
+					<text>美育应该伴随人的一生</text>
+				</navLabel>
+				<content src="Text/gaizaowomen-138.xhtml#toc_marker-2-29"/>
+			</navPoint>
+			<navPoint id="navpoint140" playOrder="140">
+				<navLabel>
+					<text>素质教育视野中的学校语言文字工作 </text>
+				</navLabel>
+				<content src="Text/gaizaowomen-139.xhtml#toc_marker-2-30"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint141" playOrder="141">
+			<navLabel>
+				<text>编后短语</text>
+			</navLabel>
+			<content src="Text/gaizaowomen-140.xhtml#toc_marker-3"/>
+		</navPoint>
+	</navMap>
+</ncx>

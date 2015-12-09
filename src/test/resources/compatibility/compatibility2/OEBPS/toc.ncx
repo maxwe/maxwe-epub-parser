@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:3779e971-b5fd-4ecc-8bec-f5c1c53ac66b" name="dtb:uid"/>
+		<meta content="1" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>五只小兔子的远方</text>
+			</navLabel>
+			<content src="Text/xtz.xhtml#toc_marker-1"/>
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>小布熊木木的神奇一天</text>
+			</navLabel>
+			<content src="Text/xtz-2.xhtml#toc_marker-2"/>
+		</navPoint>
+		<navPoint id="navpoint3" playOrder="3">
+			<navLabel>
+				<text>小刺猬和向日葵</text>
+			</navLabel>
+			<content src="Text/xtz-4.xhtml#toc_marker-3"/>
+		</navPoint>
+		<navPoint id="navpoint4" playOrder="4">
+			<navLabel>
+				<text>小狐狸阿灿的早晨</text>
+			</navLabel>
+			<content src="Text/xtz-6.xhtml#toc_marker-4"/>
+		</navPoint>
+		<navPoint id="navpoint5" playOrder="5">
+			<navLabel>
+				<text>五只小老鼠,出门找幸福。</text>
+			</navLabel>
+			<content src="Text/xtz-8.xhtml#toc_marker-5"/>
+		</navPoint>
+		<navPoint id="navpoint6" playOrder="6">
+			<navLabel>
+				<text>魔蛋</text>
+			</navLabel>
+			<content src="Text/xtz-10.xhtml#toc_marker-6"/>
+		</navPoint>
+		<navPoint id="navpoint7" playOrder="7">
+			<navLabel>
+				<text>如果，如果……</text>
+			</navLabel>
+			<content src="Text/xtz-12.xhtml#toc_marker-7"/>
+		</navPoint>
+		<navPoint id="navpoint8" playOrder="8">
+			<navLabel>
+				<text>时间的秘密</text>
+			</navLabel>
+			<content src="Text/xtz-14.xhtml#toc_marker-8"/>
+		</navPoint>
+		<navPoint id="navpoint9" playOrder="9">
+			<navLabel>
+				<text>有一个大盗贼很会偷东西</text>
+			</navLabel>
+			<content src="Text/xtz-16.xhtml#toc_marker-9"/>
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel>
+				<text>三点钟的列车穿过原野</text>
+			</navLabel>
+			<content src="Text/xtz-18.xhtml#toc_marker-10"/>
+		</navPoint>
+		<navPoint id="navpoint11" playOrder="11">
+			<navLabel>
+				<text>小猪的大幸运</text>
+			</navLabel>
+			<content src="Text/xtz-20.xhtml#toc_marker-11"/>
+		</navPoint>
+		<navPoint id="navpoint12" playOrder="12">
+			<navLabel>
+				<text>小女巫的房子</text>
+			</navLabel>
+			<content src="Text/xtz-22.xhtml#toc_marker-12"/>
+		</navPoint>
+		<navPoint id="navpoint13" playOrder="13">
+			<navLabel>
+				<text>晴天小熊不爱说话</text>
+			</navLabel>
+			<content src="Text/xtz-24.xhtml#toc_marker-13"/>
+		</navPoint>
+		<navPoint id="navpoint14" playOrder="14">
+			<navLabel>
+				<text>最了不起的魔法师</text>
+			</navLabel>
+			<content src="Text/xtz-26.xhtml#toc_marker-14"/>
+		</navPoint>
+		<navPoint id="navpoint15" playOrder="15">
+			<navLabel>
+				<text>别哭，小核桃</text>
+			</navLabel>
+			<content src="Text/xtz-28.xhtml#toc_marker-15"/>
+		</navPoint>
+		<navPoint id="navpoint16" playOrder="16">
+			<navLabel>
+				<text>小妖怪出走记</text>
+			</navLabel>
+			<content src="Text/xtz-30.xhtml#toc_marker-16"/>
+		</navPoint>
+		<navPoint id="navpoint17" playOrder="17">
+			<navLabel>
+				<text>小乌龟写诗</text>
+			</navLabel>
+			<content src="Text/xtz-32.xhtml#toc_marker-17"/>
+		</navPoint>
+		<navPoint id="navpoint18" playOrder="18">
+			<navLabel>
+				<text>爱梦想的树</text>
+			</navLabel>
+			<content src="Text/xtz-34.xhtml#toc_marker-18"/>
+		</navPoint>
+		<navPoint id="navpoint19" playOrder="19">
+			<navLabel>
+				<text>如果你有一块钱，小熊……</text>
+			</navLabel>
+			<content src="Text/xtz-36.xhtml#toc_marker-19"/>
+		</navPoint>
+		<navPoint id="navpoint20" playOrder="20">
+			<navLabel>
+				<text>不一样的冬天</text>
+			</navLabel>
+			<content src="Text/xtz-38.xhtml#toc_marker-20"/>
+		</navPoint>
+		<navPoint id="navpoint21" playOrder="21">
+			<navLabel>
+				<text>小精灵快递</text>
+			</navLabel>
+			<content src="Text/xtz-40.xhtml#toc_marker-21"/>
+		</navPoint>
+		<navPoint id="navpoint22" playOrder="22">
+			<navLabel>
+				<text>你好，萤火虫</text>
+			</navLabel>
+			<content src="Text/xtz-42.xhtml#toc_marker-22"/>
+		</navPoint>
+		<navPoint id="navpoint23" playOrder="23">
+			<navLabel>
+				<text>浣熊妈妈</text>
+			</navLabel>
+			<content src="Text/xtz-44.xhtml#toc_marker-23"/>
+		</navPoint>
+		<navPoint id="navpoint24" playOrder="24">
+			<navLabel>
+				<text>小松鼠榛子和月亮</text>
+			</navLabel>
+			<content src="Text/xtz-46.xhtml#toc_marker-24"/>
+		</navPoint>
+	</navMap>
+</ncx>

@@ -19,9 +19,9 @@ public class MimeType extends ADocumentParser {
     private boolean result;
     public MimeType(String documentPath) throws Exception {
         super(documentPath);
+        this.parser();
     }
 
-    @Override
     protected void parser(){
         BufferedReader bufferedReader = null;
         try {

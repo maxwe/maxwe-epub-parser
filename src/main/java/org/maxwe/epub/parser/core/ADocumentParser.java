@@ -12,9 +12,7 @@ public abstract class ADocumentParser {
     protected String documentPath;
     public ADocumentParser(String documentPath) throws Exception{
         this.documentPath = documentPath;
-        this.parser();
     }
-    protected abstract void parser() throws Exception;
 
     protected String pathLinker(String path1,String path2){
         if ("".equals(path2) || "\\".equals(path2)){

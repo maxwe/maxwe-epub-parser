@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:05cb10c3-f09d-4772-a4cb-5535602ea3b4</dc:identifier>
+    <dc:title>教师职业道德新论</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">黄蓉生</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-12-16</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-12-16</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta name="cover" content="x1.jpg" />
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="Text/jszyddxl.xhtml" id="jszyddxl" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-1.xhtml" id="jszyddxl-1" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-2.xhtml" id="jszyddxl-2" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-3.xhtml" id="jszyddxl-3" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-4.xhtml" id="jszyddxl-4" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-5.xhtml" id="jszyddxl-5" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-6.xhtml" id="jszyddxl-6" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-7.xhtml" id="jszyddxl-7" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-8.xhtml" id="jszyddxl-8" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-9.xhtml" id="jszyddxl-9" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-10.xhtml" id="jszyddxl-10" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-11.xhtml" id="jszyddxl-11" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-12.xhtml" id="jszyddxl-12" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-13.xhtml" id="jszyddxl-13" media-type="application/xhtml+xml" />
+    <item href="Text/jszyddxl-14.xhtml" id="jszyddxl-14" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/jszyddxl.css" id="jszyddxl.css" media-type="text/css" />
+    <item href="Fonts/AdobeSongStd-Light.otf" id="AdobeSongStd-Light.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/FZFSJW--GB1-0.TTF" id="FZFSJW--GB1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="Fonts/FZKTJW--GB1-0.TTF" id="FZKTJW--GB1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="Fonts/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimSun.ttc" id="SimSun.ttc" media-type="application/x-font-ttf" />
+    <item href="Images/230.png" id="x230.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/1.jpg" id="x1.jpg" media-type="image/jpeg" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="Section0002.xhtml" />
+    <itemref idref="jszyddxl" />
+    <itemref idref="jszyddxl-1" />
+    <itemref idref="jszyddxl-2" />
+    <itemref idref="jszyddxl-3" />
+    <itemref idref="jszyddxl-4" />
+    <itemref idref="jszyddxl-5" />
+    <itemref idref="jszyddxl-6" />
+    <itemref idref="jszyddxl-7" />
+    <itemref idref="jszyddxl-8" />
+    <itemref idref="jszyddxl-9" />
+    <itemref idref="jszyddxl-10" />
+    <itemref idref="jszyddxl-11" />
+    <itemref idref="jszyddxl-12" />
+    <itemref idref="jszyddxl-13" />
+    <itemref idref="jszyddxl-14" />
+  </spine>
+</package>

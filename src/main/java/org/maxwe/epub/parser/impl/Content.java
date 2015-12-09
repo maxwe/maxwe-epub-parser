@@ -18,11 +18,11 @@ public class Content extends ADocumentParser implements IContent {
 
     public Content(String documentPath,String OEBPSPath) throws Exception {
         super(documentPath);
+        this.parser();
         TocNcx tocNcx = new TocNcx(this.documentPath);
         this.navigates = tocNcx.getNavigations(OEBPSPath);
     }
 
-    @Override
     protected void parser() throws Exception {}
 
     public int getContentSize() {

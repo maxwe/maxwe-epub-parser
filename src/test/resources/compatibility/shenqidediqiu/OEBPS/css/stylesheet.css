@@ -1,0 +1,27 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+body{
+ margin:10px;
+ margin-bottom:0em;
+}
+
+.cover{height:100vh;}
+.center{text-align:center;}
+
+.contentTitle1{font-size:2em;font-family:"Heiti SC","heiti","黑体";line-height:1.5em;text-align:center;font-weight:800;}
+
+.contentTitle2{font-size:1.7em;font-family:"Heiti SC","heiti","黑体";line-height:1.5em;text-align:center;font-weight:800;}
+.contentTitle3{font-size:1.5em;font-family:"Heiti SC","heiti","黑体";line-height:1.5em;text-align:center;font-weight:800;}
+
+
+.content{font-size:1em;font-family:"Songti SC","songti","宋体";text-align:justify;text-indent:2em;line-height:1.5em;}
+.inscribe{font-size:1em;font-family:"Songti SC","songti","宋体";text-align:right;text-indent:2em;line-height:1.5em;}
+
+.noindent{font-size:1em;font-family:"Songti SC","songti","宋体";text-align:center;line-height:1.5em;}
+
+/*图片*/
+.picture{text-align:center;margin-top:10px;margin-bottom:10px;}
+.pic1{text-align:right;margin-top:10px;margin-bottom:10px;margin-right:5px}
+.center{text-align:center;}
+/*图说*/
+.imgIntro{font-size:0.8em;line-height:1.5em;font-family:"Songti SC","宋体";text-align:center;}

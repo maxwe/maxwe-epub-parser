@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:79c05d1f-ad26-424a-b35c-df2c5098b571</dc:identifier>
+    <dc:title>当代东西方德育发展要览</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">檀传宝</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-12-18</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-12-18</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="x1.jpg" />
+  </metadata>
+  <manifest>
+    <item href="Text/dangdai.xhtml" id="dangdai" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-1.xhtml" id="dangdai-1" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-2.xhtml" id="dangdai-2" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-3.xhtml" id="dangdai-3" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-4.xhtml" id="dangdai-4" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-5.xhtml" id="dangdai-5" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-6.xhtml" id="dangdai-6" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-7.xhtml" id="dangdai-7" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-8.xhtml" id="dangdai-8" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-9.xhtml" id="dangdai-9" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-10.xhtml" id="dangdai-10" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-11.xhtml" id="dangdai-11" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-12.xhtml" id="dangdai-12" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-13.xhtml" id="dangdai-13" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-14.xhtml" id="dangdai-14" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-15.xhtml" id="dangdai-15" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-16.xhtml" id="dangdai-16" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-17.xhtml" id="dangdai-17" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-18.xhtml" id="dangdai-18" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-19.xhtml" id="dangdai-19" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-20.xhtml" id="dangdai-20" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-21.xhtml" id="dangdai-21" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-22.xhtml" id="dangdai-22" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-23.xhtml" id="dangdai-23" media-type="application/xhtml+xml" />
+    <item href="Text/dangdai-24.xhtml" id="dangdai-24" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/dangdai111.css" id="dangdai111.css" media-type="text/css" />
+    <item href="Fonts/AdobeFangsongStd-Regular.otf" id="AdobeFangsongStd-Regular.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/AdobeHeitiStd-Regular.otf" id="AdobeHeitiStd-Regular.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/AdobeKaitiStd-Regular.otf" id="AdobeKaitiStd-Regular.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/SimSun.ttc" id="SimSun.ttc" media-type="application/x-font-ttf" />
+    <item href="Fonts/TimesNewRomanPS-ItalicMT.ttf" id="TimesNewRomanPS-ItalicMT.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Images/b-114_fmt.png" id="b-114_fmt.png" media-type="image/png" />
+    <item href="Images/b-115-2_fmt.png" id="b-115-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-115_fmt.png" id="b-115_fmt.png" media-type="image/png" />
+    <item href="Images/b-116_fmt.png" id="b-116_fmt.png" media-type="image/png" />
+    <item href="Images/b-117_fmt.png" id="b-117_fmt.png" media-type="image/png" />
+    <item href="Images/b-118_fmt.png" id="b-118_fmt.png" media-type="image/png" />
+    <item href="Images/b-193-2_fmt.png" id="b-193-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-193_fmt.png" id="b-193_fmt.png" media-type="image/png" />
+    <item href="Images/b-194-2_fmt.png" id="b-194-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-194_fmt.png" id="b-194_fmt.png" media-type="image/png" />
+    <item href="Images/b-195_fmt.png" id="b-195_fmt.png" media-type="image/png" />
+    <item href="Images/b-196-2_fmt.png" id="b-196-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-196_fmt.png" id="b-196_fmt.png" media-type="image/png" />
+    <item href="Images/b-197_fmt.png" id="b-197_fmt.png" media-type="image/png" />
+    <item href="Images/b-198-2_fmt.png" id="b-198-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-198_fmt.png" id="b-198_fmt.png" media-type="image/png" />
+    <item href="Images/b-199_fmt.png" id="b-199_fmt.png" media-type="image/png" />
+    <item href="Images/b-200-2_fmt.png" id="b-200-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-200_fmt.png" id="b-200_fmt.png" media-type="image/png" />
+    <item href="Images/b-201_fmt.png" id="b-201_fmt.png" media-type="image/png" />
+    <item href="Images/b-249_fmt.png" id="b-249_fmt.png" media-type="image/png" />
+    <item href="Images/b-251_fmt.png" id="b-251_fmt.png" media-type="image/png" />
+    <item href="Images/b-252_fmt.png" id="b-252_fmt.png" media-type="image/png" />
+    <item href="Images/b-254_fmt.png" id="b-254_fmt.png" media-type="image/png" />
+    <item href="Images/b-255_fmt.png" id="b-255_fmt.png" media-type="image/png" />
+    <item href="Images/b-256_fmt.png" id="b-256_fmt.png" media-type="image/png" />
+    <item href="Images/b-257_fmt.png" id="b-257_fmt.png" media-type="image/png" />
+    <item href="Images/b-263_fmt.png" id="b-263_fmt.png" media-type="image/png" />
+    <item href="Images/b-264_fmt.png" id="b-264_fmt.png" media-type="image/png" />
+    <item href="Images/b-266-2_fmt.png" id="b-266-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-266_fmt.png" id="b-266_fmt.png" media-type="image/png" />
+    <item href="Images/b-267_fmt.png" id="b-267_fmt.png" media-type="image/png" />
+    <item href="Images/b-268_fmt.png" id="b-268_fmt.png" media-type="image/png" />
+    <item href="Images/b-293_fmt.png" id="b-293_fmt.png" media-type="image/png" />
+    <item href="Images/b-296-2_fmt.png" id="b-296-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-296_fmt.png" id="b-296_fmt.png" media-type="image/png" />
+    <item href="Images/b-297-2_fmt.png" id="b-297-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-297_fmt.png" id="b-297_fmt.png" media-type="image/png" />
+    <item href="Images/b-298_fmt.png" id="b-298_fmt.png" media-type="image/png" />
+    <item href="Images/b-299_fmt.png" id="b-299_fmt.png" media-type="image/png" />
+    <item href="Images/b-324_fmt.png" id="b-324_fmt.png" media-type="image/png" />
+    <item href="Images/b-325_fmt.png" id="b-325_fmt.png" media-type="image/png" />
+    <item href="Images/b-336_fmt.png" id="b-336_fmt.png" media-type="image/png" />
+    <item href="Images/b-337_fmt.png" id="b-337_fmt.png" media-type="image/png" />
+    <item href="Images/b-338_fmt.png" id="b-338_fmt.png" media-type="image/png" />
+    <item href="Images/b-339-2_fmt.png" id="b-339-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-339_fmt.png" id="b-339_fmt.png" media-type="image/png" />
+    <item href="Images/b-340-2_fmt.png" id="b-340-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-340_fmt.png" id="b-340_fmt.png" media-type="image/png" />
+    <item href="Images/b-341_fmt.png" id="b-341_fmt.png" media-type="image/png" />
+    <item href="Images/b-342_fmt.png" id="b-342_fmt.png" media-type="image/png" />
+    <item href="Images/b-343_fmt.png" id="b-343_fmt.png" media-type="image/png" />
+    <item href="Images/b-344_fmt.png" id="b-344_fmt.png" media-type="image/png" />
+    <item href="Images/b-345_fmt.png" id="b-345_fmt.png" media-type="image/png" />
+    <item href="Images/b-346_fmt.png" id="b-346_fmt.png" media-type="image/png" />
+    <item href="Images/b-347-2_fmt.png" id="b-347-2_fmt.png" media-type="image/png" />
+    <item href="Images/b-347_fmt.png" id="b-347_fmt.png" media-type="image/png" />
+    <item href="Images/b-348_fmt.png" id="b-348_fmt.png" media-type="image/png" />
+    <item href="Images/b-349_fmt.png" id="b-349_fmt.png" media-type="image/png" />
+    <item href="Images/b-350_fmt.png" id="b-350_fmt.png" media-type="image/png" />
+    <item href="Images/b-67_fmt.png" id="b-67_fmt.png" media-type="image/png" />
+    <item href="Text/fm.xhtml" id="fm.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/banquan.xhtml" id="banquan.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+    <item href="Misc/11111111111111.pdf" id="x11111111111111.pdf" media-type="text/plain" />
+    <item href="Images/1.jpg" id="x1.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="fm.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="banquan.xhtml" />
+    <itemref idref="dangdai" />
+    <itemref idref="dangdai-1" />
+    <itemref idref="dangdai-2" />
+    <itemref idref="dangdai-3" />
+    <itemref idref="dangdai-4" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-5" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-6" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-7" />
+    <itemref idref="dangdai-8" />
+    <itemref idref="dangdai-9" />
+    <itemref idref="dangdai-10" />
+    <itemref idref="dangdai-11" />
+    <itemref idref="dangdai-12" />
+    <itemref idref="dangdai-13" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-14" />
+    <itemref idref="dangdai-15" />
+    <itemref idref="dangdai-16" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-17" />
+    <itemref idref="dangdai-18" />
+    <itemref idref="dangdai-19" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-20" />
+    <itemref idref="dangdai-21" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-22" properties="duokan-page-fullscreen" />
+    <itemref idref="dangdai-23" />
+    <itemref idref="dangdai-24" />
+  </spine>
+  <guide>
+    <reference href="Text/fm.xhtml" title="封面" type="cover" />
+  </guide>
+</package>

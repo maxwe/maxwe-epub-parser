@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:f2b8b9f4-41de-4f4f-9467-6b56290f4156</dc:identifier>
+    <dc:title>教育激扬生命—再论教育走向生本</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">郭思乐</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:publisher>pep</dc:publisher>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-03-29</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-11-18</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.7.4" name="Sigil version" />
+    <meta name="cover" content="E14-40.jpg" />
+  </metadata>
+  <manifest>
+    <item href="Text/e14-40.xhtml" id="e14-40" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-1.xhtml" id="e14-40-1" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-2.xhtml" id="e14-40-2" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-3.xhtml" id="e14-40-3" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-4.xhtml" id="e14-40-4" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-5.xhtml" id="e14-40-5" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-6.xhtml" id="e14-40-6" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-7.xhtml" id="e14-40-7" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-8.xhtml" id="e14-40-8" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-9.xhtml" id="e14-40-9" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-10.xhtml" id="e14-40-10" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-11.xhtml" id="e14-40-11" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-12.xhtml" id="e14-40-12" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-13.xhtml" id="e14-40-13" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-14.xhtml" id="e14-40-14" media-type="application/xhtml+xml" />
+    <item href="Text/e14-40-15.xhtml" id="e14-40-15" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/e14-40.css" id="e14-40.css" media-type="text/css" />
+    <item href="font/FZFSK--GBK1-0.TTF" id="FZFSK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZKTK--GBK1-0.TTF" id="FZKTK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZLTHK--GBK1-0.TTF" id="FZLTHK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/FZSSK--GBK1-0.TTF" id="FZSSK--GBK1-0.TTF" media-type="application/x-font-ttf" />
+    <item href="font/SimHei.ttf" id="SimHei.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="font/STHupo.TTF" id="STHupo.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="font/STKaiti.TTF" id="STKaiti.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="font/STLiti.TTF" id="STLiti.TTF" media-type="application/vnd.ms-opentype" />
+    <item href="font/TimesNewRomanPS-ItalicMT.ttf" id="TimesNewRomanPS-ItalicMT.ttf" media-type="application/vnd.ms-opentype" />
+    <item href="Images/BG-1_fmt.png" id="BG-1_fmt.png" media-type="image/png" />
+    <item href="Images/BG-2_fmt.png" id="BG-2_fmt.png" media-type="image/png" />
+    <item href="Images/BG-3_fmt.png" id="BG-3_fmt.png" media-type="image/png" />
+    <item href="Images/gs-1_fmt.png" id="gs-1_fmt.png" media-type="image/png" />
+    <item href="Images/gs-1_fmt1.png" id="gs-1_fmt1.png" media-type="image/png" />
+    <item href="Images/gs-2_fmt.png" id="gs-2_fmt.png" media-type="image/png" />
+    <item href="Images/gs-3_fmt.png" id="gs-3_fmt.png" media-type="image/png" />
+    <item href="Images/gs-4_fmt.png" id="gs-4_fmt.png" media-type="image/png" />
+    <item href="Images/gs-5_fmt.png" id="gs-5_fmt.png" media-type="image/png" />
+    <item href="Text/banquan.xhtml" id="banquan.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/Hh40-600_fmt.png" id="Hh40-600_fmt.png" media-type="image/png" />
+    <item href="Images/qrcode_fmt.png" id="qrcode_fmt.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/E14-40.jpg" id="E14-40.jpg" media-type="image/jpeg" />
+    <item href="Images/bq.png" id="bq.png" media-type="image/png" />
+    <item href="Images/2f3.png" id="x2f3.png" media-type="image/png" />
+    <item href="Images/G2.png" id="G2.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" properties="duokan-page-fullscreen" />
+    <itemref idref="banquan.xhtml" />
+    <itemref idref="e14-40" />
+    <itemref idref="e14-40-1" />
+    <itemref idref="e14-40-2" />
+    <itemref idref="e14-40-3" />
+    <itemref idref="e14-40-4" />
+    <itemref idref="e14-40-5" />
+    <itemref idref="e14-40-6" />
+    <itemref idref="e14-40-7" />
+    <itemref idref="e14-40-8" />
+    <itemref idref="e14-40-9" />
+    <itemref idref="e14-40-10" />
+    <itemref idref="e14-40-11" />
+    <itemref idref="e14-40-12" />
+    <itemref idref="e14-40-13" />
+    <itemref idref="e14-40-14" />
+    <itemref idref="e14-40-15" />
+  </spine>
+</package>

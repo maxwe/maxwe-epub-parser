@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:c3cc26b4-5897-4763-a15a-870fa8a279aa" name="dtb:uid"/>
+		<meta content="4" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>前 言</text>
+			</navLabel>
+			<content src="Text/JIAOyuguochengzuiyouhua-3.xhtml#toc_marker-1"/>
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>教学过程最优化</text>
+			</navLabel>
+			<content src="Text/JIAOyuguochengzuiyouhua-4.xhtml#toc_marker-2"/>
+			<navPoint id="navpoint3" playOrder="3">
+				<navLabel>
+					<text>序言</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-4.xhtml#toc_marker-2-1"/>
+			</navPoint>
+			<navPoint id="navpoint4" playOrder="4">
+				<navLabel>
+					<text>第一章 教学过程的结构</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2"/>
+				<navPoint id="navpoint5" playOrder="5">
+					<navLabel>
+						<text>一、教学过程及其基本成分</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-1"/>
+				</navPoint>
+				<navPoint id="navpoint6" playOrder="6">
+					<navLabel>
+						<text>二、教学过程的基本环节</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-2"/>
+				</navPoint>
+				<navPoint id="navpoint7" playOrder="7">
+					<navLabel>
+						<text>三、教学过程中的结构联系</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-3"/>
+				</navPoint>
+				<navPoint id="navpoint8" playOrder="8">
+					<navLabel>
+						<text>四、教学原则</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-4"/>
+				</navPoint>
+				<navPoint id="navpoint9" playOrder="9">
+					<navLabel>
+						<text>五、教学形式和教学方法</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-5"/>
+				</navPoint>
+				<navPoint id="navpoint10" playOrder="10">
+					<navLabel>
+						<text>六、教学型式及其心理学和教学论观点的剖析</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-5.xhtml#toc_marker-2-2-6"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navpoint11" playOrder="11">
+				<navLabel>
+					<text>第二章 教学过程最优化的理论基础</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-6.xhtml#toc_marker-2-3"/>
+				<navPoint id="navpoint12" playOrder="12">
+					<navLabel>
+						<text>一、“教学过程最优化”的概念</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-6.xhtml#toc_marker-2-3-1"/>
+				</navPoint>
+				<navPoint id="navpoint13" playOrder="13">
+					<navLabel>
+						<text>二、教学过程最优化的标准</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-6.xhtml#toc_marker-2-3-2"/>
+				</navPoint>
+				<navPoint id="navpoint14" playOrder="14">
+					<navLabel>
+						<text>三、选择教学过程最优结构在方法论上的要求</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-6.xhtml#toc_marker-2-3-3"/>
+				</navPoint>
+				<navPoint id="navpoint15" playOrder="15">
+					<navLabel>
+						<text>四、选择教学过程最优结构的方法</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-6.xhtml#toc_marker-2-3-4"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navpoint16" playOrder="16">
+				<navLabel>
+					<text>第三章 对教师在教学教育过程最优化活动中的典型困难的分析</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-7.xhtml#toc_marker-2-4"/>
+				<navPoint id="navpoint17" playOrder="17">
+					<navLabel>
+						<text>一、研究教师工作的大纲</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-7.xhtml#toc_marker-2-4-1"/>
+				</navPoint>
+				<navPoint id="navpoint18" playOrder="18">
+					<navLabel>
+						<text>二、教师工作中典型的缺点和困难</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-7.xhtml#toc_marker-2-4-2"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navpoint19" playOrder="19">
+				<navLabel>
+					<text>第四章 最优地组织教学过程的条件</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-8.xhtml#toc_marker-2-5"/>
+				<navPoint id="navpoint20" playOrder="20">
+					<navLabel>
+						<text>一、对教师进行专门的科学教学法训练</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-8.xhtml#toc_marker-2-5-1"/>
+				</navPoint>
+				<navPoint id="navpoint21" playOrder="21">
+					<navLabel>
+						<text>二、改进研究学生的方法</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-8.xhtml#toc_marker-2-5-2"/>
+				</navPoint>
+				<navPoint id="navpoint22" playOrder="22">
+					<navLabel>
+						<text>三、保证应有的教学物质条件、卫生条件和精神心理条件</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-8.xhtml#toc_marker-2-5-3"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navpoint23" playOrder="23">
+				<navLabel>
+					<text>第五章为预防学生成绩不良而采取的教学过程最优化的系统措施</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-9.xhtml#toc_marker-2-6"/>
+				<navPoint id="navpoint24" playOrder="24">
+					<navLabel>
+						<text>一、成绩不良原因的研究计划</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-9.xhtml#toc_marker-2-6-1"/>
+				</navPoint>
+				<navPoint id="navpoint25" playOrder="25">
+					<navLabel>
+						<text>二、学生成绩不良的典型原因的分析</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-9.xhtml#toc_marker-2-6-2"/>
+				</navPoint>
+				<navPoint id="navpoint26" playOrder="26">
+					<navLabel>
+						<text>三、为预防学生成绩不良而采取的教学过程最优化的系统措施的说明</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-9.xhtml#toc_marker-2-6-3"/>
+				</navPoint>
+				<navPoint id="navpoint27" playOrder="27">
+					<navLabel>
+						<text>四、克服学生不良成绩的途径</text>
+					</navLabel>
+					<content src="Text/JIAOyuguochengzuiyouhua-9.xhtml#toc_marker-2-6-4"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="navpoint28" playOrder="28">
+				<navLabel>
+					<text>第六章 论对优秀生实施教学过程最优化的途径</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-10.xhtml#toc_marker-2-7"/>
+			</navPoint>
+			<navPoint id="navpoint29" playOrder="29">
+				<navLabel>
+					<text>结束语</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-11.xhtml#toc_marker-2-8"/>
+			</navPoint>
+			<navPoint id="navpoint30" playOrder="30">
+				<navLabel>
+					<text>参考文献</text>
+				</navLabel>
+				<content src="Text/JIAOyuguochengzuiyouhua-12.xhtml#toc_marker-2-9"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint31" playOrder="31">
+			<navLabel>
+				<text>巴班斯基主要著作年表</text>
+			</navLabel>
+			<content src="Text/JIAOyuguochengzuiyouhua-13.xhtml#toc_marker-3"/>
+		</navPoint>
+	</navMap>
+</ncx>

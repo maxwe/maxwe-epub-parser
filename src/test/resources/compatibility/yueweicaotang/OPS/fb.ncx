@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <!-- The following four metadata items are required for all   NCX documents, including those conforming to the relaxed         constraints of OPS 2.0 -->
+    <meta name="dtb:uid" content="uid"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>title</text>
+  </docTitle>
+  <docAuthor>
+    <text>author</text>
+  </docAuthor>
+  <navMap>
+    <navPoint class="pTitle" id="level1-title" playOrder="1">
+      <navLabel>
+        <text>封面</text>
+      </navLabel>
+      <content src="title.xml"/>
+    </navPoint>
+    <navPoint class="pAbout" id="level1-about" playOrder="2">
+      <navLabel>
+        <text>关于本书</text>
+      </navLabel>
+      <content src="about.xml"/>
+    </navPoint>
+    <navPoint class="pRight" id="level1-right" playOrder="3">
+      <navLabel>
+        <text>声明</text>
+      </navLabel>
+      <content src="right.xml"/>
+    </navPoint>
+    <navPoint class="pShucang" id="level1-shucang" playOrder="4">
+      <navLabel>
+        <text>书仓介绍</text>
+      </navLabel>
+      <content src="shucang.xml"/>
+    </navPoint>
+  <navPoint  id="node_5" class="node" playOrder="5"><navLabel><text>※纪晓岚编书不写书</text></navLabel><content src="node_6.html"/></navPoint><navPoint  id="node_7" class="node" playOrder="7"><navLabel><text>※《阅微草堂笔记》原序</text></navLabel><content src="node_8.html"/></navPoint><navPoint  id="node_9" class="node" playOrder="9"><navLabel><text>※阅微草堂笔记·郑序</text></navLabel><content src="node_10.html"/></navPoint><navPoint  id="node_11" class="node" playOrder="11"><navLabel><text>※阅微草堂笔记·纪昀诗二首</text></navLabel><content src="node_12.html"/></navPoint><navPoint  id="node_13" class="node" playOrder="13"><navLabel><text>※卷一滦阳消夏录一</text></navLabel><content src="node_14.html"/></navPoint><navPoint  id="node_15" class="node" playOrder="15"><navLabel><text>※卷二　滦阳消夏录二</text></navLabel><content src="node_16.html"/></navPoint><navPoint  id="node_17" class="node" playOrder="17"><navLabel><text>※卷三　滦阳消夏录三</text></navLabel><content src="node_18.html"/></navPoint><navPoint  id="node_19" class="node" playOrder="19"><navLabel><text>※卷四　滦阳消夏录四</text></navLabel><content src="node_20.html"/></navPoint><navPoint  id="node_21" class="node" playOrder="21"><navLabel><text>※卷五　滦阳消夏录五</text></navLabel><content src="node_22.html"/></navPoint><navPoint  id="node_23" class="node" playOrder="23"><navLabel><text>※卷六　滦阳消夏录六</text></navLabel><content src="node_24.html"/></navPoint><navPoint  id="node_25" class="node" playOrder="25"><navLabel><text>※卷七　如是我闻一</text></navLabel><content src="node_26.html"/></navPoint><navPoint  id="node_27" class="node" playOrder="27"><navLabel><text>※卷八　如是我闻二</text></navLabel><content src="node_28.html"/></navPoint><navPoint  id="node_29" class="node" playOrder="29"><navLabel><text>※卷九　如是我闻三</text></navLabel><content src="node_30.html"/></navPoint><navPoint  id="node_31" class="node" playOrder="31"><navLabel><text>※卷十　如是我闻四</text></navLabel><content src="node_32.html"/></navPoint><navPoint  id="node_33" class="node" playOrder="33"><navLabel><text>※卷十一　槐西杂志一</text></navLabel><content src="node_34.html"/></navPoint><navPoint  id="node_35" class="node" playOrder="35"><navLabel><text>※卷十二　槐西杂志二</text></navLabel><content src="node_36.html"/></navPoint><navPoint  id="node_37" class="node" playOrder="37"><navLabel><text>※卷十三　槐西杂志三</text></navLabel><content src="node_38.html"/></navPoint><navPoint  id="node_39" class="node" playOrder="39"><navLabel><text>※卷十四　槐西杂志四</text></navLabel><content src="node_40.html"/></navPoint><navPoint  id="node_41" class="node" playOrder="41"><navLabel><text>※卷十五　姑妄听之一</text></navLabel><content src="node_42.html"/></navPoint><navPoint  id="node_43" class="node" playOrder="43"><navLabel><text>※卷十六　姑妄听之二</text></navLabel><content src="node_44.html"/></navPoint><navPoint  id="node_45" class="node" playOrder="45"><navLabel><text>※十七　姑妄听之三</text></navLabel><content src="node_46.html"/></navPoint><navPoint  id="node_47" class="node" playOrder="47"><navLabel><text>※卷十八　姑妄听之四</text></navLabel><content src="node_48.html"/></navPoint><navPoint  id="node_49" class="node" playOrder="49"><navLabel><text>※卷十九　滦阳续录一</text></navLabel><content src="node_50.html"/></navPoint><navPoint  id="node_51" class="node" playOrder="51"><navLabel><text>※卷二十　滦阳续录二</text></navLabel><content src="node_52.html"/></navPoint><navPoint  id="node_53" class="node" playOrder="53"><navLabel><text>※卷二十一　滦阳续录三</text></navLabel><content src="node_54.html"/></navPoint><navPoint  id="node_55" class="node" playOrder="55"><navLabel><text>※卷二十二　滦阳续录四</text></navLabel><content src="node_56.html"/></navPoint><navPoint  id="node_57" class="node" playOrder="57"><navLabel><text>※卷二十三　滦阳续录五</text></navLabel><content src="node_58.html"/></navPoint><navPoint  id="node_59" class="node" playOrder="59"><navLabel><text>※卷二十四　滦阳续录六</text></navLabel><content src="node_60.html"/></navPoint><navPoint  id="node_61" class="node" playOrder="61"><navLabel><text>※附：纪汝佶六则</text></navLabel><content src="node_62.html"/></navPoint></navMap>
+</ncx>

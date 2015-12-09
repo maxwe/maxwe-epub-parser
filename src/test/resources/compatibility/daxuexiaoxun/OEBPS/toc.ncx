@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:4d8d0702-9f9d-4876-9565-e1bbcc90e239" name="dtb:uid"/>
+		<meta content="4" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>引言</text>
+			</navLabel>
+			<content src="Text/DXXXLX-1.xhtml#toc_marker-1"/>
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>第一章 概念界定与解析</text>
+			</navLabel>
+			<content src="Text/DXXXLX-2.xhtml#toc_marker-2"/>
+			<navPoint id="navpoint3" playOrder="3">
+				<navLabel>
+					<text>第一节　大学校训概念界定与解析</text>
+				</navLabel>
+				<content src="Text/DXXXLX-2.xhtml#toc_marker-2-1"/>
+			</navPoint>
+			<navPoint id="navpoint4" playOrder="4">
+				<navLabel>
+					<text>第二节　大学校训的相关概念辨析</text>
+				</navLabel>
+				<content src="Text/DXXXLX-2.xhtml#toc_marker-2-2"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint5" playOrder="5">
+			<navLabel>
+				<text>第二章 我国大学校训解读</text>
+			</navLabel>
+			<content src="Text/DXXXLX-3.xhtml#toc_marker-3"/>
+			<navPoint id="navpoint6" playOrder="6">
+				<navLabel>
+					<text>第一节　我国大学校训的历史发展</text>
+				</navLabel>
+				<content src="Text/DXXXLX-3.xhtml#toc_marker-3-1"/>
+			</navPoint>
+			<navPoint id="navpoint7" playOrder="7">
+				<navLabel>
+					<text>第二节　我国大学校训的产生方式</text>
+				</navLabel>
+				<content src="Text/DXXXLX-3.xhtml#toc_marker-3-2"/>
+			</navPoint>
+			<navPoint id="navpoint8" playOrder="8">
+				<navLabel>
+					<text>第三节　我国大学校训的理念内涵</text>
+				</navLabel>
+				<content src="Text/DXXXLX-3.xhtml#toc_marker-3-3"/>
+			</navPoint>
+			<navPoint id="navpoint9" playOrder="9">
+				<navLabel>
+					<text>第四节　我国大学校训的功能</text>
+				</navLabel>
+				<content src="Text/DXXXLX-3.xhtml#toc_marker-3-4"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel>
+				<text>第三章 我国大学校训存在的主要问题及春原因</text>
+			</navLabel>
+			<content src="Text/DXXXLX-4.xhtml#toc_marker-4"/>
+			<navPoint id="navpoint11" playOrder="11">
+				<navLabel>
+					<text>第一节　我国大学校训存在的主要问题</text>
+				</navLabel>
+				<content src="Text/DXXXLX-4.xhtml#toc_marker-4-1"/>
+			</navPoint>
+			<navPoint id="navpoint12" playOrder="12">
+				<navLabel>
+					<text>第二节　我国大学校训存在问题之原因</text>
+				</navLabel>
+				<content src="Text/DXXXLX-4.xhtml#toc_marker-4-2"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint13" playOrder="13">
+			<navLabel>
+				<text>第四章 我国大学校训的构建与优化</text>
+			</navLabel>
+			<content src="Text/DXXXLX-5.xhtml#toc_marker-5"/>
+			<navPoint id="navpoint14" playOrder="14">
+				<navLabel>
+					<text>第一节　构建新的大学校训的基本原则</text>
+				</navLabel>
+				<content src="Text/DXXXLX-5.xhtml#toc_marker-5-1"/>
+			</navPoint>
+			<navPoint id="navpoint15" playOrder="15">
+				<navLabel>
+					<text>第二节　构建新的大学校训的一般程序</text>
+				</navLabel>
+				<content src="Text/DXXXLX-5.xhtml#toc_marker-5-2"/>
+			</navPoint>
+			<navPoint id="navpoint16" playOrder="16">
+				<navLabel>
+					<text>第三节　加强校训文化建设的主要策略</text>
+				</navLabel>
+				<content src="Text/DXXXLX-5.xhtml#toc_marker-5-3"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint17" playOrder="17">
+			<navLabel>
+				<text>第五章 中外知名大学校训举隅</text>
+			</navLabel>
+			<content src="Text/DXXXLX-6.xhtml#toc_marker-6"/>
+			<navPoint id="navpoint18" playOrder="18">
+				<navLabel>
+					<text>第一节　我国知名大学校训举隅</text>
+				</navLabel>
+				<content src="Text/DXXXLX-6.xhtml#toc_marker-6-1"/>
+			</navPoint>
+			<navPoint id="navpoint19" playOrder="19">
+				<navLabel>
+					<text>第二节　外国知名大学校训举隅</text>
+				</navLabel>
+				<content src="Text/DXXXLX-6.xhtml#toc_marker-6-2"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="navpoint20" playOrder="20">
+			<navLabel>
+				<text>附　录</text>
+			</navLabel>
+			<content src="Text/DXXXLX-7.xhtml#toc_marker-7"/>
+		</navPoint>
+		<navPoint id="navpoint21" playOrder="21">
+			<navLabel>
+				<text>参考文献</text>
+			</navLabel>
+			<content src="Text/Section0002.xhtml#toc_marker-8"/>
+		</navPoint>
+		<navPoint id="navpoint22" playOrder="22">
+			<navLabel>
+				<text>后　记</text>
+			</navLabel>
+			<content src="Text/DXXXLX-8.xhtml#toc_marker-9"/>
+		</navPoint>
+	</navMap>
+</ncx>

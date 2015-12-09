@@ -24,9 +24,9 @@ public class TocNcx extends ADocumentParser {
 
     public TocNcx(String documentPath) throws Exception {
         super(documentPath);
+        this.parser();
     }
 
-    @Override
     protected void parser() throws Exception {
         XmlPullParserFactory pullParserFactory = XmlPullParserFactory.newInstance();
         pullParserFactory.setNamespaceAware(true);
