@@ -162,8 +162,11 @@ public class EPubParser implements IEPubMeta {
         int index = 0;
         for (Itemref itemref:itemrefs){
             Item itemById = manifest.getItemById(itemref.getIdref());
-            String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), itemById.getHref());
-            navigations.add(new Navigation(pathLinker, index ++, itemById.getId(), pathLinker));
+            if (itemById != null){
+                System.out.println(itemById.getHref());
+                String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), itemById.getHref());
+                navigations.add(new Navigation(pathLinker, index ++, itemById.getId(), pathLinker));
+            }
         }
         return new Content(navigations);
     }

@@ -14,6 +14,7 @@ import java.util.LinkedList;
  */
 ///Users/dingpengwei/workspace/dingpw/maxwe-epub-parser/target/test-classes/compatibility/compatibility4/OEBPS/toc.ncx
 public class Compatibility {
+    private static final String pathOfYangzhiqiu = Compatibility.class.getResource("/").getPath() + "compatibility/zyangzhiqiu";
     private static final String pathOfJianai = Compatibility.class.getResource("/").getPath() + "compatibility/zjianai";
     private static final String pathOfMayunshuo = Compatibility.class.getResource("/").getPath() + "compatibility/zmayunshuo";
     private static final String pathOfZhangboling = Compatibility.class.getResource("/").getPath() + "compatibility/zhangboling";
@@ -33,8 +34,9 @@ public class Compatibility {
     private static LinkedList<String> paths = new LinkedList<String>();
 
     static {
+        paths.add(pathOfYangzhiqiu);
 //        paths.add(pathOfJianai);
-        paths.add(pathOfMayunshuo);
+//        paths.add(pathOfMayunshuo);
 //        paths.add(pathOfZhangboling);
 //        paths.add(pathOfYueweicaotang);
 //        paths.add(pathOfShucang);
