@@ -14,4 +14,8 @@ public interface IEPubMeta {
 
     Content getContent();
 
+    IContainer getIContainer();
+
+    IOPF getIOPF();
+
 }

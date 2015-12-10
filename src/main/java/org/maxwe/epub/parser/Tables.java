@@ -3,7 +3,6 @@ package org.maxwe.epub.parser;
 import org.htmlparser.Node;
 import org.htmlparser.Parser;
 import org.htmlparser.Tag;
-import org.htmlparser.Text;
 import org.htmlparser.filters.TagNameFilter;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.visitors.NodeVisitor;
@@ -21,48 +20,14 @@ public class Tables {
 
     private LinkedHashMap<String,String> linkedHashMap = new LinkedHashMap<String, String>();
 
+    private boolean flag = false;
+
     public Tables(String documentPath) throws Exception{
         this.documentPath = documentPath;
         Parser chapterParser = new Parser(this.documentPath);
         chapterParser.setEncoding("UTF-8");
-        /**
-         * 解析第一个head
-         */
-        Node headNode = chapterParser.parse(new TagNameFilter(HtmlLabelName.HEAD.toString())).elementAt(0);
-        NodeList headItems = headNode.getChildren();
-        for (int j = 0; j < headItems.size(); j++) {
-            Node headItem = headItems.elementAt(j);
-            headItem.accept(new NodeVisitor(){
-                private boolean byTitle;
-                @Override
-                public void visitTag(Tag tag) {
-                    if (HtmlLabelName.TITLE.toString().equalsIgnoreCase(tag.getTagName())){
-                        this.byTitle = true;
-                    }
-                }
-
-                @Override
-                public void visitEndTag(Tag tag) {
-                    if (HtmlLabelName.TITLE.toString().equalsIgnoreCase(tag.getTagName())){
-                        this.byTitle = false;
-                    }
-                }
-
-                @Override
-                public void visitStringNode(Text string) {
-                }
-            });
-        }
-
-        /**
-         * 重置文档解析器
-         */
-        chapterParser.reset();
-
-        /**
-         * 解析第一个body
-         */
         Node bodyNode = chapterParser.parse(new TagNameFilter(HtmlLabelName.BODY.toString())).elementAt(0);
+
         NodeList paragraphNodes = bodyNode.getChildren();
         for (int j = 0; j < paragraphNodes.size(); j++) {
             Node node = paragraphNodes.elementAt(j);
@@ -70,27 +35,32 @@ public class Tables {
                 String attribute = null;
                 @Override
                 public void visitTag(Tag tag) {
-                    if (HtmlLabelName.P.toString().equalsIgnoreCase(tag.getTagName())) {
-
+                    if (HtmlLabelName.NAV.toString().equalsIgnoreCase(tag.getTagName())) {
+                        String attribute = tag.getAttribute(HtmlLabelName.EPUB_TYPE.toString());
+                        if ("toc".equalsIgnoreCase(attribute)){
+                            flag = true;
+                        }
                     } else if (HtmlLabelName.A.toString().equalsIgnoreCase(tag.getTagName())) {
-                        attribute = tag.getAttribute(HtmlLabelName.HREF.toString());
-                    } else if ((HtmlLabelName.IMG.toString().equalsIgnoreCase(tag.getTagName()))) {
-                        tag.getAttribute(HtmlLabelName.SRC.toString());
-                    } else if ((HtmlLabelName.AUDIO.toString().equalsIgnoreCase(tag.getTagName()))) {
-                        tag.getAttribute(HtmlLabelName.AUDIO.toString());
-                    } else if ((HtmlLabelName.VIDEO.toString().equalsIgnoreCase(tag.getTagName()))) {
-                        tag.getAttribute(HtmlLabelName.VIDEO.toString());
+                        if (flag){
+                            attribute = tag.getAttribute(HtmlLabelName.HREF.toString());
+                        }
                     }
                 }
 
                 @Override
-                public void visitEndTag(Tag tag) {}
+                public void visitEndTag(Tag tag) {
+                    if (HtmlLabelName.NAV.toString().equalsIgnoreCase(tag.getTagName())) {
+                        flag = false;
+                    }
+                }
 
                 @Override
                 public void visitStringNode(org.htmlparser.Text string) {
-                    String text = string.getText();
-                    if (!"".equals(text.trim().replaceAll(System.getProperty("line.separator"), ""))) {
-                        linkedHashMap.put(attribute,text);
+                    if (flag){
+                        String text = string.getText();
+                        if (!"".equals(text.trim().replaceAll(System.getProperty("line.separator"), ""))) {
+                            linkedHashMap.put(attribute,text);
+                        }
                     }
                 }
             });

@@ -1,8 +1,8 @@
 package org.maxwe.epub.parser.compatibility;
 
+import org.maxwe.epub.parser.EPubParser;
 import org.maxwe.epub.parser.core.INavigation;
 import org.maxwe.epub.parser.impl.Content;
-import org.maxwe.epub.parser.EPubParser;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -30,9 +30,9 @@ public class Compatibility {
     private static LinkedList<String> paths = new LinkedList<String>();
 
     static {
-        paths.add(pathOfYueweicaotang);
+//        paths.add(pathOfYueweicaotang);
 //        paths.add(pathOfShucang);
-//        paths.add(pathOfShenqidediqiu);
+        paths.add(pathOfShenqidediqiu);
 //        paths.add(pathOfDaxuexiaoxun);
 //        paths.add(pathOfCompatibility1);
 //        paths.add(pathOfCompatibility2);

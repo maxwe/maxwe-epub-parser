@@ -90,6 +90,13 @@ public class EPubParser implements IEPubMeta {
         return content;
     }
 
+    public IContainer getIContainer() {
+        return iContainer;
+    }
+
+    public IOPF getIOPF() {
+        return iopf;
+    }
 
     private Content convertNavigationFileToContent(String navigationFilePath) throws Exception{
         Content result = null;
