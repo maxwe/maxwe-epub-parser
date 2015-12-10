@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -24,7 +25,7 @@ public class Guide extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.REFERENCE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.REFERENCE.toString(), nodeName)) {
                         //itemrefs 的开始节点
                         if (this.references == null){
                             this.references = new LinkedList<Reference>();
@@ -34,7 +35,7 @@ public class Guide extends AXmlLabelParser {
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.GUIDE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.GUIDE.toString(), nodeName)){
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

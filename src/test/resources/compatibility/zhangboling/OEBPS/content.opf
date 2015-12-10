@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="2.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">urn:uuid:ed66d4a9-f7c5-4549-aa06-614cffd73dc0</dc:identifier>
+    <dc:title>张伯苓年谱长编 下卷</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="梁吉生, "> 梁吉生</dc:creator>
+    <dc:date>2014-12-03</dc:date>
+    <dc:date opf:event="modification">2014-12-03</dc:date>
+    <dc:language>zh-CN</dc:language>
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="bq.png" href="Images/bq.png" media-type="image/png" />
+    <opf:item id="bq.xhtml" href="Text/bq.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="fl-1_fmt.png" href="Images/fl-1_fmt.png" media-type="image/png" />
+    <opf:item id="fm.jpg" href="Images/fm.jpg" media-type="image/jpeg" />
+    <opf:item id="fm.xhtml" href="Text/fm.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="fy.jpg" href="Images/fy.jpg" media-type="image/jpeg" />
+    <opf:item id="fy.xhtml" href="Text/fy.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="Hh40-600_fmt.png" href="Images/Hh40-600_fmt.png" media-type="image/png" />
+    <opf:item id="p1.jpg" href="Images/p1.jpg" media-type="image/jpeg" />
+    <opf:item id="p2.jpg" href="Images/p2.jpg" media-type="image/jpeg" />
+    <opf:item id="p3.jpg" href="Images/p3.jpg" media-type="image/jpeg" />
+    <opf:item id="p4.jpg" href="Images/p4.jpg" media-type="image/jpeg" />
+    <opf:item id="p5.jpg" href="Images/p5.jpg" media-type="image/jpeg" />
+    <opf:item id="p6.jpg" href="Images/p6.jpg" media-type="image/jpeg" />
+    <opf:item id="p7.jpg" href="Images/p7.jpg" media-type="image/jpeg" />
+    <opf:item id="p8.jpg" href="Images/p8.jpg" media-type="image/jpeg" />
+    <opf:item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="Section0003.xhtml" href="Text/Section0003.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="Section0004.xhtml" href="Text/Section0004.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="x1946-1_fmt.png" href="Images/1946-1_fmt.png" media-type="image/png" />
+    <opf:item id="x1947-1_fmt.png" href="Images/1947-1_fmt.png" media-type="image/png" />
+    <opf:item id="x1947-2_fmt.png" href="Images/1947-2_fmt.png" media-type="image/png" />
+    <opf:item id="x1948-1_fmt.png" href="Images/1948-1_fmt.png" media-type="image/png" />
+    <opf:item id="zbl3.css" href="Styles/zbl3.css" media-type="text/css" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="fm.xhtml" />
+    <opf:itemref idref="fy.xhtml" />
+    <opf:itemref idref="bq.xhtml" />
+    <opf:itemref idref="Section0001.xhtml" />
+    <opf:itemref idref="Section0002.xhtml" />
+    <opf:itemref idref="Section0003.xhtml" />
+    <opf:itemref idref="Section0004.xhtml" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="Text/fm.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

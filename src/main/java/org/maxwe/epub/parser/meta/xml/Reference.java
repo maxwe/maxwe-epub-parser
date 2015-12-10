@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -22,11 +23,11 @@ public class Reference extends AXmlLabelParser {
         for (int i = 0; i < attributeCount; i++) {
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.TITLE.toString().equals(attributeName)){
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.TITLE.toString(), attributeName)) {
                 this.title = attributeValue;
-            }else if (XmlLabelName.HREF.toString().equals(attributeName)) {
+            }else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.HREF.toString(), attributeName)) {
                 this.href = attributeValue;
-            } else if (XmlLabelName.TYPE.toString().equals(attributeName)) {
+            }else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.TYPE.toString(), attributeName)) {
                 this.type = attributeValue;
             }
         }

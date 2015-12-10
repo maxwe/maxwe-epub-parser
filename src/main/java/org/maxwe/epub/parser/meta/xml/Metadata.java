@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -52,48 +53,48 @@ public class Metadata extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.DC_IDENTIFIER.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_IDENTIFIER.toString(), nodeName)) {
                         //dc:identifier的开始节点
                         if (this.dcIdentifier == null) {
                             this.dcIdentifier = new LinkedList<Identifier>();
                         }
                         this.dcIdentifier.add(new Identifier(xmlPullParser));
-                    } else if (XmlLabelName.DC_TITLE.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_TITLE.toString(), nodeName)) {
                         //dc:title的开始节点
                         if (this.dcTitle == null) {
                             this.dcTitle = new LinkedList<Title>();
                         }
                         this.dcTitle.add(new Title(xmlPullParser));
-                    } else if (XmlLabelName.DC_LANGUAGE.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_LANGUAGE.toString(), nodeName)) {
                         //dc:language的开始节点
                         if (this.dcLanguage == null) {
                             this.dcLanguage = new LinkedList<Language>();
                         }
                         this.dcLanguage.add(new Language(xmlPullParser));
-                    } else if (XmlLabelName.DC_CREATOR.toString().equals(nodeName)){
-                        if (this.dcCreator == null){
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_CREATOR.toString(), nodeName)) {
+                        if (this.dcCreator == null) {
                             this.dcCreator = new LinkedList<Creator>();
                         }
                         this.dcCreator.add(new Creator(xmlPullParser));
-                    } else if (XmlLabelName.DC_PUBLISHER.toString().equals(nodeName)){
-                        if (this.dcPublisher == null){
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_PUBLISHER.toString(), nodeName)) {
+                        if (this.dcPublisher == null) {
                             this.dcPublisher = new LinkedList<Publisher>();
                         }
                         this.dcPublisher.add(new Publisher(xmlPullParser));
-                    } else if (XmlLabelName.DC_DATE.toString().equals(nodeName)){
-                        if (this.dcDate == null){
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_DATE.toString(), nodeName)) {
+                        if (this.dcDate == null) {
                             this.dcDate = new LinkedList<Date>();
                         }
                         this.dcDate.add(new Date(xmlPullParser));
-                    }else if (XmlLabelName.META.toString().equals(nodeName)){
-                        if (this.metas == null){
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.META.toString(), nodeName)) {
+                        if (this.metas == null) {
                             this.metas = new LinkedList<Meta>();
                         }
                         this.metas.add(new Meta(xmlPullParser));
                     }
                     //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.METADATA.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.METADATA.toString(), nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

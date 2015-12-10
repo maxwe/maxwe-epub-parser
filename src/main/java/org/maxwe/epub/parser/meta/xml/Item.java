@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -24,11 +25,11 @@ public class Item extends AXmlLabelParser {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.ID.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.ID.toString(), attributeName)){
                 this.id = attributeValue;
-            } else if (XmlLabelName.HREF.toString().equals(attributeName)) {
+            } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.HREF.toString(), attributeName)){
                 this.href = attributeValue;
-            } else if (XmlLabelName.MEDIA_TYPE.toString().equals(attributeName)) {
+            } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.MEDIA_TYPE.toString(), attributeName)){
                 this.mediaType = attributeValue;
             }
         }

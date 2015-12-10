@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -22,7 +23,7 @@ public class Itemref extends AXmlLabelParser {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.IDREF.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.IDREF.toString(), attributeName)){
                 this.idref = attributeValue;
             }
         }

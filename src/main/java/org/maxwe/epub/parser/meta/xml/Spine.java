@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -25,7 +26,7 @@ public class Spine extends AXmlLabelParser {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.TOC.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.TOC.toString(), attributeName)) {
                 this.toc = attributeValue;
             }
         }
@@ -36,7 +37,7 @@ public class Spine extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.ITEMREF.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.ITEMREF.toString(), nodeName)) {
                         //itemrefs 的开始节点
                         if (this.itemrefs == null){
                             this.itemrefs = new LinkedList<Itemref>();
@@ -46,7 +47,7 @@ public class Spine extends AXmlLabelParser {
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.SPINE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.SPINE.toString(), nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -26,7 +27,7 @@ public class NavMap extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.NAVPOINT.toString().equals(nodeName)){
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NAVPOINT.toString(), nodeName)) {
                         if (this.navPoints == null){
                             this.navPoints = new LinkedList<NavPoint>();
                         }
@@ -35,7 +36,7 @@ public class NavMap extends AXmlLabelParser {
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.NAVMAP.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NAVMAP.toString(), nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

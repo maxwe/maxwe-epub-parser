@@ -142,8 +142,10 @@ public class EPubParser implements IEPubMeta {
             LinkedHashMap<String, String> linkedHashMap = new Tables(navigationHtmlPath).getLinkedHashMap();
             Set<Map.Entry<String, String>> entries = linkedHashMap.entrySet();
             int index = 0;
+            int lastIndexOf = navigationHtmlPath.lastIndexOf(File.separator);
+            navigationHtmlPath = navigationHtmlPath.substring(0,lastIndexOf);
             for (Map.Entry<String, String> entry:entries){
-                String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), entry.getKey());
+                String pathLinker = EPubParserUtils.pathLinker(navigationHtmlPath, entry.getKey());
                 Navigation subNavigation = new Navigation(pathLinker, index ++, entry.getValue(), pathLinker);
                 navigations.add(subNavigation);
             }

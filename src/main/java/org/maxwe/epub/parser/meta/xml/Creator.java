@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -23,7 +24,7 @@ public class Creator extends AXmlLabelParser {
             //解析属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.ID.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.ID.toString(), attributeName)){
                 this.id = attributeValue;
             }
         }

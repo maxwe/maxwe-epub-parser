@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -46,7 +47,7 @@ public class ContainerXml implements IContainer {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.ROOTFILE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(true,XmlLabelName.ROOTFILE.toString(), nodeName)) {
                         this.relativeFullPath = xmlPullParser.getAttributeValue(0);
                     }
                     break;

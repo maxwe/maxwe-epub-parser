@@ -42,4 +42,33 @@ public class EPubParserUtils {
 
         return path1 + File.separator + path2;
     }
+
+
+    /**
+     * 标价标签是否是相同
+     * @param xmlLabel1 解析标签
+     * @param xmlLabel2 解析标签
+     * @return
+     */
+    public static boolean xmlLabelEquals(boolean strict,String xmlLabel1,String xmlLabel2){
+        if (xmlLabel1 == null || xmlLabel2 == null){
+            return false;
+        }
+        if (strict){
+            if (xmlLabel1.equalsIgnoreCase(xmlLabel2) ){
+                return true;
+            }
+        }else{
+            if (xmlLabel1.equalsIgnoreCase(xmlLabel2)){
+                return true;
+            }
+            if (xmlLabel1.contains(xmlLabel2)){
+                return true;
+            }
+            if (xmlLabel2.contains(xmlLabel1)){
+                return true;
+            }
+        }
+        return false;
+    }
 }

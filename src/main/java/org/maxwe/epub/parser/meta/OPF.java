@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.meta.xml.*;
 import org.maxwe.epub.parser.meta.xml.Package;
@@ -37,7 +38,7 @@ public class OPF implements IOPF {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.PACKAGE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.PACKAGE.toString(), nodeName)){
                         this.aPackage = new Package(xmlPullParser);
                     }
                     break;

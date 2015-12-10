@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.ADocumentParser;
 import org.maxwe.epub.parser.meta.xml.NavMap;
@@ -39,7 +40,7 @@ public class TocNcx extends ADocumentParser {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.NCX.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NCX.toString(), nodeName)){
                         this.ncx = new Ncx(xmlPullParser);
                     }
                     break;
