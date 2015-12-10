@@ -5,14 +5,10 @@ import org.maxwe.epub.parser.impl.Content;
 import org.maxwe.epub.parser.impl.Metadata;
 import org.maxwe.epub.parser.impl.Navigation;
 import org.maxwe.epub.parser.meta.*;
-import org.maxwe.epub.parser.meta.xml.NavMap;
-import org.maxwe.epub.parser.meta.xml.NavPoint;
+import org.maxwe.epub.parser.meta.xml.*;
 
 import java.io.File;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by Pengwei Ding on 2015-12-09 19:05.
@@ -57,7 +53,7 @@ public class EPubParser implements IEPubMeta {
             Content convertNavigationFileToContent = this.convertNavigationFileToContent(navigationFilePath);
             Content convertNavigationHtmlToContent = this.convertNavigationHtmlToContent(navigationHtmlPath);
 
-            content = convertNavigationFileToContent;
+            content = convertNavigationHtmlToContent;
 
             if ((convertNavigationFileToContent == null ? 0:convertNavigationFileToContent.getContentSize()) > (convertNavigationHtmlToContent == null ? 0:convertNavigationHtmlToContent.getContentSize())){
                 content = convertNavigationFileToContent;
@@ -65,6 +61,10 @@ public class EPubParser implements IEPubMeta {
 
             if ((convertNavigationFileToContent == null ? 0:convertNavigationFileToContent.getContentSize()) < (convertNavigationHtmlToContent == null?0:convertNavigationHtmlToContent.getContentSize())){
                 content = convertNavigationHtmlToContent;
+            }
+
+            if (content == null || content.getContentSize() < 1){
+                content = this.convertManifestSpineToContent();
             }
 
             if (content == null || content.getContentSize() < 1){
@@ -152,5 +152,19 @@ public class EPubParser implements IEPubMeta {
             result = new Content(navigations);
         }
         return result;
+    }
+
+    private Content convertManifestSpineToContent() throws Exception {
+        LinkedList<INavigation> navigations = new LinkedList<INavigation>();
+        Spine spine = this.getIOPF().getSpine();
+        Manifest manifest = this.getIOPF().getManifest();
+        List<Itemref> itemrefs = spine.getItemrefs();
+        int index = 0;
+        for (Itemref itemref:itemrefs){
+            Item itemById = manifest.getItemById(itemref.getIdref());
+            String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), itemById.getHref());
+            navigations.add(new Navigation(pathLinker, index ++, itemById.getId(), pathLinker));
+        }
+        return new Content(navigations);
     }
 }

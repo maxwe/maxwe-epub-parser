@@ -14,7 +14,7 @@ import java.util.LinkedList;
 public class Content implements IContent {
     private LinkedList<INavigation> navigates;
 
-    public Content(LinkedList<INavigation> navigates) throws Exception {
+    public Content(LinkedList<INavigation> navigates){
         this.navigates = navigates;
     }
 

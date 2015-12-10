@@ -37,6 +37,7 @@ public class Tables {
                 public void visitTag(Tag tag) {
                     if (HtmlLabelName.NAV.toString().equalsIgnoreCase(tag.getTagName())) {
                         String attribute = tag.getAttribute(HtmlLabelName.EPUB_TYPE.toString());
+                        System.out.println(attribute);
                         if ("toc".equalsIgnoreCase(attribute)){
                             flag = true;
                         }
@@ -58,6 +59,7 @@ public class Tables {
                 public void visitStringNode(org.htmlparser.Text string) {
                     if (flag){
                         String text = string.getText();
+                        System.out.println("=====================================================" + text);
                         if (!"".equals(text.trim().replaceAll(System.getProperty("line.separator"), ""))) {
                             linkedHashMap.put(attribute,text);
                         }
