@@ -34,13 +34,13 @@ public class Compatibility {
     private static LinkedList<String> paths = new LinkedList<String>();
 
     static {
-        paths.add(pathOfYangzhiqiu);
+//        paths.add(pathOfYangzhiqiu);
 //        paths.add(pathOfJianai);
 //        paths.add(pathOfMayunshuo);
 //        paths.add(pathOfZhangboling);
 //        paths.add(pathOfYueweicaotang);
 //        paths.add(pathOfShucang);
-//        paths.add(pathOfShenqidediqiu);
+        paths.add(pathOfShenqidediqiu);
 //        paths.add(pathOfDaxuexiaoxun);
 //        paths.add(pathOfCompatibility1);
 //        paths.add(pathOfCompatibility2);
@@ -75,6 +75,7 @@ public class Compatibility {
                 if (!new File(href).exists()){
                     navigation.print();
                 }
+                navigation.print();
                 LinkedList<INavigation> subNavigations = navigation.getSubNavigations();
                 if (subNavigations != null && subNavigations.size() > 0){
                     for (INavigation subNav:subNavigations){

@@ -12,6 +12,7 @@ public interface INavigation {
     int getPlayOrder();
     String getTitle();
     String getHref();
+    String getOriginHref();
     LinkedList<INavigation> getSubNavigations();
     void print();
 }

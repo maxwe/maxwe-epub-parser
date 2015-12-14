@@ -109,7 +109,7 @@ public class EPubParser implements IEPubMeta {
             if (navPoints != null){
                 for (NavPoint navPoint : navPoints) {
                     String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), navPoint.getContent().getValue());
-                    Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), pathLinker);
+                    Navigation navigation = new Navigation(navPoint.getId(), navPoint.getPlayOrder(), navPoint.getNavLabel().getText().getValue(), pathLinker,navPoint.getContent().getValue());
                     navigations.add(navigation);
                     if (navPoint.getSubNavPoints() != null){
                         buildNavTree(navPoint, navigation);
@@ -128,7 +128,7 @@ public class EPubParser implements IEPubMeta {
         } else {
             for (NavPoint subNavPoint : subNavPoints) {
                 String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), navPoint.getContent().getValue());
-                Navigation subNavigation = new Navigation(subNavPoint.getId(), subNavPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), pathLinker);
+                Navigation subNavigation = new Navigation(subNavPoint.getId(), subNavPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), pathLinker,navPoint.getContent().getValue());
                 navigation.getSubNavigations().add(subNavigation);
                 buildNavTree(subNavPoint, subNavigation);
             }
@@ -146,7 +146,7 @@ public class EPubParser implements IEPubMeta {
             navigationHtmlPath = navigationHtmlPath.substring(0,lastIndexOf);
             for (Map.Entry<String, String> entry:entries){
                 String pathLinker = EPubParserUtils.pathLinker(navigationHtmlPath, entry.getKey());
-                Navigation subNavigation = new Navigation(pathLinker, index ++, entry.getValue(), pathLinker);
+                Navigation subNavigation = new Navigation(pathLinker, index ++, entry.getValue(), pathLinker,iopf.getNavigationHtmlPath().substring(0,iopf.getNavigationHtmlPath().lastIndexOf(File.separator)) + File.separator + entry.getKey());
                 navigations.add(subNavigation);
             }
             result = new Content(navigations);
@@ -163,9 +163,8 @@ public class EPubParser implements IEPubMeta {
         for (Itemref itemref:itemrefs){
             Item itemById = manifest.getItemById(itemref.getIdref());
             if (itemById != null){
-                System.out.println(itemById.getHref());
                 String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), itemById.getHref());
-                navigations.add(new Navigation(pathLinker, index ++, itemById.getId(), pathLinker));
+                navigations.add(new Navigation(pathLinker, index ++, itemById.getId(), pathLinker,itemById.getHref()));
             }
         }
         return new Content(navigations);
