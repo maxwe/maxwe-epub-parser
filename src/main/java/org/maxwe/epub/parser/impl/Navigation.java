@@ -72,9 +72,9 @@ public class Navigation implements INavigation {
     }
 
     public void print() {
-//        System.out.println("章节ID：" + this.getId());
-//        System.out.println("章节顺序：" + this.getPlayOrder());
-//        System.out.println("章节名：" + this.getTitle());
+        System.out.println("章节ID：" + this.getId());
+        System.out.println("章节顺序：" + this.getPlayOrder());
+        System.out.println("章节名：" + this.getTitle());
         System.out.println("章节路径：" + this.getHref());
         System.out.println("章节相对路径：" + this.getOriginHref());
     }

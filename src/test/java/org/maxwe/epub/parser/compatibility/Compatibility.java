@@ -14,6 +14,8 @@ import java.util.LinkedList;
  */
 ///Users/dingpengwei/workspace/dingpw/maxwe-epub-parser/target/test-classes/compatibility/compatibility4/OEBPS/toc.ncx
 public class Compatibility {
+    private static final String pathOfLiangjinyanyi = Compatibility.class.getResource("/").getPath() + "compatibility/zliangjinyanyi";
+    private static final String pathOfChulianai = Compatibility.class.getResource("/").getPath() + "compatibility/zchulianai";
     private static final String pathOfYangzhiqiu = Compatibility.class.getResource("/").getPath() + "compatibility/zyangzhiqiu";
     private static final String pathOfJianai = Compatibility.class.getResource("/").getPath() + "compatibility/zjianai";
     private static final String pathOfMayunshuo = Compatibility.class.getResource("/").getPath() + "compatibility/zmayunshuo";
@@ -34,13 +36,15 @@ public class Compatibility {
     private static LinkedList<String> paths = new LinkedList<String>();
 
     static {
+        paths.add(pathOfLiangjinyanyi);
+//        paths.add(pathOfChulianai);
 //        paths.add(pathOfYangzhiqiu);
 //        paths.add(pathOfJianai);
 //        paths.add(pathOfMayunshuo);
 //        paths.add(pathOfZhangboling);
 //        paths.add(pathOfYueweicaotang);
 //        paths.add(pathOfShucang);
-        paths.add(pathOfShenqidediqiu);
+//        paths.add(pathOfShenqidediqiu);
 //        paths.add(pathOfDaxuexiaoxun);
 //        paths.add(pathOfCompatibility1);
 //        paths.add(pathOfCompatibility2);
@@ -86,6 +90,7 @@ public class Compatibility {
                         if (!new File(hrefSub).exists()){
                             subNav.print();
                         }
+                        subNav.print();
                         LinkedList<INavigation> subNavigations1 = subNav.getSubNavigations();
                         if (subNavigations1 != null && subNavigations1.size() > 0){
                             for (INavigation subOfSub:subNavigations){
@@ -96,6 +101,7 @@ public class Compatibility {
                                 if (!new File(hrefSubSub).exists()){
                                     subOfSub.print();
                                 }
+                                subOfSub.print();
                             }
                         }
                     }

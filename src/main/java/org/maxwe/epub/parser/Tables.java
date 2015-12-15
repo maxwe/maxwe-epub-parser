@@ -13,7 +13,7 @@ import java.util.LinkedHashMap;
 /**
  * Created by Pengwei Ding on 2015-12-09 23:05.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
- * Description: @TODO
+ * Description: 解析HTML中的导航文件，本版本的解析把树形的导航变更为线性导航
  */
 public class Tables {
     private String documentPath;
@@ -59,7 +59,6 @@ public class Tables {
                 public void visitStringNode(org.htmlparser.Text string) {
                     if (flag){
                         String text = string.getText();
-                        System.out.println("=====================================================" + text);
                         if (!"".equals(text.trim().replaceAll(System.getProperty("line.separator"), ""))) {
                             linkedHashMap.put(attribute,text);
                         }

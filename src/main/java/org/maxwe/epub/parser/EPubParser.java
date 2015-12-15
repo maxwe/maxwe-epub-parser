@@ -127,7 +127,7 @@ public class EPubParser implements IEPubMeta {
             return;
         } else {
             for (NavPoint subNavPoint : subNavPoints) {
-                String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), navPoint.getContent().getValue());
+                String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), subNavPoint.getContent().getValue());
                 Navigation subNavigation = new Navigation(subNavPoint.getId(), subNavPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), pathLinker,navPoint.getContent().getValue());
                 navigation.getSubNavigations().add(subNavigation);
                 buildNavTree(subNavPoint, subNavigation);
