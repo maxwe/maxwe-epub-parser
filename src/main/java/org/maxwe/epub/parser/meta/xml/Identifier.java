@@ -14,10 +14,6 @@ public class Identifier extends AXmlLabelParser {
 
     public Identifier(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int attributeCount = this.xmlPullParser.getAttributeCount();
         for (int i = 0; i < attributeCount; i++) {
             //解析属性

@@ -21,10 +21,6 @@ public class Package extends AXmlLabelParser {
 
     public Package(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int attributeCount = xmlPullParser.getAttributeCount();
         for (int i = 0; i < attributeCount; i++) {
             //设置package节点的属性

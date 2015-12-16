@@ -3,9 +3,8 @@ package org.maxwe.epub.parser.sample;
 import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
+import org.maxwe.epub.parser.EPubParser;
 import org.maxwe.epub.parser.core.*;
-import org.maxwe.epub.parser.impl.Book;
-import org.maxwe.epub.parser.impl.SpineItem;
 import org.maxwe.epub.parser.impl.Text;
 
 import java.io.File;
@@ -16,8 +15,8 @@ import java.util.LinkedList;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: 图书测试
  */
-public class BookTest extends TestCase {
-    private String path = BookTest.class.getResource("/").getPath() + "sample";
+public class SampleEPubTest extends TestCase {
+    private String path = SampleEPubTest.class.getResource("/").getPath() + "sample";
 
     @Before
     public void testExists(){
@@ -36,8 +35,8 @@ public class BookTest extends TestCase {
     @Test
     public void testGetMetadata() throws Exception {
         if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            IMetadata metadata = book.getMetadata();
+            EPubParser ePubParser = new EPubParser(this.path);
+            IMetadata metadata = ePubParser.getMetadata();
             String isbn = metadata.getIdentifier();
             String id = metadata.getIdentifier();
             String name = metadata.getBookName();
@@ -64,8 +63,8 @@ public class BookTest extends TestCase {
     @Test
     public void testGetNavigations() throws Exception {
         if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            LinkedList<INavigation> navigation = book.getContent().getNavigation();
+            EPubParser ePubParser = new EPubParser(this.path);
+            LinkedList<INavigation> navigation = ePubParser.getContent().getNavigation();
             assertEquals(13, navigation.size());
         } else {
             assertFalse("测试文件不存在", true);
@@ -75,8 +74,8 @@ public class BookTest extends TestCase {
     @Test
     public void testGetNavigation() throws Exception {
         if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            INavigation iNavigation = book.getContent().getNavigation(7);
+            EPubParser ePubParser = new EPubParser(this.path);
+            INavigation iNavigation = ePubParser.getContent().getNavigation(7);
             assertEquals("第五章 闪开,让我歌唱小鬼们", iNavigation.getTitle());
             assertEquals(this.path + "/OEBPS/Text/ds00216106.xhtml", iNavigation.getHref());
         } else {
@@ -87,9 +86,9 @@ public class BookTest extends TestCase {
     @Test
     public void testNavigateToByNavigation() throws Exception {
         if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            INavigation navigation = book.getContent().getNavigation(3);
-            IChapter iChapter = book.getContent().navigateTo(navigation);
+            EPubParser ePubParser = new EPubParser(this.path);
+            INavigation navigation = ePubParser.getContent().getNavigation(3);
+            IChapter iChapter = ePubParser.getContent().navigateTo(navigation);
             String title = iChapter.getTitle();
             LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
             assertEquals("第一章 为什么老是有人说你少根筋",title);
@@ -102,29 +101,15 @@ public class BookTest extends TestCase {
     @Test
     public void testNavigateToByIndex() throws Exception {
         if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            IChapter iChapter = book.getContent().navigateTo(5);
+            EPubParser ePubParser = new EPubParser(this.path);
+            IChapter iChapter = ePubParser.getContent().navigateTo(5);
             String title = iChapter.getTitle();
             LinkedList<IParagraph> paragraphs = iChapter.getParagraphs();
             IParagraph iParagraph = paragraphs.get(1);
             LinkedList<ISection> sections = iParagraph.getSections();
             ISection first = sections.getFirst();
             assertEquals("第三章 没有几个忧郁女生会等到她的白马王子", title);
-            assertEquals("我是个胖子，没人爱我",((Text)first).getText());
-        } else {
-            assertFalse("测试文件不存在", true);
-        }
-    }
-
-    @Test
-    public void testGetSpineItem() throws Exception {
-        if (new File(this.path).exists()) {
-            Book book = new Book(this.path);
-            LinkedList<SpineItem> spineItems = book.getSpineItems();
-            for (SpineItem spineItem:spineItems){
-                System.out.println(spineItem.toString());
-            }
-            assertFalse(false);
+            assertEquals("我是个胖子，没人爱我", ((Text) first).getText());
         } else {
             assertFalse("测试文件不存在", true);
         }

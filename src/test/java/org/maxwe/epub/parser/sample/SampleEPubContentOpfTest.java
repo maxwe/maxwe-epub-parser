@@ -11,8 +11,8 @@ import java.io.File;
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
  * Description: @TODO
  */
-public class ContentOpfTest extends TestCase {
-    private String path = BookTest.class.getResource("/").getPath() + "sample";
+public class SampleEPubContentOpfTest extends TestCase {
+    private String path = SampleEPubTest.class.getResource("/").getPath() + "sample";
 
     @Test
     public void testGetMetadata() throws Exception{

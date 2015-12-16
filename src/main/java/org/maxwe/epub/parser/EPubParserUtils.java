@@ -52,26 +52,27 @@ public class EPubParserUtils {
 
     /**
      * 标价标签是否是相同
-     * @param xmlLabel1 解析标签
-     * @param xmlLabel2 解析标签
+     * @param strict 严格模式
+     * @param expectedNoteName 解析标签
+     * @param nodeName 解析标签的标签值
      * @return
      */
-    public static boolean xmlLabelEquals(boolean strict,String xmlLabel1,String xmlLabel2){
-        if (xmlLabel1 == null || xmlLabel2 == null){
+    public static boolean xmlLabelEquals(boolean strict,String expectedNoteName,String nodeName){
+        if (expectedNoteName == null || nodeName == null){
             return false;
         }
         if (strict){
-            if (xmlLabel1.equalsIgnoreCase(xmlLabel2) ){
+            if (expectedNoteName.equalsIgnoreCase(nodeName) ){
                 return true;
             }
         }else{
-            if (xmlLabel1.equalsIgnoreCase(xmlLabel2)){
+            if (expectedNoteName.equalsIgnoreCase(nodeName)){
                 return true;
             }
-            if (xmlLabel1.contains(xmlLabel2)){
-                return true;
-            }
-            if (xmlLabel2.contains(xmlLabel1)){
+//            if (expectedNoteName.contains(nodeName)){
+//                return true;
+//            }
+            if (nodeName.contains(expectedNoteName)){
                 return true;
             }
         }

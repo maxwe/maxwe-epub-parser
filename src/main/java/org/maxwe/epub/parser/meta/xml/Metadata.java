@@ -43,10 +43,6 @@ public class Metadata extends AXmlLabelParser {
 
     public Metadata(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int eventType = xmlPullParser.next();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String nodeName = xmlPullParser.getName();
@@ -59,6 +55,7 @@ public class Metadata extends AXmlLabelParser {
                             this.dcIdentifier = new LinkedList<Identifier>();
                         }
                         this.dcIdentifier.add(new Identifier(xmlPullParser));
+                        System.out.println();
                     } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.DC_TITLE.toString(), nodeName)) {
                         //dc:title的开始节点
                         if (this.dcTitle == null) {

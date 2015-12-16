@@ -13,10 +13,6 @@ public class Text extends AXmlLabelParser {
 
     public Text(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         this.value = xmlPullParser.nextText();
     }
 

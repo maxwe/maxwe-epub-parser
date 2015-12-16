@@ -14,12 +14,7 @@ public class NavLabel extends AXmlLabelParser {
     private Text text;
 
     public NavLabel(XmlPullParser xmlPullParser) throws Exception {
-        super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
-        int eventType = xmlPullParser.next();
+        super(xmlPullParser);int eventType = xmlPullParser.next();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String nodeName = xmlPullParser.getName();
             switch (eventType) {

@@ -17,10 +17,6 @@ public class NavMap extends AXmlLabelParser {
 
     public NavMap(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int eventType = xmlPullParser.next();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String nodeName = xmlPullParser.getName();

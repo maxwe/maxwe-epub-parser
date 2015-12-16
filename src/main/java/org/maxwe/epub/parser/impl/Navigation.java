@@ -15,7 +15,7 @@ public class Navigation implements INavigation {
     private String title;
     private String href;
     private String originHref;
-    private LinkedList<INavigation> subNavigations = new LinkedList<INavigation>();
+    private LinkedList<INavigation> subNavigation = new LinkedList<INavigation>();
 
     public Navigation(){}
 
@@ -59,8 +59,8 @@ public class Navigation implements INavigation {
         this.href = href;
     }
 
-    public LinkedList<INavigation> getSubNavigations() {
-        return subNavigations;
+    public LinkedList<INavigation> getSubNavigation() {
+        return subNavigation;
     }
 
     public String getOriginHref() {
