@@ -1,36 +1,256 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <package version="2.0" unique-identifier="PrimaryID" xmlns="http://www.idpf.org/2007/opf">
-<metadata xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:opf='http://www.idpf.org/2007/opf'><dc:title><![CDATA[书仓每周书评汇编第三十辑100713（10年第28周）]]></dc:title><dc:description><![CDATA[书仓每周书评汇编收录了东方早报·上海书评，南方都市报·阅读周刊和新京报·书评周刊等的每周热门书评。
-欢迎分享，推荐好的书评，发表个人的书评到书仓每周书评汇编。]]></dc:description><dc:creator opf:role='aut' opf:file-as='epbusys.com'><![CDATA[epbusys.com]]></dc:creator><dc:identifier id='dcidid' opf:scheme='URI'><![CDATA[http://www.shucang.com/doc/f8bb38a762a579a1b484]]></dc:identifier><dc:language><![CDATA[zh]]></dc:language><dc:publisher><![CDATA[Shucang.com]]></dc:publisher><dc:coverage></dc:coverage><dc:source><![CDATA[网络]]></dc:source><dc:date opf:event='original-publication'><![CDATA[2010-07-13]]></dc:date><dc:date opf:event='ops-publication'><![CDATA[2010-07-13]]></dc:date><dc:rights><![CDATA[学习收藏]]></dc:rights><dc:subject><![CDATA[书仓，书评,]]></dc:subject></metadata>
+    <metadata xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:opf='http://www.idpf.org/2007/opf'>
+        <dc:title><![CDATA[书仓每周书评汇编第三十辑100713（10年第28周）]]></dc:title>
+        <dc:description><![CDATA[书仓每周书评汇编收录了东方早报·上海书评，南方都市报·阅读周刊和新京报·书评周刊等的每周热门书评。
+欢迎分享，推荐好的书评，发表个人的书评到书仓每周书评汇编。]]></dc:description>
+        <dc:creator opf:role='aut' opf:file-as='epbusys.com'><![CDATA[epbusys.com]]></dc:creator>
+        <dc:identifier id='dcidid' opf:scheme='URI'>
+            <![CDATA[http://www.shucang.com/doc/f8bb38a762a579a1b484]]></dc:identifier>
+        <dc:language><![CDATA[zh]]></dc:language>
+        <dc:publisher><![CDATA[Shucang.com]]></dc:publisher>
+        <dc:coverage></dc:coverage>
+        <dc:source><![CDATA[网络]]></dc:source>
+        <dc:date opf:event='original-publication'><![CDATA[2010-07-13]]></dc:date>
+        <dc:date opf:event='ops-publication'><![CDATA[2010-07-13]]></dc:date>
+        <dc:rights><![CDATA[学习收藏]]></dc:rights>
+        <dc:subject><![CDATA[书仓，书评,]]></dc:subject>
+    </metadata>
 
-<manifest><item id='title' href='title.xml' media-type='application/xhtml+xml'/><item id='about' href='about.xml' media-type='application/xhtml+xml'/><item id='right' href='right.xml' media-type='application/xhtml+xml'/><item id='main1' href='main1.xml' media-type='application/xhtml+xml'/><item id='node_31174' href='node_31174.xml' media-type='application/xhtml+xml'/><item id='node_28165' href='node_28165.xml' media-type='application/xhtml+xml'/><item id='node_28610' href='node_28610.xml' media-type='application/xhtml+xml'/><item id='node_11404' href='node_11404.xml' media-type='application/xhtml+xml'/><item id='node_29421' href='node_29421.xml' media-type='application/xhtml+xml'/><item id='node_13955' href='node_13955.xml' media-type='application/xhtml+xml'/><item id='node_9702' href='node_9702.xml' media-type='application/xhtml+xml'/><item id='node_462' href='node_462.xml' media-type='application/xhtml+xml'/><item id='node_3245' href='node_3245.xml' media-type='application/xhtml+xml'/><item id='node_30248' href='node_30248.xml' media-type='application/xhtml+xml'/><item id='node_14417' href='node_14417.xml' media-type='application/xhtml+xml'/><item id='node_20502' href='node_20502.xml' media-type='application/xhtml+xml'/><item id='node_13192' href='node_13192.xml' media-type='application/xhtml+xml'/><item id='node_13636' href='node_13636.xml' media-type='application/xhtml+xml'/><item id='node_19708' href='node_19708.xml' media-type='application/xhtml+xml'/><item id='node_901' href='node_901.xml' media-type='application/xhtml+xml'/><item id='node_7365' href='node_7365.xml' media-type='application/xhtml+xml'/><item id='node_26841' href='node_26841.xml' media-type='application/xhtml+xml'/><item id='node_6135' href='node_6135.xml' media-type='application/xhtml+xml'/><item id='node_10042' href='node_10042.xml' media-type='application/xhtml+xml'/><item id='main2' href='main2.xml' media-type='application/xhtml+xml'/><item id='node_8181' href='node_8181.xml' media-type='application/xhtml+xml'/><item id='node_13924' href='node_13924.xml' media-type='application/xhtml+xml'/><item id='node_22260' href='node_22260.xml' media-type='application/xhtml+xml'/><item id='node_15736' href='node_15736.xml' media-type='application/xhtml+xml'/><item id='node_15687' href='node_15687.xml' media-type='application/xhtml+xml'/><item id='node_28669' href='node_28669.xml' media-type='application/xhtml+xml'/><item id='node_16332' href='node_16332.xml' media-type='application/xhtml+xml'/><item id='node_17369' href='node_17369.xml' media-type='application/xhtml+xml'/><item id='node_32286' href='node_32286.xml' media-type='application/xhtml+xml'/><item id='node_12301' href='node_12301.xml' media-type='application/xhtml+xml'/><item id='node_20752' href='node_20752.xml' media-type='application/xhtml+xml'/><item id='node_5121' href='node_5121.xml' media-type='application/xhtml+xml'/><item id='node_28776' href='node_28776.xml' media-type='application/xhtml+xml'/><item id='node_1741' href='node_1741.xml' media-type='application/xhtml+xml'/><item id='node_26484' href='node_26484.xml' media-type='application/xhtml+xml'/><item id='node_21038' href='node_21038.xml' media-type='application/xhtml+xml'/><item id='node_7287' href='node_7287.xml' media-type='application/xhtml+xml'/><item id='node_24708' href='node_24708.xml' media-type='application/xhtml+xml'/><item id='node_11455' href='node_11455.xml' media-type='application/xhtml+xml'/><item id='node_19496' href='node_19496.xml' media-type='application/xhtml+xml'/><item id='node_31082' href='node_31082.xml' media-type='application/xhtml+xml'/><item id='node_4595' href='node_4595.xml' media-type='application/xhtml+xml'/><item id='node_21181' href='node_21181.xml' media-type='application/xhtml+xml'/><item id='node_22382' href='node_22382.xml' media-type='application/xhtml+xml'/><item id='node_16010' href='node_16010.xml' media-type='application/xhtml+xml'/><item id='node_26317' href='node_26317.xml' media-type='application/xhtml+xml'/><item id='node_3089' href='node_3089.xml' media-type='application/xhtml+xml'/><item id='node_25299' href='node_25299.xml' media-type='application/xhtml+xml'/><item id='node_25610' href='node_25610.xml' media-type='application/xhtml+xml'/><item id='node_13675' href='node_13675.xml' media-type='application/xhtml+xml'/><item id='node_2006' href='node_2006.xml' media-type='application/xhtml+xml'/><item id='node_27774' href='node_27774.xml' media-type='application/xhtml+xml'/><item id='node_7213' href='node_7213.xml' media-type='application/xhtml+xml'/><item id='node_32496' href='node_32496.xml' media-type='application/xhtml+xml'/><item id='node_691' href='node_691.xml' media-type='application/xhtml+xml'/><item id='node_13179' href='node_13179.xml' media-type='application/xhtml+xml'/><item id='node_16302' href='node_16302.xml' media-type='application/xhtml+xml'/><item id='node_8608' href='node_8608.xml' media-type='application/xhtml+xml'/><item id='node_16595' href='node_16595.xml' media-type='application/xhtml+xml'/><item id='node_9554' href='node_9554.xml' media-type='application/xhtml+xml'/><item id='node_12098' href='node_12098.xml' media-type='application/xhtml+xml'/><item id='node_9042' href='node_9042.xml' media-type='application/xhtml+xml'/><item id='node_13630' href='node_13630.xml' media-type='application/xhtml+xml'/><item id='node_15054' href='node_15054.xml' media-type='application/xhtml+xml'/><item id='shucang' href='shucang.xml' media-type='application/xhtml+xml'/>
+    <manifest>
+        <item id='title' href='title.xml' media-type='application/xhtml+xml'/>
+        <item id='about' href='about.xml' media-type='application/xhtml+xml'/>
+        <item id='right' href='right.xml' media-type='application/xhtml+xml'/>
+        <item id='main1' href='main1.xml' media-type='application/xhtml+xml'/>
+        <item id='node_31174' href='node_31174.xml' media-type='application/xhtml+xml'/>
+        <item id='node_28165' href='node_28165.xml' media-type='application/xhtml+xml'/>
+        <item id='node_28610' href='node_28610.xml' media-type='application/xhtml+xml'/>
+        <item id='node_11404' href='node_11404.xml' media-type='application/xhtml+xml'/>
+        <item id='node_29421' href='node_29421.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13955' href='node_13955.xml' media-type='application/xhtml+xml'/>
+        <item id='node_9702' href='node_9702.xml' media-type='application/xhtml+xml'/>
+        <item id='node_462' href='node_462.xml' media-type='application/xhtml+xml'/>
+        <item id='node_3245' href='node_3245.xml' media-type='application/xhtml+xml'/>
+        <item id='node_30248' href='node_30248.xml' media-type='application/xhtml+xml'/>
+        <item id='node_14417' href='node_14417.xml' media-type='application/xhtml+xml'/>
+        <item id='node_20502' href='node_20502.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13192' href='node_13192.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13636' href='node_13636.xml' media-type='application/xhtml+xml'/>
+        <item id='node_19708' href='node_19708.xml' media-type='application/xhtml+xml'/>
+        <item id='node_901' href='node_901.xml' media-type='application/xhtml+xml'/>
+        <item id='node_7365' href='node_7365.xml' media-type='application/xhtml+xml'/>
+        <item id='node_26841' href='node_26841.xml' media-type='application/xhtml+xml'/>
+        <item id='node_6135' href='node_6135.xml' media-type='application/xhtml+xml'/>
+        <item id='node_10042' href='node_10042.xml' media-type='application/xhtml+xml'/>
+        <item id='main2' href='main2.xml' media-type='application/xhtml+xml'/>
+        <item id='node_8181' href='node_8181.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13924' href='node_13924.xml' media-type='application/xhtml+xml'/>
+        <item id='node_22260' href='node_22260.xml' media-type='application/xhtml+xml'/>
+        <item id='node_15736' href='node_15736.xml' media-type='application/xhtml+xml'/>
+        <item id='node_15687' href='node_15687.xml' media-type='application/xhtml+xml'/>
+        <item id='node_28669' href='node_28669.xml' media-type='application/xhtml+xml'/>
+        <item id='node_16332' href='node_16332.xml' media-type='application/xhtml+xml'/>
+        <item id='node_17369' href='node_17369.xml' media-type='application/xhtml+xml'/>
+        <item id='node_32286' href='node_32286.xml' media-type='application/xhtml+xml'/>
+        <item id='node_12301' href='node_12301.xml' media-type='application/xhtml+xml'/>
+        <item id='node_20752' href='node_20752.xml' media-type='application/xhtml+xml'/>
+        <item id='node_5121' href='node_5121.xml' media-type='application/xhtml+xml'/>
+        <item id='node_28776' href='node_28776.xml' media-type='application/xhtml+xml'/>
+        <item id='node_1741' href='node_1741.xml' media-type='application/xhtml+xml'/>
+        <item id='node_26484' href='node_26484.xml' media-type='application/xhtml+xml'/>
+        <item id='node_21038' href='node_21038.xml' media-type='application/xhtml+xml'/>
+        <item id='node_7287' href='node_7287.xml' media-type='application/xhtml+xml'/>
+        <item id='node_24708' href='node_24708.xml' media-type='application/xhtml+xml'/>
+        <item id='node_11455' href='node_11455.xml' media-type='application/xhtml+xml'/>
+        <item id='node_19496' href='node_19496.xml' media-type='application/xhtml+xml'/>
+        <item id='node_31082' href='node_31082.xml' media-type='application/xhtml+xml'/>
+        <item id='node_4595' href='node_4595.xml' media-type='application/xhtml+xml'/>
+        <item id='node_21181' href='node_21181.xml' media-type='application/xhtml+xml'/>
+        <item id='node_22382' href='node_22382.xml' media-type='application/xhtml+xml'/>
+        <item id='node_16010' href='node_16010.xml' media-type='application/xhtml+xml'/>
+        <item id='node_26317' href='node_26317.xml' media-type='application/xhtml+xml'/>
+        <item id='node_3089' href='node_3089.xml' media-type='application/xhtml+xml'/>
+        <item id='node_25299' href='node_25299.xml' media-type='application/xhtml+xml'/>
+        <item id='node_25610' href='node_25610.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13675' href='node_13675.xml' media-type='application/xhtml+xml'/>
+        <item id='node_2006' href='node_2006.xml' media-type='application/xhtml+xml'/>
+        <item id='node_27774' href='node_27774.xml' media-type='application/xhtml+xml'/>
+        <item id='node_7213' href='node_7213.xml' media-type='application/xhtml+xml'/>
+        <item id='node_32496' href='node_32496.xml' media-type='application/xhtml+xml'/>
+        <item id='node_691' href='node_691.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13179' href='node_13179.xml' media-type='application/xhtml+xml'/>
+        <item id='node_16302' href='node_16302.xml' media-type='application/xhtml+xml'/>
+        <item id='node_8608' href='node_8608.xml' media-type='application/xhtml+xml'/>
+        <item id='node_16595' href='node_16595.xml' media-type='application/xhtml+xml'/>
+        <item id='node_9554' href='node_9554.xml' media-type='application/xhtml+xml'/>
+        <item id='node_12098' href='node_12098.xml' media-type='application/xhtml+xml'/>
+        <item id='node_9042' href='node_9042.xml' media-type='application/xhtml+xml'/>
+        <item id='node_13630' href='node_13630.xml' media-type='application/xhtml+xml'/>
+        <item id='node_15054' href='node_15054.xml' media-type='application/xhtml+xml'/>
+        <item id='shucang' href='shucang.xml' media-type='application/xhtml+xml'/>
 
-<!-- Content Documents -->
+        <!-- Content Documents -->
 
 
+        <!-- CSS Style Sheets -->
 
 
+        <item id="main-css" href="css/main.css" media-type="text/css"/>
+        <!-- Images -->
+
+        <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
 
 
+        <!-- NCX -->
 
+        <item id="ncx" href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+    </manifest>
 
- <!-- CSS Style Sheets -->
+    <spine toc='ncx'>
+        <itemref idref='title' linear='yes'/>
+        <itemref idref='about' linear='yes'/>
+        <itemref idref='right' linear='yes'/>
+        <itemref idref='main1' linear='yes'/>
+        <itemref idref='node_31174' linear='yes'/>
+        <itemref idref='node_28165' linear='yes'/>
+        <itemref idref='node_28610' linear='yes'/>
+        <itemref idref='node_11404' linear='yes'/>
+        <itemref idref='node_29421' linear='yes'/>
+        <itemref idref='node_13955' linear='yes'/>
+        <itemref idref='node_9702' linear='yes'/>
+        <itemref idref='node_462' linear='yes'/>
+        <itemref idref='node_3245' linear='yes'/>
+        <itemref idref='node_30248' linear='yes'/>
+        <itemref idref='node_14417' linear='yes'/>
+        <itemref idref='node_20502' linear='yes'/>
+        <itemref idref='node_13192' linear='yes'/>
+        <itemref idref='node_13636' linear='yes'/>
+        <itemref idref='node_19708' linear='yes'/>
+        <itemref idref='node_901' linear='yes'/>
+        <itemref idref='node_7365' linear='yes'/>
+        <itemref idref='node_26841' linear='yes'/>
+        <itemref idref='node_6135' linear='yes'/>
+        <itemref idref='node_10042' linear='yes'/>
+        <itemref idref='main2' linear='yes'/>
+        <itemref idref='node_8181' linear='yes'/>
+        <itemref idref='node_13924' linear='yes'/>
+        <itemref idref='node_22260' linear='yes'/>
+        <itemref idref='node_15736' linear='yes'/>
+        <itemref idref='node_15687' linear='yes'/>
+        <itemref idref='node_28669' linear='yes'/>
+        <itemref idref='node_16332' linear='yes'/>
+        <itemref idref='node_17369' linear='yes'/>
+        <itemref idref='node_32286' linear='yes'/>
+        <itemref idref='node_12301' linear='yes'/>
+        <itemref idref='node_20752' linear='yes'/>
+        <itemref idref='node_5121' linear='yes'/>
+        <itemref idref='node_28776' linear='yes'/>
+        <itemref idref='node_1741' linear='yes'/>
+        <itemref idref='node_26484' linear='yes'/>
+        <itemref idref='node_21038' linear='yes'/>
+        <itemref idref='node_7287' linear='yes'/>
+        <itemref idref='node_24708' linear='yes'/>
+        <itemref idref='node_11455' linear='yes'/>
+        <itemref idref='node_19496' linear='yes'/>
+        <itemref idref='node_31082' linear='yes'/>
+        <itemref idref='node_4595' linear='yes'/>
+        <itemref idref='node_21181' linear='yes'/>
+        <itemref idref='node_22382' linear='yes'/>
+        <itemref idref='node_16010' linear='yes'/>
+        <itemref idref='node_26317' linear='yes'/>
+        <itemref idref='node_3089' linear='yes'/>
+        <itemref idref='node_25299' linear='yes'/>
+        <itemref idref='node_25610' linear='yes'/>
+        <itemref idref='node_13675' linear='yes'/>
+        <itemref idref='node_2006' linear='yes'/>
+        <itemref idref='node_27774' linear='yes'/>
+        <itemref idref='node_7213' linear='yes'/>
+        <itemref idref='node_32496' linear='yes'/>
+        <itemref idref='node_691' linear='yes'/>
+        <itemref idref='node_13179' linear='yes'/>
+        <itemref idref='node_16302' linear='yes'/>
+        <itemref idref='node_8608' linear='yes'/>
+        <itemref idref='node_16595' linear='yes'/>
+        <itemref idref='node_9554' linear='yes'/>
+        <itemref idref='node_12098' linear='yes'/>
+        <itemref idref='node_9042' linear='yes'/>
+        <itemref idref='node_13630' linear='yes'/>
+        <itemref idref='node_15054' linear='yes'/>
+        <itemref idref='shucang' linear='yes'/>
+    </spine>
 
-
-<item id="main-css"       href="css/main.css"       media-type="text/css"/>
-<!-- Images -->
-
-  <item id="cover"         href="images/cover.jpg"         media-type="image/jpeg"/>
-
-
-<!-- NCX -->
-
-<item id="ncx"       href="fb.ncx"       media-type="application/x-dtbncx+xml"/>
-</manifest>
-
-<spine toc='ncx'><itemref idref='title' linear='yes'/><itemref idref='about' linear='yes'/><itemref idref='right' linear='yes'/><itemref idref='main1' linear='yes'/><itemref idref='node_31174' linear='yes'/><itemref idref='node_28165' linear='yes'/><itemref idref='node_28610' linear='yes'/><itemref idref='node_11404' linear='yes'/><itemref idref='node_29421' linear='yes'/><itemref idref='node_13955' linear='yes'/><itemref idref='node_9702' linear='yes'/><itemref idref='node_462' linear='yes'/><itemref idref='node_3245' linear='yes'/><itemref idref='node_30248' linear='yes'/><itemref idref='node_14417' linear='yes'/><itemref idref='node_20502' linear='yes'/><itemref idref='node_13192' linear='yes'/><itemref idref='node_13636' linear='yes'/><itemref idref='node_19708' linear='yes'/><itemref idref='node_901' linear='yes'/><itemref idref='node_7365' linear='yes'/><itemref idref='node_26841' linear='yes'/><itemref idref='node_6135' linear='yes'/><itemref idref='node_10042' linear='yes'/><itemref idref='main2' linear='yes'/><itemref idref='node_8181' linear='yes'/><itemref idref='node_13924' linear='yes'/><itemref idref='node_22260' linear='yes'/><itemref idref='node_15736' linear='yes'/><itemref idref='node_15687' linear='yes'/><itemref idref='node_28669' linear='yes'/><itemref idref='node_16332' linear='yes'/><itemref idref='node_17369' linear='yes'/><itemref idref='node_32286' linear='yes'/><itemref idref='node_12301' linear='yes'/><itemref idref='node_20752' linear='yes'/><itemref idref='node_5121' linear='yes'/><itemref idref='node_28776' linear='yes'/><itemref idref='node_1741' linear='yes'/><itemref idref='node_26484' linear='yes'/><itemref idref='node_21038' linear='yes'/><itemref idref='node_7287' linear='yes'/><itemref idref='node_24708' linear='yes'/><itemref idref='node_11455' linear='yes'/><itemref idref='node_19496' linear='yes'/><itemref idref='node_31082' linear='yes'/><itemref idref='node_4595' linear='yes'/><itemref idref='node_21181' linear='yes'/><itemref idref='node_22382' linear='yes'/><itemref idref='node_16010' linear='yes'/><itemref idref='node_26317' linear='yes'/><itemref idref='node_3089' linear='yes'/><itemref idref='node_25299' linear='yes'/><itemref idref='node_25610' linear='yes'/><itemref idref='node_13675' linear='yes'/><itemref idref='node_2006' linear='yes'/><itemref idref='node_27774' linear='yes'/><itemref idref='node_7213' linear='yes'/><itemref idref='node_32496' linear='yes'/><itemref idref='node_691' linear='yes'/><itemref idref='node_13179' linear='yes'/><itemref idref='node_16302' linear='yes'/><itemref idref='node_8608' linear='yes'/><itemref idref='node_16595' linear='yes'/><itemref idref='node_9554' linear='yes'/><itemref idref='node_12098' linear='yes'/><itemref idref='node_9042' linear='yes'/><itemref idref='node_13630' linear='yes'/><itemref idref='node_15054' linear='yes'/><itemref idref='shucang' linear='yes'/></spine>
-
-<guide><reference type='text' title='title' href='title.xml'/><reference type='text' title='about' href='about.xml'/><reference type='text' title='right' href='right.xml'/><reference type='text' title='main1' href='main1.xml'/><reference type='text' title='node_31174' href='node_31174.xml'/><reference type='text' title='node_28165' href='node_28165.xml'/><reference type='text' title='node_28610' href='node_28610.xml'/><reference type='text' title='node_11404' href='node_11404.xml'/><reference type='text' title='node_29421' href='node_29421.xml'/><reference type='text' title='node_13955' href='node_13955.xml'/><reference type='text' title='node_9702' href='node_9702.xml'/><reference type='text' title='node_462' href='node_462.xml'/><reference type='text' title='node_3245' href='node_3245.xml'/><reference type='text' title='node_30248' href='node_30248.xml'/><reference type='text' title='node_14417' href='node_14417.xml'/><reference type='text' title='node_20502' href='node_20502.xml'/><reference type='text' title='node_13192' href='node_13192.xml'/><reference type='text' title='node_13636' href='node_13636.xml'/><reference type='text' title='node_19708' href='node_19708.xml'/><reference type='text' title='node_901' href='node_901.xml'/><reference type='text' title='node_7365' href='node_7365.xml'/><reference type='text' title='node_26841' href='node_26841.xml'/><reference type='text' title='node_6135' href='node_6135.xml'/><reference type='text' title='node_10042' href='node_10042.xml'/><reference type='text' title='main2' href='main2.xml'/><reference type='text' title='node_8181' href='node_8181.xml'/><reference type='text' title='node_13924' href='node_13924.xml'/><reference type='text' title='node_22260' href='node_22260.xml'/><reference type='text' title='node_15736' href='node_15736.xml'/><reference type='text' title='node_15687' href='node_15687.xml'/><reference type='text' title='node_28669' href='node_28669.xml'/><reference type='text' title='node_16332' href='node_16332.xml'/><reference type='text' title='node_17369' href='node_17369.xml'/><reference type='text' title='node_32286' href='node_32286.xml'/><reference type='text' title='node_12301' href='node_12301.xml'/><reference type='text' title='node_20752' href='node_20752.xml'/><reference type='text' title='node_5121' href='node_5121.xml'/><reference type='text' title='node_28776' href='node_28776.xml'/><reference type='text' title='node_1741' href='node_1741.xml'/><reference type='text' title='node_26484' href='node_26484.xml'/><reference type='text' title='node_21038' href='node_21038.xml'/><reference type='text' title='node_7287' href='node_7287.xml'/><reference type='text' title='node_24708' href='node_24708.xml'/><reference type='text' title='node_11455' href='node_11455.xml'/><reference type='text' title='node_19496' href='node_19496.xml'/><reference type='text' title='node_31082' href='node_31082.xml'/><reference type='text' title='node_4595' href='node_4595.xml'/><reference type='text' title='node_21181' href='node_21181.xml'/><reference type='text' title='node_22382' href='node_22382.xml'/><reference type='text' title='node_16010' href='node_16010.xml'/><reference type='text' title='node_26317' href='node_26317.xml'/><reference type='text' title='node_3089' href='node_3089.xml'/><reference type='text' title='node_25299' href='node_25299.xml'/><reference type='text' title='node_25610' href='node_25610.xml'/><reference type='text' title='node_13675' href='node_13675.xml'/><reference type='text' title='node_2006' href='node_2006.xml'/><reference type='text' title='node_27774' href='node_27774.xml'/><reference type='text' title='node_7213' href='node_7213.xml'/><reference type='text' title='node_32496' href='node_32496.xml'/><reference type='text' title='node_691' href='node_691.xml'/><reference type='text' title='node_13179' href='node_13179.xml'/><reference type='text' title='node_16302' href='node_16302.xml'/><reference type='text' title='node_8608' href='node_8608.xml'/><reference type='text' title='node_16595' href='node_16595.xml'/><reference type='text' title='node_9554' href='node_9554.xml'/><reference type='text' title='node_12098' href='node_12098.xml'/><reference type='text' title='node_9042' href='node_9042.xml'/><reference type='text' title='node_13630' href='node_13630.xml'/><reference type='text' title='node_15054' href='node_15054.xml'/><reference type='text' title='shucang' href='shucang.xml'/></guide>
+    <guide>
+        <reference type='text' title='title' href='title.xml'/>
+        <reference type='text' title='about' href='about.xml'/>
+        <reference type='text' title='right' href='right.xml'/>
+        <reference type='text' title='main1' href='main1.xml'/>
+        <reference type='text' title='node_31174' href='node_31174.xml'/>
+        <reference type='text' title='node_28165' href='node_28165.xml'/>
+        <reference type='text' title='node_28610' href='node_28610.xml'/>
+        <reference type='text' title='node_11404' href='node_11404.xml'/>
+        <reference type='text' title='node_29421' href='node_29421.xml'/>
+        <reference type='text' title='node_13955' href='node_13955.xml'/>
+        <reference type='text' title='node_9702' href='node_9702.xml'/>
+        <reference type='text' title='node_462' href='node_462.xml'/>
+        <reference type='text' title='node_3245' href='node_3245.xml'/>
+        <reference type='text' title='node_30248' href='node_30248.xml'/>
+        <reference type='text' title='node_14417' href='node_14417.xml'/>
+        <reference type='text' title='node_20502' href='node_20502.xml'/>
+        <reference type='text' title='node_13192' href='node_13192.xml'/>
+        <reference type='text' title='node_13636' href='node_13636.xml'/>
+        <reference type='text' title='node_19708' href='node_19708.xml'/>
+        <reference type='text' title='node_901' href='node_901.xml'/>
+        <reference type='text' title='node_7365' href='node_7365.xml'/>
+        <reference type='text' title='node_26841' href='node_26841.xml'/>
+        <reference type='text' title='node_6135' href='node_6135.xml'/>
+        <reference type='text' title='node_10042' href='node_10042.xml'/>
+        <reference type='text' title='main2' href='main2.xml'/>
+        <reference type='text' title='node_8181' href='node_8181.xml'/>
+        <reference type='text' title='node_13924' href='node_13924.xml'/>
+        <reference type='text' title='node_22260' href='node_22260.xml'/>
+        <reference type='text' title='node_15736' href='node_15736.xml'/>
+        <reference type='text' title='node_15687' href='node_15687.xml'/>
+        <reference type='text' title='node_28669' href='node_28669.xml'/>
+        <reference type='text' title='node_16332' href='node_16332.xml'/>
+        <reference type='text' title='node_17369' href='node_17369.xml'/>
+        <reference type='text' title='node_32286' href='node_32286.xml'/>
+        <reference type='text' title='node_12301' href='node_12301.xml'/>
+        <reference type='text' title='node_20752' href='node_20752.xml'/>
+        <reference type='text' title='node_5121' href='node_5121.xml'/>
+        <reference type='text' title='node_28776' href='node_28776.xml'/>
+        <reference type='text' title='node_1741' href='node_1741.xml'/>
+        <reference type='text' title='node_26484' href='node_26484.xml'/>
+        <reference type='text' title='node_21038' href='node_21038.xml'/>
+        <reference type='text' title='node_7287' href='node_7287.xml'/>
+        <reference type='text' title='node_24708' href='node_24708.xml'/>
+        <reference type='text' title='node_11455' href='node_11455.xml'/>
+        <reference type='text' title='node_19496' href='node_19496.xml'/>
+        <reference type='text' title='node_31082' href='node_31082.xml'/>
+        <reference type='text' title='node_4595' href='node_4595.xml'/>
+        <reference type='text' title='node_21181' href='node_21181.xml'/>
+        <reference type='text' title='node_22382' href='node_22382.xml'/>
+        <reference type='text' title='node_16010' href='node_16010.xml'/>
+        <reference type='text' title='node_26317' href='node_26317.xml'/>
+        <reference type='text' title='node_3089' href='node_3089.xml'/>
+        <reference type='text' title='node_25299' href='node_25299.xml'/>
+        <reference type='text' title='node_25610' href='node_25610.xml'/>
+        <reference type='text' title='node_13675' href='node_13675.xml'/>
+        <reference type='text' title='node_2006' href='node_2006.xml'/>
+        <reference type='text' title='node_27774' href='node_27774.xml'/>
+        <reference type='text' title='node_7213' href='node_7213.xml'/>
+        <reference type='text' title='node_32496' href='node_32496.xml'/>
+        <reference type='text' title='node_691' href='node_691.xml'/>
+        <reference type='text' title='node_13179' href='node_13179.xml'/>
+        <reference type='text' title='node_16302' href='node_16302.xml'/>
+        <reference type='text' title='node_8608' href='node_8608.xml'/>
+        <reference type='text' title='node_16595' href='node_16595.xml'/>
+        <reference type='text' title='node_9554' href='node_9554.xml'/>
+        <reference type='text' title='node_12098' href='node_12098.xml'/>
+        <reference type='text' title='node_9042' href='node_9042.xml'/>
+        <reference type='text' title='node_13630' href='node_13630.xml'/>
+        <reference type='text' title='node_15054' href='node_15054.xml'/>
+        <reference type='text' title='shucang' href='shucang.xml'/>
+    </guide>
 
 </package>

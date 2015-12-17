@@ -12,7 +12,6 @@ public interface IContent {
     LinkedList<INavigation> getNavigation();
     INavigation getNavigation(String navigationId);
     INavigation getNavigation(int index);
-
     /**
      * 提供根据导航对象定位到章节
      * @return

@@ -12,8 +12,6 @@ public abstract class AXmlLabelParser {
 
     public AXmlLabelParser(XmlPullParser xmlPullParser) throws Exception {
         this.xmlPullParser = xmlPullParser;
-        this.parser();
     }
 
-    protected abstract void parser() throws Exception;
 }

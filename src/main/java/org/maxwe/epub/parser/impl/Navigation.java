@@ -14,15 +14,17 @@ public class Navigation implements INavigation {
     private int playOrder;
     private String title;
     private String href;
-    private LinkedList<INavigation> subNavigations = new LinkedList<INavigation>();
+    private String originHref;
+    private LinkedList<INavigation> subNavigation = new LinkedList<INavigation>();
 
     public Navigation(){}
 
-    public Navigation(String id,int playOrder, String title, String href) {
+    public Navigation(String id,int playOrder, String title, String href,String originHref) {
         this.id = id;
         this.playOrder = playOrder;
         this.title = title;
         this.href = href;
+        this.originHref = originHref;
     }
 
     public String getId() {
@@ -57,14 +59,23 @@ public class Navigation implements INavigation {
         this.href = href;
     }
 
-    public LinkedList<INavigation> getSubNavigations() {
-        return subNavigations;
+    public LinkedList<INavigation> getSubNavigation() {
+        return subNavigation;
+    }
+
+    public String getOriginHref() {
+        return originHref;
+    }
+
+    public void setOriginHref(String originHref) {
+        this.originHref = originHref;
     }
 
     public void print() {
         System.out.println("章节ID：" + this.getId());
-        System.out.println("章节书怒：" + this.getPlayOrder());
+        System.out.println("章节顺序：" + this.getPlayOrder());
         System.out.println("章节名：" + this.getTitle());
         System.out.println("章节路径：" + this.getHref());
+        System.out.println("章节相对路径：" + this.getOriginHref());
     }
 }

@@ -18,8 +18,9 @@ public enum HtmlLabelName {
     VIDEO("video"),
     ALT("alt"),
     SRC("src"),
-    temp1(""),
-    temp3("");
+    HREF("href"),
+    NAV("nav"),
+    EPUB_TYPE("epub:type");
 
 
     private String value;

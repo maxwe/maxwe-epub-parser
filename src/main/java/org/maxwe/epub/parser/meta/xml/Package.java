@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -20,18 +21,14 @@ public class Package extends AXmlLabelParser {
 
     public Package(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int attributeCount = xmlPullParser.getAttributeCount();
         for (int i = 0; i < attributeCount; i++) {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.UNIQUE_IDENTIFIER.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.UNIQUE_IDENTIFIER.toString(), attributeName)) {
                 this.uniqueIdentifier = attributeValue;
-            } else if (XmlLabelName.VERSION.toString().equals(attributeName)) {
+            } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.VERSION.toString(), attributeName)) {
                 this.version = attributeValue;
             }
         }
@@ -42,22 +39,22 @@ public class Package extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.METADATA.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.METADATA.toString(), nodeName)) {
                         //metadata 的开始节点
                         this.metadata = new Metadata(xmlPullParser);
-                    } else if (XmlLabelName.MANIFEST.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.MANIFEST.toString(), nodeName)) {
                         //manifest 的开始节点
                         this.manifest = new Manifest(xmlPullParser);
-                    } else if (XmlLabelName.SPINE.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.SPINE.toString(), nodeName)) {
                         //spine 的开始节点
                         this.spine = new Spine(xmlPullParser);
-                    } else if (XmlLabelName.GUIDE.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.GUIDE.toString(), nodeName)) {
                         //guide 的开始节点
                     }
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.PACKAGE.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.PACKAGE.toString(), nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;

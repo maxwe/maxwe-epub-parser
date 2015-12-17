@@ -1,6 +1,6 @@
 package org.maxwe.epub.parser.meta;
 
-import org.maxwe.epub.parser.core.ADocumentParser;
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -11,35 +11,31 @@ import java.io.FileReader;
 /**
  * Created by Pengwei Ding on 2015-08-28 23:20.
  * Email: www.dingpengwei@foxmail.com www.dingpegnwei@gmail.com
- * Description: 定义EPub文件中的引导文件
+ * Description: 解析EPub文件中的引导文件
  */
-public class ContainerXml extends ADocumentParser {
+public class ContainerXml implements IContainer {
     /**
-     * 标准的容器文件路径
+     * content.opf文件的相对全路径
      */
-    private final String FILE_PATH = "META-INF/container.xml";
+    private String relativeFullPath;
     /**
-     * 默认的opf文件名称
+     * content.opf文件所在的相对目录
      */
-    private String defaultFileName = "content.opf";
+    private String relativeFullPathDir;
+    /**
+     * content.opf文件名
+     */
+    private String OPFFileName;
 
-    private String fullPath;
-    private String OEBPSPath;
-    private String OEBPSName;
 
     public ContainerXml(String documentPath) throws Exception {
-        super(documentPath);
-        this.parser();
-    }
-
-    protected void parser() throws Exception {
         XmlPullParserFactory pullParserFactory = XmlPullParserFactory.newInstance();
         pullParserFactory.setNamespaceAware(true);
         //获取XmlPullParser的实例
         XmlPullParser xmlPullParser = pullParserFactory.newPullParser();
         xmlPullParser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
         //设置输入流xml文件
-        xmlPullParser.setInput(new FileReader(new File(this.pathLinker(this.documentPath,FILE_PATH))));
+        xmlPullParser.setInput(new FileReader(new File(documentPath)));
 
         int eventType = xmlPullParser.getEventType();
 
@@ -51,8 +47,8 @@ public class ContainerXml extends ADocumentParser {
                     break;
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.ROOTFILE.toString().equals(nodeName)) {
-                        this.fullPath = xmlPullParser.getAttributeValue(0);
+                    if (EPubParserUtils.xmlLabelEquals(true,XmlLabelName.ROOTFILE.toString(), nodeName)) {
+                        this.relativeFullPath = xmlPullParser.getAttributeValue(0);
                     }
                     break;
                 //结束节点
@@ -64,49 +60,29 @@ public class ContainerXml extends ADocumentParser {
             eventType = xmlPullParser.next();
         }
 
-        int index = this.fullPath.lastIndexOf(File.separator);
-        if (index < 0){
+        int index = this.relativeFullPath.lastIndexOf(File.separator);
+        if (index < 0) {
             /**
              * 如果不包含File.separator
              * full-path参数中就只能是文件名称
              */
-            this.OEBPSPath = this.documentPath;
-            this.OEBPSName = "";
-            this.defaultFileName = this.fullPath;
-        }else{
-            this.OEBPSPath = this.pathLinker(this.documentPath ,this.fullPath.substring(0, index));
-            this.OEBPSName = this.fullPath.substring(0, index);
-            this.defaultFileName = this.fullPath.substring(index + 1,this.fullPath.length());
+            this.relativeFullPathDir = "/";
+            this.OPFFileName = this.relativeFullPath;
+        } else {
+            this.relativeFullPathDir = this.relativeFullPath.substring(0,index);
+            this.OPFFileName = this.relativeFullPath.substring(index + 1, this.relativeFullPath.length());
         }
     }
 
-    /**
-     * 获取OEBPS目录的路径
-     * @return OEBPS目录的绝对路径
-     */
-    public String getOEBPSPath() {
-        return this.pathLinker(this.documentPath,this.OEBPSPath);
+    public String getRelativeFullPath() {
+        return relativeFullPath;
     }
 
-    /**
-     * 获取content.opf文件的路径
-     * @return content.opf文件的绝对路径
-     */
-    public String getContentOpfPath() {
-        return this.pathLinker(this.documentPath,this.fullPath);
+    public String getRelativeFullPathDir() {
+        return this.relativeFullPathDir;
     }
 
-    /**
-     * 获取toc.ncx文件的路径
-     * 假设toc.ncx是和content.opf是在同一个目录
-     * TODO 动态获取toc.ncx文件的路径
-     * @return toc.ncx文件的绝对路径
-     */
-    public String getTocNcxPath(String tocNcxFileName) {
-        return this.pathLinker(this.documentPath,this.fullPath.replace(this.defaultFileName,tocNcxFileName));
-    }
-
-    public String getOEBPSName() {
-        return OEBPSName;
+    public String getOPFFileName() {
+        return OPFFileName;
     }
 }

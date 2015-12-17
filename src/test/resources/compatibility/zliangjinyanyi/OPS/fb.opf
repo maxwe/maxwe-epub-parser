@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="PrimaryID">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>两晋演义</dc:title>
+        <dc:identifier id="PrimaryID" opf:scheme="URN">b0586162-9344-435b-a4a5-7c1588b9820d</dc:identifier>
+        <dc:language>zh</dc:language>
+        <dc:creator opf:role="aut" opf:file-as="author">蔡东藩</dc:creator>
+        <dc:publisher></dc:publisher>
+        <dc:description>蔡东藩（1877&amp;mdash;1945），名郕，字椿寿，号东藩，清山阴县临浦（今属萧山）人。14岁中秀才，后又进京朝考，名列优贡，分发福建候补知县，因不满官场恶习，数月即称病回乡，辛亥革命之后，曾先后在杭州及绍兴等地教书。自1916年蔡东藩用10年的心血和惊人的毅力，先后完成了前汉（含秦）、后汉、两晋、南北朝、唐、五代、宋、元、明、清、民国共11部历史通俗演义，合称《中国历代通俗演义》，时间跨度自秦始皇到民国九年，凡二千一百六十六年。其内容跨越时间之长、人物之众、篇制之巨，堪称历史演义之最。被人誉为&amp;ldquo;一代史家，千秋神笔&amp;rdquo;。
+        </dc:description>
+        <dc:coverage>coverage</dc:coverage>
+        <dc:source>网络</dc:source>
+        <dc:date opf:event="original-publication">2010-10-23</dc:date>
+        <dc:date opf:event="ops-publication">date-ops</dc:date>
+        <dc:rights>版权归原作者所有,仅供学习交流使用,上传者自行对所传内容的权属负责</dc:rights>
+        <dc:subject>东晋西晋历史 历史</dc:subject>
+        <meta name="cover" content="cover"/>
+    </metadata>
+    <manifest>
+        <!-- Content Documents -->
+        <item id="title" href="title.xml" media-type="application/xhtml+xml"/>
+        <item id="about" href="about.xml" media-type="application/xhtml+xml"/>
+        <item id="right" href="right.xml" media-type="application/xhtml+xml"/>
+        <item id="shucang" href="shucang.xml" media-type="application/xhtml+xml"/>
+        <!-- CSS Style Sheets -->
+        <item id="main-css" href="css/main.css" media-type="text/css"/>
+        <!-- Images -->
+        <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
+        <!-- NCX -->
+        <item id="ncx" href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="node_6" href="node_6.html" media-type="application/xhtml+xml"/>
+        <item id="node_7" href="node_7.html" media-type="application/xhtml+xml"/>
+        <item id="node_8" href="node_8.html" media-type="application/xhtml+xml"/>
+        <item id="node_9" href="node_9.html" media-type="application/xhtml+xml"/>
+        <item id="node_10" href="node_10.html" media-type="application/xhtml+xml"/>
+        <item id="node_11" href="node_11.html" media-type="application/xhtml+xml"/>
+        <item id="node_12" href="node_12.html" media-type="application/xhtml+xml"/>
+        <item id="node_13" href="node_13.html" media-type="application/xhtml+xml"/>
+        <item id="node_14" href="node_14.html" media-type="application/xhtml+xml"/>
+        <item id="node_15" href="node_15.html" media-type="application/xhtml+xml"/>
+        <item id="node_16" href="node_16.html" media-type="application/xhtml+xml"/>
+        <item id="node_17" href="node_17.html" media-type="application/xhtml+xml"/>
+        <item id="node_18" href="node_18.html" media-type="application/xhtml+xml"/>
+        <item id="node_19" href="node_19.html" media-type="application/xhtml+xml"/>
+        <item id="node_20" href="node_20.html" media-type="application/xhtml+xml"/>
+        <item id="node_21" href="node_21.html" media-type="application/xhtml+xml"/>
+        <item id="node_22" href="node_22.html" media-type="application/xhtml+xml"/>
+        <item id="node_23" href="node_23.html" media-type="application/xhtml+xml"/>
+        <item id="node_24" href="node_24.html" media-type="application/xhtml+xml"/>
+        <item id="node_25" href="node_25.html" media-type="application/xhtml+xml"/>
+        <item id="node_26" href="node_26.html" media-type="application/xhtml+xml"/>
+        <item id="node_27" href="node_27.html" media-type="application/xhtml+xml"/>
+        <item id="node_28" href="node_28.html" media-type="application/xhtml+xml"/>
+        <item id="node_29" href="node_29.html" media-type="application/xhtml+xml"/>
+        <item id="node_30" href="node_30.html" media-type="application/xhtml+xml"/>
+        <item id="node_31" href="node_31.html" media-type="application/xhtml+xml"/>
+        <item id="node_32" href="node_32.html" media-type="application/xhtml+xml"/>
+        <item id="node_33" href="node_33.html" media-type="application/xhtml+xml"/>
+        <item id="node_34" href="node_34.html" media-type="application/xhtml+xml"/>
+        <item id="node_35" href="node_35.html" media-type="application/xhtml+xml"/>
+        <item id="node_36" href="node_36.html" media-type="application/xhtml+xml"/>
+        <item id="node_37" href="node_37.html" media-type="application/xhtml+xml"/>
+        <item id="node_38" href="node_38.html" media-type="application/xhtml+xml"/>
+        <item id="node_39" href="node_39.html" media-type="application/xhtml+xml"/>
+        <item id="node_40" href="node_40.html" media-type="application/xhtml+xml"/>
+        <item id="node_41" href="node_41.html" media-type="application/xhtml+xml"/>
+        <item id="node_42" href="node_42.html" media-type="application/xhtml+xml"/>
+        <item id="node_43" href="node_43.html" media-type="application/xhtml+xml"/>
+        <item id="node_44" href="node_44.html" media-type="application/xhtml+xml"/>
+        <item id="node_45" href="node_45.html" media-type="application/xhtml+xml"/>
+        <item id="node_46" href="node_46.html" media-type="application/xhtml+xml"/>
+        <item id="node_47" href="node_47.html" media-type="application/xhtml+xml"/>
+        <item id="node_48" href="node_48.html" media-type="application/xhtml+xml"/>
+        <item id="node_49" href="node_49.html" media-type="application/xhtml+xml"/>
+        <item id="node_50" href="node_50.html" media-type="application/xhtml+xml"/>
+        <item id="node_51" href="node_51.html" media-type="application/xhtml+xml"/>
+        <item id="node_52" href="node_52.html" media-type="application/xhtml+xml"/>
+        <item id="node_53" href="node_53.html" media-type="application/xhtml+xml"/>
+        <item id="node_54" href="node_54.html" media-type="application/xhtml+xml"/>
+        <item id="node_55" href="node_55.html" media-type="application/xhtml+xml"/>
+        <item id="node_56" href="node_56.html" media-type="application/xhtml+xml"/>
+        <item id="node_57" href="node_57.html" media-type="application/xhtml+xml"/>
+        <item id="node_58" href="node_58.html" media-type="application/xhtml+xml"/>
+        <item id="node_59" href="node_59.html" media-type="application/xhtml+xml"/>
+        <item id="node_60" href="node_60.html" media-type="application/xhtml+xml"/>
+        <item id="node_61" href="node_61.html" media-type="application/xhtml+xml"/>
+        <item id="node_62" href="node_62.html" media-type="application/xhtml+xml"/>
+        <item id="node_63" href="node_63.html" media-type="application/xhtml+xml"/>
+        <item id="node_64" href="node_64.html" media-type="application/xhtml+xml"/>
+        <item id="node_65" href="node_65.html" media-type="application/xhtml+xml"/>
+        <item id="node_66" href="node_66.html" media-type="application/xhtml+xml"/>
+        <item id="node_67" href="node_67.html" media-type="application/xhtml+xml"/>
+        <item id="node_68" href="node_68.html" media-type="application/xhtml+xml"/>
+        <item id="node_69" href="node_69.html" media-type="application/xhtml+xml"/>
+        <item id="node_70" href="node_70.html" media-type="application/xhtml+xml"/>
+        <item id="node_71" href="node_71.html" media-type="application/xhtml+xml"/>
+        <item id="node_72" href="node_72.html" media-type="application/xhtml+xml"/>
+        <item id="node_73" href="node_73.html" media-type="application/xhtml+xml"/>
+        <item id="node_74" href="node_74.html" media-type="application/xhtml+xml"/>
+        <item id="node_75" href="node_75.html" media-type="application/xhtml+xml"/>
+        <item id="node_76" href="node_76.html" media-type="application/xhtml+xml"/>
+        <item id="node_77" href="node_77.html" media-type="application/xhtml+xml"/>
+        <item id="node_78" href="node_78.html" media-type="application/xhtml+xml"/>
+        <item id="node_79" href="node_79.html" media-type="application/xhtml+xml"/>
+        <item id="node_80" href="node_80.html" media-type="application/xhtml+xml"/>
+        <item id="node_81" href="node_81.html" media-type="application/xhtml+xml"/>
+        <item id="node_82" href="node_82.html" media-type="application/xhtml+xml"/>
+        <item id="node_83" href="node_83.html" media-type="application/xhtml+xml"/>
+        <item id="node_84" href="node_84.html" media-type="application/xhtml+xml"/>
+        <item id="node_85" href="node_85.html" media-type="application/xhtml+xml"/>
+        <item id="node_86" href="node_86.html" media-type="application/xhtml+xml"/>
+        <item id="node_87" href="node_87.html" media-type="application/xhtml+xml"/>
+        <item id="node_88" href="node_88.html" media-type="application/xhtml+xml"/>
+        <item id="node_89" href="node_89.html" media-type="application/xhtml+xml"/>
+        <item id="node_90" href="node_90.html" media-type="application/xhtml+xml"/>
+        <item id="node_91" href="node_91.html" media-type="application/xhtml+xml"/>
+        <item id="node_92" href="node_92.html" media-type="application/xhtml+xml"/>
+        <item id="node_93" href="node_93.html" media-type="application/xhtml+xml"/>
+        <item id="node_94" href="node_94.html" media-type="application/xhtml+xml"/>
+        <item id="node_95" href="node_95.html" media-type="application/xhtml+xml"/>
+        <item id="node_96" href="node_96.html" media-type="application/xhtml+xml"/>
+        <item id="node_97" href="node_97.html" media-type="application/xhtml+xml"/>
+        <item id="node_98" href="node_98.html" media-type="application/xhtml+xml"/>
+        <item id="node_99" href="node_99.html" media-type="application/xhtml+xml"/>
+        <item id="node_100" href="node_100.html" media-type="application/xhtml+xml"/>
+        <item id="node_101" href="node_101.html" media-type="application/xhtml+xml"/>
+        <item id="node_102" href="node_102.html" media-type="application/xhtml+xml"/>
+        <item id="node_103" href="node_103.html" media-type="application/xhtml+xml"/>
+        <item id="node_104" href="node_104.html" media-type="application/xhtml+xml"/>
+        <item id="node_105" href="node_105.html" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="title" linear="yes"/>
+        <itemref idref="about" linear="yes"/>
+        <itemref idref="right" linear="yes"/>
+        <itemref idref="shucang" linear="yes"/>
+        <itemref idref="node_6" linear="yes"/>
+        <itemref idref="node_7" linear="yes"/>
+        <itemref idref="node_8" linear="yes"/>
+        <itemref idref="node_9" linear="yes"/>
+        <itemref idref="node_10" linear="yes"/>
+        <itemref idref="node_11" linear="yes"/>
+        <itemref idref="node_12" linear="yes"/>
+        <itemref idref="node_13" linear="yes"/>
+        <itemref idref="node_14" linear="yes"/>
+        <itemref idref="node_15" linear="yes"/>
+        <itemref idref="node_16" linear="yes"/>
+        <itemref idref="node_17" linear="yes"/>
+        <itemref idref="node_18" linear="yes"/>
+        <itemref idref="node_19" linear="yes"/>
+        <itemref idref="node_20" linear="yes"/>
+        <itemref idref="node_21" linear="yes"/>
+        <itemref idref="node_22" linear="yes"/>
+        <itemref idref="node_23" linear="yes"/>
+        <itemref idref="node_24" linear="yes"/>
+        <itemref idref="node_25" linear="yes"/>
+        <itemref idref="node_26" linear="yes"/>
+        <itemref idref="node_27" linear="yes"/>
+        <itemref idref="node_28" linear="yes"/>
+        <itemref idref="node_29" linear="yes"/>
+        <itemref idref="node_30" linear="yes"/>
+        <itemref idref="node_31" linear="yes"/>
+        <itemref idref="node_32" linear="yes"/>
+        <itemref idref="node_33" linear="yes"/>
+        <itemref idref="node_34" linear="yes"/>
+        <itemref idref="node_35" linear="yes"/>
+        <itemref idref="node_36" linear="yes"/>
+        <itemref idref="node_37" linear="yes"/>
+        <itemref idref="node_38" linear="yes"/>
+        <itemref idref="node_39" linear="yes"/>
+        <itemref idref="node_40" linear="yes"/>
+        <itemref idref="node_41" linear="yes"/>
+        <itemref idref="node_42" linear="yes"/>
+        <itemref idref="node_43" linear="yes"/>
+        <itemref idref="node_44" linear="yes"/>
+        <itemref idref="node_45" linear="yes"/>
+        <itemref idref="node_46" linear="yes"/>
+        <itemref idref="node_47" linear="yes"/>
+        <itemref idref="node_48" linear="yes"/>
+        <itemref idref="node_49" linear="yes"/>
+        <itemref idref="node_50" linear="yes"/>
+        <itemref idref="node_51" linear="yes"/>
+        <itemref idref="node_52" linear="yes"/>
+        <itemref idref="node_53" linear="yes"/>
+        <itemref idref="node_54" linear="yes"/>
+        <itemref idref="node_55" linear="yes"/>
+        <itemref idref="node_56" linear="yes"/>
+        <itemref idref="node_57" linear="yes"/>
+        <itemref idref="node_58" linear="yes"/>
+        <itemref idref="node_59" linear="yes"/>
+        <itemref idref="node_60" linear="yes"/>
+        <itemref idref="node_61" linear="yes"/>
+        <itemref idref="node_62" linear="yes"/>
+        <itemref idref="node_63" linear="yes"/>
+        <itemref idref="node_64" linear="yes"/>
+        <itemref idref="node_65" linear="yes"/>
+        <itemref idref="node_66" linear="yes"/>
+        <itemref idref="node_67" linear="yes"/>
+        <itemref idref="node_68" linear="yes"/>
+        <itemref idref="node_69" linear="yes"/>
+        <itemref idref="node_70" linear="yes"/>
+        <itemref idref="node_71" linear="yes"/>
+        <itemref idref="node_72" linear="yes"/>
+        <itemref idref="node_73" linear="yes"/>
+        <itemref idref="node_74" linear="yes"/>
+        <itemref idref="node_75" linear="yes"/>
+        <itemref idref="node_76" linear="yes"/>
+        <itemref idref="node_77" linear="yes"/>
+        <itemref idref="node_78" linear="yes"/>
+        <itemref idref="node_79" linear="yes"/>
+        <itemref idref="node_80" linear="yes"/>
+        <itemref idref="node_81" linear="yes"/>
+        <itemref idref="node_82" linear="yes"/>
+        <itemref idref="node_83" linear="yes"/>
+        <itemref idref="node_84" linear="yes"/>
+        <itemref idref="node_85" linear="yes"/>
+        <itemref idref="node_86" linear="yes"/>
+        <itemref idref="node_87" linear="yes"/>
+        <itemref idref="node_88" linear="yes"/>
+        <itemref idref="node_89" linear="yes"/>
+        <itemref idref="node_90" linear="yes"/>
+        <itemref idref="node_91" linear="yes"/>
+        <itemref idref="node_92" linear="yes"/>
+        <itemref idref="node_93" linear="yes"/>
+        <itemref idref="node_94" linear="yes"/>
+        <itemref idref="node_95" linear="yes"/>
+        <itemref idref="node_96" linear="yes"/>
+        <itemref idref="node_97" linear="yes"/>
+        <itemref idref="node_98" linear="yes"/>
+        <itemref idref="node_99" linear="yes"/>
+        <itemref idref="node_100" linear="yes"/>
+        <itemref idref="node_101" linear="yes"/>
+        <itemref idref="node_102" linear="yes"/>
+        <itemref idref="node_103" linear="yes"/>
+        <itemref idref="node_104" linear="yes"/>
+        <itemref idref="node_105" linear="yes"/>
+    </spine>
+    <guide>
+        <reference type="title-page" title="封面" href="title.xml"/>
+        <reference type="bibliography" title="关于本书" href="about.xml"/>
+        <reference type="copyright-page" title="声明" href="right.xml"/>
+        <reference type="text" title="书仓介绍" href="shucang.xml"/>
+        <reference type="text" title="第一回　祀南郊司马开基　立东宫庸雏伏祸" href="node_6.html"/>
+        <reference type="text" title="第二回　堕诡计储君纳妇　慰痴情少女偷香" href="node_7.html"/>
+        <reference type="text" title="第三回　杨皇后枕膝留言　左贵嫔摅才上颂" href="node_8.html"/>
+        <reference type="text" title="第四回　图东吴羊祜定谋　讨西虏马隆奏捷" href="node_9.html"/>
+        <reference type="text" title="第五回　捣金陵数路并举　俘孙皓二将争功" href="node_10.html"/>
+        <reference type="text" title="第六回　纳群娃羊车恣幸　继外孙螟子乱宗" href="node_11.html"/>
+        <reference type="text" title="第七回　指御座讽谏无功　侍帝榻权豪擅政" href="node_12.html"/>
+        <reference type="text" title="第八回　怙势招殃杨氏赤族　逞凶灭纪贾后废姑" href="node_13.html"/>
+        <reference type="text" title="第九回　遭反噬楚王受戮　失后援周处捐躯" href="node_14.html"/>
+        <reference type="text" title="第十回　讽大廷徙戎著论　诱小吏侍宴肆淫" href="node_15.html"/>
+        <reference type="text" title="第十一回　草逆书醉酒逼储君　传伪敕称兵废悍后" href="node_16.html"/>
+        <reference type="text" title="第十二回　坠名楼名姝殉难　夺御玺御驾被迁" href="node_17.html"/>
+        <reference type="text" title="第十三回　迎惠帝反正除奸　杀王豹擅权拒谏" href="node_18.html"/>
+        <reference type="text" title="第十四回　操同室戈齐王毕命　中诈降计李特败亡" href="node_19.html"/>
+        <reference type="text" title="第十五回　讨逆蛮力平荆土　拒君命冤杀陆机" href="node_20.html"/>
+        <reference type="text" title="第十六回　刘刺史抗忠尽节　皇太弟挟驾还都" href="node_21.html"/>
+        <reference type="text" title="第十七回　刘渊拥众称汉王　张方恃强劫惠帝" href="node_22.html"/>
+        <reference type="text" title="第十八回　作盟主东海起兵　诛恶贼河间失势" href="node_23.html"/>
+        <reference type="text" title="第十九回　伪都督败回江左　呆皇帝暴毙宫中" href="node_24.html"/>
+        <reference type="text" title="第二十回　战阳平苟晞破贼垒　佐琅琊王导集名流" href="node_25.html"/>
+        <reference type="text" title="第二十一回　北宫纯力破群盗　太傅越擅杀诸臣" href="node_26.html"/>
+        <reference type="text" title="第二十二回　乘内乱刘聪据国　借外援猗卢受封" href="node_27.html"/>
+        <reference type="text" title="第二十三回　倾国出师权相毕命　覆巢同尽太尉知非" href="node_28.html"/>
+        <reference type="text" title="第二十四回　执天子洛中遭巨劫　起义旅关右迓亲王" href="node_29.html"/>
+        <reference type="text" title="第二十五回　贻书归母难化狼心　行酒为奴终遭鸩毒" href="node_30.html"/>
+        <reference type="text" title="第二十六回　诏江东愍帝征兵　援灵武麹允破虏" href="node_31.html"/>
+        <reference type="text" title="第二十七回　拘王浚羯胡吞蓟北　毙赵染晋相保关中" href="node_32.html"/>
+        <reference type="text" title="第二十八回　汉刘后进表救忠臣　晋陶侃合军破乱贼" href="node_33.html"/>
+        <reference type="text" title="第二十九回　小儿女突围求救　大皇帝衔璧投降" href="node_34.html"/>
+        <reference type="text" title="第三十回　牧守联盟奉笺劝进　君臣屈辱蒙难丧生" href="node_35.html"/>
+        <reference type="text" title="第三十一回　晋王睿称尊嗣统　汉主聪见鬼亡身" href="node_36.html"/>
+        <reference type="text" title="第三十二回　诛逆登基羊后专宠　乘衅独立石勒称王" href="node_37.html"/>
+        <reference type="text" title="第三十三回　段匹磾受擒失河朔　王处仲抗表叛江南" href="node_38.html"/>
+        <reference type="text" title="第三十四回　镇湘中谯王举义　失石头元帝惊心" href="node_39.html"/>
+        <reference type="text" title="第三十五回　逆贼横行廷臣受戮　皇灵失驭嗣子承宗" href="node_40.html"/>
+        <reference type="text" title="第三十六回　扶钱凤即席用谋　遣王含出兵犯顺" href="node_41.html"/>
+        <reference type="text" title="第三十七回　平大憝群臣进爵　立幼主太后临朝" href="node_42.html"/>
+        <reference type="text" title="第三十八回　召外臣庾亮激变　入内廷苏峻纵凶" href="node_43.html"/>
+        <reference type="text" title="第三十九回　温峤推诚迎陶侃　毛宝负剑救桓宣" href="node_44.html"/>
+        <reference type="text" title="第四十回　枭首逆戡乱成功　宥元舅顾亲屈法" href="node_45.html"/>
+        <reference type="text" title="第四十一回　察钤音异僧献技　失军律醉汉遭擒" href="node_46.html"/>
+        <reference type="text" title="第四十二回　并前赵石勒称尊　防中山徐遐泣谏" href="node_47.html"/>
+        <reference type="text" title="第四十三回　背顾命鸮子毁室　凛梦兆狐首归邱" href="node_48.html"/>
+        <reference type="text" title="第四十四回　尽愚孝适贻蜀乱　保遗孤终立代王" href="node_49.html"/>
+        <reference type="text" title="第四十五回　杀妻孥赵主寡恩　协君臣燕都却敌" href="node_50.html"/>
+        <reference type="text" title="第四十六回　议北伐蔡谟抗谏　篡西蜀李寿改元" href="node_51.html"/>
+        <reference type="text" title="第四十七回　饯刘翔晋臣受责　逐高钊燕主逞威" href="node_52.html"/>
+        <reference type="text" title="第四十八回　斩敌将进灭宇文部　违朝议徙镇襄阳城" href="node_53.html"/>
+        <reference type="text" title="第四十九回　擢桓温移督荆梁　降李势荡平巴蜀" href="node_54.html"/>
+        <reference type="text" title="第五十回　选将得人凉州破敌　筑宫渔色石氏宣淫" href="node_55.html"/>
+        <reference type="text" title="第五十一回　诛逆子纵火焚尸　责病主抗颜极谏" href="node_56.html"/>
+        <reference type="text" title="第五十二回　乘羯乱进攻反失利　弑赵主易位又遭囚" href="node_57.html"/>
+        <reference type="text" title="第五十三回　养子复宗冉闵复姓　孱主授首石氏垂亡" href="node_58.html"/>
+        <reference type="text" title="第五十四回　却桓温晋相贻书　灭冉魏燕王僭号" href="node_59.html"/>
+        <reference type="text" title="第五十五回　拒忠言殷浩丧师　射敌帅桓温得胜" href="node_60.html"/>
+        <reference type="text" title="第五十六回　逞刑戮苻生纵虐　盗淫威张祚杀身" href="node_61.html"/>
+        <reference type="text" title="第五十七回　具使才说下凉州　满恶贯变生秦阙" href="node_62.html"/>
+        <reference type="text" title="第五十八回　围广固慕容恪善谋　战东河诸葛攸败绩" href="node_63.html"/>
+        <reference type="text" title="第五十九回　谢安石应征变节　张天锡乘乱弑君" href="node_64.html"/>
+        <reference type="text" title="第六十回　失洛阳沈劲死义　阻石门桓温退师" href="node_65.html"/>
+        <reference type="text" title="第六十一回　慕容垂避祸奔秦　王景略统兵入洛" href="node_66.html"/>
+        <reference type="text" title="第六十二回　略燕地连摧敌将　拔邺城追掳孱王" href="node_67.html"/>
+        <reference type="text" title="第六十三回　海西公遭诬被废　昆仑婢产子承基" href="node_68.html"/>
+        <reference type="text" title="第六十四回　谒崇陵桓温见鬼　重正朔王猛留言" href="node_69.html"/>
+        <reference type="text" title="第六十五回　失姑臧凉主作降虏　守襄阳朱母筑斜城" href="node_70.html"/>
+        <reference type="text" title="第六十六回　救孤城谢玄却秦军　违众议苻坚窥晋室" href="node_71.html"/>
+        <reference type="text" title="第六十七回　山墅赌弈寇来不惊　淝水交锋兵多易败" href="node_72.html"/>
+        <reference type="text" title="第六十八回　结丁零再兴燕祚　索邺城申表秦庭" href="node_73.html"/>
+        <reference type="text" title="第六十九回　据渭北后秦独立　入阿房西燕称尊" href="node_74.html"/>
+        <reference type="text" title="第七十回　堕虏谋晋将逾绝涧　应童谣秦主缢新城" href="node_75.html"/>
+        <reference type="text" title="第七十一回　用僧言吕光还兵　依逆谋段随弑主" href="node_76.html"/>
+        <reference type="text" title="第七十二回　谋刺未成秦后死节　失营被获毛氏捐躯" href="node_77.html"/>
+        <reference type="text" title="第七十三回　拓跋珪创兴后魏　慕容垂讨灭丁零" href="node_78.html"/>
+        <reference type="text" title="第七十四回　智姚苌旋师惊噩梦　勇翟瑥斩将扫孱宗" href="node_79.html"/>
+        <reference type="text" title="第七十五回　失都城西燕被灭　压山寨北魏争雄" href="node_80.html"/>
+        <reference type="text" title="第七十六回　子逼母燕太后自尽　弟陵兄晋道子专权" href="node_81.html"/>
+        <reference type="text" title="第七十七回　殷仲堪倒柄授桓玄　张贵人逞凶弑孝武" href="node_82.html"/>
+        <reference type="text" title="第七十八回　迫诛奸称戈犯北阙　僭称尊遣将伐西秦" href="node_83.html"/>
+        <reference type="text" title="第七十九回　吕氏肆虐凉土分崩　燕祚祚衰魏兵深入" href="node_84.html"/>
+        <reference type="text" title="第八十回　拓跋珪转败为胜　慕容宝因怯出奔" href="node_85.html"/>
+        <reference type="text" title="第八十一回　攻旧都逆子忘天理　陷中山娇女作人奴" href="node_86.html"/>
+        <reference type="text" title="第八十二回　通叛党兰汗弑君　诛贼臣燕宗复国" href="node_87.html"/>
+        <reference type="text" title="第八十三回　再发难王恭受戮　好惑人孙泰伏诛" href="node_88.html"/>
+        <reference type="text" title="第八十四回　戕内史独全谢妇　杀太守复陷会稽" href="node_89.html"/>
+        <reference type="text" title="第八十五回　失荆州参军殉主　弃苑川乾归逃生" href="node_90.html"/>
+        <reference type="text" title="第八十六回　受逆报吕纂被戕　据偏隅李暠独立" href="node_91.html"/>
+        <reference type="text" title="第八十七回　扫残孽南燕定都　立奸叔东宫失位" href="node_92.html"/>
+        <reference type="text" title="第八十八回　吕隆累败降秦室　刘裕屡胜走孙恩" href="node_93.html"/>
+        <reference type="text" title="第八十九回　覆全军元显受诛　夺大位桓玄行逆" href="node_94.html"/>
+        <reference type="text" title="第九十回　贤孟妇助夫举义　勇刘军败贼入都" href="node_95.html"/>
+        <reference type="text" title="第九十一回　蒙江洲冯迁诛逆首　陷成都谯纵害疆臣" href="node_96.html"/>
+        <reference type="text" title="第九十二回　贪女色吞针欺僧侣　戕妇翁拥众号天主" href="node_97.html"/>
+        <reference type="text" title="第九十三回　葬爱妻遇变丧身　立犹子临终传位" href="node_98.html"/>
+        <reference type="text" title="第九十四回　得使才接眷还都　失兵机纵敌入险" href="node_99.html"/>
+        <reference type="text" title="第九十五回　覆孤城慕容超亡国　诛逆贼冯文起开基" href="node_100.html"/>
+        <reference type="text" title="第九十六回　何无忌战死豫章口　刘寄奴固守石头城" href="node_101.html"/>
+        <reference type="text" title="第九十七回　窜南交卢循毙命　平西蜀谯纵伏辜" href="node_102.html"/>
+        <reference type="text" title="第九十八回　南凉王愎谏致亡　西秦后败谋殉难" href="node_103.html"/>
+        <reference type="text" title="第九十九回　入荆州驱除异党　夺长安翦灭后秦" href="node_104.html"/>
+        <reference type="text" title="第一百回　招寇乱秦关再失　迫禅位晋祚永终" href="node_105.html"/>
+    </guide>
+</package>

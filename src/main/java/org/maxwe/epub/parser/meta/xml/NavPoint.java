@@ -1,5 +1,6 @@
 package org.maxwe.epub.parser.meta.xml;
 
+import org.maxwe.epub.parser.EPubParserUtils;
 import org.maxwe.epub.parser.constant.XmlLabelName;
 import org.maxwe.epub.parser.core.AXmlLabelParser;
 import org.xmlpull.v1.XmlPullParser;
@@ -21,19 +22,15 @@ public class NavPoint extends AXmlLabelParser {
 
     public NavPoint(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
-    }
-
-    @Override
-    protected void parser() throws Exception {
         int attributeCount = xmlPullParser.getAttributeCount();
         for (int i = 0; i < attributeCount; i++) {
             //设置package节点的属性
             String attributeName = xmlPullParser.getAttributeName(i);
             String attributeValue = xmlPullParser.getAttributeValue(i);
-            if (XmlLabelName.ID.toString().equals(attributeName)) {
+            if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.ID.toString(), attributeName)) {
 //                this.id = attributeValue;
                 this.id = UUID.randomUUID().toString();
-            } else if (XmlLabelName.PLAYORDER.toString().equals(attributeName)) {
+            } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.PLAYORDER.toString(), attributeName)) {
                 this.playOrder = Integer.parseInt(attributeValue);
             }
         }
@@ -44,11 +41,11 @@ public class NavPoint extends AXmlLabelParser {
             switch (eventType) {
                 //开始节点
                 case XmlPullParser.START_TAG:
-                    if (XmlLabelName.NAVLABEL.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NAVLABEL.toString(), nodeName)) {
                         this.navLabel = new NavLabel(this.xmlPullParser);
-                    } else if (XmlLabelName.CONTENT.toString().equals(nodeName)) {
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.CONTENT.toString(), nodeName)) {
                         this.content = new Content(xmlPullParser);
-                    }else if (XmlLabelName.NAVPOINT.toString().equals(nodeName)){
+                    } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NAVPOINT.toString(), nodeName)) {
                         if (this.subNavPoints == null){
                             this.subNavPoints = new LinkedList<NavPoint>();
                         }
@@ -58,7 +55,7 @@ public class NavPoint extends AXmlLabelParser {
                     break;
                 //结束节点
                 case XmlPullParser.END_TAG:
-                    if (XmlLabelName.NAVPOINT.toString().equals(nodeName)) {
+                    if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.NAVPOINT.toString(), nodeName)) {
                         eventType = XmlPullParser.END_DOCUMENT;
                     }
                     break;
