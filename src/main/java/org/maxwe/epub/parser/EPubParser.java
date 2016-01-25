@@ -147,7 +147,7 @@ public class EPubParser implements IEPubMeta, IEPub {
             navigationHtmlPath = navigationHtmlPath.substring(0, lastIndexOf);
             for (Map.Entry<String, String> entry : entries) {
                 String pathLinker = EPubParserUtils.pathLinker(navigationHtmlPath, entry.getKey());
-                Navigation subNavigation = new Navigation(pathLinker, index++, entry.getValue(), pathLinker, iopf.getNavigationHtmlPath().substring(0, iopf.getNavigationHtmlPath().lastIndexOf(File.separator)) + File.separator + entry.getKey());
+                Navigation subNavigation = new Navigation(pathLinker, index++, entry.getValue(), pathLinker, iopf.getNavigationHtmlPath().substring(0, iopf.getNavigationHtmlPath().lastIndexOf(File.separator) == -1 ? iopf.getNavigationHtmlPath().length():iopf.getNavigationHtmlPath().lastIndexOf(File.separator)) + File.separator + entry.getKey());
                 navigations.add(subNavigation);
             }
             result = new Content(navigations);

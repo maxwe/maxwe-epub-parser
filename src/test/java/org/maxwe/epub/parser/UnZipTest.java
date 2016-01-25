@@ -9,7 +9,7 @@ public class UnZipTest {
 
     public static void main(String[] args) throws Exception{
 
-        //EPubParserUtils.unzip("/Users/dingpengwei/Desktop/epub/jingangjing.epub","/Users/dingpengwei/Desktop/epub/jingangjing/");
+       // EPubParserUtils.unzip("/Users/dingpengwei/Desktop/epub/yangzhiqiu.epub","/Users/dingpengwei/Desktop/epub/yangzhiqiu/");
 
 
     }

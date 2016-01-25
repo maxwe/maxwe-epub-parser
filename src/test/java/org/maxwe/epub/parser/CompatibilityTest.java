@@ -45,7 +45,7 @@ public class CompatibilityTest extends TestCase {
     static {
 //        paths.add(pathOfLiangjinyanyi);
 //        paths.add(pathOfChulianai);
-//        paths.add(pathOfYangzhiqiu);
+        paths.add(pathOfYangzhiqiu);
 //        paths.add(pathOfJianai);
 //        paths.add(pathOfMayunshuo);
 //        paths.add(pathOfZhangboling);
@@ -64,7 +64,7 @@ public class CompatibilityTest extends TestCase {
 //        paths.add(pathOfSample);
 //        paths.add(pathOfZengguofan);
 //        paths.add(pathOfZyisuo);
-        paths.add(pathOfZJinGangJing);
+//        paths.add(pathOfZJinGangJing);
     }
 
     public void testMain() throws Exception {

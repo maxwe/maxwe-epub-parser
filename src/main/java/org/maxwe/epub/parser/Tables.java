@@ -60,7 +60,9 @@ public class Tables {
                     if (flag){
                         String text = string.getText();
                         if (!"".equals(text.trim().replaceAll(System.getProperty("line.separator"), ""))) {
-                            linkedHashMap.put(attribute,text);
+                            if (attribute != null){
+                                linkedHashMap.put(attribute,text);
+                            }
                         }
                     }
                 }
