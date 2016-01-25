@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:" content="9787563723621" />
+    <meta name="dtb:generator" content="EPUBLib version 3.0" />
+    <meta name="dtb:depth" content="2" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>伊索寓言</text>
+  </docTitle>
+  <docAuthor>
+    <text>(古希腊)伊索　周丽霞, </text>
+  </docAuthor>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>封面</text>
+      </navLabel>
+      <content src="cover.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>伊索寓言</text>
+      </navLabel>
+      <content src="chapter1.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3" class="chapter">
+      <navLabel>
+        <text>目录</text>
+      </navLabel>
+      <content src="toc.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-4" playOrder="4" class="chapter">
+      <navLabel>
+        <text>版权信息</text>
+      </navLabel>
+      <content src="chapter2.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-5" playOrder="5" class="chapter">
+      <navLabel>
+        <text>导　读</text>
+      </navLabel>
+      <content src="chapter3.xhtml" />
+      <navPoint id="navPoint-6" playOrder="6" class="chapter">
+        <navLabel>
+          <text>作者简介</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-1" />
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7" class="chapter">
+        <navLabel>
+          <text>内容提要</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-2" />
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8" class="chapter">
+        <navLabel>
+          <text>写作背景</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-3" />
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9" class="chapter">
+        <navLabel>
+          <text>思想内涵</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-4" />
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="10" class="chapter">
+        <navLabel>
+          <text>阅读要点</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-5" />
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11" class="chapter">
+        <navLabel>
+          <text>人物介绍</text>
+        </navLabel>
+        <content src="chapter3.xhtml#hh2-6" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12" class="chapter">
+      <navLabel>
+        <text>蚊子和狮子</text>
+      </navLabel>
+      <content src="chapter4.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-13" playOrder="13" class="chapter">
+      <navLabel>
+        <text>挑剔的鹭鸶</text>
+      </navLabel>
+      <content src="chapter5.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-14" playOrder="14" class="chapter">
+      <navLabel>
+        <text>说谎的猴子</text>
+      </navLabel>
+      <content src="chapter6.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="15" class="chapter">
+      <navLabel>
+        <text>赫耳墨斯雕像的价格</text>
+      </navLabel>
+      <content src="chapter7.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-16" playOrder="16" class="chapter">
+      <navLabel>
+        <text>聪明的冠鸟</text>
+      </navLabel>
+      <content src="chapter8.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-17" playOrder="17" class="chapter">
+      <navLabel>
+        <text>战马的晚年</text>
+      </navLabel>
+      <content src="chapter9.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="18" class="chapter">
+      <navLabel>
+        <text>为什么牛的家庭内讧</text>
+      </navLabel>
+      <content src="chapter10.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-19" playOrder="19" class="chapter">
+      <navLabel>
+        <text>守财奴</text>
+      </navLabel>
+      <content src="chapter11.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20" class="chapter">
+      <navLabel>
+        <text>狐狸对狗的批评</text>
+      </navLabel>
+      <content src="chapter12.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-21" playOrder="21" class="chapter">
+      <navLabel>
+        <text>狮子和熊</text>
+      </navLabel>
+      <content src="chapter13.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-22" playOrder="22" class="chapter">
+      <navLabel>
+        <text>出卖朋友的驴</text>
+      </navLabel>
+      <content src="chapter14.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-23" playOrder="23" class="chapter">
+      <navLabel>
+        <text>狼骗牧人</text>
+      </navLabel>
+      <content src="chapter15.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-24" playOrder="24" class="chapter">
+      <navLabel>
+        <text>狼和老太婆</text>
+      </navLabel>
+      <content src="chapter16.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-25" playOrder="25" class="chapter">
+      <navLabel>
+        <text>狼和小羊</text>
+      </navLabel>
+      <content src="chapter17.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-26" playOrder="26" class="chapter">
+      <navLabel>
+        <text>和狼交朋友的羊</text>
+      </navLabel>
+      <content src="chapter18.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-27" playOrder="27" class="chapter">
+      <navLabel>
+        <text>衔肉的狗</text>
+      </navLabel>
+      <content src="chapter19.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-28" playOrder="28" class="chapter">
+      <navLabel>
+        <text>宙斯赐给蜜蜂武器</text>
+      </navLabel>
+      <content src="chapter20.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-29" playOrder="29" class="chapter">
+      <navLabel>
+        <text>披着狮皮的驴</text>
+      </navLabel>
+      <content src="chapter21.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-30" playOrder="30" class="chapter">
+      <navLabel>
+        <text>老鼠报恩</text>
+      </navLabel>
+      <content src="chapter22.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-31" playOrder="31" class="chapter">
+      <navLabel>
+        <text>狮子、驴和狐狸</text>
+      </navLabel>
+      <content src="chapter23.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-32" playOrder="32" class="chapter">
+      <navLabel>
+        <text>狼请鹭鸶治病</text>
+      </navLabel>
+      <content src="chapter24.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-33" playOrder="33" class="chapter">
+      <navLabel>
+        <text>蝙蝠的机智</text>
+      </navLabel>
+      <content src="chapter25.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-34" playOrder="34" class="chapter">
+      <navLabel>
+        <text>骆驼、大象和猴</text>
+      </navLabel>
+      <content src="chapter26.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-35" playOrder="35" class="chapter">
+      <navLabel>
+        <text>野驴送给狼的厚礼</text>
+      </navLabel>
+      <content src="chapter27.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-36" playOrder="36" class="chapter">
+      <navLabel>
+        <text>高雅的白鹤</text>
+      </navLabel>
+      <content src="chapter28.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-37" playOrder="37" class="chapter">
+      <navLabel>
+        <text>青蛙搬家</text>
+      </navLabel>
+      <content src="chapter29.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-38" playOrder="38" class="chapter">
+      <navLabel>
+        <text>遭天谴的鹰</text>
+      </navLabel>
+      <content src="chapter30.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-39" playOrder="39" class="chapter">
+      <navLabel>
+        <text>火鸦和狐狸</text>
+      </navLabel>
+      <content src="chapter31.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-40" playOrder="40" class="chapter">
+      <navLabel>
+        <text>狮子、普罗米修斯和大象</text>
+      </navLabel>
+      <content src="chapter32.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-41" playOrder="41" class="chapter">
+      <navLabel>
+        <text>挤牛奶的女孩</text>
+      </navLabel>
+      <content src="chapter33.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-42" playOrder="42" class="chapter">
+      <navLabel>
+        <text>自不量力</text>
+      </navLabel>
+      <content src="chapter34.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-43" playOrder="43" class="chapter">
+      <navLabel>
+        <text>狼与狗</text>
+      </navLabel>
+      <content src="chapter35.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-44" playOrder="44" class="chapter">
+      <navLabel>
+        <text>老鼠的勾结</text>
+      </navLabel>
+      <content src="chapter36.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-45" playOrder="45" class="chapter">
+      <navLabel>
+        <text>骗人的女巫</text>
+      </navLabel>
+      <content src="chapter37.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-46" playOrder="46" class="chapter">
+      <navLabel>
+        <text>得了瘟疫的群兽</text>
+      </navLabel>
+      <content src="chapter38.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-47" playOrder="47" class="chapter">
+      <navLabel>
+        <text>杂色羊</text>
+      </navLabel>
+      <content src="chapter39.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-48" playOrder="48" class="chapter">
+      <navLabel>
+        <text>鹰和鸡</text>
+      </navLabel>
+      <content src="chapter40.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-49" playOrder="49" class="chapter">
+      <navLabel>
+        <text>吃不到葡萄的狐狸</text>
+      </navLabel>
+      <content src="chapter41.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-50" playOrder="50" class="chapter">
+      <navLabel>
+        <text>嫉妒鸡的猫</text>
+      </navLabel>
+      <content src="chapter42.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-51" playOrder="51" class="chapter">
+      <navLabel>
+        <text>猴子和猫</text>
+      </navLabel>
+      <content src="chapter43.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-52" playOrder="52" class="chapter">
+      <navLabel>
+        <text>龟兔赛跑</text>
+      </navLabel>
+      <content src="chapter44.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-53" playOrder="53" class="chapter">
+      <navLabel>
+        <text>无奈的狐狸</text>
+      </navLabel>
+      <content src="chapter45.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-54" playOrder="54" class="chapter">
+      <navLabel>
+        <text>儿子、父亲和画上的狮子</text>
+      </navLabel>
+      <content src="chapter46.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-55" playOrder="55" class="chapter">
+      <navLabel>
+        <text>狼和喝水的小羊</text>
+      </navLabel>
+      <content src="chapter47.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-56" playOrder="56" class="chapter">
+      <navLabel>
+        <text>愚蠢的驴</text>
+      </navLabel>
+      <content src="chapter48.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-57" playOrder="57" class="chapter">
+      <navLabel>
+        <text>大雁与乌龟</text>
+      </navLabel>
+      <content src="chapter49.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-58" playOrder="58" class="chapter">
+      <navLabel>
+        <text>狐狸耍聪明</text>
+      </navLabel>
+      <content src="chapter50.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="59" class="chapter">
+      <navLabel>
+        <text>见死不救的人</text>
+      </navLabel>
+      <content src="chapter51.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-60" playOrder="60" class="chapter">
+      <navLabel>
+        <text>断了尾巴的狐狸</text>
+      </navLabel>
+      <content src="chapter52.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-61" playOrder="61" class="chapter">
+      <navLabel>
+        <text>河狸的本领</text>
+      </navLabel>
+      <content src="chapter53.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-62" playOrder="62" class="chapter">
+      <navLabel>
+        <text>口渴的鸽子</text>
+      </navLabel>
+      <content src="chapter54.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-63" playOrder="63" class="chapter">
+      <navLabel>
+        <text>野猪和狐狸</text>
+      </navLabel>
+      <content src="chapter55.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-64" playOrder="64" class="chapter">
+      <navLabel>
+        <text>孔雀和穴鸟</text>
+      </navLabel>
+      <content src="chapter56.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="65" class="chapter">
+      <navLabel>
+        <text>两个口袋</text>
+      </navLabel>
+      <content src="chapter57.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-66" playOrder="66" class="chapter">
+      <navLabel>
+        <text>麻雀和小草</text>
+      </navLabel>
+      <content src="chapter58.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-67" playOrder="67" class="chapter">
+      <navLabel>
+        <text>狐狸和猫</text>
+      </navLabel>
+      <content src="chapter59.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-68" playOrder="68" class="chapter">
+      <navLabel>
+        <text>田鼠与家鼠</text>
+      </navLabel>
+      <content src="chapter60.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-69" playOrder="69" class="chapter">
+      <navLabel>
+        <text>偷鸡的狐狸</text>
+      </navLabel>
+      <content src="chapter61.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-70" playOrder="70" class="chapter">
+      <navLabel>
+        <text>掉在井里的狐狸和公山羊</text>
+      </navLabel>
+      <content src="chapter62.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-71" playOrder="71" class="chapter">
+      <navLabel>
+        <text>理发与剪羊毛</text>
+      </navLabel>
+      <content src="chapter63.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-72" playOrder="72" class="chapter">
+      <navLabel>
+        <text>风与太阳</text>
+      </navLabel>
+      <content src="chapter64.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-73" playOrder="73" class="chapter">
+      <navLabel>
+        <text>牧人和海</text>
+      </navLabel>
+      <content src="chapter65.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-74" playOrder="74" class="chapter">
+      <navLabel>
+        <text>三只公山羊</text>
+      </navLabel>
+      <content src="chapter66.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-75" playOrder="75" class="chapter">
+      <navLabel>
+        <text>羊和牛请狮子评理</text>
+      </navLabel>
+      <content src="chapter67.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-76" playOrder="76" class="chapter">
+      <navLabel>
+        <text>牧人和狼</text>
+      </navLabel>
+      <content src="chapter68.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-77" playOrder="77" class="chapter">
+      <navLabel>
+        <text>小偷和公鸡</text>
+      </navLabel>
+      <content src="chapter69.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-78" playOrder="78" class="chapter">
+      <navLabel>
+        <text>狗和小偷</text>
+      </navLabel>
+      <content src="chapter70.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-79" playOrder="79" class="chapter">
+      <navLabel>
+        <text>铁锅和瓦罐</text>
+      </navLabel>
+      <content src="chapter71.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-80" playOrder="80" class="chapter">
+      <navLabel>
+        <text>兔子与青蛙</text>
+      </navLabel>
+      <content src="chapter72.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-81" playOrder="81" class="chapter">
+      <navLabel>
+        <text>丢了牛的牧牛人</text>
+      </navLabel>
+      <content src="chapter73.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-82" playOrder="82" class="chapter">
+      <navLabel>
+        <text>青蛙求国王</text>
+      </navLabel>
+      <content src="chapter74.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-83" playOrder="83" class="chapter">
+      <navLabel>
+        <text>狼和山羊</text>
+      </navLabel>
+      <content src="chapter75.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-84" playOrder="84" class="chapter">
+      <navLabel>
+        <text>人的智慧</text>
+      </navLabel>
+      <content src="chapter76.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-85" playOrder="85" class="chapter">
+      <navLabel>
+        <text>蚂蚁和蚱蜢</text>
+      </navLabel>
+      <content src="chapter77.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-86" playOrder="86" class="chapter">
+      <navLabel>
+        <text>狐狸与鹤</text>
+      </navLabel>
+      <content src="chapter78.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-87" playOrder="87" class="chapter">
+      <navLabel>
+        <text>猴子和狐狸</text>
+      </navLabel>
+      <content src="chapter79.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-88" playOrder="88" class="chapter">
+      <navLabel>
+        <text>驴和蚱蜢</text>
+      </navLabel>
+      <content src="chapter80.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-89" playOrder="89" class="chapter">
+      <navLabel>
+        <text>爱漂亮的梅花鹿</text>
+      </navLabel>
+      <content src="chapter81.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-90" playOrder="90" class="chapter">
+      <navLabel>
+        <text>农夫遇女神</text>
+      </navLabel>
+      <content src="chapter82.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-91" playOrder="91" class="chapter">
+      <navLabel>
+        <text>寡妇和下金蛋的母鸡</text>
+      </navLabel>
+      <content src="chapter83.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-92" playOrder="92" class="chapter">
+      <navLabel>
+        <text>猫与鹦鹉的故事</text>
+      </navLabel>
+      <content src="chapter84.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-93" playOrder="93" class="chapter">
+      <navLabel>
+        <text>黄蜂和蛇</text>
+      </navLabel>
+      <content src="chapter85.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-94" playOrder="94" class="chapter">
+      <navLabel>
+        <text>游泳的小孩</text>
+      </navLabel>
+      <content src="chapter86.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-95" playOrder="95" class="chapter">
+      <navLabel>
+        <text>牧人和小狼</text>
+      </navLabel>
+      <content src="chapter87.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-96" playOrder="96" class="chapter">
+      <navLabel>
+        <text>糊涂的牧羊人</text>
+      </navLabel>
+      <content src="chapter88.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-97" playOrder="97" class="chapter">
+      <navLabel>
+        <text>行人和大鸦</text>
+      </navLabel>
+      <content src="chapter89.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-98" playOrder="98" class="chapter">
+      <navLabel>
+        <text>一名号兵</text>
+      </navLabel>
+      <content src="chapter90.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-99" playOrder="99" class="chapter">
+      <navLabel>
+        <text>黄鼠狼求婚</text>
+      </navLabel>
+      <content src="chapter91.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-100" playOrder="100" class="chapter">
+      <navLabel>
+        <text>地神的诅咒</text>
+      </navLabel>
+      <content src="chapter92.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-101" playOrder="101" class="chapter">
+      <navLabel>
+        <text>蝉戏狐狸</text>
+      </navLabel>
+      <content src="chapter93.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-102" playOrder="102" class="chapter">
+      <navLabel>
+        <text>难过的橡树</text>
+      </navLabel>
+      <content src="chapter94.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-103" playOrder="103" class="chapter">
+      <navLabel>
+        <text>乌龟驮着房子</text>
+      </navLabel>
+      <content src="chapter95.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-104" playOrder="104" class="chapter">
+      <navLabel>
+        <text>老人召唤死神</text>
+      </navLabel>
+      <content src="chapter96.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-105" playOrder="105" class="chapter">
+      <navLabel>
+        <text>生死冤家</text>
+      </navLabel>
+      <content src="chapter97.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-106" playOrder="106" class="chapter">
+      <navLabel>
+        <text>养蜂人的苦笑</text>
+      </navLabel>
+      <content src="chapter98.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-107" playOrder="107" class="chapter">
+      <navLabel>
+        <text>长寿的人</text>
+      </navLabel>
+      <content src="chapter99.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-108" playOrder="108" class="chapter">
+      <navLabel>
+        <text>演说家</text>
+      </navLabel>
+      <content src="chapter100.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-109" playOrder="109" class="chapter">
+      <navLabel>
+        <text>猴子撒谎</text>
+      </navLabel>
+      <content src="chapter101.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-110" playOrder="110" class="chapter">
+      <navLabel>
+        <text>赌假咒的年轻人</text>
+      </navLabel>
+      <content src="chapter102.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-111" playOrder="111" class="chapter">
+      <navLabel>
+        <text>老太婆和医生</text>
+      </navLabel>
+      <content src="chapter103.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-112" playOrder="112" class="chapter">
+      <navLabel>
+        <text>上帝和蛇</text>
+      </navLabel>
+      <content src="chapter104.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-113" playOrder="113" class="chapter">
+      <navLabel>
+        <text>酗酒的丈夫</text>
+      </navLabel>
+      <content src="chapter105.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-114" playOrder="114" class="chapter">
+      <navLabel>
+        <text>失职的医生</text>
+      </navLabel>
+      <content src="chapter106.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-115" playOrder="115" class="chapter">
+      <navLabel>
+        <text>羊倌和头羊</text>
+      </navLabel>
+      <content src="chapter107.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-116" playOrder="116" class="chapter">
+      <navLabel>
+        <text>聪明的冠雀</text>
+      </navLabel>
+      <content src="chapter108.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-117" playOrder="117" class="chapter">
+      <navLabel>
+        <text>狗仗人势</text>
+      </navLabel>
+      <content src="chapter109.xhtml" />
+    </navPoint>
+  </navMap>
+</ncx>

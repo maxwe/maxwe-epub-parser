@@ -8,7 +8,8 @@ package org.maxwe.epub.parser;
 public class UnZipTest {
 
     public static void main(String[] args) throws Exception{
-        //EPubParserUtils.unzip("/Users/dingpengwei/Downloads/test/羊脂球.epub","/Users/dingpengwei/Downloads/test/yangzhiqiu/");
+
+        //EPubParserUtils.unzip("/Users/dingpengwei/Desktop/epub/jingangjing.epub","/Users/dingpengwei/Desktop/epub/jingangjing/");
 
 
     }

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="2.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">9787563723621</dc:identifier>
+    <dc:title>伊索寓言</dc:title>
+    <dc:publisher>旅游教育出版社</dc:publisher>
+    <dc:creator opf:role="aut" opf:file-as="(古希腊)伊索　周丽霞, "> (古希腊)伊索　周丽霞</dc:creator>
+    <dc:date>2012-05-01</dc:date>
+    <dc:language>zh-Hans</dc:language>
+    <ibooks:specified-fonts>true</ibooks:specified-fonts>
+    <dcterms:modified>2015-05-29T02:28:10Z</dcterms:modified>
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="ch1" href="chapter1.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch10" href="chapter10.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch11" href="chapter11.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch12" href="chapter12.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch13" href="chapter13.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch14" href="chapter14.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch15" href="chapter15.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch16" href="chapter16.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch17" href="chapter17.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch18" href="chapter18.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch19" href="chapter19.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch2" href="chapter2.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch20" href="chapter20.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch21" href="chapter21.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch3" href="chapter3.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch4" href="chapter4.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch5" href="chapter5.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch6" href="chapter6.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch7" href="chapter7.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch8" href="chapter8.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="ch9" href="chapter9.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="coverpage" href="cover.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="images_cover_jpg" href="images/cover.jpg" media-type="image/jpeg" />
+    <opf:item id="stylesheet" href="css/style.css" media-type="text/css" />
+    <opf:item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="coverpage" />
+    <opf:itemref idref="ch1" />
+    <opf:itemref idref="toc" />
+    <opf:itemref idref="ch2" />
+    <opf:itemref idref="ch3" />
+    <opf:itemref idref="ch4" />
+    <opf:itemref idref="ch5" />
+    <opf:itemref idref="ch6" />
+    <opf:itemref idref="ch7" />
+    <opf:itemref idref="ch8" />
+    <opf:itemref idref="ch9" />
+    <opf:itemref idref="ch10" />
+    <opf:itemref idref="ch11" />
+    <opf:itemref idref="ch12" />
+    <opf:itemref idref="ch13" />
+    <opf:itemref idref="ch14" />
+    <opf:itemref idref="ch15" />
+    <opf:itemref idref="ch16" />
+    <opf:itemref idref="ch17" />
+    <opf:itemref idref="ch18" />
+    <opf:itemref idref="ch19" />
+    <opf:itemref idref="ch20" />
+    <opf:itemref idref="ch21" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="cover.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

@@ -6,7 +6,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
 
 /**
  * Created by Pengwei Ding on 2015-08-28 23:20.
@@ -35,7 +35,8 @@ public class ContainerXml implements IContainer {
         XmlPullParser xmlPullParser = pullParserFactory.newPullParser();
         xmlPullParser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
         //设置输入流xml文件
-        xmlPullParser.setInput(new FileReader(new File(documentPath)));
+        FileInputStream fileInputStream = new FileInputStream(new File(documentPath));
+        xmlPullParser.setInput(fileInputStream, "utf-8");
 
         int eventType = xmlPullParser.getEventType();
 

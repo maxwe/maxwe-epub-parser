@@ -4,11 +4,28 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.maxwe.epub</groupId>
     <artifactId>parser</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <packaging>jar</packaging>
     <name>maxwe-epub-parser</name>
     <description>Parse EPub Metadata and HTML</description>
-    <url></url>
+    <url>https://github.com/maxwe/maxwe-epub-parser.git</url>
+
+    <licenses>
+        <license>
+            <url>https://github.com/maxwe/maxwe-epub-parser/LICENSE</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>${project.url}</url>
+        <connection>${project.url}</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <email>maxwe@maxwe.org</email>
+        </developer>
+    </developers>
 
     <repositories>
         <repository>

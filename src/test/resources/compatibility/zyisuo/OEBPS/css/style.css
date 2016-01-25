@@ -1,0 +1,288 @@
+﻿@namespace epub "http://www.idpf.org/2007/ops";
+@page {
+	margin: 1em;
+}
+
+a {text-decoration: none;}
+
+/* -------------- General Styles -------------- */
+
+body {
+ margin: 20px;
+}
+
+p {
+    text-indent: 2em;
+    line-height:1.5em;
+    font-size:1em;
+    font-family: "Songti SC","宋体";
+    text-align:justify;
+    margin-top:.1em !important;
+}
+
+.indent {text-indent: 1em;}
+.indent1 {text-indent: 1em; font-family:"Kaiti SC","楷体";}
+
+.noindent {text-indent: 0;}
+.noindent1 {text-indent: 0; margin-left: 2em;}
+
+.hang {margin-left: 2em; text-indent: -2em; text-align: justify;}
+.hang1 {margin-left: 4em; text-indent: -2em;}
+
+.center {text-align: center;}
+.right {text-align: right; margin-right: 2em;}
+.left {text-align: left;}
+
+
+blockquote {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 1em;
+	
+}
+
+img {
+	border: 1;
+}
+
+span.dropcap {
+	font-size: 300%;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+
+span.big {font-size: 150%;}
+span.small {font-size: 80%;}
+span.underline {text-decoration: underline;}
+span.strike {text-decoration: line-through;}
+sup {
+	vertical-align: 4px;
+}
+.clear {clear: both}
+
+/* -------------- Headings -------------- */
+h1 {
+    text-align:center;
+    font-size:1.8em;
+    font-family:"Heiti SC","黑体";
+    padding:.1em;
+    margin:1em 0em 2em .5em;
+    font-weight: bolder;
+    clear:both;
+}
+
+h2 {
+    color:maroon;
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family:"Songti SC","宋体";
+    font-size: 1.5em;
+    clear:both;
+    font-weight:bold;
+}
+
+h3 {
+    color:maroon;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family:"Songti SC","宋体";
+    font-size: 1.3em;
+    clear:both;
+    font-weight:bold;
+}
+
+h4 {
+  	margin:.5em auto;
+	  text-align:left;
+    font-family:"Songti SC","宋体";
+    font-size: 1.1em;
+    clear:both;
+}
+
+h5,h6
+{
+    margin:.5em auto;
+	  text-align:left;
+    font-family:"Songti SC","宋体";
+    clear:both;
+    font-size: 1.1em;    
+}
+
+
+/* -------------- Lists -------------- */
+ul, ol {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+ol ol, ul ul, ul ol, ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul.disc {
+	list-style-type: disc;
+}
+ul.circle {
+	list-style-type: circle;
+}
+ul.square {
+	list-style-type: square;
+}
+ol {
+	list-style-type: decimal;
+	margin-left: 3.5em;
+}
+
+hr {
+	border: 0;
+	color: black;
+	background-color: black;
+	height: 2px;
+	text-align: center;
+}
+
+/* -------------- Chapters -------------- */
+
+div.chapter {
+	display: block;	
+	margin-top: 0.5em;
+}
+
+/* -------------- Images -------------- */
+div.image {
+	text-align: center;
+	margin: 1em 0;
+	page-break-inside: avoid;
+}
+
+img.inline {
+	vertical-align: middle;
+}
+
+p.caption {
+	text-indent: 0;
+	margin: 0 2em 2em 2em;
+  font-family:"Kaiti SC","楷体";
+	font-size: 80%;
+}
+
+
+/* -------------- Tables -------------- */
+div.table {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+td, th {
+	padding: 3px 5px;
+}
+
+table.grid {
+	border: 1px solid black;
+}
+table.grid td, table.grid th {
+	border: 1px solid black;
+}
+/* use p.title and p.caption from image section above */
+
+
+/* -------------- Footnotes -------------- */
+div.footnotes  {
+	display: block;
+	font-size: 80%;
+}
+
+.note {
+	text-indent: 0;
+	margin-top: 1em;
+}
+
+.pagebreak {
+        page-break-before: always;
+}
+       
+nav li{
+    list-style:none;
+}
+nav ol{
+    padding-left:0;
+    margin-left:0;
+    font-size: 1em;
+}
+
+nav>ol>li.noindent {
+    padding-left:0em;
+    margin-left:0em;
+    font-size: 100%;
+}
+
+nav>ol>li.noindent1{
+    padding-left:2.5em;
+    margin-left:2em;
+    font-size: 90%;
+}
+
+nav>ol>li.noindent2{
+    padding-left:5em;
+    margin-left:4em;
+    font-size: 80%;
+}
+
+nav>ol ol{
+    margin-left:2em;
+}
+nav li a{
+    color:black;
+    display:block;
+    margin:1em 0 !important;
+}
+
+nav>ol>li>a{
+    font-size:1.2em;
+    font-family: "Heiti SC","黑体","heiti";
+    display:block;
+    margin-left:0 !important;
+    padding-left:0 !important;
+}
+
+nav>ol>li{
+    margin-left:0 !important;  
+}
+
+nav>ol{
+    margin-left:4em;
+}
+nav>ol>li>ol>li>a{
+    font-weight:bold;
+    
+}
+nav h1{
+    border:none;
+    color:black;
+    text-align:center;
+    margin-bottom:2em;
+    margin-top:1em;
+    margin:1em auto 2em auto;
+}
+.author {
+	padding-top: 2em;
+	padding-bottom: 3em;
+	text-align: center;
+	font-size: 120%;
+  font-family: "Kaiti SC", "楷体";
+}
+
+hr {
+	border: 0;
+	color: black;
+	background-color: black;
+	height: 1px;
+}

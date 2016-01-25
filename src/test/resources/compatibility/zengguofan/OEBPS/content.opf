@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="2.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">9787802514553</dc:identifier>
+    <dc:title>读曾国藩品人生智慧</dc:title>
+    <dc:publisher>金城出版社</dc:publisher>
+    <dc:creator opf:role="aut" opf:file-as="毛闻, "> 毛闻</dc:creator>
+    <dc:language>zh-Hans</dc:language>
+    <ibooks:specified-fonts>true</ibooks:specified-fonts>
+    <dcterms:modified>2015-04-01T15:52:56Z</dcterms:modified>
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="chapter1.xhtml" href="contents/chapter1.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter10.xhtml" href="contents/chapter10.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter11.xhtml" href="contents/chapter11.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter12.xhtml" href="contents/chapter12.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter13.xhtml" href="contents/chapter13.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter2.xhtml" href="contents/chapter2.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter3.xhtml" href="contents/chapter3.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter4.xhtml" href="contents/chapter4.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter5.xhtml" href="contents/chapter5.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter6.xhtml" href="contents/chapter6.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter7.xhtml" href="contents/chapter7.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter8.xhtml" href="contents/chapter8.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter9.xhtml" href="contents/chapter9.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="cover-image" href="images/frontcover.jpg" media-type="image/jpeg" />
+    <opf:item id="frontcover.xhtml" href="contents/frontcover.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="stylesheet.css" href="css/stylesheet.css" media-type="text/css" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="frontcover.xhtml" />
+    <opf:itemref idref="chapter1.xhtml" />
+    <opf:itemref idref="chapter2.xhtml" />
+    <opf:itemref idref="chapter3.xhtml" />
+    <opf:itemref idref="chapter4.xhtml" />
+    <opf:itemref idref="chapter5.xhtml" />
+    <opf:itemref idref="chapter6.xhtml" />
+    <opf:itemref idref="chapter7.xhtml" />
+    <opf:itemref idref="chapter8.xhtml" />
+    <opf:itemref idref="chapter9.xhtml" />
+    <opf:itemref idref="chapter10.xhtml" />
+    <opf:itemref idref="chapter11.xhtml" />
+    <opf:itemref idref="chapter12.xhtml" />
+    <opf:itemref idref="chapter13.xhtml" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="contents/frontcover.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

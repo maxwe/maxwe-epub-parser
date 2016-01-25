@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ncx PUBLIC      "-//NISO//DTD ncx 2005-1//EN"      "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1"      xml:lang="en"      xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+  <head>
+    <!-- The following four metadata items are required for all   NCX documents, including those conforming to the relaxed         constraints of OPS 2.0 -->
+
+    <meta name="dtb:uid" content="uid"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+
+ <docTitle>
+   <text>金刚经 - 佛教金刚经全文《金刚般若波罗蜜》</text>
+ </docTitle>
+
+ <docAuthor>   
+     <text>私人文摘</text>   
+ </docAuthor>
+
+ 
+  <navMap>
+    
+    <navPoint class="pTitle"  id="level1-title" playOrder="1">
+      <navLabel><text>封面</text></navLabel>
+      <content src="title.xml"/>
+    </navPoint>
+ 
+
+<navPoint class="pChapter" id="level2-part1-chap1" playOrder="2"> 
+  <navLabel><text>正文内容</text></navLabel> 
+  <content src="main2.xml"/>
+</navPoint>  
+
+<navPoint class="pChapter" id="level2-part2-chap1" playOrder="3"> 
+  <navLabel><text>封底</text></navLabel> 
+  <content src="shucang.xml"/>
+</navPoint>  
+    
+  </navMap>
+
+</ncx>

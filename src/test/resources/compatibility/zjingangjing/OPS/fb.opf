@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<package version="2.0" unique-identifier="PrimaryID" xmlns="http://www.idpf.org/2007/opf">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>金刚经 - 佛教金刚经全文《金刚般若波罗蜜》</dc:title>
+<dc:identifier id="PrimaryID" opf:scheme="URN">ff119f5159b65a4d3eb7d4d9803f371d</dc:identifier>
+<dc:language>zh</dc:language>
+<dc:creator opf:role="aut" opf:file-as="author">网络</dc:creator>
+<dc:publisher>私人文存</dc:publisher>
+<dc:description>金刚经 - 佛教金刚经全文《金刚般若波罗蜜》</dc:description>
+<dc:coverage>PRC</dc:coverage>
+<dc:source>http://www.jingangjing.com/</dc:source>
+<dc:date opf:event="original-publication">20100904</dc:date>
+<dc:date opf:event="ops-publication">20100904</dc:date>
+<dc:rights>学习收藏</dc:rights>    
+<dc:subject></dc:subject>  
+
+</metadata>
+
+<manifest>
+
+<!-- Content Documents -->
+
+<item id='title'      href='title.xml'    media-type='application/xhtml+xml'/>
+<item id='main2'      href='main2.xml'       media-type='application/xhtml+xml'/>
+<item id='bottom'      href='shucang.xml'       media-type='application/xhtml+xml'/>
+ <!-- CSS Style Sheets -->
+    
+  
+<item id="main-css"       href="css/main.css"       media-type="text/css"/>
+<!-- Images -->
+
+  <item id="cover"         href="images/cover.jpg"         media-type="image/jpeg"/>
+
+
+<!-- NCX -->
+
+<item id="ncx"       href="fb.ncx"       media-type="application/x-dtbncx+xml"/>
+</manifest>
+
+<spine toc="ncx">
+<itemref idref="title" linear="yes"/>
+<itemref idref="main2" linear="yes"/>
+<itemref idref="bottom" linear="yes"/>
+</spine>
+
+<guide>
+	 
+<reference type="title-page"     title="封面"     href="title.xml"/>
+<reference type="text"        title="Main2"        href="main2.xml"/>
+<reference type="text"        title="bottom"        href="shucang.xml"/>
+</guide>
+
+</package>

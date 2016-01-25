@@ -3,6 +3,7 @@ package org.maxwe.epub.parser;
 import junit.framework.TestCase;
 import org.maxwe.epub.parser.core.INavigation;
 import org.maxwe.epub.parser.impl.Content;
+import org.maxwe.epub.parser.meta.xml.Spine;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -33,28 +34,37 @@ public class CompatibilityTest extends TestCase {
     private static final String pathOfCompatibility7 = CompatibilityTest.class.getResource("/").getPath() + "compatibility/compatibility7";
     private static final String pathOfCompatibility8 = CompatibilityTest.class.getResource("/").getPath() + "compatibility/compatibility8";
     private static final String pathOfSample = CompatibilityTest.class.getResource("/").getPath() + "sample";
+    private static final String pathOfZyisuo = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zyisuo";
+    private static final String pathOfZengguofan = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zengguofan";
+
+    private static final String pathOfZJinGangJing = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zjingangjing";
+
+
     private static LinkedList<String> paths = new LinkedList<String>();
 
     static {
-        paths.add(pathOfLiangjinyanyi);
-        paths.add(pathOfChulianai);
-        paths.add(pathOfYangzhiqiu);
-        paths.add(pathOfJianai);
-        paths.add(pathOfMayunshuo);
-        paths.add(pathOfZhangboling);
-        paths.add(pathOfYueweicaotang);
-        paths.add(pathOfShucang);
-        paths.add(pathOfShenqidediqiu);
-        paths.add(pathOfDaxuexiaoxun);
-        paths.add(pathOfCompatibility1);
-        paths.add(pathOfCompatibility2);
-        paths.add(pathOfCompatibility3);
-        paths.add(pathOfCompatibility4);
-        paths.add(pathOfCompatibility5);
-        paths.add(pathOfCompatibility6);
-        paths.add(pathOfCompatibility7);
-        paths.add(pathOfCompatibility8);
-        paths.add(pathOfSample);
+//        paths.add(pathOfLiangjinyanyi);
+//        paths.add(pathOfChulianai);
+//        paths.add(pathOfYangzhiqiu);
+//        paths.add(pathOfJianai);
+//        paths.add(pathOfMayunshuo);
+//        paths.add(pathOfZhangboling);
+//        paths.add(pathOfYueweicaotang);
+//        paths.add(pathOfShucang);
+//        paths.add(pathOfShenqidediqiu);
+//        paths.add(pathOfDaxuexiaoxun);
+//        paths.add(pathOfCompatibility1);
+//        paths.add(pathOfCompatibility2);
+//        paths.add(pathOfCompatibility3);
+//        paths.add(pathOfCompatibility4);
+//        paths.add(pathOfCompatibility5);
+//        paths.add(pathOfCompatibility6);
+//        paths.add(pathOfCompatibility7);
+//        paths.add(pathOfCompatibility8);
+//        paths.add(pathOfSample);
+//        paths.add(pathOfZengguofan);
+//        paths.add(pathOfZyisuo);
+        paths.add(pathOfZJinGangJing);
     }
 
     public void testMain() throws Exception {
@@ -67,39 +77,40 @@ public class CompatibilityTest extends TestCase {
     private void compatibility(String path) throws Exception {
         if (new File(path).exists()) {
             EPubParser ePubParser = new EPubParser(path);
+            Spine spine = ePubParser.getIOPF().getSpine();
             ePubParser.getMetadata().print();
             Content content = ePubParser.getContent();
             LinkedList<INavigation> navigations = content.getNavigation();
             System.out.println("章节数：" + navigations.size());
-            for (INavigation navigation:navigations){
+            for (INavigation navigation : navigations) {
                 String href = navigation.getHref();
-                if (href.contains("#")){
+                if (href.contains("#")) {
                     href = href.substring(0, href.lastIndexOf("#"));
                 }
-                if (!new File(href).exists()){
+                if (!new File(href).exists()) {
                     navigation.print();
                 }
 //                navigation.print();
                 LinkedList<INavigation> subNavigations = navigation.getSubNavigation();
-                if (subNavigations != null && subNavigations.size() > 0){
-                    for (INavigation subNav:subNavigations){
+                if (subNavigations != null && subNavigations.size() > 0) {
+                    for (INavigation subNav : subNavigations) {
                         String hrefSub = subNav.getHref();
-                        if (hrefSub.contains("#")){
+                        if (hrefSub.contains("#")) {
                             hrefSub = hrefSub.substring(0, hrefSub.lastIndexOf("#"));
                         }
-                        if (!new File(hrefSub).exists()){
+                        if (!new File(hrefSub).exists()) {
                             subNav.print();
                             new Throwable("上一行文件路径不存在");
                         }
 //                        subNav.print();
                         LinkedList<INavigation> subNavigations1 = subNav.getSubNavigation();
-                        if (subNavigations1 != null && subNavigations1.size() > 0){
-                            for (INavigation subOfSub:subNavigations){
+                        if (subNavigations1 != null && subNavigations1.size() > 0) {
+                            for (INavigation subOfSub : subNavigations) {
                                 String hrefSubSub = subOfSub.getHref();
-                                if (hrefSubSub.contains("#")){
+                                if (hrefSubSub.contains("#")) {
                                     hrefSubSub = hrefSubSub.substring(0, hrefSubSub.lastIndexOf("#"));
                                 }
-                                if (!new File(hrefSubSub).exists()){
+                                if (!new File(hrefSubSub).exists()) {
                                     subOfSub.print();
                                 }
 //                                subOfSub.print();
