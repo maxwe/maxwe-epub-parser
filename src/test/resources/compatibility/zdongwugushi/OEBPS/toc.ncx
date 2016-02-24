@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:" content="9787554202234" />
+    <meta name="dtb:generator" content="EPUBLib version 3.0" />
+    <meta name="dtb:depth" content="2" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>让孩子深受感动的动物故事</text>
+  </docTitle>
+  <docAuthor>
+    <text>金波, </text>
+  </docAuthor>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>1.动物的助人故事</text>
+      </navLabel>
+      <content src="Text/chapter1.xhtml" />
+      <navPoint id="navPoint-2" playOrder="2" class="chapter">
+        <navLabel>
+          <text>救命的孔雀</text>
+        </navLabel>
+        <content src="Text/chapter1.xhtml#sigil_toc_id_1" />
+      </navPoint>
+      <navPoint id="navPoint-3" playOrder="3" class="chapter">
+        <navLabel>
+          <text>喜鹊助人</text>
+        </navLabel>
+        <content src="Text/chapter2.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-4" playOrder="4" class="chapter">
+        <navLabel>
+          <text>扑向手榴弹的狗</text>
+        </navLabel>
+        <content src="Text/chapter3.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="5" class="chapter">
+        <navLabel>
+          <text>家犬救主</text>
+        </navLabel>
+        <content src="Text/chapter4.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6" class="chapter">
+        <navLabel>
+          <text>罗马人的救星</text>
+        </navLabel>
+        <content src="Text/chapter5.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7" class="chapter">
+        <navLabel>
+          <text>英雄救美</text>
+        </navLabel>
+        <content src="Text/chapter6.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8" class="chapter">
+        <navLabel>
+          <text>和狼相处</text>
+        </navLabel>
+        <content src="Text/chapter7.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9" class="chapter">
+        <navLabel>
+          <text>灵犬送信</text>
+        </navLabel>
+        <content src="Text/chapter8.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="10" class="chapter">
+        <navLabel>
+          <text>斑鸠救人</text>
+        </navLabel>
+        <content src="Text/chapter9.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11" class="chapter">
+        <navLabel>
+          <text>巨蛇引路</text>
+        </navLabel>
+        <content src="Text/chapter10.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-12" playOrder="12" class="chapter">
+        <navLabel>
+          <text>义犬灵豹</text>
+        </navLabel>
+        <content src="Text/chapter11.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="13" class="chapter">
+        <navLabel>
+          <text>义务巡道工</text>
+        </navLabel>
+        <content src="Text/chapter12.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="14" class="chapter">
+        <navLabel>
+          <text>鹦鹉报警</text>
+        </navLabel>
+        <content src="Text/chapter13.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-15" playOrder="15" class="chapter">
+        <navLabel>
+          <text>宠物相救</text>
+        </navLabel>
+        <content src="Text/chapter14.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16" class="chapter">
+        <navLabel>
+          <text>看家的蜘蛛</text>
+        </navLabel>
+        <content src="Text/chapter15.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="17" class="chapter">
+        <navLabel>
+          <text>飞蛾救命</text>
+        </navLabel>
+        <content src="Text/chapter16.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-18" playOrder="18" class="chapter">
+        <navLabel>
+          <text>狼的援手</text>
+        </navLabel>
+        <content src="Text/chapter17.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-19" playOrder="19" class="chapter">
+        <navLabel>
+          <text>会打电话的小猫</text>
+        </navLabel>
+        <content src="Text/chapter18.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-20" playOrder="20" class="chapter">
+        <navLabel>
+          <text>公鸡赶贼</text>
+        </navLabel>
+        <content src="Text/chapter19.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-21" playOrder="21" class="chapter">
+        <navLabel>
+          <text>救命鸡</text>
+        </navLabel>
+        <content src="Text/chapter20.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-22" playOrder="22" class="chapter">
+        <navLabel>
+          <text>通人性的大象</text>
+        </navLabel>
+        <content src="Text/chapter21.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23" class="chapter">
+        <navLabel>
+          <text>白猫救主</text>
+        </navLabel>
+        <content src="Text/chapter22.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="24" class="chapter">
+        <navLabel>
+          <text>骆驼斗沙狼</text>
+        </navLabel>
+        <content src="Text/chapter23.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25" class="chapter">
+        <navLabel>
+          <text>义犬救家人</text>
+        </navLabel>
+        <content src="Text/chapter24.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26" class="chapter">
+        <navLabel>
+          <text>军犬斗蛇</text>
+        </navLabel>
+        <content src="Text/chapter25.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27" class="chapter">
+        <navLabel>
+          <text>火海救幼主</text>
+        </navLabel>
+        <content src="Text/chapter26.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="28" class="chapter">
+        <navLabel>
+          <text>猴王的援手</text>
+        </navLabel>
+        <content src="Text/chapter27.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-29" playOrder="29" class="chapter">
+        <navLabel>
+          <text>可敬的狗</text>
+        </navLabel>
+        <content src="Text/chapter28.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-30" playOrder="30" class="chapter">
+        <navLabel>
+          <text>百蛇补洞</text>
+        </navLabel>
+        <content src="Text/chapter29.xhtml" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-31" playOrder="31" class="chapter">
+      <navLabel>
+        <text>2.动物的互助故事</text>
+      </navLabel>
+      <content src="Text/chapter30.xhtml" />
+      <navPoint id="navPoint-32" playOrder="32" class="chapter">
+        <navLabel>
+          <text>见义勇为的老鼠</text>
+        </navLabel>
+        <content src="Text/chapter30.xhtml#sigil_toc_id_2" />
+      </navPoint>
+      <navPoint id="navPoint-33" playOrder="33" class="chapter">
+        <navLabel>
+          <text>小牛救母</text>
+        </navLabel>
+        <content src="Text/chapter31.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34" class="chapter">
+        <navLabel>
+          <text>壁虎情</text>
+        </navLabel>
+        <content src="Text/chapter32.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="35" class="chapter">
+        <navLabel>
+          <text>扶老携幼</text>
+        </navLabel>
+        <content src="Text/chapter33.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-36" playOrder="36" class="chapter">
+        <navLabel>
+          <text>海豚救同伴</text>
+        </navLabel>
+        <content src="Text/chapter34.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-37" playOrder="37" class="chapter">
+        <navLabel>
+          <text>黄牛劝架</text>
+        </navLabel>
+        <content src="Text/chapter35.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="38" class="chapter">
+        <navLabel>
+          <text>勇于牺牲的斑马</text>
+        </navLabel>
+        <content src="Text/chapter36.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39" class="chapter">
+        <navLabel>
+          <text>鸟类的力量</text>
+        </navLabel>
+        <content src="Text/chapter37.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40" class="chapter">
+        <navLabel>
+          <text>河马的救助</text>
+        </navLabel>
+        <content src="Text/chapter38.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-41" playOrder="41" class="chapter">
+        <navLabel>
+          <text>花母牛和它的儿子</text>
+        </navLabel>
+        <content src="Text/chapter39.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-42" playOrder="42" class="chapter">
+        <navLabel>
+          <text>断尾救同伴</text>
+        </navLabel>
+        <content src="Text/chapter40.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-43" playOrder="43" class="chapter">
+        <navLabel>
+          <text>狼的智慧</text>
+        </navLabel>
+        <content src="Text/chapter41.xhtml" />
+      </navPoint>
+      <navPoint id="navPoint-44" playOrder="44" class="chapter">
+        <navLabel>
+          <text>乌龟逃生</text>
+        </navLabel>
+        <content src="Text/chapter42.xhtml" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

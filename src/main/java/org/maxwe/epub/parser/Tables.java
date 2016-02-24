@@ -37,7 +37,6 @@ public class Tables {
                 public void visitTag(Tag tag) {
                     if (HtmlLabelName.NAV.toString().equalsIgnoreCase(tag.getTagName())) {
                         String attribute = tag.getAttribute(HtmlLabelName.EPUB_TYPE.toString());
-                        System.out.println(attribute);
                         if ("toc".equalsIgnoreCase(attribute)){
                             flag = true;
                         }

@@ -39,6 +39,7 @@ public enum XmlLabelName {
     CONTENT("content"),
     NCX("ncx"),
     SRC("src"),
+    PROPERTIES("properties"),
     temp("temp");
 
 

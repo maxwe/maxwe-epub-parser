@@ -13,6 +13,7 @@ public class Item extends AXmlLabelParser {
     private String id;
     private String href;
     private String mediaType;
+    private String properties;
 
     public Item(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
@@ -27,6 +28,8 @@ public class Item extends AXmlLabelParser {
                 this.href = attributeValue;
             } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.MEDIA_TYPE.toString(), attributeName)){
                 this.mediaType = attributeValue;
+            } else if (EPubParserUtils.xmlLabelEquals(false,XmlLabelName.PROPERTIES.toString(), attributeName)){
+                this.properties = attributeValue;
             }
         }
     }
@@ -41,6 +44,10 @@ public class Item extends AXmlLabelParser {
 
     public String getMediaType() {
         return mediaType;
+    }
+
+    public String getProperties() {
+        return properties;
     }
 
     @Override

@@ -78,10 +78,7 @@ public class OPF implements IOPF {
     }
 
     public String getNavigationHtmlPath() {
-        String key = this.getSpine() == null ? null : this.getSpine().getToc();
-        if (key == null) {
-            key = "toc";
-        }
+        String key = "toc";
         String s = this.getManifest().getItemById(key) == null ? null : this.getManifest().getItemById(key).getHref();
         if (s.endsWith("html") || s.endsWith("xhtml")) {
             return s;

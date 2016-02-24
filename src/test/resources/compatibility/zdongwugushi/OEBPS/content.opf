@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="3.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">9787554202234</dc:identifier>
+    <dc:title>让孩子深受感动的动物故事</dc:title>
+    <dc:publisher>中原农民出版社</dc:publisher>
+    <dc:creator opf:role="aut" opf:file-as="金波, "> 金波</dc:creator>
+    <dc:date>2013-03-01</dc:date>
+    <dc:language>zh-Hans</dc:language>
+    <opf:meta property="ibooks:specified-fonts">true</opf:meta>
+    <opf:meta property="dcterms:modified">2015-05-11T14:20:54Z</opf:meta>
+    <opf:meta name="cover" content="cover-image" />
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="chapter1.xhtml" href="Text/chapter1.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter10.xhtml" href="Text/chapter10.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter11.xhtml" href="Text/chapter11.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter12.xhtml" href="Text/chapter12.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter13.xhtml" href="Text/chapter13.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter14.xhtml" href="Text/chapter14.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter15.xhtml" href="Text/chapter15.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter16.xhtml" href="Text/chapter16.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter17.xhtml" href="Text/chapter17.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter18.xhtml" href="Text/chapter18.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter19.xhtml" href="Text/chapter19.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter2.xhtml" href="Text/chapter2.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter20.xhtml" href="Text/chapter20.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter21.xhtml" href="Text/chapter21.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter22.xhtml" href="Text/chapter22.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter23.xhtml" href="Text/chapter23.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter24.xhtml" href="Text/chapter24.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter25.xhtml" href="Text/chapter25.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter26.xhtml" href="Text/chapter26.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter27.xhtml" href="Text/chapter27.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter28.xhtml" href="Text/chapter28.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter29.xhtml" href="Text/chapter29.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter3.xhtml" href="Text/chapter3.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter30.xhtml" href="Text/chapter30.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter31.xhtml" href="Text/chapter31.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter32.xhtml" href="Text/chapter32.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter33.xhtml" href="Text/chapter33.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter34.xhtml" href="Text/chapter34.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter35.xhtml" href="Text/chapter35.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter36.xhtml" href="Text/chapter36.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter37.xhtml" href="Text/chapter37.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter38.xhtml" href="Text/chapter38.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter39.xhtml" href="Text/chapter39.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter4.xhtml" href="Text/chapter4.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter40.xhtml" href="Text/chapter40.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter41.xhtml" href="Text/chapter41.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter42.xhtml" href="Text/chapter42.xhtml" media-type="application/xhtml+xml" properties="break" />
+    <opf:item id="chapter5.xhtml" href="Text/chapter5.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter6.xhtml" href="Text/chapter6.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter7.xhtml" href="Text/chapter7.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter8.xhtml" href="Text/chapter8.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter9.xhtml" href="Text/chapter9.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="cover-image" href="Images/frontcover.jpg" media-type="image/jpeg" properties="cover-image" />
+    <opf:item id="frontcover.xhtml" href="Text/frontcover.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="stylesheet.css" href="Styles/stylesheet.css" media-type="text/css" />
+    <opf:item id="toc" href="Text/toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="frontcover.xhtml" />
+    <opf:itemref idref="chapter1.xhtml" />
+    <opf:itemref idref="chapter2.xhtml" />
+    <opf:itemref idref="chapter3.xhtml" />
+    <opf:itemref idref="chapter4.xhtml" />
+    <opf:itemref idref="chapter5.xhtml" />
+    <opf:itemref idref="chapter6.xhtml" />
+    <opf:itemref idref="chapter7.xhtml" />
+    <opf:itemref idref="chapter8.xhtml" />
+    <opf:itemref idref="chapter9.xhtml" />
+    <opf:itemref idref="chapter10.xhtml" />
+    <opf:itemref idref="chapter11.xhtml" />
+    <opf:itemref idref="chapter12.xhtml" />
+    <opf:itemref idref="chapter13.xhtml" />
+    <opf:itemref idref="chapter14.xhtml" />
+    <opf:itemref idref="chapter15.xhtml" />
+    <opf:itemref idref="chapter16.xhtml" />
+    <opf:itemref idref="chapter17.xhtml" />
+    <opf:itemref idref="chapter18.xhtml" />
+    <opf:itemref idref="chapter19.xhtml" />
+    <opf:itemref idref="chapter20.xhtml" />
+    <opf:itemref idref="chapter21.xhtml" />
+    <opf:itemref idref="chapter22.xhtml" />
+    <opf:itemref idref="chapter23.xhtml" />
+    <opf:itemref idref="chapter24.xhtml" />
+    <opf:itemref idref="chapter25.xhtml" />
+    <opf:itemref idref="chapter26.xhtml" />
+    <opf:itemref idref="chapter27.xhtml" />
+    <opf:itemref idref="chapter28.xhtml" />
+    <opf:itemref idref="chapter29.xhtml" />
+    <opf:itemref idref="chapter30.xhtml" />
+    <opf:itemref idref="chapter31.xhtml" />
+    <opf:itemref idref="chapter32.xhtml" />
+    <opf:itemref idref="chapter33.xhtml" />
+    <opf:itemref idref="chapter34.xhtml" />
+    <opf:itemref idref="chapter35.xhtml" />
+    <opf:itemref idref="chapter36.xhtml" />
+    <opf:itemref idref="chapter37.xhtml" />
+    <opf:itemref idref="chapter38.xhtml" />
+    <opf:itemref idref="chapter39.xhtml" />
+    <opf:itemref idref="chapter40.xhtml" />
+    <opf:itemref idref="chapter41.xhtml" />
+    <opf:itemref idref="chapter42.xhtml" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="Text/frontcover.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

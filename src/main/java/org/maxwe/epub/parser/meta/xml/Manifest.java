@@ -16,6 +16,7 @@ import java.util.Map;
 public class Manifest extends AXmlLabelParser {
     private Map<String,Item> idItems;
     private List<Item> items;
+    private Item navItem;
 
     public Manifest(XmlPullParser xmlPullParser) throws Exception {
         super(xmlPullParser);
@@ -36,6 +37,9 @@ public class Manifest extends AXmlLabelParser {
                         Item item = new Item(xmlPullParser);
                         this.idItems.put(item.getId(),item);
                         this.items.add(item);
+                        if ("nav".equals(item.getProperties())){
+                            navItem = item;
+                        }
                     }
                     //结束节点
                 case XmlPullParser.END_TAG:
@@ -61,6 +65,13 @@ public class Manifest extends AXmlLabelParser {
             return null;
         }
         return this.idItems.get(id);
+    }
+
+    public Item getNavItem() {
+        if (navItem == null){
+            return idItems.get("toc");
+        }
+        return navItem;
     }
 
     public String getNcxFileName(){

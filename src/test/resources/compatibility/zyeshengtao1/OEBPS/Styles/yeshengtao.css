@@ -1,0 +1,347 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	-epub-hyphens:auto;
+	-webkit-hyphens:auto;
+}
+@page {
+	margin : 0px 0px 0px 0px;
+}
+p.text-bt1 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:2.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:17px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0px;
+	border-bottom:#bebebe 2px solid;
+	
+    padding-bottom:0.3em;
+}
+p.text-bt2-you {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1.417em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:77px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0px;
+
+}
+p.text-zw {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-30px;
+}
+p.text-zw2 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.xinghao {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:20px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:-30px;
+}
+p.text-bt3 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:5px;
+	margin-left:57px;
+	margin-right:0px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:-57px;
+}
+p.text-zw3 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:76px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-4px;
+}
+p.text-zw4 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:185px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:2px;
+}
+
+p.text-shizhu {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:150px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.lingmian {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:2.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:17px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:underline;
+	text-indent:0px;
+}
+p.chubanshuoming {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1.667em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:40px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:-30px;
+border-bottom:#bebebe 2px solid;
+	
+    padding-bottom:0.3em;
+}
+p.weiljinian {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"黑体";
+	font-size:1.667em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:20px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-30px;
+}
+p.zixu {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1.667em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:10px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+border-bottom:#bebebe 2px solid;
+	
+    padding-bottom:0.3em;
+}
+p.shangjinlin {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:80px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.shangjinlin2 {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:30px;
+	margin-right:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:24px;
+}
+p.text-bt1-fan {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:2.25em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:80px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0px;
+border-bottom:#bebebe 2px solid;
+	
+    padding-bottom:0.3em;
+}
+
+p.writexiao {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"宋体";
+	font-size:0.833em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+margin-top:30px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0em;
+}
+
+img.frame-banquan2 {
+		margin-top:15px;
+        height:1.167em;
+        width:8.8em;
+		float:right;
+  }
+span.kt {
+	font-family:"楷体";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.ht {
+	font-family:"黑体";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.fs {
+	font-family:"仿宋";
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-1 {
+	break-after:page;
+}
+span.char-style-override-1 {
+	font-family:"黑体";
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-2 {
+	font-size:0.444em;
+}

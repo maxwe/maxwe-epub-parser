@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="3.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">urn:uuid:d50b2e0c-c893-4d8f-838c-180945a040d2</dc:identifier>
+    <dc:title>叶圣陶年谱长编（第一卷）</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="商金林, "> 商金林</dc:creator>
+    <dc:date>2014-11-24</dc:date>
+    <dc:date opf:event="modification">2014-12-03</dc:date>
+    <dc:language>zh-CN</dc:language>
+    <opf:meta name="cover" content="fm.jpg" />
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="banquan.xhtml" href="Text/banquan.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="bq.png" href="Images/bq.png" media-type="image/png" />
+    <opf:item id="dibaye.xhtml" href="Text/dibaye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="dierye.xhtml" href="Text/dierye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="diliuye.xhtml" href="Text/diliuye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="diqiye.xhtml" href="Text/diqiye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="disanye.xhtml" href="Text/disanye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="disiye.xhtml" href="Text/disiye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="diwuye.xhtml" href="Text/diwuye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="feiye.xhtml" href="Text/feiye.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="fm.jpg" href="Images/fm.jpg" media-type="image/jpeg" />
+    <opf:item id="fm.xhtml" href="Text/fm.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="Hh40-600_fmt.png" href="Images/Hh40-600_fmt.png" media-type="image/png" />
+    <opf:item id="laorentou.xhtml" href="Text/laorentou.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="x10.jpg" href="Images/10.jpg" media-type="image/jpeg" />
+    <opf:item id="x11.jpg" href="Images/11.jpg" media-type="image/jpeg" />
+    <opf:item id="x12.jpg" href="Images/12.jpg" media-type="image/jpeg" />
+    <opf:item id="x13.jpg" href="Images/13.jpg" media-type="image/jpeg" />
+    <opf:item id="x14.jpg" href="Images/14.jpg" media-type="image/jpeg" />
+    <opf:item id="x15.jpg" href="Images/15.jpg" media-type="image/jpeg" />
+    <opf:item id="x16.jpg" href="Images/16.jpg" media-type="image/jpeg" />
+    <opf:item id="x17.jpg" href="Images/17.jpg" media-type="image/jpeg" />
+    <opf:item id="x20.jpg" href="Images/20.jpg" media-type="image/jpeg" />
+    <opf:item id="yeshengtao.css" href="Styles/yeshengtao.css" media-type="text/css" />
+    <opf:item id="yeshentaon" href="Text/yeshentaon.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="yeshentaon-1" href="Text/yeshentaon-1.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="yeshentaon-2" href="Text/yeshentaon-2.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="yeshentaon-3" href="Text/yeshentaon-3.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="yeshentaon-4" href="Text/yeshentaon-4.xhtml" media-type="application/xhtml+xml" properties="break" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="fm.xhtml" />
+    <opf:itemref idref="feiye.xhtml" />
+    <opf:itemref idref="banquan.xhtml" />
+    <opf:itemref idref="laorentou.xhtml" />
+    <opf:itemref idref="dierye.xhtml" />
+    <opf:itemref idref="disanye.xhtml" />
+    <opf:itemref idref="disiye.xhtml" />
+    <opf:itemref idref="diwuye.xhtml" />
+    <opf:itemref idref="diliuye.xhtml" />
+    <opf:itemref idref="diqiye.xhtml" />
+    <opf:itemref idref="dibaye.xhtml" />
+    <opf:itemref idref="yeshentaon" />
+    <opf:itemref idref="yeshentaon-1" />
+    <opf:itemref idref="yeshentaon-2" />
+    <opf:itemref idref="yeshentaon-3" />
+    <opf:itemref idref="yeshentaon-4" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="Text/fm.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

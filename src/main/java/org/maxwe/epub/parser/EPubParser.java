@@ -51,19 +51,37 @@ public class EPubParser implements IEPubMeta, IEPub {
             String navigationFilePath = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), this.iopf.getNavigationFilePath());
             String navigationHtmlPath = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), this.iopf.getNavigationHtmlPath());
 
+            /**
+             * 从TOC中解析出目录
+             */
             Content convertNavigationFileToContent = this.convertNavigationFileToContent(navigationFilePath);
+            /**
+             * 从HTML中解析出目录
+             */
             Content convertNavigationHtmlToContent = this.convertNavigationHtmlToContent(navigationHtmlPath);
 
+            /**
+             * 选取解析出的目录中的任意一个赋值
+             */
             content = convertNavigationHtmlToContent;
 
+            /**
+             * 如果从TOC中解析出的目录比较多就取值TOC解析结果
+             */
             if ((convertNavigationFileToContent == null ? 0 : convertNavigationFileToContent.getContentSize()) > (convertNavigationHtmlToContent == null ? 0 : convertNavigationHtmlToContent.getContentSize())) {
                 content = convertNavigationFileToContent;
             }
 
+            /**
+             * 如果从HTML中解析出的目录比较多就取值HTML解析结果
+             */
             if ((convertNavigationFileToContent == null ? 0 : convertNavigationFileToContent.getContentSize()) < (convertNavigationHtmlToContent == null ? 0 : convertNavigationHtmlToContent.getContentSize())) {
                 content = convertNavigationHtmlToContent;
             }
 
+            /**
+             * 如果上面两个结果都没有就取值SPINE
+             */
             if (content == null || content.getContentSize() < 1) {
                 content = this.convertManifestSpineToContent();
             }
@@ -129,7 +147,7 @@ public class EPubParser implements IEPubMeta, IEPub {
         } else {
             for (NavPoint subNavPoint : subNavPoints) {
                 String pathLinker = EPubParserUtils.pathLinker(EPubParserUtils.pathLinker(this.rootFilePath, this.iContainer.getRelativeFullPathDir()), subNavPoint.getContent().getValue());
-                Navigation subNavigation = new Navigation(subNavPoint.getId(), subNavPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), pathLinker, navPoint.getContent().getValue());
+                Navigation subNavigation = new Navigation(subNavPoint.getId(), subNavPoint.getPlayOrder(), subNavPoint.getNavLabel().getText().getValue(), pathLinker, subNavPoint.getContent().getValue());
                 navigation.getSubNavigation().add(subNavigation);
                 buildNavTree(subNavPoint, subNavigation);
             }
@@ -147,7 +165,7 @@ public class EPubParser implements IEPubMeta, IEPub {
             navigationHtmlPath = navigationHtmlPath.substring(0, lastIndexOf);
             for (Map.Entry<String, String> entry : entries) {
                 String pathLinker = EPubParserUtils.pathLinker(navigationHtmlPath, entry.getKey());
-                Navigation subNavigation = new Navigation(pathLinker, index++, entry.getValue(), pathLinker, iopf.getNavigationHtmlPath().substring(0, iopf.getNavigationHtmlPath().lastIndexOf(File.separator) == -1 ? iopf.getNavigationHtmlPath().length():iopf.getNavigationHtmlPath().lastIndexOf(File.separator)) + File.separator + entry.getKey());
+                Navigation subNavigation = new Navigation(pathLinker, index++, entry.getValue(), pathLinker, iopf.getNavigationHtmlPath().substring(0, iopf.getNavigationHtmlPath().lastIndexOf(File.separator) == -1 ? iopf.getNavigationHtmlPath().length() : iopf.getNavigationHtmlPath().lastIndexOf(File.separator)) + File.separator + entry.getKey());
                 navigations.add(subNavigation);
             }
             result = new Content(navigations);
@@ -170,6 +188,5 @@ public class EPubParser implements IEPubMeta, IEPub {
         }
         return new Content(navigations);
     }
-
 
 }

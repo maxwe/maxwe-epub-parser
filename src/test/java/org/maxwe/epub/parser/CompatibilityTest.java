@@ -38,6 +38,8 @@ public class CompatibilityTest extends TestCase {
     private static final String pathOfZengguofan = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zengguofan";
 
     private static final String pathOfZJinGangJing = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zjingangjing";
+    private static final String pathOfYesehngtao1 = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zyeshengtao1";
+    private static final String pathOfDongwugushi = CompatibilityTest.class.getResource("/").getPath() + "compatibility/zdongwugushi";
 
 
     private static LinkedList<String> paths = new LinkedList<String>();
@@ -45,7 +47,7 @@ public class CompatibilityTest extends TestCase {
     static {
 //        paths.add(pathOfLiangjinyanyi);
 //        paths.add(pathOfChulianai);
-        paths.add(pathOfYangzhiqiu);
+//        paths.add(pathOfYangzhiqiu);
 //        paths.add(pathOfJianai);
 //        paths.add(pathOfMayunshuo);
 //        paths.add(pathOfZhangboling);
@@ -65,6 +67,8 @@ public class CompatibilityTest extends TestCase {
 //        paths.add(pathOfZengguofan);
 //        paths.add(pathOfZyisuo);
 //        paths.add(pathOfZJinGangJing);
+//        paths.add(pathOfYesehngtao1);
+        paths.add(pathOfDongwugushi);
     }
 
     public void testMain() throws Exception {
