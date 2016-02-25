@@ -9,6 +9,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.List;
 
 /**
  * Created by Pengwei Ding on 2015-08-28 23:22.
@@ -78,12 +79,19 @@ public class OPF implements IOPF {
     }
 
     public String getNavigationHtmlPath() {
-        String key = "toc";
-        String s = this.getManifest().getItemById(key) == null ? null : this.getManifest().getItemById(key).getHref();
-        if (s.endsWith("html") || s.endsWith("xhtml")) {
-            return s;
-        } else {
-            return null;
+        List<Item> items = aPackage.getManifest().getItems();
+        for (Item item:items){
+            if ("nav".equals(item.getProperties()) && item.getHref().endsWith("html")){
+                return item.getHref();
+            }
         }
+        return null;
+//        String key = "toc";
+//        String s = this.getManifest().getItemById(key) == null ? null : this.getManifest().getItemById(key).getHref();
+//        if (s != null && (s.endsWith("html") || s.endsWith("xhtml"))) {
+//            return s;
+//        } else {
+//            return null;
+//        }
     }
 }

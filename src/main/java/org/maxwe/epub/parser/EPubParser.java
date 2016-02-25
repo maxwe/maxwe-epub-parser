@@ -189,4 +189,8 @@ public class EPubParser implements IEPubMeta, IEPub {
         return new Content(navigations);
     }
 
+    public String getRootFilePath() {
+        return rootFilePath;
+    }
+
 }
