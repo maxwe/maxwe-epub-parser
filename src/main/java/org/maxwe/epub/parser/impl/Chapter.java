@@ -21,7 +21,7 @@ import java.util.LinkedList;
  */
 public class Chapter extends ADocumentParser implements IChapter {
     private String title;
-    private String index;
+    private int index;
     private String href;
     private LinkedList<IParagraph> paragraphs;
 
@@ -89,11 +89,15 @@ public class Chapter extends ADocumentParser implements IChapter {
         }
     }
 
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
     public String getTitle() {
         return title;
     }
 
-    public String getIndex() {
+    public int getIndex() {
         return index;
     }
 
