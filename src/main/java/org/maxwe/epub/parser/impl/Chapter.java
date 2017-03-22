@@ -31,6 +31,11 @@ public class Chapter extends ADocumentParser implements IChapter {
         this.parser();
     }
 
+    public Chapter(String documentPath,int index) throws Exception {
+        this(documentPath);
+        this.index = index;
+    }
+
     protected void parser() throws Exception {
         Parser chapterParser = new Parser(this.documentPath);
         chapterParser.setEncoding("UTF-8");

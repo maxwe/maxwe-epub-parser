@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opf:package version="3.0" unique-identifier="BookId" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <opf:metadata>
+    <dc:identifier id="BookId" opf:scheme="">9787530606544</dc:identifier>
+    <dc:title>沈从文散文选集</dc:title>
+    <dc:publisher>百花文艺出版社</dc:publisher>
+    <dc:creator opf:role="aut" opf:file-as="沈从文, "> 沈从文</dc:creator>
+    <dc:date>2004-08-01</dc:date>
+    <dc:language>zh-Hans</dc:language>
+    <opf:meta property="ibooks:specified-fonts">true</opf:meta>
+    <opf:meta property="dcterms:modified">2015-07-06T11:02:00Z</opf:meta>
+    <opf:meta name="cover" content="images_cover_jpg" />
+    <opf:meta name="generator" content="EPUBLib version 3.0" />
+  </opf:metadata>
+  <opf:manifest>
+    <opf:item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <opf:item id="a_cover_xhtml" href="a_cover.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="b_toc_xhtml" href="b_toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+    <opf:item id="chapter_00001_xhtml" href="chapter_00001.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter_00002_xhtml" href="chapter_00002.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter_00003_xhtml" href="chapter_00003.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter_00004_xhtml" href="chapter_00004.xhtml" media-type="application/xhtml+xml" />
+    <opf:item id="chapter_00005_xhtml" href="chapter_00005.xhtml" media-type="application/xhtml+xml" properties="break" />
+    <opf:item id="css_stylesheet_css" href="css/stylesheet.css" media-type="text/css" />
+    <opf:item id="images_cover_jpg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image" />
+  </opf:manifest>
+  <opf:spine toc="ncx">
+    <opf:itemref idref="a_cover_xhtml" />
+    <opf:itemref idref="chapter_00001_xhtml" />
+    <opf:itemref idref="chapter_00002_xhtml" />
+    <opf:itemref idref="chapter_00003_xhtml" />
+    <opf:itemref idref="chapter_00004_xhtml" />
+    <opf:itemref idref="chapter_00005_xhtml" />
+  </opf:spine>
+  <opf:guide>
+    <opf:reference type="cover" href="a_cover.xhtml" title="cover" />
+  </opf:guide>
+</opf:package>

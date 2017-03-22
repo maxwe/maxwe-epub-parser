@@ -112,7 +112,7 @@ public class EPubParserUtils {
             System.out.println(outPath);
 
             OutputStream out = new FileOutputStream(outPath);
-            byte[] buf1 = new byte[1024];
+            byte[] buf1 = new byte[1024 * 1024 *10];
             int len;
             while((len=in.read(buf1))>0){
                 out.write(buf1,0,len);

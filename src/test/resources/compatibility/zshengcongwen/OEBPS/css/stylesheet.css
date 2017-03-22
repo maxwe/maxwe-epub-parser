@@ -1,0 +1,911 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+body{
+ margin:10px;
+ margin-bottom:0em;
+}
+body>div:last-child,body>p:last-child{
+    margin-bottom:0em;
+}
+/*******普通正文******/
+p{
+    text-indent: 2em;
+    line-height:1.5em;
+    font-size:1em;
+    font-family:"Songti SC","宋体";
+    text-align:justify;
+    margin-top:.1em !important;
+}
+
+/*******目录标题*******/
+h1{
+    text-align:left;
+    font-size:2em;
+    color:orange;
+    font-family:"Heiti SC","黑体";
+    padding:.1em;
+    margin:.5em 0 1em 0;
+    font-weight: bolder;
+    border-bottom:2px solid orange;
+    clear:both;
+}
+/*渐变标题一*/
+h1.offgradient{
+    display:inline-block;
+    border:none;
+    background:-webkit-linear-gradient(60deg,maroon,orange,green,teal,olive,navy,purple,fuchsia);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/*竖排标题
+body.vertical{
+    -epub-writing-mode:vertical-rl;
+    margin-left:0;
+    writing-mode: tb-rl;
+  
+}
+h1[class*="vertical"]{
+    font-family:"Yuanti SC","Heiti SC",'宋体';
+    font-size:2em;
+    border:none;
+    text-align:center;
+    -epub-text-combine-upright: digits 2;
+    -webkit-text-combine-upright: digits 2;
+    -ms-text-combine-horizontal: digits 2;
+}
+/*竖排独立标题
+h1.vertical_alone{
+    color:black;
+    text-shadow:1px 1px 3px #47484B;
+    font-size:2.2em;
+    -webkit-transition:all 0.5s linear;    
+}
+@media all and (orientation:portrait){
+    h1.vertical_alone{
+    margin:0 30vw 0 0;
+    }
+}
+@media all and (orientation:landscape){
+    h1.vertical_alone{
+    margin:0 1em 0 0;
+    }
+}
+
+h1.vertical_alone:before,h1.vertical_alone:after,h1.vertical:before{
+    content:"\2740";
+    display:block;
+    text-align:center;
+    color:#c60000;
+    text-shadow:none;
+    font-size:.7em;
+    -webkit-transition:all 0.5s linear; 
+}
+    /*竖排呼吸
+@media all and (orientation:portrait){
+    h1.vertical_alone:after{
+    margin-right:1em;
+    margin-left:0;
+    -webkit-animation:enlarge 4s linear infinite;
+    -webkit-animation-delay:2s;    
+}
+    h1.vertical_alone:before{
+    margin-left:1em;
+    margin-right:0;
+    -webkit-animation:enlarge 4s linear infinite;
+}}
+    /*横排旋转
+@media all and (orientation:landscape){
+    h1.vertical_alone:after{
+    margin-right:5px;
+    margin-left:0;
+    -webkit-animation:rotate 8s linear infinite;  
+}
+    h1.vertical_alone:before{
+    margin-left:5px;
+    margin-right:0;
+    -webkit-animation:rotate 8s linear infinite;
+}}
+
+/*竖排不独立标题一
+h1.vertical{
+    color:maroon;
+    margin:3vh 1vw 3vh 0;
+    -webkit-transition:all 0.5s linear; 
+}
+h1.vertical:before{
+    color:maroon;
+    -webkit-animation:rotate 8s linear infinite;
+    margin-left:.2em;
+}*/
+
+/*3d镂空标题一*/
+h1.text_3d{
+    text-align: center;
+    color:black;
+    border:none;
+    pposition:relative;
+    text-shadow:0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15); 
+
+}
+
+h2 {
+    color:maroon;
+    margin:.5em auto;
+	text-align:center;
+    font-family:"Songti SC","宋体";
+    font-size: 1.6em;
+    padding:0 0.5em;
+    clear:both;
+    font-weight:bold;
+}
+h2[class*="star"]:after{
+   content:"\2736";
+   color:maroon;
+   display:table;
+   margin:-.2em auto;
+    background:-webkit-linear-gradient(45deg,red,orange,yellow,fuchsia,teal,olive,blue,lime);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+/*旋转2级标题
+h2.rotate:before,h2.rotate:after{
+    content:"\2740";
+    display:inline-block;
+    color:maroon;
+    text-shadow:none;
+    font-size:.7em;
+    -webkit-transition:all 0.5s linear; 
+    -webkit-animation:rotate 8s linear infinite; 
+}
+*/
+
+h2[class*="leaf"]:before{
+    content:"\2740"; 
+    margin-bottom:0;
+    color:green;
+    margin-right:.2em;
+}
+
+h2[class*="leaf"]{
+    border:none;
+    color:green;
+}
+h3 {
+	margin:.5em auto;
+	text-align:center;
+    display:table;
+    font-family:"Songti SC","宋体";
+    border-left:3px double teal;
+    font-size: 1.3em;
+    color:#394039; 
+    padding:0 0.5em;
+    clear:both;
+}
+h4 {
+	margin:.5em auto;
+	text-align:center;
+    display:table;
+    font-family:"Songti SC","宋体";
+    font-size: 1.2em;
+    padding:0 0.5em;
+    margin-bottom:1em;
+    clear:both;
+}
+h4:before{
+    vertical-align:center;
+    color:teal;
+    content:"\261b";
+    margin-right:.2em
+}
+h5,h6{
+    margin:.5em auto;
+	text-align:center;
+    display:table;
+    font-family:"Songti SC","宋体";
+    clear:both;
+}
+*[class*="page_break"]{
+    page-break-before:always;
+}
+.sub_title{
+    margin-top:.5em;
+    display:block;
+    margin-left:2em;
+    font-weight:normal;
+    font-size:.8em;
+    font-family:"Kaiti SC","楷体";
+    -webkit-text-fill-color:black;
+    color:black;
+    text-shadow:none;
+}
+
+/*******随文标题*******/
+.title_color{
+    text-indent:0;
+    display:inline-block;
+	font-weight:bold;
+	color:#B20F0F;
+	font-size:1.1em;
+    margin: .2em 0em .2em 2em;
+    clear:both;
+}
+.title_bgcolor{
+	display:table;
+    margin: .3em 0em .3em 2em;
+	text-indent:0;
+	background:-webkit-radial-gradient(center, #D3D3D8 20%,white);
+	font-weight:bold;
+	padding-right:.5em;
+	padding-left:.5em;
+	font-size:1.1em;
+    clear:both;
+}
+.title_underline{
+	font-weight:bold;
+	font-size:1.1em;
+	display:inline-block;
+    text-indent: 0;
+    margin: .3em 0em .3em 2em;
+    border-bottom:1px solid teal;
+    padding-right:.2em;
+	padding-left:.2em;
+    clear:both;
+}
+.title_shadow{
+    font-weight:bold;
+	font-size:1.1em;
+    text-shadow:1px 1px 1px gray;
+    text-indent:0;
+    margin: .3em 0em .3em 2em;
+    padding-right:.2em;
+	padding-left:.2em;
+    clear:both;
+}
+.title_simple{
+    font-weight:bold;
+    font-size:1.1em;
+    font-family:"Heiti SC","黑体";
+    margin: .3em 0em .3em 0em;
+}
+p.title_simple{
+    font-family:"Heiti SC","黑体";    
+}
+.title_unindent{
+    font-weight:bold;
+    font-size:1.1em;
+    text-indent:0;
+    margin: .3em 0em .3em 0em;
+    clear:both;
+}
+.title_center{
+    display:table;
+	text-indent:0;
+	font-weight:bold;
+	padding-right:.5em;
+	padding-left:.5em;
+	font-size:1.1em;
+    margin:.3em auto;
+    clear:both;
+}
+/*******框内标题********/
+.title_inbox_center{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    text-indent:0;
+    font-size:1.1em;
+    font-family:"Heiti SC","黑体";
+    color:teal;
+    margin-top:-.3em;
+}
+.title_inbox_left_unindent,.title_inbox_left{
+    display:block;
+    text-align:left;
+    font-weight:bold;
+    text-indent:0;
+    font-size:1.1em;
+    font-family:"Heiti SC","黑体";
+    margin-top:-.3em;
+    color:teal;
+}
+.title_inbox_left{
+    text-indent:2em;
+    color:black;
+}
+.inline_bold{
+    font-weight:bold;
+}
+.inline_bold_margin{
+    font-weight:bold;
+    margin-right:1em;
+}
+.inline_special{
+    font-family:"Kaiti SC","楷体";
+    color:navy;
+}
+/*******特殊文本********/
+.text_border>p,.text_bgcolor>p,.text_simple>p{
+    font-family:"Kaiti SC","楷体";
+}
+div[class^="text"]{
+    margin:0 1em .3em 1em;
+    padding:.3em;
+    clear:both;
+}
+div[class^="text"]>*:last-child{
+    margin-bottom:0em;
+}
+    /*边框文本*/
+.text_border{
+    border:1px solid gray;
+    border-radius:.5em;
+}
+    /*底色文本*/
+.text_bgcolor{
+    background-color:rgba(180,180,180,.5);
+}
+.text_noindent{
+	text-indent:0 !important;
+}
+    /*简单文本*/
+.text_simple{
+    margin:.3em 2em !important;
+}
+   /*双栏文本*/
+.text_double_columns{
+    -webkit-column-count:2;
+    -webkit-column-gap:8px;
+    -webkit-column-rule:3px double maroon;
+    font-family:"Kaiti SC","楷体";
+    margin-left:1em;
+    margin-right:1em;
+}
+.outstanding{
+    text-align: center;
+    font-size:1.5em;
+    font-weight:bold;
+}
+    /*bgimage*/
+
+/*********图片********/
+    /*补字*/
+    .gaiji{
+        height:.8em;
+        padding:0;
+        margin:0;
+    }
+    /*图注*/
+.title_pic,.note_pic{
+    text-align:left;
+    font-size:0.8em;
+    margin:0 auto;
+    text-indent:0;
+    font-family:"Kaiti SC","楷体","cursive";
+    word-wrap:break-word;
+    white-space:normal;
+}
+.title_pic{
+    font-weight:bold;
+    font-size:.9em;
+    text-align:center;
+}
+.title_along_img{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+}
+    /*插图*/
+.pic{
+    text-align:center;
+    text-indent:0;
+    margin:.8em auto; 
+    clear:both; 
+    max-width:99vw;
+}
+.pic,.toleft_img,.toright_img{
+	page-break-inside:avoid;
+}
+.pic>img{
+    max-width:99vw;
+    border:1px solid gray;
+    box-shadow:1px 1px 2px black;   
+    }
+.pic>.title_pic{
+    display:table;
+    border-top:1px solid orange;
+    border-bottom:1px solid orange;
+    padding: 0 1em;
+}
+.pic>.note_pic{
+    display:block;
+    border-bottom:1px solid orange;
+    padding: 0 1em;
+    max-width:80vw;
+}
+    /*浮动图*/
+.toleft_img,.toright_img{
+    margin-top:0;
+    margin-bottom:0.3em;
+    text-align:center;
+    clear:both;
+    box-shadow:1px 1px 2px black;  
+}
+@media all and (orientation:portrait){.toleft_img,.toleft_img>img,.toright_img,.toright_img>img{
+    max-width:60vw;
+    
+}}
+@media all and (orientation:landscape){.toleft_img,.toleft_img>img,.toright_img,.toright_img>img{
+    max-width:60vw;
+}}
+.toleft_img{
+    float:left;
+    margin-right:1em;
+}
+.toright_img{
+    float:right;
+    margin-left:1em;
+}
+.toright_img>img,.toleft_img>img{
+    margin-bottom:0;
+    padding: 0;
+}
+    /*并列双图*/
+.along_img{
+    margin:.8em auto;
+    text-align:center;
+    box-shadow:1px 1px 2px black;
+}
+.along_img_left,.along_img_right{
+    display:inline-block;
+    vertical-align:top;
+    width:45vw;
+}
+@media all and (orientation:portrait){.along_img_left>img,.along_img_right>img{
+    width:45vw;
+}}
+@media all and (orientation:landscape){.along_img_left>img,.along_img_right>img{
+    width:40vw;
+}}
+
+/*并列三图*/
+.along_img_1,.along_img_2,.along_img_3{
+    display:inline-block;
+    vertical-align:top;
+    padding:0;
+    vertical-align:top;
+    width:30vw;
+    margin-left:0;
+    margin-right:0;
+}
+
+@media all and (orientation:portrait){.along_img_1>img,.along_img_2>img,.along_img_3>img{
+    width:30vw;
+    margin-left:0;
+    margin-right:0;
+}}
+@media all and (orientation:landscape){.along_img_1>img,.along_img_2>img,.along_img_3>img{
+    width:30vw;
+    margin-left:0;
+    margin-right:0;
+}}
+
+/******表格******/
+div[class*="table"]{
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
+@media all and (orientation:landscape){
+    table{
+        max-width:50vw;
+    }
+}
+@media all and (orientation:portrait){
+    table{
+        min-width:50vw;
+    }
+}
+table{
+    text-align:center;
+    margin:0 auto;
+    font-size:.9em;
+    font-family:"Kaiti SC","楷体";
+    border-collapse:collapse;
+}
+table>tr>td{
+    padding:.5em; 
+}
+table>tr:first-of-type{
+    font-weight:bold;
+}
+caption{
+    margin:.5em auto;
+    font-weight:bold;
+}
+.note_table{
+    text-align: left;
+    font-size:.9em;
+font-family:"Kaiti SC","楷体";
+}
+    /*无框底色表*/
+.table_noborder_bgcolor>table{
+    border-spacing:3px;
+    border-collapse:separate;
+}
+.table_noborder_bgcolor>table>tr>td{
+    background-color:#D3D3D3;
+}
+    /*简约表格*/
+.table_simpleborder>table{
+    border:1px solid maroon;
+}
+    /*普通表格*/
+.table_normal>table{
+    border-collapse: collapse;
+}
+.table_normal>table>tr>td{
+    border:1px solid gray;
+}
+    /*三无表格*/
+.table_nothing{
+    margin:1em;
+}
+.table_nothing>table>tr:first-of-type{
+    font-weight:normal;
+}
+    /*虚框表格*/
+.table_dottedborder>table{
+    border-collapse: collapse;
+}
+.table_dottedborder>table>tr>td{
+    border:1px dotted gray;
+}
+    /*水平框表格*/
+.table_rowborder>table>tr>td{
+    border-top:1px solid red;
+    border-bottom:1px solid red;
+}
+
+    /*首行底色表格*/
+.table_caption_bgcolor>table>tr:first-of-type{
+    background:silver;
+}
+.table_caption_bgcolor>table{
+    border:1px solid silver;
+}
+.table_caption_bgcolor>table>tr>td{
+    border-left:1px solid silver;
+}
+    /*纵向表格*/
+.table_vertical>table>tr>td:first-of-type{
+    background:silver;
+    font-weight:bold; 
+}
+.table_vertical>table>tr:first-of-type{
+    font-weight:normal;
+}
+.table_vertical>table>tr{
+        border:1px solid silver;
+}
+    /*双表头表格*/
+.table_double_caption>table>tr>td:first-of-type{
+    font-weight:bold;
+}
+.table_double_caption>table>tr>td{
+    border:1px solid gray;
+}
+    /*斜线表头*/
+.table_diagonal_header>table>tr>td{
+      border:1px solid black;  
+}
+.table_diagonal_header>table>tr:first-of-type>td:first-child{
+    background:-webkit-linear-gradient(45deg,white 49%,black 50%,white 0%);
+    padding:0;
+    
+}
+.table_diagonal_header>table>tr>td:first-child{
+    font-weight:bold;
+}
+.rt_header{
+    text-indent:0;
+    text-align:right;
+    margin:0 0 0 50%;
+}
+.lb_header{
+    text-indent:0;
+    text-align:left;
+    max-width:50%;
+    margin:0;
+}
+
+    /*彩底表格*/
+.table_fullcolor>table{
+    background:-webkit-linear-gradient(bottom,#FAE0EA 10%,#F276A7 80%,#F02E79);
+    font-family:"Yuanti SC","幼圆","Kaiti SC","楷体";
+}
+.table_fullcolor>table>tr:first-of-type{
+    background:#F02E79;
+    border-collapse:separate;
+}
+
+.pic_table{
+text-align:center;
+}
+.pic_formula{
+text-align:center;
+}
+
+.catalog{
+	margin:1pt;
+	padding:0;
+	text-indent:2em;
+}
+
+
+
+.mbppagebreak {
+    display: block;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    page-break-after: always
+    }
+a {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    }
+a.noteref{
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:0.8em;
+    vertical-align:20%;
+    }
+
+/*脚注尾注*/
+.footnote,.endnote,.popupnote{
+font-size:0.9em;
+ font-family:"Kaiti SC","楷体";
+}
+.italic {
+    font-style: italic
+    }
+
+.struct_table{
+	border:1;
+}
+
+.note{
+	font-size:small;
+	border:solid 1px black;
+}
+.yinwen{
+	font-size:small;
+}
+/*诗歌*/
+div[class*="poem"]{
+text-align: left;
+margin:.5em auto .5em 2em;
+}
+div[class*="poem"]>p{
+    text-indent:0em;
+    font-size: 0.9em;
+    font-family:"Kaiti SC","楷体";
+    margin:0;
+    padding:0;
+    line-height:1.3em;
+}
+div.poem_center{
+    display:table;
+    margin:.5em auto .5em auto;
+}
+/*落款*/
+div.signature>p{
+    margin:0;
+    font-family:"Kaiti SC","楷体";
+    text-align:right;
+    line-height:1em;
+}
+.toright_sp{
+    float: right;
+    margin-right:10px;
+    max-width:60vw;
+}
+.toright_sp>*{
+    text-indent:1em !important;
+}
+.toright_sp+*{
+    clear:right;
+}
+span.signature{
+    display:block;
+    margin:0;
+    font-family:"Kaiti SC","楷体";
+    text-align:right;
+}
+
+.tostrong{
+font-weight:bold;
+}
+
+
+/*首字下沉*/
+h2[class^="letter_drop"]+p:not([class]):first-letter{
+    line-height:.9em;
+float:left;
+text-indent:0;
+font-size:3em;
+color:#A20D0F;
+margin-left:0.5em;
+margin-top:0;
+}
+h2[class^="letter_drop"]+p{
+text-indent:0;
+}
+h2[class^="letter_drop"]+:not(p)+p:not([class]):first-letter{
+    line-height:.9em;
+float:left;
+text-indent:0;
+font-size:3em;
+color:#A20D0F;
+margin-left:0.5em;
+margin-top:0;
+}
+h2[class^="letter_drop"]+:not(p)+p{
+text-indent:0;
+}
+h2+p+p,h2+:not(p)+p+p{
+clear:left;
+}
+/*脚注分割线*/
+:not(aside)+aside.popupnote{
+border-top:1px solid black;
+padding-top:0.5em;
+margin-top:0.5em;
+}
+aside:not(.popupnote)+aside.popupnote{
+border-top:1px solid black;
+padding-top:0.5em;
+    margin-top:0.5em;
+}
+*:not(.endnotes)+p.endnotes{
+border-top:1px solid black;
+padding-top:0.5em;
+margin-top:0.5em;	
+}
+/*svg动画边框*/
+rect{
+stroke-dasharray:90em;
+stroke-dashoffset:90em;
+margin-left:2em;
+stroke:orange;
+animation:dash 5s linear infinite;
+}
+
+text{
+margin-top:10em;
+stroke:2px;
+}
+
+@-webkit-keyframes dash{
+
+to {
+stroke-dashoffset:0;
+}
+}
+@-webkit-keyframes rotate{
+    0%{
+        -webkit-transform:rotate(0deg);
+    transform-origin:50.1% 50.1%;
+    }
+    50%{
+        -webkit-transform:rotate(180deg);
+        -webkit-transform-origin:50.1% 50.1%;
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+        -webkit-transform-origin:50.1% 50.1%;
+    }
+}
+@-webkit-keyframes enlarge{
+        0%{
+        -webkit-transform:scale(1,1);
+    -webkit-transform-origin:50.1% 50.1%;
+    }
+    50%{
+        -webkit-transform:scale(1.5,1.5);
+        -webkit-transform-origin:50.1% 50.1%;
+    }
+    100%{
+        -webkit-transform:scale(1,1);
+        -webkit-transform-origin:50.1% 50.1%;
+    }
+}
+@-webkit-keyframes shadow{
+    0%{text-shadow:0 1px 0 #ccc;}
+    10%{text-shadow:0 1px 3px rgba(0,0,0,.4);}
+    20%{text-shadow:0 3px 5px rgba(0,0,0,.3);}
+    30%{text-shadow:0 5px 5px rgba(0,0,0,.25);}
+    40%{text-shadow:0 8px 8px rgba(0,0,0,.2);}
+    50%{text-shadow:0 10px 10px rgba(0,0,0,.2);} 
+    60%{text-shadow:0 8px 8px rgba(0,0,0,.2);}
+    70%{text-shadow:0 5px 5px rgba(0,0,0,.25);}
+    80%{text-shadow:0 3px 5px rgba(0,0,0,.2);}
+    90%{text-shadow: 0 1px 3px rgba(0,0,0,.3);}
+    100%{text-shadow:0 0 5px rgba(0,0,0,.4);}
+    
+
+}
+nav li{
+    list-style:none;
+}
+nav ol{
+    padding-left:0;
+    margin-left:0;
+}
+nav>ol ol{
+    margin-left:2em;
+}
+nav li a{
+    color:navy;
+    display:block;
+    margin:1em 0 !important;
+}
+nav>ol>li>a{
+    font-size:1.5em;
+    font-family:"Heiti SC","黑体","heiti";
+    display:block;
+    margin-left:0 !important;
+    padding-left:0 !important;
+}
+nav>ol>li{
+    margin-left:0 !important;  
+}
+nav>ol{
+    margin-left:4em;
+}
+nav>ol>li>ol>li>a{
+    font-weight:bold;
+    
+}
+nav h1{
+    border:none;
+    color:black;
+    text-align:center;
+    margin-bottom:2em;
+    margin-top:1em;
+    margin:1em auto 2em auto;
+}
+nav>h1:first-letter{
+    margin-right:1em;
+}
+nav a{
+    pointer-events:none;
+    -webkit-pointer-events:none;
+}
+.toright{
+	text-align:right;
+}
+.tocenter{
+	text-align:center;
+}
+.inline_bold{
+	font-weight:bold;
+}
+.inline_kai{
+	font-family:"Kaiti SC","楷体";
+}
